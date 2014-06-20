@@ -1,0 +1,346 @@
+<?php 
+  // ultimo posts de "Informacion de Docencia"
+  $cat_arquitectura = 7;
+  $cat_diseno = 8; 
+  $cat_industrial = 9; 
+  $cat_archivo = 40;
+  $cat_nautico_maritimo = 35;
+  $cat_ciudad_territorio = 714; 
+  $cat_observacion = 157;
+  $cat_investigacion = 11;
+  $cat_trabajos = 15;
+
+  $latest_archivo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_archivo)));
+  $latest_ciudad_territorio = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_ciudad_territorio)));
+  $latest_nautico_maritimo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_nautico_maritimo)));
+  $latest_trabajos = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_trabajos)));  
+  $latest_investigacion = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_investigacion)));      
+  $latest_arquitectura = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_arquitectura)));  
+  $latest_diseno = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_diseno)));    
+  $latest_industrial = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_industrial)));        
+  $latest_obs = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_observacion)));          
+?>
+<?php get_header(); ?>
+<div class='contenedor-sin-relleno'>
+    <?php the_breadcrumb(); ?>
+</div>
+<div class='fondo-negro'>
+    <div class='wrap'>
+		<h1 class="entry-title generico"><i class="icn icn-noticias icn-lg"></i> Noticias</h1> <!-- título del post -->
+	</div>
+</div>
+
+<!-- contenido -->
+<div class='fondo-blanco'>
+    <div class='wrap'>
+        <div class='fila'>
+
+			<div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
+                <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class='noticia grande'>
+                                <div class='noticia-imagen'>
+                                    <img class='marco-imagen' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/09/DSC03728.jpg'>
+                                </div>
+                                <div class='texto-noticia grande'>
+                                    <div class='contenedor-texto'>
+                                    <h2><a href='#'>Convocatoria Concurso de Ideas y Relatos</a></h2>
+                                    <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet. [...]</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class='noticia grande'>
+                                <div class='noticia-imagen'>
+                                    <img class='marco-imagen' alt="Second slide" title="Noticia Destacada" src='http://blog.citisent.com/wp-content/uploads/2014/02/Helberth_Spencer-tecnologia-redes_sociales-big_data_ELFIMA20140221_0080_11.jpg'>
+                                </div>
+                                <div class='texto-noticia grande'>
+                                    <div class='contenedor-texto'>
+                                        <h2><a href='#'>Diplomado en Maderas, Laminados y Mobiliario</a></h2>
+                                        <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class='noticia grande'>
+                                <div class='noticia-imagen'>
+                                    <img class='marco-imagen' alt="third slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
+                                </div>
+                                <div class='texto-noticia grande'>
+                                    <div class='contenedor-texto'>
+                                        <h2><a href='#'>Destacados diseñadores participan en seminario sobre investigación y diseño</a></h2>
+                                        <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class='noticia grande'>
+                                <div class='noticia-imagen'>
+                                    <img class='marco-imagen' alt="Fourth slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04306.jpg'>
+                                </div>
+                                <div class='texto-noticia grande'>
+                                    <div class='contenedor-texto'>
+                                        <h2><a href='#'>Entrevista a Ricardo Lang: Comedor en el Cerro La Merced</a></h2>
+                                        <aside class="entry-details">Publicado el 24 de abril, 2014</aside>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat. Quisque venenatis mollis felis id ornare. Sed facilisis eleifend erat eget aliquet. Cum sociis natoque penatibus et magnis dias consectetur adipiscing elit. Aenean tempus erat sed magna eleifend volutpat lorem ipsum dolor sit amet adipiscing elit aenean tempus erat [...]</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a data-slide="prev" href="#carousel-example-generic" class="left carousel-control">
+                            <i class="icn icn-nav-izq"></i>
+                        </a>
+                        <a data-slide="next" href="#carousel-example-generic" class="right carousel-control">
+                            <i class="icn icn-nav-der"></i>
+                        </a>
+                    </div>
+                </div>
+                <p></p>
+
+                <div class='contenedor-trio-noticias'>
+                    <div class='fila'>
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Arquitectura</a></h5>
+                            <?php if( $latest_arquitectura->have_posts() ) : while( $latest_arquitectura->have_posts() ) : $latest_arquitectura->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='#' class='categoria-titulo noticias'>Diseño gráfico</a></h5>
+
+                            <?php if( $latest_diseno->have_posts() ) : while( $latest_diseno->have_posts() ) : $latest_diseno->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='#' class='categoria-titulo noticias'>Diseño industrial</a></h5>
+
+                            <?php if( $latest_industrial->have_posts() ) : while( $latest_industrial->have_posts() ) : $latest_industrial->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class='contenedor-trio-noticias'>
+                    <div class='fila'>
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Archivo Histórico José Vial Armstrong</a></h5>
+                            <?php if( $latest_archivo->have_posts() ) : while( $latest_archivo->have_posts() ) : $latest_archivo->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='#' class='categoria-titulo noticias'>Magister Náutico y Marítimo</a></h5>
+
+                            <?php if( $latest_nautico_maritimo->have_posts() ) : while( $latest_nautico_maritimo->have_posts() ) : $latest_nautico_maritimo->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='#' class='categoria-titulo noticias'>Magister Ciudad y Territorio</a></h5>
+
+                            <?php if( $latest_ciudad_territorio->have_posts() ) : while( $latest_ciudad_territorio->have_posts() ) : $latest_ciudad_territorio->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class='contenedor-trio-noticias'>
+                    <div class='fila'>
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Observación de la semana</a></h5>
+                            <?php if( $latest_obs->have_posts() ) : while( $latest_obs->have_posts() ) : $latest_obs->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='#' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
+
+                            <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+
+                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
+                            <h5><a href='#' class='categoria-titulo noticias'>Investigación</a></h5>
+
+                            <?php if( $latest_investigacion->have_posts() ) : while( $latest_investigacion->have_posts() ) : $latest_investigacion->the_post(); ?>
+                            <div class='noticia-chica'>
+                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    <div class='seguir-leyendo-cuadro'>
+                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                    </div>
+                                    <div class='prev-imagen sm'>
+                                        <?php if ( has_post_thumbnail() ) { ?>
+                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
+                                        <?php } else { ?>
+                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
+                                        <?php } ?>
+                                    </div>
+                                    <h6><?php the_title(); ?></h6>
+                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                                    <p><?php the_excerpt(); ?></p>
+                                </a>
+                            </div>
+                            <?php endwhile; endif; ?>
+                        </div>
+                    </div>
+                </div>                                
+            </div>
+			<?php get_sidebar(); ?>
+        </div>
+	</div>
+</div>
+<?php get_footer(); ?>        
