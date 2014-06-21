@@ -15,7 +15,7 @@
               <h6><?php the_title(); ?></h6>
               <aside class='entry-details gris'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
             </div>
-            <p class='cita'><?php echo $post->post_content; ?></p>
+            <p class='cita'><?php echo get_the_excerpt() ?></p>
           </a>
         </div>
       <?php endwhile; endif; ?>      
