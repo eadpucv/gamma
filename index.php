@@ -3,7 +3,7 @@
   <?php require_once( get_stylesheet_directory(). '/includes/home/home_info_docencia.php' ); ?>
   <div class='fondo-blanco'>
     <div class='wrap'>
-       
+      <?php require_once( get_stylesheet_directory(). '/includes/home/home_events.php' ); ?>  
       <?php require_once( get_stylesheet_directory(). '/includes/home/home_news.php' ); ?>
     </div>
   </div>
