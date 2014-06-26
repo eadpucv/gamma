@@ -43,7 +43,7 @@
                         </div>  
                         <h4 class='rojo-claro'><?php echo $EM_Event->name;?></h4> 
                         <aside class='blanco entry-details'>Publicado el 22 de mayo, 2014</aside> 
-                        <p class='extracto'><?php echo substr($EM_Event->post_content,0, 250) ;?></p>
+                        <p class='extracto'><?php echo get_the_excerpt() ;?></p>
                     </div>
                   </a>
                 </div>
