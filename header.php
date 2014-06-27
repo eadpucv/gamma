@@ -2,20 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 
 <head profile="http://gmpg.org/xfn/11">
-	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+  <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
-	<title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
+  <title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
 
-	<style type="text/css" media="screen">
-		@import url( <?php bloginfo('stylesheet_url'); ?> );
-	</style>
+  <style type="text/css" media="screen">
+    @import url( <?php bloginfo('stylesheet_url'); ?> );
+  </style>
   <link href='<?php bloginfo('template_directory') ?>/js/ead-bar/css/meta.css' rel='stylesheet'>
-	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
-	<link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
-	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php bloginfo('atom_url'); ?>" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php bloginfo('atom_url'); ?>" />
 
-	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<?php wp_head(); ?>
+  <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+  <?php wp_head(); ?>
   <script src="<?php bloginfo('template_directory') ?>/js/jquery.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/carousel.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
@@ -30,7 +30,6 @@
 <body lang='ES_es'>
   <div class='fondo-blanco'>
     <div class='wrap header'>
-      <div class='fila'>
         <a href=' <?php echo home_url(); ?> '>
           <div class='logo'>
             <p class='logo-ead marca'>e[ad]</p>
@@ -41,8 +40,7 @@
               </p>
           </div>
         </a>
-        <div class='oculto-sm oculto-xs'>
-        <div class='navegacion cf'>
+        <div class='navegacion cf oculto-sm oculto-xs'>
           <ul class="nav nav-pills">
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="primer-dropdown" class="dropdown-toggle">Escuela<b class="caret"></b></a>
@@ -120,7 +118,6 @@
            </li>
          </ul>
         </div> <!-- fin navegacion -->
-     </div> <!-- fin navs -->
      <div id="pattern" class="oculto-lg oculto-md col-sm-12 col-xs-12 pattern">
         <!--Begin Pattern HTML-->
         <a href="#menu" class="menu-link"><i class="icn icn-menu icn-lg"></i> </a>
@@ -135,6 +132,5 @@
           </ul>
         </nav>
       </div>
-      </div> <!-- fin fila -->
     </div> <!-- fin wrap -->
   </div>  

@@ -1,8 +1,8 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-<div class='contenedor-sin-relleno'>
-  <div class='oculto-xs'>
+<div class='fondo-blanco'>
+  <div class='contenedor-sin-relleno oculto-xs'>
     <?php the_breadcrumb(); ?>
   </div>
 </div>
