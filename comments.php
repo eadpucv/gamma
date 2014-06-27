@@ -7,6 +7,7 @@
 					<div class='imagen-usuario'></div>
 				 	<div class='bloque-comentario'>
 				   	<h3 class='usuario'><i class="icn icn-acto icn-md"></i> <?php comment_author_link() ?></h3>
+				   	<p class='contacto'><i class="icn icn-email icn-md"></i> <?php comment_author_email() ?></p>				 		
 				   	<div class='comentario'>
 				     		<?php comment_text() ?>
 				   	</div>
