@@ -1,0 +1,213 @@
+/*
+
+Estilos Gráficos de la Pantalla de resultados de la Meta-búsqueda
+
+*/
+
+.oculto{
+display: none;
+height: auto;
+width: 100%;
+height: auto;
+margin: 30px 0px 0px 0px;
+padding: 0;
+}
+
+form input[type='text']{
+display: inline-block;
+background: fade(@gris, 50%);
+width: 100%;
+border: none;
+font-size: 18px;
+font-weight: 200;
+border-radius: none;
+height: 50px;
+margin: 0 auto;
+padding: 12px 80px;
+box-sizing: border-box;
+
+&:focus{
+box-shadow: none;
+padding: 12px 100px;
+background-color: fade(@gris, 80%);
+border: none;
+outline: none;
+color: @negro;
+background-image: url('https://s3.amazonaws.com/Ead/ead_bar_images/icon-busqueda.gif');
+background-position: 70px;
+background-repeat: no-repeat;
+background-size: 30px;
+}
+
+}
+
+.wrap{
+
+&.metabusqueda{
+margin: 0 auto;
+padding: 40px 30px 0px 30px;
+
+&.inferior{
+padding: 0px 30px 0px 30px;
+}
+}
+}
+
+.fila{
+
+&.linea{
+padding: 0px 0px 3px 0px;
+border-bottom: 1px solid @gris;
+}
+
+&.contenido{
+padding: 60px 0px 0px 0px;
+}
+
+&.paginas{
+padding: 10px 0px 30px 0px;
+border-top: 1px solid @gris;
+height: auto;
+}
+}
+
+.sinmargen{
+padding: 0;
+}
+
+p.logo-ead-marca {
+
+&.mediano{
+padding: 0px 0px 0px 0px;
+float: left;
+font-size: 16px;
+font-weight: 300;
+}
+
+}
+
+h2.titulo-busqueda{
+display: inline;
+font-size: 20px;
+font-variant: small-caps;
+font-family: @sans;
+padding: 0;
+margin: 0;
+letter-spacing: 1.9px;
+color: @gris-oscuro;
+}
+
+span.destacado{
+font-size: 20px;
+font-variant: small-caps;
+font-family: @sans;
+padding: 0;
+margin: 0;
+letter-spacing: 1.9px;
+color: @rojo-claro;
+font-weight: 300;
+}
+
+i.web{
+padding: 0px 7px 0px 0px;
+}
+
+i.input{
+padding: 0px 4px 0px 4px;
+}
+
+.resultado{
+float: left;
+height: 130px;
+margin: 0px 0px 60px 0px;
+padding: 0;
+overflow: hidden;
+}
+
+.entrada{
+border-left: 2px solid @rojo-claro;
+margin: 0px 30px;
+padding: 0px 20px;
+}
+
+.subtitulo{
+position: relative;
+display: inline-block;
+padding: 0;
+margin: 0 auto;
+width: 100%;
+}
+
+a.enlace{
+text-decoration: none;
+margin: 0 auto;
+font-family: @sans;
+
+&.subtitulo{
+font-size: 18px;
+font-weight: 300;
+color: fade(@negro,80%);
+line-height: 21px;
+padding: 0px 0px 4px 0px;
+}
+
+&.sitioweb{
+padding: 30px 0px 0px 0px;
+font-size: 15px;
+font-weight: 200;
+color: fade(@negro,80%);
+}
+
+&.marcador{
+padding: 0px 0px 0px 30px;
+font-size: 13px;
+color: fade(@negro,80%);
+text-transform: uppercase;
+float: right;
+}
+
+&:hover{
+color: @rojo-claro;
+}
+
+}
+
+.marcadores{
+padding: 0px center;
+display: inline-block;
+width: auto;
+float: right;
+}
+
+p.descripcion{
+margin: 0 auto;
+font-family: @sans;
+padding: 0;
+display: block;
+padding: 7px 0px 0px 0px;
+font-size: 14px;
+line-height: 20px;
+font-weight: 200;
+color: @negro-claro;
+}
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+.oculto{
+display: block;
+}
+}
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+.oculto{
+display: block;
+}
+
+    .entrada{
+margin: 0 auto;
+padding: 0px 0px 0px 20px;
+}
+}

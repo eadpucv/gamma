@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body lang='ES_es'>
+
+<div class='fondo-blanco'>
+{% include nav.html %}
+</div>
+<div class='contenedor-sin-relleno'>
+<div class='fila'>
+<div class='col-lg-12 oculto-xs'>
+<ul id='breadcrumb'>
+<li><a href='{{ site.baseurl }}/pags/home'><i class="icn icn-hogar icn-md"></i></a></li>
+<li><a href='{{ site.baseurl }}/pags/informacion_academica'> {{ page.subtitle }}</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class='fondo-negro'>
+<div class='wrap'>
+<h1 class="entry-title especifico">{{ page.subtitle }}</h1> <!-- título del post -->
+</div>
+</div>
+
+<!-- contenido -->
+<div class='fondo-blanco'>
+
+<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+{{ content }}
+</div>
+
+</div>
+
+</div>
+{% include footer.html%}
+</body>
+</html>

@@ -1,0 +1,819 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"backr",
+				"background-color"
+			],
+			[
+				"imagenes-destacadas-ea",
+				"imagenes-destacadas-ead-lg"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "pags/portada_noticias.md",
+			"settings":
+			{
+				"buffer_size": 24640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.md",
+			"settings":
+			{
+				"buffer_size": 1389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/aside.html",
+			"settings":
+			{
+				"buffer_size": 2482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/portada.html",
+			"settings":
+			{
+				"buffer_size": 672,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/rellenos-y-margenes.less",
+			"settings":
+			{
+				"buffer_size": 1808,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/layout.less",
+			"settings":
+			{
+				"buffer_size": 5939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/giornata.less",
+			"settings":
+			{
+				"buffer_size": 2237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/ajuste-imagenes.less",
+			"settings":
+			{
+				"buffer_size": 5488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/tipografias-giornata.less",
+			"settings":
+			{
+				"buffer_size": 10760,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/variables.less",
+			"settings":
+			{
+				"buffer_size": 3911,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/www/eadpucv/pyxis/bower_components/stampa/index.html",
+		"/www/eadpucv/pyxis/less/auxiliares.less",
+		"/www/eadpucv/pyxis/less/pagina.less",
+		"/www/eadpucv/pyxis/less/tipografia.less",
+		"/www/eadpucv/pyxis/less/tablas.less",
+		"/www/eadpucv/pyxis/less/navs.less",
+		"/www/eadpucv/pyxis/less/pyxis.less",
+		"/www/eadpucv/pyxis/less/interaccion.less",
+		"/www/eadpucv/pyxis/pags/interaccion.md",
+		"/www/eadpucv/pyxis/_includes/nav.html",
+		"/www/eadpucv/pyxis/js/carrusel.js",
+		"/www/eadpucv/pyxis/js/tests/unit/phantom.js",
+		"/www/eadpucv/pyxis/less/carousel.less",
+		"/www/eadpucv/pyxis/pags/tipografia.md",
+		"/www/eadpucv/pyxis/pags/javascript.md",
+		"/www/eadpucv/pyxis/js/tests/unit/carousel.js",
+		"/www/eadpucv/pyxis/js/tests/index.html",
+		"/www/eadpucv/pyxis/less/variables.less",
+		"/www/eadpucv/pyxis/_includes/footer.html",
+		"/www/eadpucv/pyxis/_includes/cabecera.html",
+		"/www/eadpucv/pyxis/js/tests/unit/alert.js",
+		"/www/eadpucv/pyxis/js/alerta.js",
+		"/www/eadpucv/pyxis/pags/grilla.md",
+		"/www/eadpucv/pyxis/_config.yml",
+		"/www/eadpucv/pyxis/fonts/Merriweather/stylesheet.css",
+		"/www/eadpucv/pyxis/less/tipografias-web.less",
+		"/www/eadpucv/pyxis/fonts/Merriweather/stylesheet 2.css",
+		"/www/eadpucv/pyxis/less/reset.less",
+		"/www/eadpucv/giornata/Makefile",
+		"/www/eadpucv/giornata/index.md",
+		"/www/eadpucv/giornata/bower.json",
+		"/www/eadpucv/giornata/_config.yml",
+		"/www/eadpucv/pyxis/_includes/head.html",
+		"/www/eadpucv/pyxis/index.md",
+		"/www/eadpucv/pyxis/Makefile",
+		"/www/eadpucv/pyxis/pags/iconografia.md",
+		"/www/eadpucv/pyxis/less/patrones.less",
+		"/www/eadpucv/pyxis/simon.html",
+		"/www/eadpucv/pyxis/javascript.html",
+		"/www/eadpucv/pyxis/index.html",
+		"/www/eadpucv/pyxis/versatilidad.html",
+		"/www/eadpucv/pyxis/tipografia.html",
+		"/www/eadpucv/pyxis/less/popovers.less",
+		"/www/eadpucv/pyxis/layout.html",
+		"/www/eadpucv/pyxis/less/rutas.less",
+		"/www/eadpucv/pyxis/grilla.html",
+		"/www/eadpucv/pyxis/color.html",
+		"/www/eadpucv/pyxis/iconografia.html",
+		"/www/eadpucv/pyxis/interaccion.html",
+		"/www/eadpucv/pyxis/less/layout.less",
+		"/www/eadpucv/pyxis/pyxis-constelation.pde",
+		"/www/eadpucv/giornata/less/pagina.less",
+		"/www/eadpucv/pyxis/less/ego.less",
+		"/Users/admin/Sites/giornata/portada-noticias.html",
+		"/Users/admin/Sites/giornata/portada-agenda.html",
+		"/www/index.html",
+		"/www/phpinfo.php",
+		"/private/etc/apache2/httpd.conf",
+		"/etc/apache2/users/admin.conf",
+		"/Users/admin/Downloads/calendar.html",
+		"/Users/admin/Sites/giornata/pagina-resultado-busqueda.html",
+		"/Users/admin/Sites/giornata/less/tipografia.less",
+		"/Users/admin/Sites/giornata/less/variables.less",
+		"/Users/admin/Sites/giornata/less/tipografias-web.less",
+		"/Users/admin/Sites/giornata/less/carousel.less",
+		"/Users/admin/Sites/giornata/less/auxiliares.less",
+		"/Users/admin/Sites/giornata/js/carousel.js",
+		"/Users/admin/Sites/giornata/home.html",
+		"/Users/admin/Sites/pyxis/less/grilla-columnas.less",
+		"/Users/admin/Sites/pyxis/less/carousel.less",
+		"/Users/admin/Sites/giornata/less/layout.less",
+		"/Users/admin/Sites/giornata/portada-noticias.html .html",
+		"/Users/admin/Sites/giornata/agenda.html",
+		"/Users/admin/Sites/giornata/pagina-agenda.html",
+		"/Users/admin/Sites/giornata/pagina-articulo-sidebar.html",
+		"/Users/admin/Sites/giornata/less/pagina.less",
+		"/Users/admin/Sites/pyxis/javascript.html",
+		"/Users/admin/Sites/giornata/less/ego.css",
+		"/Users/admin/Sites/pyxis/less/auxiliares.less",
+		"/Users/admin/Sites/giornata/pagina-noticia.html",
+		"/Users/admin/Sites/giornata/portada noticias.html",
+		"/Users/admin/Sites/pyxis/_includes/head.html",
+		"/Users/admin/Sites/giornata/layout.html",
+		"/Users/admin/Sites/pyxis/less/layout.less",
+		"/Users/admin/Sites/pyxis/layout.html",
+		"/Users/admin/Sites/pyxis/less/modals.less",
+		"/Users/admin/Sites/pyxis/less/variables.less",
+		"/Users/admin/Sites/pyxis/less/pyxis.less",
+		"/Users/admin/Sites/pyxis/less/navs.less",
+		"/Users/admin/Sites/pyxis/less/ego.less",
+		"/Users/admin/Sites/pyxis/Makefile",
+		"/Users/admin/Sites/pyxis/pags/tipografia.md",
+		"/Users/admin/Sites/pyxis/.bash_profile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/www/eadpucv/giornata/less",
+			"/www/eadpucv/pyxis/less",
+			"/www/eadpucv/pyxis/pags",
+			"/www/eadpucv/pyxis/less",
+			"/www/eadpucv/pyxis/pags",
+			"/www/eadpucv/pyxis/less",
+			"/www/eadpucv/pyxis/pags",
+			"/www/eadpucv/pyxis/js",
+			"/www/eadpucv/pyxis/less",
+			"/www/eadpucv/pyxis/js",
+			"/www/eadpucv/pyxis/less",
+			"/www/eadpucv/pyxis/js",
+			"/www/eadpucv/pyxis/less",
+			"/Users/www/eadpucv/pyxis",
+			"/Users/admin/Sites/giornata/less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"chico",
+			"transparente",
+			"25",
+			"padding",
+			"hr",
+			"cita",
+			"leyenda",
+			"collapse",
+			"alto-affix",
+			"oculto",
+			"hr",
+			"<textarea",
+			"<input",
+			"<label",
+			"</div>",
+			"cvlaro",
+			"hr",
+			"pag",
+			"leyenda",
+			"<li><a ",
+			"<li><a class='xs gris-oscuro gruesa' href='#titulo-uno'>Familias tipográficas</a></li>",
+			"        <",
+			"semi-gruesa",
+			"alto-affix",
+			"ver",
+			"pag",
+			"semi-gruesa",
+			"gris-oscuro",
+			"=;\n",
+			"franja",
+			"span",
+			"Muestra",
+			"pag",
+			"affix",
+			"ancla",
+			"menu-pyxis-movil",
+			"collapse",
+			"a",
+			"affix",
+			"relleno",
+			"affix",
+			"<a>",
+			"                                                                            <",
+			"diagonal",
+			"rojo-claro-claro",
+			"p",
+			"li",
+			"rojo",
+			"fila",
+			"gigante",
+			"grande",
+			"mediano",
+			"chico",
+			" class=''",
+			"code",
+			"w100",
+			"code",
+			">",
+			"'",
+			"<",
+			"h2",
+			"padding",
+			"pre",
+			"ver",
+			"derecho",
+			"span",
+			"check",
+			"ingreso",
+			"ingresp",
+			"ul",
+			"alerta",
+			"carousel",
+			"Carrusel",
+			"carousel",
+			"alert",
+			"item",
+			"title",
+			"item",
+			"width: 95%",
+			"width",
+			";\n",
+			"form",
+			"span",
+			"td",
+			"gist",
+			"ver",
+			"code",
+			"ol",
+			"ul",
+			"h5",
+			"hr",
+			"texto",
+			"body",
+			"png",
+			"caja",
+			"menu-pyxis",
+			"ul",
+			"centrado",
+			"ul",
+			"table",
+			"td",
+			"ver",
+			"gruesa",
+			"code",
+			"ver",
+			"code",
+			"derecha",
+			"p",
+			"code",
+			".code",
+			"code",
+			"pre",
+			"ver",
+			"h1",
+			"js",
+			"margen",
+			"h3",
+			"address",
+			"adres",
+			"adress",
+			"derecha",
+			"Strong",
+			"pag",
+			"cruz",
+			"class=\"",
+			"ico-",
+			"class=",
+			"ico-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rojo-claro",
+			"lg",
+			"md",
+			"sm",
+			"xs",
+			"carrusel",
+			"Carrusel",
+			"alerta",
+			"cosa"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "pags/portada_noticias.md",
+					"settings":
+					{
+						"buffer_size": 24640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.md",
+					"settings":
+					{
+						"buffer_size": 1389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/aside.html",
+					"settings":
+					{
+						"buffer_size": 2482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_layouts/portada.html",
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "less/rellenos-y-margenes.less",
+					"settings":
+					{
+						"buffer_size": 1808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1463.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "less/layout.less",
+					"settings":
+					{
+						"buffer_size": 5939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3394.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "less/giornata.less",
+					"settings":
+					{
+						"buffer_size": 2237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 113.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "less/ajuste-imagenes.less",
+					"settings":
+					{
+						"buffer_size": 5488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "less/tipografias-giornata.less",
+					"settings":
+					{
+						"buffer_size": 10760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1770.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "less/variables.less",
+					"settings":
+					{
+						"buffer_size": 3911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.96996996997,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 49.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true
+}

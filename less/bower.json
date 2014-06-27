@@ -1,0 +1,7 @@
+{
+  "name": "giornata",
+  "version": "0.0.1",
+  "dependencies": {
+    "pyxis": "https://github.com/eadpucv/pyxis.git"
+  }
+}

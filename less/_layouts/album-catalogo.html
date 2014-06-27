@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body lang='ES_es'>
+
+	    <div class='pag-ancho-total'>
+	    	<div class='fila sombra fondo-blanco'>
+		    	{% include nav-archivo.html %}
+	    	</div>
+
+				<!-- contenido -->
+				<div class='fondo-blanco'>
+					<div class='fila'>
+						<div class='col-lg-16 col-md-16'>
+					        {{ content }}
+						</div> 
+					</div>
+				</div>		
+	    	</div>
+	    {% include footer.html%}
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body lang='ES_es' data-spy="scroll" data-target="#menu-fixed">
+<div class='fondo-blanco'>
+{% include nav.html %}
+</div>
+<div class='contenedor-sin-relleno'>
+     <div class='oculto-xs'>
+     <ul id='breadcrumb'>
+     <li><a href='{{ site.baseurl }}/pags/home'><i class="icn icn-hogar icn-md"></i></a></li>
+     <li><a href='#'> {{ page.subtitle }}</i></a></li>
+     </ul>
+     </div>
+</div>
+<div class='fondo-negro'>
+<div class='wrap'>
+<h1 class="entry-title generico"> <i class="icn icn-calendario icn-lg"></i> {{ page.subtitle }}</h1> <!-- título del post -->
+</div>
+</div>
+<div class='fondo-blanco'>
+<div class='wrap'>
+<div class='fila'>
+<div class='col-lg-9 col-md-9 col-sm-12'>
+{{ content }}
+</div>
+<div class='col-lg-3 col-md-3'>
+{% include aside.html%}
+</div>
+</div>
+</div>
+</div>
+{% include footer.html%}
+</body>
+</html>

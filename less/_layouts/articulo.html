@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body lang='ES_es'>
+
+	    <div class='pag-ancho-total'>
+	    	<div class='fila sombra fondo-blanco'>
+		    	{% include nav.html %}
+	    	</div>
+
+	    		<!-- datos del contenido -->
+				<div class='col-lg-24 fondo-pizarra'>
+					<div class='wrap'>
+						{% include encabezado-articulo.html %}
+					</div>
+				</div>
+
+				<!-- contenido -->
+				<div class='col-lg-24'>
+					<div class='wrap'>
+						<div class='fila margen-superior'>
+					        {{ content }}
+					        {% include aside.html %}
+					    </div>
+					</div>
+				</div>
+	    </div>
+	    {% include footer.html%}
+	</body>
+</html>
