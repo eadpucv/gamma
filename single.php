@@ -23,7 +23,7 @@
           <article class="h-entry especifico">
             <?php if ( has_post_thumbnail() ) { ?>
               <div class='prev-imagen franja'>
-                <?php the_post_thumbnail( 'medium', array( 'class' => "centrada-vertical") ); ?>
+                <?php the_post_thumbnail( 'full', array( 'class' => "centrada-vertical") ); ?>
               </div>
             <?php } ?>
             <h2 class='subtitulo rojo-claro'></h2>
@@ -44,4 +44,5 @@
   <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
 
+<?php comments_template( '/comments.php' ); ?> 
 <?php get_footer(); ?>
