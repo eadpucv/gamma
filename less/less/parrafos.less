@@ -35,7 +35,7 @@ ul li{
 // Especiales
 
 .pyxis {
-font-size: @cuerpo * 1.2;
+font-size: @cuerpo * .9;
 }
 
 .red-social {
@@ -43,52 +43,51 @@ font-size: 14px;
 }
 
 #breadcrumb {
-    display: block;
+    display: inline-block;
     font-family: @sans;
-    font-size: @cuerpo * .8;
+    font-size: @cuerpo * .7;
     padding: 0;
     font-weight: normal;
-    height: 46px;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 0 0 16px 0;
     text-transform: uppercase;
 
     li {
-display: inline;
-float: left;
-margin: 15px 0 0;
-padding: 0 30px 0 0;
+        display: inline;
+        float: left;
+        margin: 0;
+        padding: 0 30px 0 0;
 
-a {
-color: @gris-oscuro;
-display: block;
-font-weight: 300;
-     height: 12px;
+        a {
+            color: @gris-oscuro;
+            display: block;
+            font-weight: 200;
+             height: 12px;
 
-     &:hover {
-     color: @rojo-claro;
-     }
-}
+             &:hover {
+             color: @rojo-claro;
+             }
+        }
     }
 
     li:after {
-float: right;
-margin: -10px -20px 0 0;
-vertical-align: middle;
-display: inline-block;
-font-family: "Stampa";
-content: "\e601";
-color: @gris-oscuro;
+        float: right;
+        margin: -10px -20px 0 0;
+        vertical-align: middle;
+        display: inline-block;
+        font-family: "Stampa";
+        content: "\e601";
+        color: @gris-oscuro;
     }
 
     li:last-child {
-     a {
-     color: @rojo-claro;
+        a {
+            color: @rojo-claro;
 
-     &:hover {
-     color: @pizarra;
-     }
-     }
+            &:hover {
+                color: @blanco;
+            }
+        }
     }
 
     li:last-child:after {
@@ -101,8 +100,8 @@ color: @gris-oscuro;
     font-family: @sans;
     font-size: 12.3px;
     margin: 0;
-    padding: 7px 0;
-    color: @gris-oscuro;
+    padding: 4px 0 16px 0;
+    color: @gris-claro;
 
     a {
      color: @gris-oscuro;
@@ -111,17 +110,17 @@ color: @gris-oscuro;
 
 .categorias {
     font-family: @sans;
-    font-size: @cuerpo * .8;
+    font-size: 10.8px;
     color: @gris-oscuro;
     margin: 0;
     padding: 0;
 
     a {
-     color: @rojo-claro;
+        color: @rojo-claro;
 
-     &:hover {
-     color: @blanco;
-     }
+        &:hover {
+            color: @blanco;
+        }
     }
 }
 

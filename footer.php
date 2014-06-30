@@ -6,14 +6,14 @@
 		            <div class='col-lg-4 col-md-4 col-sm-7 col-xs-12 escuela'>
 		                <p><a class='marca'href='#'>e[ad]
 		                Escuela de Arquitectura y Diseño</a></p>
-		                <p>Pontificia Universidad Católica de Valparaíso</p>
+		                <p class='gris'>Pontificia Universidad Católica de Valparaíso</p>
 		            </div>
 		            <div class='col-lg-4 col-md-4 col-xs-12 escuela'>
-		                <p >Sitio web diseñado con:</p>
+		                <p class='gris'>Sitio web diseñado con:</p>
 		                <p class='rojo'><a href='http://eadpucv.github.io/pyxis/'><span class='pyxis gruesa rojo-claro'>Pyxis</span> <span class='pyxis fino gris-oscuro'>framework</span></a> & <a href='http://eadpucv.github.io/stampa/'><span class='pyxis naranja-opuesto grues'>Stampa</span></a></p>
 		            </div>
 		            <div class='col-lg-4 col-md-4 col-sm-5 escuela'>
-		                <p class='direccion'>
+		                <p class='direccion gris'>
 		                <a href='#'><i class='icn icn-email icn-md'></i>Contacto</a><br> Matta 12, Recreo, Viña del Mar, Chile.
 		                <br>Cód. Postal: 2580129, Casilla 4170 V2 Valparaíso</p>
 		            </div>
