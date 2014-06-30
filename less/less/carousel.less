@@ -75,7 +75,6 @@
   font-size: @carousel-control-font-size;
   color: @carousel-control-color;
   text-align: center;
-  text-shadow: @carousel-text-shadow;
   // We can't have this transition here because WebKit cancels the carousel
 // animation if you trip this while in the middle of another animation.
 
@@ -83,9 +82,9 @@
 &.left {
 top: 30%;
 left: 0;
-background-color: @gris;
-border-top-right-radius: @cuadratin * 3;
-border-bottom-right-radius: @cuadratin * 3;
+background-color: fade(@gris, 50);
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
 width: @cuadratin * 1.5;
 height: @cuadratin * 3;
 }
@@ -94,8 +93,8 @@ top: 30%;
 left: auto;
 right: 0;
 background-color: @gris;
-border-top-left-radius: @cuadratin * 3;
-border-bottom-left-radius: @cuadratin * 3;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
 width: @cuadratin * 1.5;
 height: @cuadratin * 3;
 }
