@@ -67,7 +67,7 @@ a.btn {
 
     &.btn-lg{
         font-size: @cuerpo * 2.5;
-        letter-spacing: .05ex;
+        letter-spacing: .05px;
         font-weight: 200;
         padding: @cuadratin * .5;
     }
@@ -79,12 +79,12 @@ a.btn {
         -moz-border-left-colors: none;
         -moz-border-right-colors: none;
         -moz-border-top-colors: none;
-        border: 2px solid @blanco;
         color: @blanco;
+        background-color: fade(@blanco, 40);
         border-image: none;
         border-radius: 5px;
         border-style: solid;
-        border-width: 1px 1px 3px;
+        border-width: 0px;
 
         &:hover {
             background: none repeat scroll 0 0 @rojo-claro;

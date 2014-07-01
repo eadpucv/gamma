@@ -12,7 +12,7 @@
     <div class='col-lg-12'>
       <div class='fila'>
         <div class='seccion'>
-          <h3><i class="icn icn-noticias icn-lg"></i> noticias por carrera</h3>
+          <h5><i class="icn icn-noticias icn-lg"></i> noticias por carrera</h5>
         </div>
         <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
           <?php if( $latest_ar->have_posts() ) : while( $latest_ar->have_posts() ) : $latest_ar->the_post(); ?>
@@ -41,7 +41,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <div class='pagina md carrera'>
-                <a href='#'><h6>arquitectura</h6></a>
+                <a href='#'><h6>diseño gráfico</h6></a>
                 <h4 class='blanco'><?php the_title(); ?></h4>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
@@ -58,7 +58,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <div class='pagina md carrera'>
-                <a href='#'><h6>arquitectura</h6></a>
+                <a href='#'><h6>diseño industrial</h6></a>
                 <h4 class='blanco'><?php the_title(); ?></h4>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>

@@ -126,7 +126,7 @@
 
         p {
             max-height: 85px;
-            margin: 5px 0 28.6px;
+            margin: -15px 0 28.6px;
             overflow: hidden;
             font-family: @sans;
             font-size: 16.5px;
@@ -139,6 +139,12 @@
             padding-left: 12px;
             color: @gris-oscuro;
             margin: 5px 0 22.6px;
+        }
+
+        &:hover{
+            h6{
+                color: @rojo-claro;
+            }
         }
     }
 
@@ -220,7 +226,7 @@
 
     i {
         font-size: @cuerpo * 2.5;
-        margin: -@cuadratin * .25 45px 0;
+        margin: 10px 15px;
     }
 }
 
@@ -253,7 +259,7 @@
         }
 
         .seguir-leyendo {
-            top: -31px;
+            top: -33px;
         }
     }
 
@@ -395,7 +401,7 @@
     font-weight: 300;
     z-index: 10;
     right: 35px;
-    top: -34px;
+    top: -35px;
     letter-spacing: 3px;
 
     &.ver-mas {
@@ -426,11 +432,11 @@
         &:hover {
             padding-top: 2px;
             border-top: 25px solid @rojo-claro;
-            .transition(.3s ease all);
+            .transition(.4s ease all);
 
             h6 {
             color: @rojo-claro;
-            .transition(.3s ease all);
+            .transition(.4s ease all);
             }    
         }
 
@@ -523,6 +529,7 @@
     margin: 0 auto;
     padding: 0px 0;
     height: 370px;
+    width: 72%;
     .cf;
 }
 
@@ -538,7 +545,7 @@
 
 .seccion-postulante {
     padding: 0 30px 0 0;
-    max-height: 210px;
+    max-height: 230px;
     overflow: hidden;
 
     h1 {
@@ -560,7 +567,7 @@
     position: absolute;
     text-align: center;
     right: 0;
-    top: 33%;
+    top: 60%;
 }
 
 
@@ -616,14 +623,14 @@
 
 
 footer {
+    background-color: @negro-claro;
     min-height: @cuadratin * 8;
-    backgroud: url('@{ruta-imagenes}/ruido-gris-blanco.png');
 
     a {
-        color: @rojo-claro;
+        color: @gris-claro;
 
         &:hover {
-            color: @gris-oscuro;
+            color: @rojo-claro;
             .transition(.3s ease all);
 
         }
@@ -634,13 +641,14 @@ footer {
     }
 
     p {
+        color: @gris-oscuro;
         margin: 0;
         font-size: 13px;
     }
 }
 
 .escuela {
-    margin: 21px 0 0;
+    margin: 0;
     font-family: @sans;
 
     p, span {
@@ -676,7 +684,7 @@ footer {
     color: @rojo;
 
     p {
-        font-size: @cuerpo;
+        font-size: 13px;
     }
 
     i {
@@ -686,46 +694,44 @@ footer {
     }
 }
 
-.redes-sociales {
-    width: 20%;
-    float: left;
+.red-social {
 
-    i {
-        color: @negro;
-        font-size: @cuerpo * 1.2;
-        margin-right: 7.5px;
+    span {
+        margin: 0;
     }
 
-    a {
-        &:hover {
+    .fondo-facebook, .fondo-twitter, .fondo-flickr, .fondo-vimeo, .fondo-soundcloud, .fondo-rss {
+        color: @gris-oscuro;
+    }
 
-            .icn-twitter {
-                color: #55ACEE;
-            }
+    &:hover {
 
-            .icn-facebook {
-                color: #4C66A4;
-            }
+        .fondo-facebook {
+            color: #4C66A4;
+        }
 
-            .icn-vimeo {
-                color: #44BBFF;
-            }
+        .fondo-twitter {
+            color: #55ACEE;
+        }
 
-            .icn-jekyll {
-                color: #FF0084;
-            }
+        .fondo-flickr {
+            color: #FF0084;
+        }
 
-            .icn-soundcloud {
-                color: #FF7700;
-            }
+        .fondo-vimeo {
+            color: #44BBFF;
+        }
 
-            .icn-enlace {
-                color: @rojo-claro;
-            }
+        .fondo-soundcloud {
+            color: #FF7700;
+        }
 
-            .icn-rss {
-                color: @naranja;
-            }
+        .fondo-enlace {
+            color: @rojo-claro;
+        }
+
+        .fondo-rss {
+            color: @naranja;
         }
     }
 }
@@ -734,7 +740,7 @@ footer {
     margin: 10px 0 0 0;
     width: 100%;
     height: auto;
-    background-color: @negro;
+    background-color: @negro-claro;
 
     p {
         padding-top: 0px;
@@ -744,7 +750,7 @@ footer {
     }
 
     img {
-        padding-left: 15px;
+        padding-top: 10px;
     }
 }
 
@@ -1558,7 +1564,7 @@ font-size: 5.6vmin;
         }
     }
 
-    .seguir-leyendo {
+        .seguir-leyendo {
         font-size: 12px;
         font-weight: 300;
         z-index: 12;
@@ -1721,7 +1727,6 @@ font-size: 5.6vmin;
         }
     }
 
-
 }
 
 
@@ -1845,7 +1850,7 @@ font-size: 5.6vmin;
 
         i {
             font-size: @cuerpo * 2.5;
-            margin: 0 7.5%;
+            margin: 10px 5.5% 24px 5.5%;
         }
     }
 
