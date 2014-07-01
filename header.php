@@ -51,11 +51,12 @@
                <li role="presentation"><a href="<?php echo get_permalink(5); ?>" tabindex="-1" role="menuitem">Cuerpo académico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(4); ?>" tabindex="-1" role="menuitem">Autoridades</a></li>
                <li class="divider" role="presentation"></li>
-               <li role="presentation"><a href="<?php echo get_category_link(1);; ?>" tabindex="-1" role="menuitem">Noticias</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(4384); ?>" tabindex="-1" role="menuitem">Calendario</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(2729); ?>" tabindex="-1" role="menuitem">Prensa</a></li>
+               <li role="presentation"><a href="<?php echo get_category_link(1);; ?>" tabindex="-1" role="menuitem">Portada noticias</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(4384); ?>" tabindex="-1" role="menuitem">Portada eventos</a></li>
+	       <li role="presentation"><a href="<?php; ?>" tabindex="-1" role="menuitem">Portada información académica</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="http://wiki.ead.pucv.cl" tabindex="-1" role="menuitem">Wiki Casiopea</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(2729); ?>" tabindex="-1" role="menuitem">Prensa</a></li>
              </ul>
            </li>
          </ul>
@@ -118,19 +119,121 @@
            </li>
          </ul>
         </div> <!-- fin navegacion -->
-     <div id="pattern" class="oculto-lg oculto-md col-sm-12 col-xs-12 pattern">
-        <!--Begin Pattern HTML-->
-        <a href="#menu" class="menu-link"><i class="icn icn-menu icn-lg"></i> </a>
-        <nav id="menu" role="navigation">
-          <ul>
-            <li><a href='#'>Escuela</a></li>
-            <li><a href="#">Carreras y Posgrados</a></li>
-            <li><a href="#">Admisión</a></li>
-            <li><a href="#">Estudiantes</a></li>
-            <li><a href="#">Extensión</a></li>
-            <li><a href="#">Amereida</a></li>
-          </ul>
-        </nav>
-      </div>
+   <div id="pattern" class="oculto-lg oculto-md pattern">
+      <!--Begin Pattern HTML-->
+      <a href="#menu" class="menu-link"><i class="icn icn-menu icn-lg"></i> </a>
+      <nav id="menu" role="navigation">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  Escuela
+                </a>
+              </h5>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+               <li><a href="{{ site.baseurl }}/pags/resena_introductora">Historia</a></li>
+               <li><a href="#">Amereida</a></li>
+               <li><a href="#">Campus</a></li>
+               <li><a href="#">Cuerpo académico</a></li>
+               <li><a href="#">Autoridades</a></li>
+               <li><a href="{{ site.baseurl }}/pags/portada_noticias">Noticias</a></li>
+               <li><a href="{{ site.baseurl }}/pags/portada_eventos">Eventos</a></li>
+               <li><a href="#">Prensa</a></li>
+               <li><a href="#">Wiki Casiopea</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  Carreras y Posgrados
+                </a>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+              <li><a href="#">Arquitectura</a></li>
+               <li><a href="{{ site.baseurl }}/pags/enunciado">Diseño Gráfico</a></li>
+               <li><a href="#">Diseño Industrial</a></li>
+               <li><a href="#">Magíster de Arquitectura y Diseño</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  Admisión
+                </a>
+              </h5>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+               <li><a href="#">Pregrado</a></li>
+               <li><a href="#">Posgrado</a></li>
+               <li><a href="#">Intercambio estudiantil</a></li>
+               <li><a href="#">Becas y ayudas estudiantiles</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                  Estudiantes
+                </a>
+              </h5>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+               <li><a href="#">Cuerpo Coordinador</a></li>
+               <li><a href="#">Asuntos Estudiantiles</a></li>
+               <li><a href="#">Estudia en el extranjero</a></li>
+               <li><a href="#">Servicios</a></li>
+               <li><a href="#">Bolsa de trabajo</a></li>
+               <li><a href="#">Ex-alumnos</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                  Extensión
+                </a>
+              </h5>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse">
+              <div class="panel-body">
+               <li><a href="#">Archivo Histórico JVA</a></li>
+               <li><a href="#">Ediciones e[ad]</a></li>
+               <li><a href="#">Investigación</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                  Amereida
+                </a>
+              </h5>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse">
+              <div class="panel-body">
+               <li><a href="{{ site.baseurl }}/pags/enunciado-post">Taller de Amereida</a></li>
+               <li><a href="#">Ciudad Abierta</a></li>
+               <li><a href="#">Travesías</a></li>
+               <li><a href="#">Biblioteca Constel</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
     </div> <!-- fin wrap -->
   </div>  

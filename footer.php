@@ -1,81 +1,101 @@
    	</div>
-		<footer>
-			<?php wp_footer(); ?>			
-		   <div class='wrap'>
-		        <div class='fila'>
-		            <div class='col-lg-4 col-md-4 col-sm-7 col-xs-12 escuela'>
-		                <p><a class='marca'href='#'>e[ad]
-		                Escuela de Arquitectura y Diseño</a></p>
-		                <p class='gris'>Pontificia Universidad Católica de Valparaíso</p>
-		            </div>
-		            <div class='col-lg-4 col-md-4 col-xs-12 escuela'>
-		                <p class='gris'>Sitio web diseñado con:</p>
-		                <p class='rojo'><a href='http://eadpucv.github.io/pyxis/'><span class='pyxis gruesa rojo-claro'>Pyxis</span> <span class='pyxis fino gris-oscuro'>framework</span></a> & <a href='http://eadpucv.github.io/stampa/'><span class='pyxis naranja-opuesto grues'>Stampa</span></a></p>
-		            </div>
-		            <div class='col-lg-4 col-md-4 col-sm-5 escuela'>
-		                <p class='direccion gris'>
-		                <a href='#'><i class='icn icn-email icn-md'></i>Contacto</a><br> Matta 12, Recreo, Viña del Mar, Chile.
-		                <br>Cód. Postal: 2580129, Casilla 4170 V2 Valparaíso</p>
-		            </div>
-		        </div>
-		    </div>        
-		    <div class='container-lg'>
-		        <div class=' mapa'>
-		            <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-71.5964412689209%2C-33.0347331645319%2C-71.56811714172363%2C-33.018919564096834&amp;layer=mapnik&amp;marker=-33.02683571419531%2C-71.58227920532227" style="border: none"></iframe><br/><small></small>
-		        </div>
-		    </div>
-		    <div class='wrap'>
-		        <div class='fila'>
-		            <div class='col-lg-8 col-md-9 col-sm-7 col-xs-12'>
-		                <p class='gris'>sitios relacionados</p>
-		                <div class='sitio-relacionado'>
-		                    <p><a href=''><i class="icn icn-archivo icn-lg"></i> Archivo Histórico José Vial Armstrong</a></p>
-		                </div>
-		                <div class='sitio-relacionado'>
-		                    <p><a href=''><i class="icn icn-casiopea icn-lg"></i> Wiki Casiopea</a></p>
-		                </div>
-		                <div class='sitio-relacionado'>
-		                    <p><a href=''><i class="icn icn-travesia icn-lg"></i> Travesía</a></p>
-		                </div>
-		                <div class='sitio-relacionado'>
-		                    <p><a href=''><i class="icn icn-estorninos icn-lg"></i>  Estorninos</a></p>
-		                </div>
-		                <div class='sitio-relacionado'>
-		                    <p><a href=''><i class="icn icn-ampolleta icn-lg"></i>  Madlab</a></p>
-		                </div>
-		            </div>
-		            <div class='col-lg-4 col-md-3 col-sm-5 col-xs-12'>
-		                <p class='gris'>redes sociales</p>
-		                <div class='redes-sociales'>
-		                    <a href='https://twitter.com/eadpucv'><i class="icn icn-twitter icn-lg icn-inverse"></i> </a>
-		                </div>
-		                <div class='redes-sociales'>
-		                    <a href='https://www.facebook.com/ead.pucv'><i class="icn icn-facebook icn-lg icn-inverse"></i></a></p>
-		                </div>
-		                <div class='redes-sociales'>
-		                    <a href='https://www.flickr.com/photos/archivo-escuela/'><i class="icn icn-jekyll icn-lg icn-inverse"></i></a>
-		                </div>
-		                <div class='redes-sociales'>
-		                    <a href='http://vimeo.com/escuela'><i class="icn icn-vimeo icn-lg icn-inverse"></i></a>
-		                </div>
-		                <div class='redes-sociales'>
-		                    <a href='https://soundcloud.com/archivo-jose-vial-a'><i class="icn icn-soundcloud icn-lg icn-inverse"></i></a>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		    <div class='licencia'>
-		        <div class='wrap'>
-		            <div class='fila'>
-		                <div class='col-lg-12'>
-		                    <p class='gris centrado'>1998 - 2014 | <a href='http://www.ead.pucv.cl/feed/'>Suscripción (RSS)</a> | <a href='http://www.ead.pucv.cl/feeds/'>Cómo Suscribirse</a> | <a href='http://www.ead.pucv.cl/colofon/'>Colofón</a> | Optimizado para <a href='https://www.mozilla.org/es-ES/firefox/new/'>Firefox</a></p>
-		                    <p class='gris centrado'>e[ad] de la Escuela de Arquitectura y Diseño PUCV está licenciado bajo <a href='http://creativecommons.org/licenses/by-nc-sa/2.0/cl/'>Creative Commons Atribución-No Comercial-Licenciar Igual 2.0 Chile License</a><a href="http://creativecommons.org/licenses/by-nc-sa/2.0/cl/" rel="license"><img src="http://i.creativecommons.org/l/by-nc-sa/2.0/cl/80x15.png" style="border-width:0" alt="Creative Commons License"></p>
-		                    </a>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</footer>
+<footer>
+	<?php wp_footer(); ?>			
+   <div class='wrap'>
+        <div class='fila'>
+            <div class='col-lg-8 col-md-8 col-sm-7 col-xs-12 escuela'>
+                <p><a class='marca'href='#'>
+                Escuela de Arquitectura y Diseño</a></p>
+                <p>Pontificia Universidad Católica de Valparaíso</p>
+            </div>
+            <div class='col-lg-4 col-md-4 col-sm-5 escuela'>
+                <p class='direccion'>
+                <a href='http://www.ead.pucv.cl/contacto/'><i class='icn icn-email icn-md'></i>Contacto</a><br> Matta 12, Recreo, Viña del Mar, Chile.
+                <br>Cód. Postal: 2580129, Casilla 4170 V2 Valparaíso</p>
+            </div>
+        </div>
+        <div class='fila'>
+        	<div class='col-lg-8 col-md-9 col-sm-12 col-xs-12'>
+                <p>sitios relacionados</p>
+                <div class='sitio-relacionado'>
+                    <p><a href=''><i class="icn icn-archivo icn-lg"></i> Archivo Histórico José Vial Armstrong</a></p>
+                </div>
+                <div class='sitio-relacionado'>
+                    <p><a href=''><i class="icn icn-casiopea icn-lg"></i> Wiki Casiopea</a></p>
+                </div>
+                <div class='sitio-relacionado'>
+                    <p><a href=''><i class="icn icn-travesia icn-lg"></i> Travesía</a></p>
+                </div>
+                <div class='sitio-relacionado'>
+                    <p><a href=''><i class="icn icn-estorninos icn-lg"></i>  Estorninos</a></p>
+                </div>
+                <div class='sitio-relacionado'>
+                    <p><a href=''><i class="icn icn-ampolleta icn-lg"></i>  Madlab</a></p>
+                </div>
+            </div>
+        </div>
+    </div>        
+    <div class='container-lg'>
+        <div class=' mapa'>
+            <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/idar.ilih71di/attribution,zoompan,geocoder.html'></iframe>
+        </div>
+    </div>
+    <div class='wrap'>
+        <div class='fila'>
+        	<div class='col-lg-8 col-md-8 col-sm-8 col-xs-12 escuela'>
+                <p>Sitio web diseñado con:</p>
+                <p class='rojo'><a href='http://eadpucv.github.io/pyxis/'><span class='pyxis gruesa rojo-claro'>Pyxis</span> <span class='pyxis fino gris-oscuro'>framework</span></a> & <a href='http://eadpucv.github.io/stampa/'><span class='pyxis naranja-opuesto grues'>Stampa</span></a></p>
+            </div>
+            <div class='col-lg-4 col-md-3 col-sm-4 col-xs-12 escuela'>
+                <p>e[ad] en redes sociales</p>
+		<a class='red-social' href='https://www.facebook.com/ead.pucv'>
+          		<span class="icn-stack icn-md">
+            			<i class="icn icn-cuadro icn-stack-2x fondo-facebook"></i>
+            			<i class="icn icn-facebook icn-stack-1x icn-inverse"></i>
+          		</span>
+        	</a>
+		<a class='red-social' href='https://twitter.com/eadpucv'>
+          		<span class="icn-stack icn-md">
+            			<i class="icn icn-cuadro icn-stack-2x fondo-twitter"></i>
+            			<i class="icn icn-twitter icn-stack-1x icn-inverse"></i>
+          		</span>
+        	</a>
+		<a class='red-social' href='https://www.flickr.com/photos/archivo-escuela/'>
+          		<span class="icn-stack icn-md">
+            			<i class="icn icn-cuadro icn-stack-2x fondo-flickr"></i>
+            			<i class="icn icn-jekyll icn-stack-1x icn-inverse"></i>
+          		</span>
+        	</a>
+		<a class='red-social' href='http://vimeo.com/escuela'>
+          		<span class="icn-stack icn-md">
+            			<i class="icn icn-cuadro icn-stack-2x fondo-vimeo"></i>
+            			<i class="icn icn-vimeo icn-stack-1x icn-inverse"></i>
+          		</span>
+        	</a>
+		<a class='red-social' href='https://soundcloud.com/archivo-jose-vial-a'>
+          		<span class="icn-stack icn-md">
+            			<i class="icn icn-cuadro icn-stack-2x fondo-soundcloud"></i>
+            			<i class="icn icn-soundcloud icn-stack-1x icn-inverse"></i>
+          		</span>
+        	</a>
+		<a class='red-social' href='http://www.ead.pucv.cl/feed/'>
+          		<span class="icn-stack icn-md">
+            			<i class="icn icn-cuadro icn-stack-2x fondo-rss"></i>
+            			<i class="icn icn-rss icn-stack-1x icn-inverse"></i>
+          		</span>
+        	</a>
+            </div>
+        </div>
+        <div class='fila'>
+        	<div class='licencia'>
+			    <div class='col-lg-12'>
+			        <p>1998 - 2014 | <a href='http://www.ead.pucv.cl/feed/'>Suscripción (RSS)</a> | <a href='http://www.ead.pucv.cl/feeds/'>Cómo Suscribirse</a> | <a href='http://www.ead.pucv.cl/colofon/'>Colofón</a> | Optimizado para <a href='https://www.mozilla.org/es-ES/firefox/new/'>Firefox</a></p>
+			        <p>e[ad] de la Escuela de Arquitectura y Diseño PUCV está licenciado bajo <a href='http://creativecommons.org/licenses/by-nc-sa/2.0/cl/'>Creative Commons Atribución-No Comercial-Licenciar Igual 2.0 Chile License</a><br><a href="http://creativecommons.org/licenses/by-nc-sa/2.0/cl/" rel="license"><img src="http://i.creativecommons.org/l/by-nc-sa/2.0/cl/80x15.png" style="border-width:0" alt="Creative Commons License"></a></p>
+			    </div>
+    		</div>
+        </div>
+    </div>
+</footer>
 		<?php get_user_extra_attributes(); ?>
 		<script type="text/javascript">
 
