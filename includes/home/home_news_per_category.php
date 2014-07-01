@@ -16,7 +16,7 @@
 ?>
   <div class='wrap'>
     <div class='seccion'>
-      <h3><i class="icn icn-noticias icn-lg"></i> Publicaciones</h3>
+      <h5><i class="icn icn-lapiz icn-md"></i> Publicaciones</h5>
     </div>
     <div class='fila'>
       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>

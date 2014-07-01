@@ -1,6 +1,6 @@
 <div class='franja-postulante'>
   <div class='seccion'>
-    <h3><i class="icn icn-noticias icn-lg"></i> Escuela & Enlaces</h3>
+    <h5><i class="icn icn-etiqueta icn-md"></i> Escuela & Enlaces</h5>
   </div>
   <div data-ride="carousel" class="carousel slide" id="carousel-postulante"> 
     <div class="carousel-inner"> 
@@ -8,10 +8,10 @@
         <div class='wrap-postulante'>
           <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
             <h1>Admisión</h1>
-            <p class='blanco'>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE.</p>
+            <p class='blanco'>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE. Ut mollis rutrum pulvinar. Suspendisse Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y </p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='/img/admn.jpg'>
+            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Vías de ingreso</a>
@@ -24,10 +24,10 @@
         <div class='wrap-postulante'>
           <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
             <h1>Carreras y posgrados</h1>
-            <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte.</p>
+            <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='/img/carreras.jpg'>
+            <img class='altura-maxima sm' src='http://wiki.ead.pucv.cl/images/b/ba/Limpieza_llegada.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Arquitectura</a>
@@ -41,12 +41,12 @@
         <div class='wrap-postulante'>
           <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
             <h1>Campus</h1>
-            <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de “Amereida”, poema épico que revela una visión poética de América.</p>
-            <p>El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una biodiversidad en su ecosistema.</p>
-            <p>El nombre ‘Ciudad Abierta’ tiene uno de sus orígenes en la película ‘Roma ciudad abierta’ (Roma città aperta, 1945) y viene de la idea de ciudad desprotegida, en la cuál no existe una fortaleza construida, la fortaleza que la defiende se construye por medio de la hospitalidad y la palabra.</p>
+            <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de “Amereida”, poema épico que revela una visión poética de América.
+            El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una biodiversidad en su ecosistema.
+            El nombre ‘Ciudad Abierta’ tiene uno de sus orígenes en la película ‘Roma ciudad abierta’ (Roma città aperta, 1945) y viene de la idea de ciudad desprotegida, en la cuál no existe una fortaleza construida, la fortaleza que la defiende se construye por medio de la hospitalidad y la palabra.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='/img/campus.jpg'>
+            <img class='altura-maxima sm' src='http://photos1.blogger.com/blogger/1463/1331/1600/DSCN4426.0.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Casa de estudio</a>
@@ -58,10 +58,10 @@
         <div class='wrap-postulante'>
           <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
             <h1>Cuerpo Docente</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.Ut mollis rutrum pulvinar. Suspendisse.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='/img/docentes.jpg'>
+            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04269.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Profesores</a>
@@ -76,7 +76,7 @@
             <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='/img/escuelaoficio.jpg'>
+            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2010/09/DSC02638.jpg'>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Historia</a>
