@@ -1,7 +1,7 @@
 <?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>4, 'orderby'=>'start_date')); ?>
                    
 <div class='seccion'>
-    <h3><i class="icn icn-calendario icn-lg"></i> Eventos </h3>
+    <h5><i class="icn icn-calendario icn-md"></i> Eventos </h5>
 </div>
 <div class='fila'>
   <?php foreach ( $EM_Events as $EM_Event ) { ?>

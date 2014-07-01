@@ -126,7 +126,7 @@
 
         p {
             max-height: 85px;
-            margin: 5px 0 28.6px;
+            margin: -15px 0 28.6px;
             overflow: hidden;
             font-family: @sans;
             font-size: 16.5px;
@@ -139,6 +139,12 @@
             padding-left: 12px;
             color: @gris-oscuro;
             margin: 5px 0 22.6px;
+        }
+
+        &:hover{
+            h6{
+                color: @rojo-claro;
+            }
         }
     }
 
@@ -253,7 +259,7 @@
         }
 
         .seguir-leyendo {
-            top: -31px;
+            top: -33px;
         }
     }
 
@@ -395,7 +401,7 @@
     font-weight: 300;
     z-index: 10;
     right: 35px;
-    top: -34px;
+    top: -35px;
     letter-spacing: 3px;
 
     &.ver-mas {
@@ -426,11 +432,11 @@
         &:hover {
             padding-top: 2px;
             border-top: 25px solid @rojo-claro;
-            .transition(.3s ease all);
+            .transition(.4s ease all);
 
             h6 {
             color: @rojo-claro;
-            .transition(.3s ease all);
+            .transition(.4s ease all);
             }    
         }
 
@@ -561,7 +567,7 @@
     position: absolute;
     text-align: center;
     right: 0;
-    top: 33%;
+    top: 60%;
 }
 
 

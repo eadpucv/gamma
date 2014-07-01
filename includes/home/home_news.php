@@ -4,7 +4,7 @@
   $latest_cat_post = new WP_Query( array('posts_per_page' => 7, 'category__in' => array($cat_id)));
 ?>
 <div class='seccion'>
-  <h3><i class="icn icn-noticias icn-lg"></i> Noticias </h3>
+  <h5><i class="icn icn-noticias icn-md"></i> Noticias </h5>
 </div>
 <div class='fila'> <!-- sección noticias inferior -->
   <?php if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post(); ?>        
