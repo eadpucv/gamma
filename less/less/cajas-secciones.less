@@ -255,6 +255,20 @@
     }
 }
 
+// Estilos auxiliares & específicos
+
+.icono-info {
+    display: inline-block;
+    width: 70px;
+    height: 85px;
+    float: left;
+
+    i {
+        font-size: @cuerpo * 2.5;
+        margin-left: 20%;
+        margin-top: -7px;
+    }
+}
 
 
 // Extra small screen / phone
@@ -399,8 +413,16 @@
         }
     }
 
+    .icono-info {
+        height: 105px;
+        width: 45px;
 
-
+        i {
+            font-size: @cuerpo * 2;
+            margin-left: 0;
+            margin-top: 30%;
+        }
+    }
 }
 
 
@@ -500,6 +522,16 @@
             font-family: @sans;
             max-height: 100px;
             overflow: hidden;
+        }
+    }
+
+    .icono-info {
+        height: 65px;
+        width: 100px;
+
+        i {
+            font-size: @cuerpo * 2.2;
+            margin-left: 30%;
         }
     }
 }
@@ -626,6 +658,10 @@
                 margin-bottom: 15px;
             }
         }
+    }
+
+    .icono-info {
+        height: 115px;
     }
 
 }

@@ -11,7 +11,9 @@
         <div class='pagina info-docencia xs'>
           <a href='<?php the_permalink() ?>'>
             <div class='referencia-cita'>
-              <i class="izquierda gris icn icn-anuncio icn-lg"></i>
+              <div class='icono-info'>
+                <i class="izquierda gris icn icn-anuncio icn-lg"></i>
+              </div>
               <h6><?php the_title(); ?></h6>
               <aside class='entry-details negro'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
             </div>
