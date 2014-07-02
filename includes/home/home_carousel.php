@@ -4,7 +4,8 @@
       <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
       <li data-slide-to="1" data-target="#carousel-example-generic"></li> 
       <li data-slide-to="2" data-target="#carousel-example-generic"></li> 
-      <li data-slide-to="3" data-target="#carousel-example-generic"></li> 
+      <li data-slide-to="3" data-target="#carousel-example-generic"></li>
+      <li data-slide-to="4" data-target="#carousel-example-generic"></li>  
     </ol> 
     <div class="carousel-inner"> 
       <div class="item active imagen-carousel"> <!-- 1er slide -->
@@ -20,31 +21,7 @@
         </div> 
       </div>
       <div class="item imagen-carousel"> <!-- 2do slide -->
-        <img class='altura-maxima' alt="Second slide" src="http://eadpucv.github.io/giornata/img/travesia-portada.jpg" title="Travesía Destadada"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-travesia icn-lg"></i> Travesía Tarabuco  - Bolivia, 2013</p> 
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
-            <h1>Travesía Tarabuco  - Bolivia, 2013 </h1>
-            <p>Las travesías son viajes poéticos por América que realiza anualmente la e[ad] Escuela de Arquitectura y Diseño PUCV a partir del año 1984. Estos viajes son integrados por los alumnos y profesores de Arquitectura, Diseño Gráfico y Diseño Industrial. Este sitio corresponde al registro de dichos viajes por el continente e invita a todos quienes han participado a colaborar en esta bitácora colectiva.</p><span class='derecha'>Sylvia Arriagada</span> 
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 3er slide -->
-        <img class='altura-maxima' alt="Third slide" src="http://eadpucv.github.io/giornata/img/historia.jpg" title="Historia de la Escuela"> 
-        <div class='pie-de-foto'> 
-          <p class='centrado'><i class="icn icn-acto icn-lg"></i> Aula Neumática ( Taller Ivelic, Baixas, Méndez, Cruz), 1 Enero 1984</p>  
-        </div> 
-        <div class='wrap-carousel'> 
-          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
-            <h1>Aula Neumática, 1984</h1> 
-            <p>"Un apunte es entonces intervenir para dar curso a la voz, al parlamento, sin ser visto, como el apuntador del teatro, que de espaldas y oculto a los espectadores dice a los actores lo que hay que decir."</p> <span class='derecha'>Alberto Cruz</span> 
-          </div>
-        </div> 
-      </div>
-      <div class="item imagen-carousel"> <!-- 4to slide -->
-        <img class='altura-maxima' alt="Fourth slide" src="http://eadpucv.github.io/giornata/img/croquis.jpg" title="Observación de la semana"> 
+        <img class='altura-maxima' alt="Second slide" src="http://oi62.tinypic.com/6tipls.jpg" title="Observación de la semana"> 
         <div class='pie-de-foto'> 
           <p class='centrado'><i class="icn icn-ojo icn-lg"></i> Observación de la semana realizada por el profesor David Jolly</p> 
         </div> 
@@ -53,10 +30,46 @@
             <h1>Observación "La Alcoba"</h1> 
             <p>La Alcoba en la Ciudad Abierta.<br>
             Se trata de un espacio mínimo para una familia inicial, su superficie de suelos es de treinta y seis metros cuadrados, (387,5 pies cuadrados), los que se aumentan con unos muros contenedores que reciben a la mayoría de los muebles.<br>
-            Lo edificado construye el exterior levantándose, reconstruye la arena como un libre paso sin interrumpir la extensión.</p> <span class='derecha'>David Jolly</span> 
+            Lo edificado construye el exterior levantándose, reconstruye la arena como un libre paso sin interrumpir la extensión.</p> <span class='derecha'>David Jolly</span>  
           </div>
         </div> 
-      </div>    
+      </div>
+      <div class="item imagen-carousel"> <!-- 3er slide -->
+        <img class='altura-maxima' alt="Third slide" src="http://eadpucv.github.io/giornata/img/historia7.jpg" title="Historia de la Escuela"> 
+        <div class='pie-de-foto'> 
+          <p class='centrado'><i class="icn icn-libro icn-lg"></i> Fundación de la Escuela</p>  
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
+            <h1>Fundación de la Escuela</h1> 
+            <p>En 1952, un grupo de arquitectos y artistas (Alberto Cruz C. †, Godofredo Iommi †, Fabio Cruz P †, Miguel Eyquem, José Vial †, Arturo Baeza †, Francisco Méndez, Jaime Bellalta y Claudio Girola † (que llegó al poco tiempo) se incorporan a la Escuela de Arquitectura de la Universidad Católica de Valparaíso, fundando, simultáneamente, el Instituto de Arquitectura que sirve y alimenta a la Escuela.
+          </div>
+        </div> 
+      </div>
+      <div class="item imagen-carousel"> <!-- 4to slide -->
+        <img class='altura-maxima' alt="Fourth slide" src="https://farm5.staticflickr.com/4070/4562740335_36b9ce396f_b.jpg" title="Amereida"> 
+        <div class='pie-de-foto'> 
+          <p class='centrado'><i class="icn icn-acto icn-lg"></i> Amereida</p> 
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
+            <h1>Amereida</h1> 
+            <p>Amereida es un poema que reune en su nombre el hallazgo de América y la épica latina del piadoso Eneas escrita en la Eneida. Dos años después de la Travesía del 65 se recolectaron textos diversos, anotaciones, poemas, cartas de los primeros cronistas americanos, blancos enteros, recortes y dibujos, y se realizó un trabajo de edición del material para darle forma a un libro titulado Amereida, sin firma de autor alguno, nada numerando sus páginas y ninguna mayúscula; la primera edición reza: amereida, volumen primero, colección poesía, Santiago, Chile; Editorial Cooperativa Lambda. Inscripción Nº 33306; el libro remata antes de la página de gracia con un 15 de mayo de 1967.</p> 
+          </div>
+        </div> 
+      </div>
+      <div class="item imagen-carousel"> <!-- 5to slide -->
+        <img class='altura-maxima' alt="Fifth slide" src="https://farm6.staticflickr.com/5216/5384568332_27b8fa9274_b.jpg" title="Campus"> 
+        <div class='pie-de-foto'> 
+          <p class='centrado'><i class="icn icn-mapa-mas icn-lg"></i> Campus: Ciudad Abierta</p> 
+        </div> 
+        <div class='wrap-carousel'> 
+          <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
+            <h1>Campus: Ciudad Abierta</h1> 
+            <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de “Amereida”, poema épico que revela una visión poética de América. El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una biodiversidad en su ecosistema.</p>
+          </div>
+        </div> 
+      </div>     
     </div>
   </div>
 </div>  
