@@ -12,11 +12,13 @@
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
             <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'>
-          </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Vías de ingreso</a>
             <a class='btn btn-md transparente-blanco' href='#'>Becas y financiamiento</a>
             <a class='btn btn-md transparente-blanco' href='#'>Aranceles</a>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -28,12 +30,14 @@
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
             <img class='altura-maxima sm' src='http://wiki.ead.pucv.cl/images/b/ba/Limpieza_llegada.jpg'>
-          </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Arquitectura</a>
             <a class='btn btn-md transparente-blanco' href='#'>Diseño Gráfico</a>
             <a class='btn btn-md transparente-blanco' href='#'>Diseño Industrial</a>
             <a class='btn btn-md transparente-blanco' href='#'>Magíster de Arquitectura y Diseño</a>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -47,10 +51,12 @@
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
             <img class='altura-maxima sm' src='http://photos1.blogger.com/blogger/1463/1331/1600/DSCN4426.0.jpg'>
-          </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Casa de estudio</a>
             <a class='btn btn-md transparente-blanco' href='#'>Ciudad Abierta</a>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -62,10 +68,12 @@
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
             <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04269.jpg'>
-          </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Profesores</a>
             <a class='btn btn-md transparente-blanco' href='#'>Ayudantes</a>
+          </div>
+          </div>
           </div>
         </div>
       </div>
@@ -77,11 +85,13 @@
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
             <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2010/09/DSC02638.jpg'>
-          </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
+            <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='#'>Historia</a>
             <a class='btn btn-md transparente-blanco' href='#'>La observación</a>
             <a class='btn btn-md transparente-blanco' href='#'>Amereida</a>
+            </div>
+          </div>
           </div>
         </div>
       </div>

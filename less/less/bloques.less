@@ -561,15 +561,18 @@
     }
 }
 
-.enlaces-postulante {
-    padding: 0 15px;
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    right: 0;
-    top: 60%;
+.medio-postulante {
+    display: block;
 }
 
+.enlaces-postulante {
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    display: block;
+}
 
 // Para las publicaciones
 
@@ -848,8 +851,8 @@ hr {
         }
 }
 
-.abuela {
-font-size: 5.6vmin; 
+        .abuela {
+            font-size: 5.6vmin; 
 }
 
     .logo{
@@ -1276,15 +1279,20 @@ font-size: 5.6vmin;
         margin: 0 0 20px 0;
     }
 
-    .enlaces-postulante {
-        padding: 0 15px;
-        margin: 0 auto;
-        position: absolute;
-        text-align: center;
-        right: auto;
-        top: 60%;
+    .medio-postulante {
+        display: table-cell;
+        vertical-align: middle;
     }
 
+    .enlaces-postulante {
+        padding: 0px;
+        margin: 0;
+        position: absolute;
+        display: table;
+        height: 250px;
+        text-align: center;
+        width: 100%;
+    }
 
     // Footer
 
@@ -1660,13 +1668,19 @@ font-size: 5.6vmin;
         width: 85%;
     }
 
+    .medio-postulante {
+    display: table-cell;
+    vertical-align: middle;
+    }
+
     .enlaces-postulante {
-    padding: 0 15px;
-    margin: 0 auto;
+    padding: 0px;
     position: absolute;
     text-align: center;
-    right: 0;
-    top: 30%;
+    height: 280px;
+    display: table;
+    width: 100%;
+    margin: 0;
     }
 
     // Footer
