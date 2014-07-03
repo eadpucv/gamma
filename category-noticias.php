@@ -21,11 +21,11 @@
   $latest_obs = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_observacion)));          
 ?>
 <?php get_header(); ?>
-<div class='contenedor-sin-relleno'>
-    <?php the_breadcrumb(); ?>
-</div>
 <div class='fondo-negro'>
     <div class='wrap'>
+  <div class='contenedor-sin-relleno oculto-xs'>
+    <?php the_breadcrumb(); ?>
+  </div>
 		<h1 class="entry-title generico"><i class="icn icn-noticias icn-lg"></i> Noticias</h1> <!-- título del post -->
 	</div>
 </div>
