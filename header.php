@@ -132,7 +132,7 @@
                 </a>
               </h5>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
+            <div id="collapseOne" class="panel-collapse collapse">
               <div class="panel-body">
                <li><a href="{{ site.baseurl }}/pags/resena_introductora">Historia</a></li>
                <li><a href="#">Amereida</a></li>
