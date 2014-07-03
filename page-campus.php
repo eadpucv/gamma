@@ -3,10 +3,10 @@
 ?>
     <div class='fondo-negro'>
         <div class='wrap'>
-  <div class='contenedor-sin-relleno oculto-xs'>
-    <?php the_breadcrumb(); ?>
-  </div>
-            <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
+  		<div class='contenedor-sin-relleno oculto-xs'>
+    			<?php the_breadcrumb(); ?>
+  		</div>
+        	<h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
         </div>
     </div>
 
@@ -22,7 +22,7 @@
                                 <div class="item active">
                                     <div class='noticia grande'>
                                         <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="First slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia5.jpg'>
+                                            <img class='marco-imagen carousel-historia' alt="First slide" title="Noticia Destacada" src='http://prensa.ucv.cl/wp-content/uploads/2011/06/01.jpg'>
                                         </div>
                                     </div>
                                 </div>
@@ -30,7 +30,7 @@
                                 <div class="item">
                                     <div class='noticia grande'>
                                         <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="Second slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia2.jpg'>
+                                            <img class='marco-imagen carousel-historia' alt="Second slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/galeria/casa-escuela/casa-escuela-arq-y-dis_01.jpg'>
                                         </div>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@
                                 <div class="item">
                                     <div class='noticia grande'>
                                         <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="third slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia3.jpg'>
+                                            <img class='marco-imagen carousel-historia' alt="third slide" title="Noticia Destacada" src='http://upload.wikimedia.org/wikipedia/commons/8/84/Casa_Central_of_the_Pontifical_Catholic_University_of_Valparaiso.jpg'>
                                         </div>
                                     </div>
                                 </div>  <!-- fin de item -->
