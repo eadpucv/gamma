@@ -15,27 +15,59 @@
 				</div>									
 				<?php endforeach; ?>
 			<?php else : // If there are no comments yet ?>
-				<p><?php _e('No comments yet.'); ?></p>
+				<p><?php _e('Aun no hay comentarios en esta publicación'); ?></p>
 			<?php endif; ?>
 		</div>
 		<?php if ( comments_open() ) : ?>
-		<div class='col-lg-5 col-md-6 col-sm-12 col-xs-12'>
-			<div class='comentar'>
-				<form class='md' action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
-					<legend>Deja un comentario en esta noticia</legend>
-					<div class='grupo'>
-						<p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" />
-						<label for="author"><small><?php _e('Name'); ?> <?php if ($req) _e('(required)'); ?></small></label></p>
+			<div class='col-lg-5 col-md-6 col-sm-12 col-xs-12'>
+				<?php 
+					$fields =  array(
+					  'author' =>
+					    '<div class="grupo"><label for="author">' . __( 'Nombre', 'domainreference' ) . '</label> '.
+					    '<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+					    '" size="30"' . $aria_req . ' /></div>',
 
-						<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
-						<label for="email"><small><?php _e('Mail (will not be published)');?> <?php if ($req) _e('(required)'); ?></small></label></p>
+					  'email' =>
+					    '<div class="grupo"><label for="email">' . __( 'Email', 'domainreference' ) . '</label> ' .
+					    '<input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+					    '" size="30"' . $aria_req . ' /></div>'
+					);
+				?>				
+				<div class='comentar'>
+					<?php comment_form(array(
+						'fields'=> $fields,'title_reply'=>'',
+						'comment_notes_before' => ' ',
+						'comment_notes_after' => ' ',
+						'label_submit' => __( 'Comentar' ), 
+						'comment_field' =>  	'<p class="comment-form-comment"><label for="comment">' . _x( 'Comentario', 'noun' ) .
+    												'</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true">' .
+    												'</textarea></p>',
+    					'label_submit' => __( 'Comentar' ),
+						'must_log_in' => '<p class="must-log-in">' .
+						 sprintf(
+						   __( 'You must be <a href="%s">logged in</a> to post a comment.' ),
+						   wp_login_url( apply_filters( 'the_permalink', get_permalink() ) )
+						 ) . '</p>',
 
-						<p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
-						<label for="url"><small><?php _e('Website'); ?></small></label></p>      	
-					  	<textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea>
-					</div>
-					<input type='submit' class='btn btn-md gris' value='Comentar'>
-				</form>
+						'logged_in_as' => '<p class="logged-in-as">' .
+						 sprintf(
+						 __( '<leyend>Comentaras como : <a href="%1$s">%2$s</a>.</leyend>' ),
+						   admin_url( 'profile.php' ),
+						   $user_identity,
+						   wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) )
+						 ) . '</p>',    					
+
+    					)); ?>
+				</div>
+
 			</div>
-		</div>
 		<?php endif; ?>
+	</div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function($) { //noconflict wrapper
+	    $('#commentform').addClass('md');
+	    $('#commentform').prepend("<legend>Deja un comentario en esta noticia.</legend>");
+	    $('input#submit').addClass('btn btn-md gris');
+	});
+</script>

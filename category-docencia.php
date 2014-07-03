@@ -1,15 +1,9 @@
 <?php get_header(); ?>
-
-<div class='contenedor-sin-relleno'>
- 	<div class='fila'>
- 		<div class='col-lg-12 oculto-xs'>
-    		<?php the_breadcrumb(); ?>
- 		</div>
- 	</div>
-</div>
-
 <div class='fondo-negro'>
     <div class='wrap'>
+  <div class='contenedor-sin-relleno oculto-xs'>
+    <?php the_breadcrumb(); ?>
+  </div>
  		<h1 class="entry-title generico"> <i class="icn icn-anuncio icn-lg"></i> Información académica</h1>
 	</div>
 </div>
