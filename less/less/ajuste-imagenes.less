@@ -126,8 +126,6 @@
     }
 }
 
-
-
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
@@ -393,8 +391,21 @@
             height: 200px;
 
             img {
-                width: 150%;
+                width: 110%;
                 height: auto;
+            }
+
+            &.primera {
+                float: left;
+                height: 400px;
+                width: 50%;
+                margin-right: 20px;
+
+                img {
+                    left: -50%;
+                    position: absolute;
+                    width: 210%;
+                }
             }
         }
 

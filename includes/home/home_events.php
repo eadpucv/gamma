@@ -1,4 +1,4 @@
-<?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>4, 'orderby'=>'start_date')); ?>
+<?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>3, 'orderby'=>'start_date')); ?>
                    
 <div class='seccion'>
     <h5><i class="icn icn-calendario icn-md"></i> Eventos </h5>
@@ -18,4 +18,8 @@
       </a>
     </div>   
   <?php } ?>
+    <div class='col-lg-3 derecha col-md-4 oculto-sm oculto-xs alto-md'>
+    <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
 </div>
