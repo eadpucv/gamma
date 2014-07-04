@@ -187,15 +187,27 @@ text-align: center;
 @media(max-width: @screen-xs-max){
 
 .seccion{
-h3{
-letter-spacing: .7px;
-font-size: 20px;
-font-weight: 200;
+
+h5{
+    color: fade(@gris-oscuro, 75);
+    letter-spacing: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 45px;
+    display: inline;
+    font-weight: 300;
 
 &:before,
 &:after{
-width: 0px;
+content: "";
+display: inline-block;
+position: relative;
+width: 0vw;
+height: 2px;
+top: -3px;
 }
+
 }
 }
 

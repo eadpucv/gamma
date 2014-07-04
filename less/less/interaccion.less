@@ -28,8 +28,7 @@ a.btn {
         font-size: @cuerpo * 1.2;
         letter-spacing: .05ex;
         font-weight: 200;
-        margin: 5px;
-        padding: @cuadratin * .35;
+        margin: 10px 5px;
         -moz-border-bottom-colors: none;
         -moz-border-left-colors: none;
         -moz-border-right-colors: none;
@@ -38,6 +37,8 @@ a.btn {
         border-image: none;
         border-style: solid;
         border-width: 1px 1px 3px;
+        display: inline-block;
+        padding: 10px;
 
         i {
             text-align: center;
@@ -439,4 +440,92 @@ form{
         }
 
     }
+}
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+    a.btn {
+        display: block;
+        font-family: 'Source Sans Pro';
+        margin: 0;
+        cursor: pointer;
+        font-size: @cuerpo;
+        background: none;
+        text-align: center;
+
+        &.btn-md{
+            vertical-align: 50%;
+            letter-spacing: .05ex;
+            font-size: @cuerpo;
+            font-weight: 300;
+            width: 100%;
+            margin: -15px -15px 25px;
+            padding: @cuadratin * .40;
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+            border-image: none;
+            border-style: solid;
+            border-radius: 0px;
+            color: @blanco;
+            background-color: fade(@blanco, 45);
+
+                &:hover {
+                    background-color: fade(@blanco, 45);
+                }
+
+        }
+    }
+}
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+    a.btn {
+        display: block;
+        font-family: 'Source Sans Pro';
+        margin: 0;
+        cursor: pointer;
+        font-size: @cuerpo;
+        background: none;
+        text-align: center;
+        width: 100%;
+
+        &.btn-md{
+            letter-spacing: .05ex;
+            font-size: @cuerpo;
+            font-weight: 300;
+            margin: 5px 0;
+            padding: @cuadratin * .40;
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+            border-image: none;
+            border-style: solid;
+            border-radius: 0px;
+            color: @blanco;
+            background-color: fade(@blanco, 45);
+
+                &:hover {
+                    background-color: fade(@blanco, 45);
+                }
+        }
+    }
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+
+}
+
+// Large screen / wide desktop
+
+@media (min-width: @screen-lg){
+
+
 }
