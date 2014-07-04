@@ -22,7 +22,7 @@
                                 <div class="item active">
                                     <div class='noticia grande'>
                                         <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="First slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia5.jpg'>
+                                            <img class='marco-imagen carousel-historia' alt="First slide" title="Noticia Destacada" src='http://www.ead.pucv.cl/wp-content/archivos/2010/04/amereida2010_clase1_12.jpg'>
                                         </div>
                                     </div>
                                 </div>
@@ -30,7 +30,7 @@
                                 <div class="item">
                                     <div class='noticia grande'>
                                         <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="Second slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia2.jpg'>
+                                            <img class='marco-imagen carousel-historia' alt="Second slide" title="Noticia Destacada" src='http://www.bitacoravirtual.cl/wp-content/uploads/2008/10/huinay.jpg'>
                                         </div>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@
                                 <div class="item">
                                     <div class='noticia grande'>
                                         <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="third slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia3.jpg'>
+                                            <img class='marco-imagen carousel-historia' alt="third slide" title="Noticia Destacada" src='http://ad010cdnd.archdaily.net/wp-content/uploads/2013/05/518430dbb3fc4b4d52000058_ciudad-abierta-de-ritoque-paisaje-habitado-44-a-os-despu-s_adsc_0176.jpg'>
                                         </div>
                                     </div>
                                 </div>  <!-- fin de item -->
