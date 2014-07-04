@@ -9,8 +9,8 @@
 // el valor de alto-sm son 2 unidades + una mitad
 
 .alto-sm {
-    height: @cuadratin * 8;
-    margin: 0 0 30px 0;
+    height: @cuadratin * 9;
+    margin: 0 0 40px 0;
 }
 
 // el valor de alto-md son 3 unidades
@@ -1743,8 +1743,7 @@ hr {
 
 }
 
-
-
+// Medium screen / desktop
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
 
@@ -1753,9 +1752,13 @@ hr {
     }
 
     .alto-sm {
-        height: auto;
         display: inline-block;
-        margin: 0 0 30px 0;
+        margin: 0 0 50px 0;
+    }
+
+    .alto-md {
+        height: 430px;
+        margin: 0 0 40px 0;
     }
     
     .cita-carousel {
@@ -1839,6 +1842,17 @@ hr {
             }
         }
 
+    }
+
+    .enlace-noticia {
+
+        &.primera {
+            &:hover {
+                padding-top: 2px;
+                border-top: 25px solid grey;
+                .transition(.4s ease all);
+            }
+        }
     }
 
     .bloque-enlace {

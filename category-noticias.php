@@ -113,11 +113,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -134,11 +133,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -155,11 +153,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -176,11 +173,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -197,11 +193,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -218,11 +213,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -239,11 +233,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -260,11 +253,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -281,11 +273,10 @@
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -295,58 +286,6 @@
                         </div><!-- fin noticia 9 -->
                     </div>
                 </div>
-                <!--
-                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
-                            <h5><a href='#' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
-
-                            <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
-                            <div class='noticia-chica'>
-                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    <div class='seguir-leyendo-cuadro'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    </div>
-                                    <div class='prev-imagen sm'>
-                                        <?php if ( has_post_thumbnail() ) { ?>
-                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                        <?php } else { ?>
-                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                        <?php } ?>
-                                    </div>
-                                    <h6><?php the_title(); ?></h6>
-                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-                                    <p><?php the_excerpt(); ?></p>
-                                </a>
-                            </div>
-                            <?php endwhile; endif; ?>
-                        </div>
-
-                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
-                            <h5><a href='#' class='categoria-titulo noticias'>Investigación</a></h5>
-
-                            <?php if( $latest_investigacion->have_posts() ) : while( $latest_investigacion->have_posts() ) : $latest_investigacion->the_post(); ?>
-                            <div class='noticia-chica'>
-                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    <div class='seguir-leyendo-cuadro'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    </div>
-                                    <div class='prev-imagen sm'>
-                                        <?php if ( has_post_thumbnail() ) { ?>
-                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                        <?php } else { ?>
-                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                        <?php } ?>
-                                    </div>
-                                    <h6><?php the_title(); ?></h6>
-                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-                                    <p><?php the_excerpt(); ?></p>
-                                </a>
-                            </div>
-                            <?php endwhile; endif; ?>
-                        </div>
-                    </div>
-                </div>  -->                              
             </div>
 			<?php get_sidebar(); ?>
         </div>

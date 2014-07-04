@@ -19,19 +19,18 @@
       <h5><i class="icn icn-lapiz icn-md"></i> Publicaciones</h5>
     </div>
     <div class='fila'>
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
-        <?php if( $latest_archivo->have_posts() ) : while( $latest_archivo->have_posts() ) : $latest_archivo->the_post(); ?>
-        <div class='categoria'>
+      <?php if( $latest_archivo->have_posts() ) : while( $latest_archivo->have_posts() ) : $latest_archivo->the_post(); ?>
+      <div class='col-lg-4 col-md-6 col-sm-12 col-xs-12 alto-sm'>
           <a href='<?php the_permalink() ?>' class='bloque-enlace categoria'>
               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               <h6>archivo histórico josé vial armstrong</h6>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php the_excerpt(); ?></p>
+              <p><?php the_excerpt() ?></p>
           </a>
-        </div>     
         <?php endwhile; endif; ?>
-        
+        </div>
+        <div class='col-lg-4 col-md-6 col-sm-12 col-xs-12 alto-sm'>
         <?php if( $latest_ciudad_territorio->have_posts() ) : while( $latest_ciudad_territorio->have_posts() ) : $latest_ciudad_territorio->the_post(); ?>
         <div class='categoria'>
           <a href='<?php the_permalink() ?>' class='bloque-enlace categoria'>
@@ -44,8 +43,7 @@
         </div>
         <?php endwhile; endif; ?>   
       </div>
-
-      <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+      <div class='col-lg-4 col-md-6 col-sm-12 col-xs-12 alto-sm'>
         <?php if( $latest_nautico_maritimo->have_posts() ) : while( $latest_nautico_maritimo->have_posts() ) : $latest_nautico_maritimo->the_post(); ?>
         <div class='categoria'>
           <a href='<?php the_permalink() ?>' class='bloque-enlace categoria'>
@@ -57,7 +55,8 @@
           </a>
         </div>
         <?php endwhile; endif; ?>
-
+        </div>
+        <div class='col-lg-4 col-md-6 col-sm-12 col-xs-12 alto-sm'>
         <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>        
         <div class='categoria'>
           <a href='<?php the_permalink() ?>' class='bloque-enlace categoria'>
@@ -70,8 +69,7 @@
         </div>
         <?php endwhile; endif; ?>
       </div>
-
-      <div class='col-lg-4 oculto-md oculto-sm oculto-xs'>
+      <div class='col-lg-4 col-md-6 col-sm-12 col-xs-12 alto-sm'>
         <?php if( $latest_obs->have_posts() ) : while( $latest_obs->have_posts() ) : $latest_obs->the_post(); ?>        
         <div class='categoria'>
           <a href='<?php the_permalink() ?>' class='bloque-enlace categoria'>
@@ -83,7 +81,8 @@
           </a>
         </div>
         <?php endwhile; endif; ?>
-
+        </div>
+        <div class='col-lg-4 col-md-6 col-sm-12 col-xs-12 alto-sm'>
         <?php if( $latest_investigacion->have_posts() ) : while( $latest_investigacion->have_posts() ) : $latest_investigacion->the_post(); ?>        
         <div class='categoria'>
           <a href='<?php the_permalink() ?>' class='bloque-enlace categoria'>
