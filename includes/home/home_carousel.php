@@ -6,16 +6,11 @@
 <div class='alto-lg'>
   <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
     <ol class="carousel-indicators"> 
-      <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
-      <li data-slide-to="1" data-target="#carousel-example-generic"></li>  
+      <?php for ($i = 0; $i <= count($carrusel_posts); $i++) { ?>
+        <li data-slide-to="<?php echo $i; ?>" data-target="#carousel-example-generic" <?php if ($i===0) { ?> class="active"<?php } ?>></li> 
+      <?php } ?>
     </ol> 
- 
-<div class='alto-lg'>
-  <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
-    <ol class="carousel-indicators"> 
-      <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
-      <li data-slide-to="1" data-target="#carousel-example-generic"></li> 
-    </ol> 
+
     <div class="carousel-inner"> 
       <?php $i=0; ?>
       <?php if( $carrusel_posts->have_posts() ) : while( $carrusel_posts->have_posts() ) : $carrusel_posts->the_post(); ?>        
@@ -32,7 +27,7 @@
             <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
               <h1><?php the_title(); ?></h1> 
               <?php the_excerpt() ?>
-              <span class='derecha'> Francesca Cambiaso </span>
+              <span class='derecha'> <?php the_author(); ?> </span>
             </div>
           </div> 
         </div>
