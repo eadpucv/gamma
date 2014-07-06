@@ -26,7 +26,7 @@
               <h6>archivo histórico josé vial armstrong</h6>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php the_excerpt() ?></p>
+              <p><?php echo get_the_excerpt(); ?></p>
           </a>
         <?php endwhile; endif; ?>
         </div>
@@ -38,7 +38,7 @@
               <h6>magíster ciudad y territorio</h6>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php the_excerpt(); ?></p>
+              <p><?php echo get_the_excerpt(); ?></p>
           </a>
         </div>
         <?php endwhile; endif; ?>   
@@ -51,7 +51,7 @@
               <h6>magíster náutico y marítimo</h6>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php the_excerpt(); ?></p>
+              <p><?php echo get_the_excerpt(); ?></p>
           </a>
         </div>
         <?php endwhile; endif; ?>
@@ -64,7 +64,7 @@
               <h6>bolsa de trabajo</h6>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php the_excerpt(); ?></p>
+              <p><?php echo get_the_excerpt(); ?></p>
           </a>
         </div>
         <?php endwhile; endif; ?>
@@ -77,7 +77,7 @@
               <h6>Observación de la semana</h6>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php the_excerpt(); ?></p>
+              <p><?php echo get_the_excerpt(); ?></p>
           </a>
         </div>
         <?php endwhile; endif; ?>
@@ -90,7 +90,7 @@
               <h6>Investigación</h6>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php the_excerpt(); ?></p>
+              <p><?php echo get_the_excerpt(); ?></p>
           </a>
         </div>
         <?php endwhile; endif; ?>
