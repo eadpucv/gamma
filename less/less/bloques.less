@@ -103,10 +103,10 @@
         -moz-transition: max-height .3s linear, opacity 0s linear;
         -o-transition: max-height .3s linear, opacity 0s linear;
         bottom: -2px;
-        background: linear-gradient(to top, rgba(0, 0, 0, .85), rgba(0,0,0,0));
+        background: @gris-oscuro;
         padding: 15px;
         overflow: hidden;
-        max-height: 115px;
+        max-height: 46px;
 
         .categoria-oficio {
             text-transform: uppercase;
@@ -124,27 +124,40 @@
             color: @blanco;
         }
 
-        p {
-            max-height: 85px;
-            margin: -15px 0 28.6px;
-            overflow: hidden;
-            font-family: @sans;
-            font-size: 16.5px;
-            padding-left: 12px;
-            padding-right: 15px;
-        }
+            p{
+                max-height: 340px;
+                font-size: 13.5px;
+                line-height: 21px;
+                font-family: @serif;
+                padding: 0px;
+                margin: 0px 0px 40px;
+            }
+
+            h6 {
+                font-size: 12px;
+                margin-bottom: 2.5px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                color: @blanco;
+                font-weight: 100;
+                display: block;
+                padding: 15px 0 15px 15px;
+                background-color: #191a19;
+                width: 120%;
+                margin: -15px 0 15px -15px;
+            }
 
         .entry-details {
-            font-size: 14px;
-            padding-left: 12px;
-            color: @gris-oscuro;
-            margin: 5px 0 22.6px;
+            color: @blanco;
+            padding-left: 0px;
+            margin-top: 0;
+            color: @pizarra;
+            font-weight: 100;
         }
 
         &:hover{
-            h6{
-                color: @rojo-claro;
-            }
+            background: fade(@gris-oscuro, 80);
+            .transition(.8s ease all);
         }
     }
 
@@ -357,7 +370,7 @@
         }
         .carrera {
                bottom: -2px;
-               max-height: 240px;
+               max-height: 420px;
 
             .categoria-oficio {
                 color: @rojo-claro;
@@ -1440,10 +1453,43 @@ hr {
 
         &.carrera {
             bottom: 0px;
-            width: 100%;
+            width: 350px;
             padding: 15px;
             overflow: hidden;
-            max-height: 245px;
+            max-height: 430px;
+            background: @gris-oscuro;
+            //border-right: 1px solid @blanco;
+
+            p{
+                max-height: 240px;
+                font-size: 13.5px;
+                line-height: 21px;
+                font-family: @serif;
+                padding: 0px;
+                margin: -20px 0px 28.6px;
+            }
+
+            h6 {
+                font-size: 12px;
+                margin-bottom: 2.5px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                color: @blanco;
+                font-weight: 100;
+                display: block;
+                padding: 15px 0 15px 15px;
+                background-color: #191a19;
+                width: 350px;
+                margin: -15px 0 15px -15px;
+            }
+
+            .entry-details {
+                color: @blanco;
+                padding-left: 0px;
+                margin-top: 0;
+                color: @pizarra;
+                font-weight: 100;
+            }
         }
 
         &.info-docencia {
@@ -1567,7 +1613,7 @@ hr {
 
             .carrera {
                 bottom: 0px;
-                max-height: 245px;
+                max-height: 430px;
             }
         }
     }
