@@ -277,7 +277,11 @@
         }
 
         .seguir-leyendo {
-            top: -32px;
+            top: -21px;
+        }
+
+        p {
+            margin: 0;
         }
     }
 
@@ -396,7 +400,7 @@
     font-weight: 300;
     z-index: 10;
     right: 35px;
-    top: -35px;
+    top: -23px;
     letter-spacing: 3px;
 
     &.ver-mas {
@@ -442,6 +446,7 @@
     p {
         max-height: 85px;
         overflow: hidden;
+        margin: 0;
     }
 }
 
@@ -1753,7 +1758,7 @@ hr {
 
     .alto-sm {
         display: inline-block;
-        margin: 0 0 50px 0;
+        margin: 0 0 40px 0;
     }
 
     .alto-md {
@@ -1847,7 +1852,11 @@ hr {
     .enlace-noticia {
 
         &.primera {
+            background-color: fade(@gris-claro, 50%);
+            padding: 20px;
+
             &:hover {
+                background-color: @gris-claro;
                 padding-top: 2px;
                 border-top: 25px solid grey;
                 .transition(.4s ease all);

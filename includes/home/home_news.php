@@ -22,7 +22,7 @@
           </div>
           <h6><?php the_title(); ?></h6>
           <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-          <?php the_excerpt() ?>
+          <p class='extracto-primera-noticia'><?php echo get_the_excerpt(); ?></p>
       </a>
     </div>
   <?php endwhile; endif; ?>
