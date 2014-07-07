@@ -17,7 +17,9 @@
                                 <div class='col-lg-4 col-xs-12 post'>                            
                                     <div class='noticia-chica'>
                                         <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                                            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                                          <div class='franja-seguir fija'>
+                <p>seguir leyendo +</p>
+              </div>
                                             <div class='seguir-leyendo-cuadro'>
                                             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                                             </div>
@@ -29,7 +31,7 @@
                                                 <?php } ?>
                                             </div>
                                             <h6><?php the_title(); ?></h6>
-                                            <aside class='entry-details'>    <aside class='entry-details blanco'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?></aside>    </aside>
+                                            <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?></aside>
                                             <p><?php echo get_the_limit_excerpt() ?></p>
                                         </a>
                                     </div>
