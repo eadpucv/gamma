@@ -15,10 +15,13 @@
           <h5><i class="icn icn-noticias icn-lg"></i> noticias por carrera</h5>
         </div>
         <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+          <a href='<?php the_permalink() ?>'> 
           <?php if( $latest_ar->have_posts() ) : while( $latest_ar->have_posts() ) : $latest_ar->the_post(); ?>
             <div class='bloque-enlace oficio'>
+              <div class='franja-seguir fija'>
+                <p>seguir leyendo +</p>
+              </div>
               <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
-              <a href='<?php the_permalink() ?>'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
@@ -29,14 +32,17 @@
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
               </div>
             </div>
-          <?php endwhile; endif; ?>          
+          <?php endwhile; endif; ?>
+          </a>        
         </div>
-
         <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+          <a href='<?php the_permalink() ?>'>
           <?php if( $latest_dg->have_posts() ) : while( $latest_dg->have_posts() ) : $latest_dg->the_post(); ?>                  
             <div class='bloque-enlace oficio'>
+              <div class='franja-seguir fija'>
+                <p>seguir leyendo +</p>
+              </div>
               <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
-              <a href='<?php the_permalink() ?>'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
@@ -47,13 +53,17 @@
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
               </div>
             </div>
-          <?php endwhile; endif; ?>          
+          <?php endwhile; endif; ?>    
+          </a>      
         </div>
         <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+          <a href='<?php the_permalink() ?>'>
           <?php if( $latest_di->have_posts() ) : while( $latest_di->have_posts() ) : $latest_di->the_post(); ?>                                         
             <div class='bloque-enlace oficio'>
+              <div class='franja-seguir fija'>
+                <p>seguir leyendo +</p>
+              </div>
               <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
-              <a href='<?php the_permalink() ?>'><p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p></a>
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
@@ -64,7 +74,8 @@
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
               </div>
             </div>
-          <?php endwhile; endif; ?>                    
+          <?php endwhile; endif; ?>  
+          </a>                  
         </div>
       </div>
     </div>

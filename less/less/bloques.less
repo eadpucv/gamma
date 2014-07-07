@@ -31,7 +31,7 @@
 
 .pagina {
     
-    padding: 0 20px;
+    padding: 0 10px;
 
     // Tamaños
 
@@ -237,20 +237,27 @@
 
 
     .seguir-leyendo {
-        right: 35px;
+        right: 0px;
         top: -8px;
         }
 
     &.oficio {
-        max-height: 440px;
+        border: none;
+        padding-top: 0;
+        margin-top: 0;
 
         a {
             display: block;
         }
 
         &:hover {
-        border-top: 20px solid @rojo-claro;
-        .transition(.3s ease all);
+            .franja-seguir {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                -o-transition: opacity .3s linear, opacity 0.2s linear;
+            }
         }
 
         .seguir-leyendo {
@@ -259,7 +266,10 @@
     }
 
     &.categoria {
+        border: none;
         margin-top: 0;
+        height: 320px;
+        padding-bottom: 20px;
 
         h6 {
             font-size: 14px;
@@ -272,8 +282,13 @@
         }
 
         &:hover {
-            border-top: 20px solid @rojo-claro;
-            .transition(.3s ease all);
+            .franja-seguir {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                -o-transition: opacity .3s linear, opacity 0.2s linear;
+            }
         }
 
         .seguir-leyendo {
@@ -287,6 +302,7 @@
 
     &.portada {
         margin-top: 10px;
+        border:none;
         height: 415px;
         width: 100%;
 
@@ -296,8 +312,13 @@
         }
 
         &:hover {
-            border-top: 20px solid @rojo-claro;
-            .transition(.3s ease all);
+            .franja-seguir {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                -o-transition: opacity .3s linear, opacity 0.2s linear;
+            }
         }
 
         .seguir-leyendo {
@@ -341,8 +362,13 @@
             height: auto;
 
             &:hover {
-                border-top: 20px solid @gris;
-                .transition(.3s ease all);
+                .franja-seguir {
+                    visibility: visible;
+                    opacity: 1;
+                    -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                    -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                    -o-transition: opacity .3s linear, opacity 0.2s linear;
+                }
             }
         }
     }
@@ -429,9 +455,13 @@
     position: relative;
     
         &:hover {
-            padding-top: 2px;
-            border-top: 25px solid @rojo-claro;
-            .transition(.4s ease all);
+
+            .franja-seguir {
+                height: 25px;
+                -webkit-transition: height .3s linear, opacity 0.2s linear;
+                -moz-transition: height .3s linear, opacity 0.2s linear;
+                -o-transition: height .3s linear, opacity 0.2s linear;
+            }
 
             h6 {
             color: @rojo-claro;
@@ -455,9 +485,13 @@
     position: relative;
 
         &:hover {
-            padding: 2px;
-            border-top: 25px solid @gris;
-            .transition(.3s ease all);
+            .franja-seguir {
+                background-color: @gris;
+                height: 25px;
+                -webkit-transition: height .3s linear, opacity 0.2s linear;
+                -moz-transition: height .3s linear, opacity 0.2s linear;
+                -o-transition: height .3s linear, opacity 0.2s linear;
+            }
 
         h6 {
             color: @gris;
@@ -1049,7 +1083,10 @@ hr {
             }
 
             &:hover {
-                border-top: none;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
 
             .seguir-leyendo {
@@ -1058,8 +1095,8 @@ hr {
         }
 
         &.categoria {
-            border-top: 0px;
-            padding: 0px;
+            height: 360px;
+            margin-bottom: 20px;
 
             h6 {
                 font-size: 14px;
@@ -1076,7 +1113,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
         }
 
@@ -1091,7 +1131,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                    visibility: hidden;
+                    opacity: 0;
+                }
             }
 
             .seguir-leyendo {
@@ -1333,8 +1376,9 @@ hr {
         }
 
         &:hover {
-            padding: 0px;
-            border-top: none;
+            .franja-seguir {
+                height: 0px;
+            }
         }
     }
 
@@ -1343,8 +1387,9 @@ hr {
     position: relative;
 
         &:hover {
-            padding: 0px;
-            border-top: none;;
+            .franja-seguir {
+                height: 0px;
+            }
 
         h6 {
             color: auto;
@@ -1482,11 +1527,16 @@ hr {
             }
             
             &:hover {
-                border-top: none;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
         }
 
         &.categoria {
+            height: 350px;
+            margin-bottom: 30px;
             border-top: none;
 
             h6 {
@@ -1510,7 +1560,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
         }
 
@@ -1526,7 +1579,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
 
             .seguir-leyendo {
@@ -1709,8 +1765,9 @@ hr {
 
     .enlace-noticia {
         &:hover {
-            padding: 0px;
-            border-top: none;
+            .franja-seguir {
+                height: 0px;
+            }
         }
     }
 
@@ -1719,9 +1776,9 @@ hr {
     position: relative;
 
         &:hover {
-            padding: 0px;
-            border-top: none;
-            .transition(.3s ease all);
+            .franja-seguir {
+                height: 0px;
+            }
 
         h6 {
             color: auto;
@@ -1745,7 +1802,6 @@ hr {
             min-height: @cuadratin * 8;
         }
     }
-
 }
 
 // Medium screen / desktop
@@ -1849,22 +1905,12 @@ hr {
 
     }
 
-    .enlace-noticia {
-
-        &.primera {
-            background-color: fade(@gris-claro, 50%);
-            padding: 20px;
-
-            &:hover {
-                background-color: @gris-claro;
-                padding-top: 2px;
-                border-top: 25px solid grey;
-                .transition(.4s ease all);
-            }
-        }
-    }
-
     .bloque-enlace {
+
+        &.categoria {
+            height: 310px;
+            margin-bottom: 20px;
+        }
 
         &:hover {
 
@@ -1899,7 +1945,7 @@ hr {
     // Franja postulante
 
     .wrap-postulante {
-        width: 88%;
+        width: 80%;
     }
 
     // Header
