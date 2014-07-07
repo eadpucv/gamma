@@ -105,12 +105,14 @@
                 <div class='bloque'>
                     <div class='fila'>
                         <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'><!-- noticia 1 -->
-                            <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Arquitectura</a></h5>
                             <?php if( $latest_arquitectura->have_posts() ) : while( $latest_arquitectura->have_posts() ) : $latest_arquitectura->the_post(); ?>
+                            <h5><a href='get_category_link( $cat_arquitectura );' class='categoria-titulo noticias'>Arquitectura</a></h5>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
                                 <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
@@ -128,7 +130,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Diseño Gráfico</a></h5>
                             <?php if( $latest_diseno->have_posts() ) : while( $latest_diseno->have_posts() ) : $latest_diseno->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
@@ -148,7 +152,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Diseño Industrial</a></h5>
                             <?php if( $latest_industrial->have_posts() ) : while( $latest_industrial->have_posts() ) : $latest_industrial->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
@@ -168,7 +174,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Archivo Histórico JVA</a></h5>
                             <?php if( $latest_archivo->have_posts() ) : while( $latest_archivo->have_posts() ) : $latest_archivo->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
@@ -188,7 +196,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Magister Náutico y Marítimo</a></h5>
                             <?php if( $latest_nautico_maritimo->have_posts() ) : while( $latest_nautico_maritimo->have_posts() ) : $latest_nautico_maritimo->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
@@ -208,7 +218,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Magister Ciudad y Territorio</a></h5>
                             <?php if( $latest_ciudad_territorio->have_posts() ) : while( $latest_ciudad_territorio->have_posts() ) : $latest_ciudad_territorio->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
@@ -228,7 +240,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Observación de la semana</a></h5>
                             <?php if( $latest_obs->have_posts() ) : while( $latest_obs->have_posts() ) : $latest_obs->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
@@ -248,7 +262,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
                             <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
@@ -268,7 +284,9 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
                             <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>

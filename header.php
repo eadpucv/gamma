@@ -52,11 +52,13 @@
                <li role="presentation"><a href="<?php echo get_permalink(4); ?>" tabindex="-1" role="menuitem">Autoridades</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="<?php echo get_category_link(1);; ?>" tabindex="-1" role="menuitem">Portada noticias</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(4384); ?>" tabindex="-1" role="menuitem">Portada eventos</a></li>
-	       <li role="presentation"><a href="<?php; ?>" tabindex="-1" role="menuitem">Portada información académica</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25432); ?>" tabindex="-1" role="menuitem">Portada eventos</a></li>
+	             <li role="presentation"><a href="<?php echo get_category_link(123);; ?>" tabindex="-1" role="menuitem">Portada información académica</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="http://wiki.ead.pucv.cl" tabindex="-1" role="menuitem">Wiki Casiopea</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(2729); ?>" tabindex="-1" role="menuitem">Prensa</a></li>
+               <li class="divider" role="presentation"></li>
+               <li role="presentation"><a href="<?php echo get_permalink(43); ?>" tabindex="-1" role="menuitem">Contacto</a></li>
              </ul>
            </li>
          </ul>
