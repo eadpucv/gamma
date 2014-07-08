@@ -50,24 +50,19 @@
 <?php endif; ?>
 
 <script>
+  // busco todos los titulos dentro de #bloque_texto
+  $( "#bloque_texto" ).find( "h3:not(:has(*)),h2:not(:has(*))" ).each(function() {
+      id = "title_"+randomNumberRange(1111, 9999);
+      $(this).addClass("rojo-claro");
+      $(this).attr("id",id);
+      $("#title_list").append("<li><a class='ancla-fixed' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
+  });
 
-
-// busco todos los titulos dentro de #bloque_texto
-$( "#bloque_texto" ).find( "h3:not(:has(*)),h2:not(:has(*))" ).each(function() {
-    console.log($(this).html());
-    id = "title_"+randomNumberRange(1111, 9999);
-    $(this).addClass("rojo-claro");
-    $(this).attr("id",id);
-    $("#title_list").append("<li><a class='ancla-fixed' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
-});
-
-function randomNumberRange(min, max)
-{
-  return Math.floor(Math.random() * (max - min + 1) + min);
-}
-$('.enunciado').scrollspy({ target: '#menu-fixed' })
-
-
+  function randomNumberRange(min, max)
+  {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+  $('.enunciado').scrollspy({ target: '#menu-fixed' })
 </script>
 
 

@@ -25,6 +25,7 @@
   <script src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
   <script src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.js"></script>
+  <script src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script>  
 </head>
 
 <body lang='ES_es'>
