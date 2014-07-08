@@ -25,9 +25,9 @@
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
+              <a href='#'><h6>| arquitectura</h6></a>
               <div class='pagina md carrera'>
-                <a href='#'><h6>arquitectura</h6></a>
-                <h4 class='blanco'><?php the_title(); ?></h4>
+                <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
               </div>
@@ -46,9 +46,9 @@
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
+              <a href='#'><h6>| diseño gráfico</h6></a>
               <div class='pagina md carrera'>
-                <a href='#'><h6>diseño gráfico</h6></a>
-                <h4 class='blanco'><?php the_title(); ?></h4>
+                <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
               </div>
@@ -67,9 +67,9 @@
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
+              <a href='#'><h6>| diseño industrial</h6></a>
               <div class='pagina md carrera'>
-                <a href='#'><h6>diseño industrial</h6></a>
-                <h4 class='blanco'><?php the_title(); ?></h4>
+                <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
               </div>

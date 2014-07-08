@@ -24,7 +24,6 @@
                 <?php the_post_thumbnail( 'full', array( 'class' => "centrada-vertical") ); ?>
               </div>
             <?php } ?>
-            <h2 class='subtitulo rojo-claro'></h2>
             <div class="e-content p-summary p-name">
               <div class='bloque'><?php the_content();  ?></div>
             </div>
