@@ -7,8 +7,10 @@
   <?php foreach ( $EM_Events as $EM_Event ) { ?>
     <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-sm'>
       <a href='<?php echo $EM_Event->guid; ?>' class='enlace-evento'>
-        <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
         <div class='pagina sm evento'>
+          <div class='franja-seguir'>
+            <p>seguir leyendo +</p>
+          </div>
             <div class='dato-evento'> 
               <p class='dia centrado'><?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php echo date("M", strtotime($EM_Event->start_date)); ?></p> 
             </div>  

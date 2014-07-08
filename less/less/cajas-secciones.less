@@ -7,6 +7,37 @@
     margin-bottom: 10px;
 }
 
+// Hover de cajas
+.franja-seguir {
+    height: 0px;
+    width: 100%;
+    background-color: @rojo-claro;
+    margin-bottom: 2px;
+
+    p {
+        text-align: right;
+        padding-top: 1px;
+        padding-right: 10px;
+        font-size: 12px;
+        color: @blanco;
+        font-family: @sans;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    &.fija {
+        height: 25px;
+        visibility: hidden;
+        opacity: 0;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+
+
 // Cajas de docentes
 
 .imagen-docente {

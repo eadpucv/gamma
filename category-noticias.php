@@ -105,19 +105,20 @@
                 <div class='bloque'>
                     <div class='fila'>
                         <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'><!-- noticia 1 -->
-                            <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Arquitectura</a></h5>
                             <?php if( $latest_arquitectura->have_posts() ) : while( $latest_arquitectura->have_posts() ) : $latest_arquitectura->the_post(); ?>
+                            <h5><a href='get_category_link( $cat_arquitectura );' class='categoria-titulo noticias'>Arquitectura</a></h5>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -129,16 +130,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Diseño Gráfico</a></h5>
                             <?php if( $latest_diseno->have_posts() ) : while( $latest_diseno->have_posts() ) : $latest_diseno->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -150,16 +152,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Diseño Industrial</a></h5>
                             <?php if( $latest_industrial->have_posts() ) : while( $latest_industrial->have_posts() ) : $latest_industrial->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -171,16 +174,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Archivo Histórico JVA</a></h5>
                             <?php if( $latest_archivo->have_posts() ) : while( $latest_archivo->have_posts() ) : $latest_archivo->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -192,16 +196,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Magister Náutico y Marítimo</a></h5>
                             <?php if( $latest_nautico_maritimo->have_posts() ) : while( $latest_nautico_maritimo->have_posts() ) : $latest_nautico_maritimo->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -213,16 +218,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Magister Ciudad y Territorio</a></h5>
                             <?php if( $latest_ciudad_territorio->have_posts() ) : while( $latest_ciudad_territorio->have_posts() ) : $latest_ciudad_territorio->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -234,16 +240,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Observación de la semana</a></h5>
                             <?php if( $latest_obs->have_posts() ) : while( $latest_obs->have_posts() ) : $latest_obs->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -255,16 +262,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
                             <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -276,16 +284,17 @@
                             <h5><a href='/pags/categoria_noticias' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
                             <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                              <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                            <div class='franja-seguir fija'>
+                              <p>seguir leyendo +</p>
+                            </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                               </div>
                               <div class='prev-imagen sm'>
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                <?php } else { ?>
-                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                <?php } ?>
+                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+                                if ($image) : ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                <?php endif; ?> 
                               </div>
                               <h6><?php the_title(); ?></h6>
                               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
@@ -295,58 +304,6 @@
                         </div><!-- fin noticia 9 -->
                     </div>
                 </div>
-                <!--
-                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
-                            <h5><a href='#' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
-
-                            <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
-                            <div class='noticia-chica'>
-                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    <div class='seguir-leyendo-cuadro'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    </div>
-                                    <div class='prev-imagen sm'>
-                                        <?php if ( has_post_thumbnail() ) { ?>
-                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                        <?php } else { ?>
-                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                        <?php } ?>
-                                    </div>
-                                    <h6><?php the_title(); ?></h6>
-                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-                                    <p><?php the_excerpt(); ?></p>
-                                </a>
-                            </div>
-                            <?php endwhile; endif; ?>
-                        </div>
-
-                        <div class='col-lg-4 oculto-md oculto-sm col-xs-12'>
-                            <h5><a href='#' class='categoria-titulo noticias'>Investigación</a></h5>
-
-                            <?php if( $latest_investigacion->have_posts() ) : while( $latest_investigacion->have_posts() ) : $latest_investigacion->the_post(); ?>
-                            <div class='noticia-chica'>
-                                <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    <div class='seguir-leyendo-cuadro'>
-                                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
-                                    </div>
-                                    <div class='prev-imagen sm'>
-                                        <?php if ( has_post_thumbnail() ) { ?>
-                                            <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                        <?php } else { ?>
-                                            <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                        <?php } ?>
-                                    </div>
-                                    <h6><?php the_title(); ?></h6>
-                                    <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-                                    <p><?php the_excerpt(); ?></p>
-                                </a>
-                            </div>
-                            <?php endwhile; endif; ?>
-                        </div>
-                    </div>
-                </div>  -->                              
             </div>
 			<?php get_sidebar(); ?>
         </div>

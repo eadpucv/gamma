@@ -31,7 +31,9 @@
               <?php foreach ( $EM_Events as $EM_Event ) { ?>
                 <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                   <a href='<?php echo $EM_Event->guid; ?>' class='bloque-enlace portada evento'>
-                    <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                    <div class='franja-seguir fija'>
+                      <p>seguir leyendo +</p>
+                    </div>
                     <div class='pagina evento portada'>
                         <div class='dato-evento portada'> 
                           <p class='dia centrado'>

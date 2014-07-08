@@ -9,8 +9,8 @@
 // el valor de alto-sm son 2 unidades + una mitad
 
 .alto-sm {
-    height: @cuadratin * 8;
-    margin: 0 0 30px 0;
+    height: @cuadratin * 9;
+    margin: 0 0 40px 0;
 }
 
 // el valor de alto-md son 3 unidades
@@ -31,7 +31,7 @@
 
 .pagina {
     
-    padding: 0 20px;
+    padding: 0 10px;
 
     // Tamaños
 
@@ -103,7 +103,7 @@
         background: @blanco;
         padding: 15px;
         overflow: hidden;
-        max-height: 420px;
+        height: 425px;
         opacity: 0;
 
         .categoria-oficio {
@@ -230,7 +230,7 @@
 .bloque-enlace {
     display: inline-block;
     width: 100%;
-    max-height: 440px;
+    max-height: 450px;
     position: relative;
     border-top: 20px solid @blanco;
     padding-top: 2px;
@@ -239,12 +239,14 @@
 
 
     .seguir-leyendo {
-        right: 35px;
+        right: 0px;
         top: -8px;
         }
 
     &.oficio {
-        max-height: 440px;
+        border: none;
+        padding-top: 0;
+        margin-top: 0;
 
         a {
             display: block;
@@ -263,7 +265,7 @@
                 z-index: 10;
                 //background-color: @gris-claro;
                 padding: 10px 15px 8px 15px;
-                margin: 5px 0 -7px -15px;
+                margin: 30px 0 -7px -15px;
             }
         }
 
@@ -272,13 +274,21 @@
         }
 
         &:hover {
-        border-top: 20px solid @rojo-claro;
+
 
         h6 {
             background-color: transparent;
             color: @gris-oscuro;
         }
-        .transition(.3s ease all);
+
+            .franja-seguir {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                -o-transition: opacity .3s linear, opacity 0.2s linear;
+            }
+            .transition(.3s ease all);
         }
 
         .seguir-leyendo {
@@ -287,7 +297,10 @@
     }
 
     &.categoria {
+        border: none;
         margin-top: 0;
+        height: 320px;
+        padding-bottom: 20px;
 
         h6 {
             font-size: 14px;
@@ -300,17 +313,28 @@
         }
 
         &:hover {
-            border-top: 20px solid @rojo-claro;
-            .transition(.3s ease all);
+
+            .franja-seguir {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                -o-transition: opacity .3s linear, opacity 0.2s linear;
+            }
         }
 
         .seguir-leyendo {
-            top: -32px;
+            top: -21px;
+        }
+
+        p {
+            margin: 0;
         }
     }
 
     &.portada {
         margin-top: 10px;
+        border:none;
         height: 415px;
         width: 100%;
 
@@ -320,8 +344,13 @@
         }
 
         &:hover {
-            border-top: 20px solid @rojo-claro;
-            .transition(.3s ease all);
+            .franja-seguir {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                -o-transition: opacity .3s linear, opacity 0.2s linear;
+            }
         }
 
         .seguir-leyendo {
@@ -365,8 +394,13 @@
             height: auto;
 
             &:hover {
-                border-top: 20px solid @gris;
-                .transition(.3s ease all);
+                .franja-seguir {
+                    visibility: visible;
+                    opacity: 1;
+                    -webkit-transition: opacity .3s linear, opacity 0.2s linear;
+                    -moz-transition: opacity .3s linear, opacity 0.2s linear;
+                    -o-transition: opacity .3s linear, opacity 0.2s linear;
+                }
             }
         }
     }
@@ -428,7 +462,7 @@
     font-weight: 300;
     z-index: 10;
     right: 35px;
-    top: -35px;
+    top: -23px;
     letter-spacing: 3px;
 
     &.ver-mas {
@@ -457,9 +491,13 @@
     position: relative;
     
         &:hover {
-            padding-top: 2px;
-            border-top: 25px solid @rojo-claro;
-            .transition(.4s ease all);
+
+            .franja-seguir {
+                height: 25px;
+                -webkit-transition: height .3s linear, opacity 0.2s linear;
+                -moz-transition: height .3s linear, opacity 0.2s linear;
+                -o-transition: height .3s linear, opacity 0.2s linear;
+            }
 
             h6 {
             color: @rojo-claro;
@@ -474,6 +512,7 @@
     p {
         max-height: 85px;
         overflow: hidden;
+        margin: 0;
     }
 }
 
@@ -482,9 +521,13 @@
     position: relative;
 
         &:hover {
-            padding: 2px;
-            border-top: 25px solid @gris;
-            .transition(.3s ease all);
+            .franja-seguir {
+                background-color: @gris;
+                height: 25px;
+                -webkit-transition: height .3s linear, opacity 0.2s linear;
+                -moz-transition: height .3s linear, opacity 0.2s linear;
+                -o-transition: height .3s linear, opacity 0.2s linear;
+            }
 
         h6 {
             color: @gris;
@@ -1054,7 +1097,6 @@ hr {
         font-weight: 300;
         z-index: 10;
         right: 35px;
-        top: -34px;
         letter-spacing: 3px;
 
         &.ver-mas {
@@ -1087,7 +1129,6 @@ hr {
             }
 
             &:hover {
-                border-top: none;
 
                 img {
                     opacity: 1;
@@ -1098,16 +1139,22 @@ hr {
                     color: @blanco;
                     opacity: 0.5;
                 }
-            }
 
-            .seguir-leyendo {
-                top: 24px;
+                .franja-seguir {
+                    visibility: hidden;
+                    opacity: 0;
+
+                }
+          
+                .seguir-leyendo {
+                    top: 24px;
             }
         }
+    }
 
         &.categoria {
-            border-top: 0px;
-            padding: 0px;
+            height: 360px;
+            margin-bottom: 20px;
 
             h6 {
                 font-size: 14px;
@@ -1124,7 +1171,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
         }
 
@@ -1139,7 +1189,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                    visibility: hidden;
+                    opacity: 0;
+                }
             }
 
             .seguir-leyendo {
@@ -1382,18 +1435,20 @@ hr {
         }
 
         &:hover {
-            padding: 0px;
-            border-top: none;
+            .franja-seguir {
+                height: 0px;
+            }
         }
     }
 
     .enlace-evento {
-    display: inline-block;
-    position: relative;
+        display: inline-block;
+        position: relative;
 
         &:hover {
-            padding: 0px;
-            border-top: none;;
+            .franja-seguir {
+                height: 0px;
+            }
 
         h6 {
             color: auto;
@@ -1547,7 +1602,7 @@ hr {
     .bloque-enlace {
         margin-top: 0;
         border-top: 0px;
-        max-height: 410px;
+        max-height: 450px;
 
         &.oficio {
 
@@ -1562,6 +1617,7 @@ hr {
                 width: 350px;
                 display: block;
                 margin-top: 0;
+                top: 27px;
                 }
             }
 
@@ -1570,8 +1626,6 @@ hr {
                 }
             
             &:hover {
-                border-top: none;
-                opacity: 1;
 
                 img {
                     opacity: 1;
@@ -1581,10 +1635,16 @@ hr {
                     background-color: @gris;
                     color: @blanco;
                 }
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
         }
 
         &.categoria {
+            height: 350px;
+            margin-bottom: 30px;
             border-top: none;
 
             h6 {
@@ -1608,7 +1668,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
         }
 
@@ -1624,7 +1687,10 @@ hr {
             }
 
             &:hover {
-                border-top: 0px;
+                .franja-seguir {
+                visibility: hidden;
+                opacity: 0;
+                }
             }
 
             .seguir-leyendo {
@@ -1807,8 +1873,9 @@ hr {
 
     .enlace-noticia {
         &:hover {
-            padding: 0px;
-            border-top: none;
+            .franja-seguir {
+                height: 0px;
+            }
         }
     }
 
@@ -1817,9 +1884,9 @@ hr {
     position: relative;
 
         &:hover {
-            padding: 0px;
-            border-top: none;
-            .transition(.3s ease all);
+            .franja-seguir {
+                height: 0px;
+            }
 
         h6 {
             color: auto;
@@ -1843,11 +1910,9 @@ hr {
             min-height: @cuadratin * 8;
         }
     }
-
 }
 
-
-
+// Medium screen / desktop
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
 
@@ -1856,9 +1921,13 @@ hr {
     }
 
     .alto-sm {
-        height: auto;
         display: inline-block;
-        margin: 0 0 30px 0;
+        margin: 0 0 40px 0;
+    }
+
+    .alto-md {
+        height: 430px;
+        margin: 0 0 40px 0;
     }
     
     .cita-carousel {
@@ -1949,6 +2018,11 @@ hr {
 
     .bloque-enlace {
 
+        &.categoria {
+            height: 310px;
+            margin-bottom: 20px;
+        }
+
         &:hover {
 
             .carrera {
@@ -1989,7 +2063,7 @@ hr {
     // Franja postulante
 
     .wrap-postulante {
-        width: 88%;
+        width: 80%;
     }
 
     // Header
