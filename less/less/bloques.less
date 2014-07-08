@@ -20,7 +20,7 @@
     margin: 0 0 20px 0;
 }
 
-// el valor de alto-lg son 4 unidades
+// el valor de alto-lg son 4 unidades 
 
 .alto-lg {
     height: @cuadratin * 22;
@@ -132,9 +132,9 @@
                 margin: 0px 0px 40px;
             }
 
-            h4 {
+            h3 {
                 margin-top: 30px;
-                color: darken(@gris-oscuro, 15);
+                color: darken(@gris-oscuro, 17);
             }
 
         .entry-details {
@@ -250,22 +250,25 @@
             display: block;
 
             h6 {
-                font-size: 12px;
+                font-size: 15px;
                 margin-bottom: 2.5px;
                 text-transform: uppercase;
-                letter-spacing: 4px;
-                color: darken(@gris-oscuro, 20);
+                letter-spacing: 2.5px;
+                color: @blanco;
                 font-weight: 300;
                 overflow: visible;
                 position: absolute;
                 top: 2px;
                 left: 15px;
                 z-index: 10;
-                opacity: 0.9;
-                background-color: @gris-claro;
+                //background-color: @gris-claro;
                 padding: 10px 15px 8px 15px;
-                margin: 0 0 -7px -15px;
+                margin: 5px 0 -7px -15px;
             }
+        }
+
+        img {
+            opacity: 0.65;
         }
 
         &:hover {
@@ -273,7 +276,7 @@
 
         h6 {
             background-color: transparent;
-            color: @rojo-claro;
+            color: @gris-oscuro;
         }
         .transition(.3s ease all);
         }
@@ -1010,9 +1013,15 @@ hr {
             max-height: 420px;
             background: @blanco;
             opacity: 0.9;
+            height: 420px;
 
             p {
-                max-height: 250px;
+                max-height: 120px;
+                overflow: hidden;
+            }
+
+            h3 {
+                margin-top: 70px;
             }
         }
 
@@ -1067,11 +1076,27 @@ hr {
             border-top: none;
             margin-top: 15px;
 
+            a{
+                h6{
+                    bottom: 8px;
+                    background-color: @gris-oscuro;
+                    opacity: 0.5;
+                    color: @blanco;
+                    top: auto;
+                }
+            }
+
             &:hover {
                 border-top: none;
 
                 img {
                     opacity: 1;
+                }
+
+                h6{
+                    background-color: @gris-oscuro;
+                    color: @blanco;
+                    opacity: 0.5;
                 }
             }
 
@@ -1169,7 +1194,7 @@ hr {
 
             .carrera {
                 bottom: 0px;
-                max-height: 520px;
+                max-height: 580px;
                 opacity: 0.9;
             }
         }
@@ -1485,17 +1510,8 @@ hr {
                 margin: 0px 0px 28.6px;
             }
 
-            h6 {
-                font-size: 12px;
-                margin-bottom: 2.5px;
-                text-transform: uppercase;
-                letter-spacing: 4px;
-                color: @gris-oscuro;
-                font-weight: 100;
-                display: block;
-                padding: 15px 0 15px 15px;
-                width: 350px;
-                margin: -15px 0 15px -15px;
+            h3 {
+                margin-top: 40px;
             }
 
             .entry-details {
@@ -1506,8 +1522,8 @@ hr {
             }
 
                   &:hover {
-                border-top: none;
-                opacity: 1;
+                    border-top: none;
+                    opacity: 0.9;
             }
         }
 
@@ -1534,6 +1550,24 @@ hr {
         max-height: 410px;
 
         &.oficio {
+
+            a{
+                h6{    
+                margin-bottom: 2.5px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                color: @blanco;
+                font-weight: 100;
+                background-color: @gris;
+                width: 350px;
+                display: block;
+                margin-top: 0;
+                }
+            }
+
+            img {
+                    opacity: 1;
+                }
             
             &:hover {
                 border-top: none;
@@ -1541,6 +1575,11 @@ hr {
 
                 img {
                     opacity: 1;
+                }
+
+                h6 {
+                    background-color: @gris;
+                    color: @blanco;
                 }
             }
         }
@@ -1899,6 +1938,10 @@ hr {
                 overflow: hidden;
                 font-size: 12.5px;
                 line-height: 22.5px;
+            }
+
+            h3{
+                font-size: 24px;
             }
         }
 
