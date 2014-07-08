@@ -4,7 +4,7 @@
    <div class='wrap'>
         <div class='fila'>
             <div class='col-lg-8 col-md-8 col-sm-7 col-xs-12 escuela'>
-                <p><a class='marca'href='#'>
+                <p><a class='marca'href='<?php echo home_url(); ?>'>
                 Escuela de Arquitectura y Diseño</a></p>
                 <p>Pontificia Universidad Católica de Valparaíso</p>
             </div>

@@ -26,7 +26,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <div class='pagina md carrera'>
-                <a href='#'><h6>arquitectura</h6></a>
+                <a href='<?php echo get_category_link(7); ?>'><h6>arquitectura</h6></a>
                 <h4 class='blanco'><?php the_title(); ?></h4>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
@@ -47,7 +47,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <div class='pagina md carrera'>
-                <a href='#'><h6>diseño gráfico</h6></a>
+                <a href='<?php echo get_category_link(8); ?>'><h6>diseño gráfico</h6></a>
                 <h4 class='blanco'><?php the_title(); ?></h4>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
@@ -68,7 +68,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <div class='pagina md carrera'>
-                <a href='#'><h6>diseño industrial</h6></a>
+                <a href='<?php echo get_category_link(9); ?>'><h6>diseño industrial</h6></a>
                 <h4 class='blanco'><?php the_title(); ?></h4>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
