@@ -65,6 +65,9 @@
   $('.enunciado').scrollspy({ target: '#menu-fixed' })
 </script>
 
+<script>
+$('.enunciado').scrollspy({ target: '#menu-fixed' })
+</script>
 
 
 <?php get_footer(); ?>

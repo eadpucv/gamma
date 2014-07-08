@@ -28,7 +28,7 @@
   <script src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script>  
 </head>
 
-<body lang='ES_es'>
+<body lang='ES_es' data-spy="scroll" data-target="#menu-fixed">
   <div class='fondo-blanco'>
     <div class='wrap header'>
         <a href=' <?php echo home_url(); ?> '>
