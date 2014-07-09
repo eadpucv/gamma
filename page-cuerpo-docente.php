@@ -1,14 +1,14 @@
 <?php get_header(); 
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-	<div class='fondo-negro'>
-		<div class='wrap'>
-  <div class='contenedor-sin-relleno oculto-xs'>
-    <?php the_breadcrumb(); ?>
+<div class='fondo-blanco'>
+  <div class='wrap'>
+    <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
+    <div class='contenedor-sin-relleno oculto-xs'>
+      <?php the_breadcrumb(); ?>
+    </div>
   </div>
-			<h1 class="entry-title generico"> <i class="icn icn-anuncio icn-lg"></i> Cuerpo docente</h1> <!-- título del post -->
-		</div>
-	</div>
+</div>
 	<div class='fondo-blanco'>
 		<div class='wrap'>
 			<div class='fila'>

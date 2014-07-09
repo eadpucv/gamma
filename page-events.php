@@ -4,12 +4,12 @@
   } else {
     $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>20, 'orderby'=>'start_date')); 
   } ?>
-<div class='fondo-negro'>
+<div class='fondo-blanco'>
   <div class='wrap'>
-  <div class='contenedor-sin-relleno oculto-xs'>
-    <?php the_breadcrumb(); ?>
-  </div>
-    <h1 class="entry-title generico"> <i class="icn icn-calendario icn-lg"></i> Eventos  <?php if ($_GET["calendar_day"]) { ?> | <?php echo date("d", strtotime($_GET["calendar_day"])); ?> de <?php echo date("F", strtotime($_GET["calendar_day"]));  } ?>  </h1>
+    <h1 class="entry-title especifico"><i class="icn icn-calendario icn-sm"></i> Eventos  <?php if ($_GET["calendar_day"]) { ?> | <?php echo date("d", strtotime($_GET["calendar_day"])); ?> de <?php echo date("F", strtotime($_GET["calendar_day"]));  } ?>  </h1> <!-- título del post -->
+    <div class='contenedor-sin-relleno oculto-xs'>
+      <?php the_breadcrumb(); ?>
+    </div>
   </div>
 </div>
 <div class='fondo-blanco'>
@@ -43,7 +43,7 @@
                         </div>  
                         <h4 class='rojo-claro'><?php echo $EM_Event->name;?></h4> 
                         <aside class='blanco entry-details'>Publicado el 22 de mayo, 2014</aside> 
-                        <p class='extracto'><?php echo get_the_excerpt() ;?></p>
+                        <p class='extracto'><?php  echo strip_tags(substr($EM_Event->post_content,0, 250)); ?></p>
                     </div>
                   </a>
                 </div>

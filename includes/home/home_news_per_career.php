@@ -28,6 +28,7 @@
               <a href='#'><h6>| arquitectura</h6></a>
               <div class='pagina md carrera'>
                 <h3 class='blanco'><?php the_title(); ?></h3>
+
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo get_the_excerpt(); ?></p>
               </div>
