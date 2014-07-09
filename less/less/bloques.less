@@ -20,7 +20,7 @@
     margin: 0 0 20px 0;
 }
 
-// el valor de alto-lg son 4 unidades
+// el valor de alto-lg son 4 unidades 
 
 .alto-lg {
     height: @cuadratin * 22;
@@ -99,14 +99,12 @@
 
     &.carrera {
         position: absolute;
-        -webkit-transition: max-height .3s linear, opacity 0s linear;
-        -moz-transition: max-height .3s linear, opacity 0s linear;
-        -o-transition: max-height .3s linear, opacity 0s linear;
         bottom: -2px;
-        background: linear-gradient(to top, rgba(0, 0, 0, .85), rgba(0,0,0,0));
+        background: @blanco;
         padding: 15px;
         overflow: hidden;
-        max-height: 115px;
+        height: 425px;
+        opacity: 0;
 
         .categoria-oficio {
             text-transform: uppercase;
@@ -121,30 +119,34 @@
         .titulo {
             border-left: 1px solid @gris-oscuro;
             padding-left: 12px;
-            color: @blanco;
+            color: darken(@gris-oscuro, 15);
         }
 
-        p {
-            max-height: 85px;
-            margin: -15px 0 28.6px;
-            overflow: hidden;
-            font-family: @sans;
-            font-size: 16.5px;
-            padding-left: 12px;
-            padding-right: 15px;
-        }
+            p {
+                max-height: 340px;
+                font-size: 14.5px;
+                line-height: 24.5px;
+                color: darken(@gris-oscuro, 15);
+                font-family: @serif;
+                padding: 0px;
+                margin: 0px 0px 40px;
+            }
+
+            h3 {
+                margin-top: 30px;
+                color: darken(@gris-oscuro, 17);
+            }
 
         .entry-details {
-            font-size: 14px;
-            padding-left: 12px;
-            color: @gris-oscuro;
-            margin: 5px 0 22.6px;
+            color: darken(@gris-oscuro, 15);
+            padding-left: 0px;
+            margin-top: 0;
+            font-weight: 100;
         }
 
         &:hover{
-            h6{
-                color: @rojo-claro;
-            }
+            display: block;
+            .transition(.5s ease all);
         }
     }
 
@@ -215,10 +217,10 @@
 }
 
 .referencia-cita {
-    width: 350px;
+    width: 350px;   
     float: left;
     margin: 0;
-    border-left: 1px solid fade(@gris, 80);1
+    border-left: 1px solid fade(@gris, 80);
 
     h6 {
         width: 300px;
@@ -228,7 +230,7 @@
 .bloque-enlace {
     display: inline-block;
     width: 100%;
-    max-height: 440px;
+    max-height: 450px;
     position: relative;
     border-top: 20px solid @blanco;
     padding-top: 2px;
@@ -248,9 +250,37 @@
 
         a {
             display: block;
+
+            h6 {
+                font-size: 15px;
+                margin-bottom: 2.5px;
+                text-transform: uppercase;
+                letter-spacing: 2.5px;
+                color: @blanco;
+                font-weight: 300;
+                overflow: visible;
+                position: absolute;
+                top: 2px;
+                left: 15px;
+                z-index: 10;
+                //background-color: @gris-claro;
+                padding: 10px 15px 8px 15px;
+                margin: 30px 0 -7px -15px;
+            }
+        }
+
+        img {
+            opacity: 0.65;
         }
 
         &:hover {
+
+
+        h6 {
+            background-color: transparent;
+            color: @gris-oscuro;
+        }
+
             .franja-seguir {
                 visibility: visible;
                 opacity: 1;
@@ -258,6 +288,7 @@
                 -moz-transition: opacity .3s linear, opacity 0.2s linear;
                 -o-transition: opacity .3s linear, opacity 0.2s linear;
             }
+            .transition(.3s ease all);
         }
 
         .seguir-leyendo {
@@ -282,6 +313,7 @@
         }
 
         &:hover {
+
             .franja-seguir {
                 visibility: visible;
                 opacity: 1;
@@ -387,7 +419,11 @@
         }
         .carrera {
                bottom: -2px;
-               max-height: 240px;
+               .transition(.7s ease all);
+                opacity: 0.85;
+                transition: opacity .25s ease-in-out;
+                -moz-transition: opacity .25s ease-in-out;
+                -webkit-transition: opacity .25s ease-in-out;
 
             .categoria-oficio {
                 color: @rojo-claro;
@@ -1017,10 +1053,18 @@ hr {
             bottom: 0px;
             padding: 15px;
             overflow: hidden;
-            max-height: 220px;
+            max-height: 420px;
+            background: @blanco;
+            opacity: 0.9;
+            height: 420px;
 
             p {
-                max-height: 65px;
+                max-height: 120px;
+                overflow: hidden;
+            }
+
+            h3 {
+                margin-top: 70px;
             }
         }
 
@@ -1053,7 +1097,6 @@ hr {
         font-weight: 300;
         z-index: 10;
         right: 35px;
-        top: -34px;
         letter-spacing: 3px;
 
         &.ver-mas {
@@ -1074,25 +1117,44 @@ hr {
         &.oficio {
             border-top: none;
             margin-top: 15px;
-            
-            img {
-                opacity: .7;
-                -webkit-transition: opacity .5s linear, opacity 0.2s linear;
-                -moz-transition: opacity .5s linear, opacity 0.2s linear;
-                -o-transition: opacity .5s linear, opacity 0.2s linear;
-            }
 
-            &:hover {
-                .franja-seguir {
-                visibility: hidden;
-                opacity: 0;
+            a{
+                h6{
+                    bottom: 8px;
+                    background-color: @gris-oscuro;
+                    opacity: 0.5;
+                    color: @blanco;
+                    top: auto;
                 }
             }
 
-            .seguir-leyendo {
-                top: 24px;
+             .seguir-leyendo {
+                    top: 24px;
+            }
+
+            &:hover {
+
+                img {
+                    opacity: 1;
+                }
+
+                h6{
+                    background-color: @gris-oscuro;
+                    color: @blanco;
+                    opacity: 0.5;
+                }
+
+                .franja-seguir {
+                    visibility: hidden;
+                    opacity: 0;
+
+                }
+          
+                .seguir-leyendo {
+                    top: 24px;
             }
         }
+    }
 
         &.categoria {
             height: 360px;
@@ -1189,7 +1251,8 @@ hr {
 
             .carrera {
                 bottom: 0px;
-                max-height: 220px;
+                max-height: 580px;
+                opacity: 0.9;
             }
         }
     }
@@ -1383,8 +1446,8 @@ hr {
     }
 
     .enlace-evento {
-    display: inline-block;
-    position: relative;
+        display: inline-block;
+        position: relative;
 
         &:hover {
             .franja-seguir {
@@ -1490,10 +1553,37 @@ hr {
 
         &.carrera {
             bottom: 0px;
-            width: 100%;
+            width: 350px;
             padding: 15px;
             overflow: hidden;
-            max-height: 245px;
+            max-height: 430px;
+            background: @blanco;
+            opacity: 0.9;
+
+            p{
+                max-height: 240px;
+                font-size: 13.5px;
+                line-height: 21px;
+                font-family: @serif;
+                padding: 0px;
+                margin: 0px 0px 28.6px;
+            }
+
+            h3 {
+                margin-top: 40px;
+            }
+
+            .entry-details {
+                color: @gris-oscuro;
+                padding-left: 0px;
+                margin-top: 0;
+                font-weight: 100;
+            }
+
+                  &:hover {
+                    border-top: none;
+                    opacity: 0.9;
+            }
         }
 
         &.info-docencia {
@@ -1516,17 +1606,39 @@ hr {
     .bloque-enlace {
         margin-top: 0;
         border-top: 0px;
-        max-height: 410px;
+        max-height: 450px;
 
         &.oficio {
-            img {
-                opacity: .7;
-                -webkit-transition: opacity .5s linear, opacity 0.2s linear; 
-                -moz-transition: opacity .5s linear, opacity 0.2s linear; 
-                -o-transition: opacity .5s linear, opacity 0.2s linear;
+
+            a{
+                h6{    
+                margin-bottom: 2.5px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                color: @blanco;
+                font-weight: 100;
+                background-color: @gris;
+                width: 350px;
+                display: block;
+                margin-top: 0;
+                top: 27px;
+                }
             }
+
+            img {
+                    opacity: 1;
+                }
             
             &:hover {
+
+                img {
+                    opacity: 1;
+                }
+
+                h6 {
+                    background-color: @gris;
+                    color: @blanco;
+                }
                 .franja-seguir {
                 visibility: hidden;
                 opacity: 0;
@@ -1556,7 +1668,7 @@ hr {
             }
 
             .seguir-leyendo {
-                    display: none;
+                display: none;
             }
 
             &:hover {
@@ -1628,7 +1740,7 @@ hr {
 
             .carrera {
                 bottom: 0px;
-                max-height: 245px;
+                max-height: 430px;
             }
         }
     }
@@ -1772,8 +1884,8 @@ hr {
     }
 
     .enlace-evento {
-    display: inline-block;
-    position: relative;
+        display: inline-block;
+        position: relative;
 
         &:hover {
             .franja-seguir {
@@ -1784,7 +1896,7 @@ hr {
             color: auto;
             }  
         }
-}
+    }
 
     // Aside 
 
@@ -1891,15 +2003,18 @@ hr {
         }
 
         &.carrera {
-            bottom: -2px;
-            padding: 15px;
-            overflow: hidden;
-            max-height: 145px;
+            max-height: 520px;
 
             p {
-                max-height: 110px;
+                max-height: 510px;
                 min-height: 40px;
                 overflow: hidden;
+                font-size: 12.5px;
+                line-height: 22.5px;
+            }
+
+            h3{
+                font-size: 24px;
             }
         }
 
@@ -1915,8 +2030,6 @@ hr {
         &:hover {
 
             .carrera {
-                bottom: -2 px;
-                max-height: 310px;
             }
         }
     }
@@ -1940,6 +2053,15 @@ hr {
         &.portada {
             margin-bottom: 15px;
     }
+
+        &.oficio {
+            .prev-imagen{
+            img {
+                height: 150%;
+                width: auto;
+            }
+        }
+        }
       
 
     // Franja postulante

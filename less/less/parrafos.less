@@ -44,7 +44,7 @@ ul li{
     padding: 0;
     font-weight: normal;
     letter-spacing: 1px;
-    margin: 0 0 16px 0;
+    margin: 5px 0 16px 0;
     text-transform: uppercase;
 
     li {
@@ -80,7 +80,7 @@ ul li{
             color: @rojo-claro;
 
             &:hover {
-                color: @blanco;
+                color: @negro;
             }
         }
     }
@@ -93,9 +93,10 @@ ul li{
 
 .entry-details {
     font-family: @sans;
-    font-size: 12.3px;
-    margin: 0;
-    padding: 4px 0 16px 0;
+    font-size: 12.5px;
+    margin: 0 0 10px 0;
+    padding: 4px 0 0 0;
+    color: @gris-oscuro;
 
     a {
      color: @gris-oscuro;
@@ -104,7 +105,7 @@ ul li{
 
 .categorias {
     font-family: @sans;
-    font-size: 10.8px;
+    font-size: 11px;
     color: @gris-oscuro;
     margin: 0;
     padding: 0;
@@ -113,7 +114,7 @@ ul li{
         color: @rojo-claro;
 
         &:hover {
-            color: @blanco;
+            color: @negro;
         }
     }
 }
@@ -160,20 +161,23 @@ font-family: @sans;
 }
 
 .dia-evento {
-    margin: -32px 0;
+    margin: -33px 0;
     font-family: @sans;
     font-weight: 200;
     padding: 4px;
     float: center;
-    color:@gris-claro;
+    color:@gris;
     font-size: 30px;
     line-height: 25px;
     letter-spacing: 2px;
 }
 
+// Post
 
 .h-entry {
 	width: 100%;
+    margin: 0 auto;
+
 
 	h2 {
 		margin-bottom: 30px;
@@ -237,13 +241,18 @@ padding-left: 30px;
 
 .e-content, .p-summary, .p-name {
 	width: 70%;
-	margin: 0 auto;
+    margin: 0 auto;
 
     &.enunciado {
         width: 100%;
     }
 }
 
+// Caption
+
+.wp-caption-text {
+    background-color: orange;
+}
 
 // Aside
 

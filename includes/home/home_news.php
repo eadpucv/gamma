@@ -4,7 +4,7 @@
   $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
 ?>
 <div class='seccion'>
-  <h5><i class="icn icn-noticias icn-md"></i> Noticias </h5>
+  <a href='<?php echo get_category_link(1); ?>'><h5><i class="icn icn-noticias icn-md"></i> Noticias</h5></a>
 </div>
 <div class='fila'> <!-- sección noticias inferior -->
 <?php 

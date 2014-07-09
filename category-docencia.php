@@ -1,11 +1,11 @@
 <?php get_header(); ?>
-<div class='fondo-negro'>
-    <div class='wrap'>
-  <div class='contenedor-sin-relleno oculto-xs'>
-    <?php the_breadcrumb(); ?>
+<div class='fondo-blanco'>
+  <div class='wrap'>
+    <h1 class="entry-title especifico"><i class="icn icn-anuncio icn-sm"></i> Información académica</h1> <!-- título del post -->
+    <div class='contenedor-sin-relleno oculto-xs'>
+      <?php the_breadcrumb(); ?>
+    </div>
   </div>
- 		<h1 class="entry-title generico"> <i class="icn icn-anuncio icn-lg"></i> Información académica</h1>
-	</div>
 </div>
 
 <div class='fondo-blanco'>

@@ -7,21 +7,6 @@ color: #797977;
 font-weight: 200;
 }
 
-/*
-.fondo-blanco{
-.seccion {
-border-bottom: 1px solid fade(@gris, 50);
-text-align: center;
-position: relative;
-margin: 0;
-padding: 13px 0 30px 0px;
-h3{
-background-color: @blanco;
-}
-}
-}
-*/
-
 .categoria-titulo {
 color: fade(@rojo-claro, 75);
     font-weight: 300;
@@ -123,22 +108,20 @@ float: left;
 }
 
 .entry-title {
-color: @blanco;
     margin: 0;
     
-&.especifico {
-//text-transform: uppercase;
-font-weight: 200;
-font-size: 26px;
-letter-spacing: 3px;
-}
+    &.especifico {
+        font-weight: 100;
+        font-size: 50px;
+        letter-spacing: 0;
+    }
 
-     &.generico {
-     font-size: 18px;
-     text-transform: uppercase;
-     letter-spacing: 7px;
-     font-weight: 300;
-     }
+         &.generico {
+             font-size: 18px;
+             text-transform: uppercase;
+             letter-spacing: 7px;
+             font-weight: 300;
+         }
 }
 
 .seccion{
@@ -147,31 +130,40 @@ letter-spacing: 3px;
     margin: 0px;
     padding: 0 0 30px 0;
 
-h5{
-    color: fade(@gris-oscuro, 75);
-    letter-spacing: 3px;
-    font-size: 18px;
-    text-transform: uppercase;
-    position: relative;
-    padding: 0 45px;
-    display: inline;
-    font-weight: 300;
+    a {
+        h5 {
+            &:hover {
+                color: @rojo-claro;
+                cursor: pointer;
+            }
+        }
+    }
 
-&:before,
-&:after{
-content: "";
-display: inline-block;
-position: relative;
-width: 25vw;
-height: 2px;
-top: -3px;
-}
+    h5 {
+        color: fade(@gris-oscuro, 75);
+        letter-spacing: 3px;
+        font-size: 18px;
+        text-transform: uppercase;
+        position: relative;
+        padding: 0 45px;
+        display: inline;
+        font-weight: 300;
+
+        &:before,
+        &:after{
+            content: "";
+            display: inline-block;
+            position: relative;
+            width: 25vw;
+            height: 2px;
+            top: -3px;
+        }
 
 
-i{
-font-size: 16px;
-}
-}
+        i{
+            font-size: 16px;
+        }
+    }
 }
 
 .historia {

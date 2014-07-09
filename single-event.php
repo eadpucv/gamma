@@ -1,29 +1,29 @@
 <?php get_header(); global $post; ?>
-<div class='fondo-negro'>
-	<div class='wrap'>
-  		<div class='contenedor-sin-relleno oculto-xs'>
-    			<?php the_breadcrumb(); ?>
-  		</div>
-		<div class='numero-evento'>
-			<?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php if ($EM_Event->end_date != $EM_Event->start_date) { ?> - <?php } ?> <p class='dia-evento'><?php echo date("F", strtotime($EM_Event->start_date)); ?></p> 
-		</div>
-		<?php if ($EM_Event->end_date != $EM_Event->start_date) { ?>
-			<div class='numero-evento'>
-				<?php echo date("d", strtotime($EM_Event->end_date)); ?><p class='dia-evento'><?php echo date("F", strtotime($EM_Event->end_date)); ?></p> 
-			</div>
-		<?php } ?>
-		<div class='datos-evento'>
-			<h1 class="entry-title especifico"><?php echo $EM_Event->name;?></h1> <!-- título del post -->
-			<aside class='entry-details blanco'>
-				<?php if ( $EM_Event->output('#_24HSTARTTIME') === $EM_Event->output('#_24HENDTIME')) { ?>
-					A las <?php echo $EM_Event->output('#_24HSTARTTIME'); ?>
-				<?php } else { ?>
-					Desde las <?php echo $EM_Event->output('#_24HSTARTTIME'); ?> a <?php echo $EM_Event->output('#_24HENDTIME'); ?>
-				<?php } ?><br />
-				Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?>
-			</aside>
-		</div>
+<div class='fondo-blanco'>
+  <div class='wrap'>
+  	<div class='numero-evento'>
+		<?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php if ($EM_Event->end_date != $EM_Event->start_date) { ?> - <?php } ?> <p class='dia-evento'><?php echo date("F", strtotime($EM_Event->start_date)); ?></p> 
 	</div>
+	<?php if ($EM_Event->end_date != $EM_Event->start_date) { ?>
+		<div class='numero-evento'>
+			<?php echo date("d", strtotime($EM_Event->end_date)); ?><p class='dia-evento'><?php echo date("F", strtotime($EM_Event->end_date)); ?></p> 
+		</div>
+	<?php } ?>
+	<div class='datos-evento'>
+		<h1 class="entry-title especifico"><?php echo $EM_Event->name;?></h1> <!-- título del post -->
+		<aside class='entry-details blanco'>
+			<?php if ( $EM_Event->output('#_24HSTARTTIME') === $EM_Event->output('#_24HENDTIME')) { ?>
+				A las <?php echo $EM_Event->output('#_24HSTARTTIME'); ?>
+			<?php } else { ?>
+				Desde las <?php echo $EM_Event->output('#_24HSTARTTIME'); ?> a <?php echo $EM_Event->output('#_24HENDTIME'); ?>
+			<?php } ?><br />
+			Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?>
+		</aside>
+	</div>
+    <div class='contenedor-sin-relleno oculto-xs'>
+      <?php the_breadcrumb(); ?>
+    </div>
+  </div>
 </div>
 <div class='fondo-blanco'>
 	<div class='wrap'>

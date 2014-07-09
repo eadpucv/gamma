@@ -1,16 +1,13 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-<div class='fondo-negro'>
+<div class='fondo-blanco'>
   <div class='wrap'>
-  <div class='contenedor-sin-relleno oculto-xs'>
-    <?php the_breadcrumb(); ?>
-  </div>
     <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-    <aside class='entry-details blanco'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?></aside>    
-    <aside class='categorias'>Categorías: <?php the_category(', ') ?></aside>
-    <aside class='categorias'><?php the_tags(__('Tags: '), ', ', ' ') ?></aside>
- </div>
+    <div class='contenedor-sin-relleno oculto-xs'>
+      <?php the_breadcrumb(); ?>
+    </div>
+  </div>
 </div>
 
 <div class='fondo-blanco'>
