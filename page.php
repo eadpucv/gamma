@@ -24,14 +24,13 @@
           </div>
           <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
             <div class='bloque'>
-              <article class="h-entry especifico">
+              <article class="h-entry enunciado">
                 <?php if ( has_post_thumbnail() ) { ?>
                   <div class='prev-imagen franja'>
                     <?php the_post_thumbnail( 'medium', array( 'class' => "centrada-vertical") ); ?>
                   </div>
                 <?php } ?>
-                <h2 class='subtitulo rojo-claro'></h2>
-                <div class="e-content p-summary p-name">
+                <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto"><?php the_content(); ?></div>
                 </div>
               </article> 
