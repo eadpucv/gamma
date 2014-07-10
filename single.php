@@ -23,7 +23,10 @@
           <article class="h-entry">
             <?php if ( has_post_thumbnail() ) { ?>
               <div class='prev-imagen franja'>
-                <?php the_post_thumbnail( 'full', array( 'class' => "centrado-vertical") ); ?>
+                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+                if ($image) : ?>
+                    <img src="<?php echo $image[0]; ?>" alt="" class="centrado-vertical" />
+                <?php endif; ?>                 
               </div>
             <?php } ?>
             <div class="e-content p-summary p-name">
