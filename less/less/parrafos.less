@@ -25,11 +25,9 @@ p {
     font-weight: 100;
 }
 
-ul {
+ul li {
     line-height: 24px;
-}
-    li{
-        list-style: none;
+    list-style: none;
 }
 
 .pyxis {
@@ -181,6 +179,9 @@ font-family: @sans;
 	width: 100%;
     margin: 0 auto;
 
+    h1 {
+        margin-bottom: 30px;
+    }
 
 	h2 {
 		margin-bottom: 30px;
@@ -240,9 +241,13 @@ font-family: @sans;
          }
     }
 
+    .h-sin-margen{
+        margin: 0;
+    }
+
     li:before {
         position: absolute;
-        margin: 4px 0 0 -25px;
+        margin: 0 0 0 -25px;
         font-size: 10px;
         vertical-align: middle;
         display: inline-block;
@@ -312,7 +317,7 @@ padding-left: 30px;
 }
 
 .e-content, .p-summary, .p-name {
-	width: 65%%;
+	width: 65%;
     margin: 0 auto;
 
     &.enunciado {
@@ -345,9 +350,10 @@ padding: 0;
 
 li:before {
 position: absolute;
-margin: 4px 0 0 -25px;
+margin: 0 0 0 -25px;
 vertical-align: middle;
 display: inline-block;
+font-size: 8px;
 font-family: "Stampa";
 content: "\e601";
 color: @gris-oscuro;
