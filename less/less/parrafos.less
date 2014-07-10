@@ -25,7 +25,8 @@ p {
     font-weight: 100;
 }
 
-ul li{
+ul li {
+    line-height: 24px;
     list-style: none;
 }
 
@@ -178,6 +179,9 @@ font-family: @sans;
 	width: 100%;
     margin: 0 auto;
 
+    h1 {
+        margin-bottom: 30px;
+    }
 
 	h2 {
 		margin-bottom: 30px;
@@ -187,11 +191,24 @@ font-family: @sans;
 		margin-bottom: 15px;
 	}
 
+    h3{
+        margin-bottom: 20px;
+    }
+
+    h4{
+        margin-bottom: 15px;
+    }
+
 	p {
 		margin: 0 auto;
-		padding: 0 0 40px 0;
-		font-size: @cuerpo;
-		line-height: 29px;
+		padding: 0 0 20px 0;
+		font-size: 20px;
+		line-height: 34px;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
 	}
 
 	span {
@@ -200,28 +217,88 @@ font-family: @sans;
 		display: inline;
 	}
 
+    ol {
+        margin-bottom: 15px;
+    }
+
+    ul {
+        line-height: 10px;
+        margin: 0 0 15px 0;
+    }
+
 	li {
-        margin: 15px 0;
-        padding: 0 0 0 20px;
-        font-size: 16px;
+        margin: 0;
+        padding: 0 0 0 15px;
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 34px;
         list-style: none;
         font-family: @sans;
-        color: @pizarra-claro;
+        color: rgba(43, 44, 42, 0.8);
 
          a {
             font-weight: 200;
          }
     }
 
+    .h-sin-margen{
+        margin: 0;
+    }
+
     li:before {
         position: absolute;
-        margin: 4px 0 0 -25px;
+        margin: 0 0 0 -25px;
         font-size: 10px;
         vertical-align: middle;
         display: inline-block;
         font-family: "Stampa";
         content: "\e62f";
         color: @gris-oscuro;
+    }
+
+    &.enunciado {
+
+        p{
+            font-size: 16px;
+            line-height: 28px;
+
+            strong {
+                font-family: @serif;
+                font-weight: 600;
+            }
+        }
+
+        ul, ol {
+            a{
+                font-family: @sans;
+                font-size: 16px;
+            }
+
+            strong {
+                font-family: @sans;
+                font-weight: 300;
+            }
+        }
+
+        li {
+            margin: 0;
+            padding: 0 0 0 15px;
+            font-size: 16px;
+            font-weight: 200;
+            line-height: 28px;
+            list-style: none;
+            font-family: @sans;
+            color: rgba(43, 44, 42, 0.8);
+        }
+
+    h2 {
+        margin-bottom: 25px;
+        }
+
+    a{
+        font-family: @serif;
+        font-size: 14px;
+    }
     }
 
 
@@ -240,11 +317,12 @@ padding-left: 30px;
 }
 
 .e-content, .p-summary, .p-name {
-	width: 70%;
+	width: 65%;
     margin: 0 auto;
 
     &.enunciado {
-        width: 100%;
+        width: 90%;
+        margin: 0;
     }
 }
 
@@ -272,9 +350,10 @@ padding: 0;
 
 li:before {
 position: absolute;
-margin: 4px 0 0 -25px;
+margin: 0 0 0 -25px;
 vertical-align: middle;
 display: inline-block;
+font-size: 8px;
 font-family: "Stampa";
 content: "\e601";
 color: @gris-oscuro;
