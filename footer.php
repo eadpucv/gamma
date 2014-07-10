@@ -37,7 +37,7 @@
     </div>        
     <div class='container-lg'>
         <div class=' mapa'>
-            <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/idar.ilih71di/attribution,zoompan,geocoder.html'></iframe>
+            <iframe width='100%' height='200px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/idar.ilih71di/attribution,zoompan,geocoder.html'></iframe>
         </div>
     </div>
     <div class='wrap'>
