@@ -31,7 +31,7 @@
                   </div>
                 <?php } ?>
                 <h2 class='subtitulo rojo-claro'></h2>
-                <div class="e-content p-summary p-name">
+                <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto"><?php the_content(); ?></div>
                 </div>
               </article> 

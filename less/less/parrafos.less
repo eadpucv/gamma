@@ -95,7 +95,7 @@ ul li{
     font-family: @sans;
     font-size: 12.5px;
     margin: 0 0 10px 0;
-    padding: 4px 0 0 0;
+    padding: 14px 0 0 0;
     color: @gris-oscuro;
 
     a {
@@ -105,10 +105,10 @@ ul li{
 
 .categorias {
     font-family: @sans;
-    font-size: 11px;
+    font-size: 12.5px;
     color: @gris-oscuro;
     margin: 0;
-    padding: 0;
+    padding: 2px 0;
 
     a {
         color: @rojo-claro;
@@ -120,25 +120,24 @@ ul li{
 }
 
 .keywords {
-border-top: 1px solid @gris-claro;
-border-bottom: 1px solid @gris-claro;
-padding:15px;
-text-align: center;
+    border-top: 1px solid @gris-claro;
+    border-bottom: 1px solid @gris-claro;
+    padding:15px;
 
-.palabras {
-font-family: @sans;
-     font-size: 14.8px;
-     color: @gris-oscuro;
-     margin: 0;
-     padding: 0;
-}
+    .palabras {
+        font-family: @sans;
+        font-size: 14.8px;
+        color: @gris-oscuro;
+        margin: 0;
+        padding: 0;
+    }
 
     a {
-     color: @rojo-claro;
+        color: @rojo-claro;
 
-     &:hover {
-     color: @pizarra;
-     }
+        &:hover {
+            color: @pizarra;
+        }
     }
 }
 
@@ -190,8 +189,13 @@ font-family: @sans;
 	p {
 		margin: 0 auto;
 		padding: 0 0 40px 0;
-		font-size: @cuerpo;
-		line-height: 29px;
+        font-size: 20px;
+        line-height: 34px;
+
+         img {
+            width: 100%;
+            height: auto;
+         }
 	}
 
 	span {
@@ -203,9 +207,7 @@ font-family: @sans;
 	li {
         margin: 15px 0;
         padding: 0 0 0 20px;
-        font-size: 16px;
         list-style: none;
-        font-family: @sans;
         color: @pizarra-claro;
 
          a {
@@ -216,7 +218,6 @@ font-family: @sans;
     li:before {
         position: absolute;
         margin: 4px 0 0 -25px;
-        font-size: 10px;
         vertical-align: middle;
         display: inline-block;
         font-family: "Stampa";
@@ -224,27 +225,26 @@ font-family: @sans;
         color: @gris-oscuro;
     }
 
+    .imagen-inserta {
+        width: 50%;
+        padding-bottom: 30px;
 
-.imagen-inserta {
-width: 50%;
-padding-bottom: 30px;
+        &.izquierda {
+            padding-right: 30px;
+        }
 
-&.izquierda {
-padding-right: 30px;
-}
-
-&.derecha {
-padding-left: 30px;
-}
-}
+        &.derecha {
+            padding-left: 30px;
+        }
+    }
 }
 
 .e-content, .p-summary, .p-name {
-	width: 70%;
+	width: 65%;
     margin: 0 auto;
 
     &.enunciado {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -270,15 +270,15 @@ padding: 0;
          }
     }
 
-li:before {
-position: absolute;
-margin: 4px 0 0 -25px;
-vertical-align: middle;
-display: inline-block;
-font-family: "Stampa";
-content: "\e601";
-color: @gris-oscuro;
-}
+    li:before {
+    position: absolute;
+    margin: 4px 0 0 -25px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "Stampa";
+    content: "\e601";
+    color: @gris-oscuro;
+    }
 }
 
 // Comentarios
@@ -512,41 +512,41 @@ font-size: 20px;
 }
 
 
-// Aside
-.publicaciones-enlazadas {
-padding: 0;
+    // Aside
+    .publicaciones-enlazadas {
+        padding: 0;
 
-li {
-border-bottom: 1px solid @gris-claro;
-margin: 15px 0;
-padding: 20px 20px 20px 20px;
-font-size: 14px;
-list-style: none;
+        li {
+            border-bottom: 1px solid @gris-claro;
+            margin: 15px 0;
+            padding: 20px 20px 20px 20px;
+            font-size: 14px;
+            list-style: none;
 
-a {
-font-weight: 300;
-font-size: @cuerpo;
-}
-}
+            a {
+                font-weight: 300;
+                font-size: @cuerpo;
+            }
+        }
 
-li:before {
-position: absolute;
-margin: 4px 0 0 -25px;
-vertical-align: middle;
-display: inline-block;
-font-family: "Stampa";
-content: "\e601";
-color: @gris-oscuro;
-}
+        li:before {
+            position: absolute;
+            margin: 4px 0 0 -25px;
+            vertical-align: middle;
+            display: inline-block;
+            font-family: "Stampa";
+            content: "\e601";
+            color: @gris-oscuro;
+        }
 
-li:last-child {
-border-bottom: none;
-}
-}
+        li:last-child {
+            border-bottom: none;
+        }
+    }
 
-.malla-curricular {
-display: none;
-}
+    .malla-curricular {
+        display: none;
+    }
 }
 
 // Medium screen / desktop
@@ -565,7 +565,7 @@ letter-spacing: 0.5px;
 }
 
 .e-content, .p-summary, .p-name {
-width: 75%;
+    width: 75%;
 }
 
 .h-entry {
