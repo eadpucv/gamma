@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 add_theme_support( 'post-thumbnails' );  
 add_filter('show_admin_bar', '__return_false');
@@ -46,10 +46,6 @@ function the_breadcrumb() {
               echo get_permalink(25432); 
               echo '">Eventos</a></li>';
             }
-
-            echo '</li><li><a href="#">';
-            the_title();
-            echo '</a></li>';
         }
     } elseif (is_page()) {
       if($post->post_parent){
@@ -59,9 +55,6 @@ function the_breadcrumb() {
           $output = '<li><a href="'.get_permalink($ancestor).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li>';
         }
         echo $output;
-        echo '<li><a href="#">'.$title.'</a></li>';
-      } else {
-        echo '<li><a href="#">'.get_the_title().'</a></li>';
       }
     }
   }
