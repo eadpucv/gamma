@@ -33,8 +33,10 @@
               <div class='bloque'><?php the_content();  ?></div>
             </div>
           </article> 
-                  <div class='bloque-aside noticia comparte oculto-sm oculto-xs'>
-              <h5 class='fino'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>
+            <div class='bloque-aside noticia comparte oculto-sm oculto-xs'>
+              <div class="e-content p-summary p-name">
+                <div class='bloque'>
+                <h5 class='fino rotulo-compartir'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>
                 <a class='red-social' href='#'>
                   <span class="icn-stack icn-md">
                     <i class="icn icn-cuadro icn-stack-2x naranja-opuesto"></i>
@@ -60,6 +62,8 @@
                   </span>
                 </a>
             </div>
+                </div>
+              </div>
       </div>
     </div>
     <div class='fila'>
@@ -94,7 +98,7 @@
 
         <?php if ($related_posts && $related_posts->have_posts()) { ?>
           <div class='bloque-aside noticia'>
-            <h6 class='gris'><i class="icn icn-enlace-hor icn-md"></i> Articulos Relacionados </h6>
+            <h6 class='gris'><i class="icn icn-enlace-hor icn-md"></i> Articulos relacionados </h6>
             <ul class='publicaciones-enlazadas'>
               <?php while ($related_posts->have_posts()) : $related_posts->the_post(); ?>
                 <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
@@ -103,7 +107,7 @@
           </div>
         <?php } ?>
         <div class='bloque-aside noticia'>
-          <h6 class='gris'><i class="icn icn-noticias icn-md"></i> más noticias</h6>
+          <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Más noticias</h6>
           <ul class='publicaciones-enlazadas'>
             <?php if ( $latest_cat_post->have_posts() ) { ?>
               <?php while ($latest_cat_post->have_posts()) : $latest_cat_post->the_post(); ?>
