@@ -10,7 +10,7 @@
 
 .alto-sm {
     height: @cuadratin * 9;
-    margin: 0 0 40px 0;
+    margin: 0 0 0 0;
 }
 
 // el valor de alto-md son 3 unidades
@@ -247,6 +247,8 @@
         border: none;
         padding-top: 0;
         margin-top: 0;
+        margin-bottom: 30px;
+        top: -20px;
 
         a {
             display: block;
@@ -1000,6 +1002,7 @@ hr {
 
         &.md {
             height: auto;
+            padding: 0;
         }
 
         &.sm {
@@ -1073,12 +1076,13 @@ hr {
             height: 420px;
 
             p {
-                max-height: 120px;
+                max-height: 145px;
                 overflow: hidden;
             }
 
             h3 {
-                margin-top: 70px;
+                margin-top: 60px;
+                font-size: 24px;
             }
         }
 
@@ -1130,7 +1134,7 @@ hr {
         // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
             border-top: none;
-            margin-top: 15px;
+            margin: 0px;
 
             a{
                 h6{
@@ -1143,7 +1147,7 @@ hr {
             }
 
              .seguir-leyendo {
-                    top: 24px;
+                    top: 18px;
             }
 
             &:hover {
@@ -1171,7 +1175,7 @@ hr {
     }
 
         &.categoria {
-            height: 360px;
+            height: auto;
             margin-bottom: 20px;
 
             h6 {
@@ -1301,8 +1305,8 @@ hr {
     }
 
     .seguir-leyendo-cuadro {
-        width: 200px;
-        height: 70px;
+        width: 170px;
+        height: 55px;
         background-color: @rojo-claro;
         position: absolute;
         right: 0;
@@ -1312,14 +1316,14 @@ hr {
             .seguir-leyendo {
             display: inline-block;
             position: absolute;
-            font-size: 14px;
+            font-size: 12px;
             color: @blanco;
             font-family: @sans;
             text-transform: uppercase;
             font-weight: 300;
             z-index: 12;
-            left: 34px;
-            top: 24px;
+            left: 22px;
+            top: 18px;
             letter-spacing: 3px;
             padding: 0;
             margin: 0;
@@ -1450,6 +1454,10 @@ hr {
     .enlace-noticia {
         h6 {
             color: @rojo-claro;
+        }
+
+        p {
+            margin-bottom: 30px;
         }
 
         &:hover {
