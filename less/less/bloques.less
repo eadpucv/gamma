@@ -1030,20 +1030,22 @@ hr {
         }
 
         &.evento {
+            height: auto;
 
             h6 {
-                height: 60px;
-                font-size: @cuerpo * 1.35;
+                height: auto;
+                font-size: 19px;
                 line-height: @cuerpo * 1.9;
                 max-height: 75px;
                 overflow: hidden;
             }
 
             p {
-                max-height: 115px;
+                max-height: 120px;
                 padding: 0 0 0 2px;
-                font-size: @cuerpo;
+                font-size: 14px;
                 line-height: @cuerpo * 1.45;
+
             }
 
             &.portada {
@@ -1454,6 +1456,7 @@ hr {
     .enlace-noticia {
         h6 {
             color: @rojo-claro;
+            line-height: 25px;
         }
 
         p {
@@ -1479,6 +1482,7 @@ hr {
         h6 {
             color: auto;
             }  
+
         }
 }
 
@@ -1535,7 +1539,11 @@ hr {
     }
 
     .pagina {
-
+        &.md {
+            .seguir-leyendo-cuadro{
+                right: 10px;
+            }
+        }
         &.sm {
             &:hover {
                 padding-top: 0;
@@ -1545,6 +1553,11 @@ hr {
         // Clases extendidas
 
         &.evento {
+
+            h6{
+                font-size: 21px;
+            }
+
             &.portada {
                 height: auto;
 
@@ -1631,6 +1644,7 @@ hr {
         max-height: 450px;
 
         &.oficio {
+            margin-bottom: 15px;
 
             a{
                 h6{    
@@ -1898,6 +1912,12 @@ hr {
     }
 
     .enlace-noticia {
+
+        h6{
+            font-size: 21px;
+            color: @rojo-claro;
+        }
+
         &:hover {
             .franja-seguir {
                 height: 0px;
@@ -1977,6 +1997,10 @@ hr {
         // Clases extendidas
 
         &.evento {
+
+            h6 {
+                font-size: 21px;
+            }
 
             p {
                 max-height: 110px;
@@ -2125,6 +2149,14 @@ hr {
         i {
             font-size: @cuerpo;
             margin-right: 5px;
+        }
+    }
+
+        .enlace-noticia {
+
+        h6{
+            font-size: 19px;
+            line-height: 25px;
         }
     }
 }
