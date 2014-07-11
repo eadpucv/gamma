@@ -19,7 +19,7 @@
 <div class='fondo-blanco'>
   <div class='wrap'>
     <div class='fila'>
-      <div class='col-lg-12 col-md-9 col-sm-12 col-xs-12'>
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
           <article class="h-entry">
             <?php if ( has_post_thumbnail() ) { ?>
               <div class='prev-imagen franja'>
@@ -63,7 +63,9 @@
       </div>
     </div>
     <div class='fila'>
-    <?php
+      <div class="e-content p-summary p-name">
+        <div class='bloque'>
+            <?php
 
       if (is_single()) {
         $tags = wp_get_post_tags($post->ID);
@@ -109,6 +111,8 @@
               <?php endwhile; } wp_reset_query(); ?>
           </ul>
         </div>
+      </div>
+      </div>
     </div> <!-- fin fila -->
   </div>
 </div>
