@@ -3,6 +3,14 @@
 ?>
 
 <div class='fondo-blanco'>
+                <?php if ( has_post_thumbnail() ) { ?>
+              <div class='prev-imagen franja'>
+                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+                if ($image) : ?>
+                    <img src="<?php echo $image[0]; ?>" alt="" class="centrado-vertical" />
+                <?php endif; ?>                 
+              </div>
+            <?php } ?>
   <div class='wrap'>
     <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
     <div class='contenedor-sin-relleno oculto-xs'>
@@ -19,22 +27,16 @@
 <div class='fondo-blanco'>
   <div class='wrap'>
     <div class='fila'>
-      <div class='col-lg-12 col-md-9 col-sm-12 col-xs-12'>
-          <article class="h-entry">
-            <?php if ( has_post_thumbnail() ) { ?>
-              <div class='prev-imagen franja'>
-                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
-                if ($image) : ?>
-                    <img src="<?php echo $image[0]; ?>" alt="" class="centrado-vertical" />
-                <?php endif; ?>                 
-              </div>
-            <?php } ?>
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+            <article class="h-entry">
             <div class="e-content p-summary p-name">
               <div class='bloque'><?php the_content();  ?></div>
             </div>
           </article> 
-                  <div class='bloque-aside noticia comparte oculto-sm oculto-xs'>
-              <h5 class='fino'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>
+            <div class='bloque-aside noticia comparte'>
+              <div class="e-content p-summary p-name">
+                <div class='bloque'>
+                <h5 class='fino rotulo-compartir'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>
                 <a class='red-social' href='#'>
                   <span class="icn-stack icn-md">
                     <i class="icn icn-cuadro icn-stack-2x naranja-opuesto"></i>
@@ -60,10 +62,14 @@
                   </span>
                 </a>
             </div>
+                </div>
+              </div>
       </div>
     </div>
     <div class='fila'>
-    <?php
+      <div class="e-content p-summary p-name">
+        <div class='bloque'>
+            <?php
 
       if (is_single()) {
         $tags = wp_get_post_tags($post->ID);
@@ -92,7 +98,7 @@
 
         <?php if ($related_posts && $related_posts->have_posts()) { ?>
           <div class='bloque-aside noticia'>
-            <h6 class='gris'><i class="icn icn-enlace-hor icn-md"></i> Articulos Relacionados </h6>
+            <h6 class='gris'><i class="icn icn-enlace-hor icn-md"></i> Articulos relacionados </h6>
             <ul class='publicaciones-enlazadas'>
               <?php while ($related_posts->have_posts()) : $related_posts->the_post(); ?>
                 <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
@@ -101,7 +107,7 @@
           </div>
         <?php } ?>
         <div class='bloque-aside noticia'>
-          <h6 class='gris'><i class="icn icn-noticias icn-md"></i> más noticias</h6>
+          <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Más noticias</h6>
           <ul class='publicaciones-enlazadas'>
             <?php if ( $latest_cat_post->have_posts() ) { ?>
               <?php while ($latest_cat_post->have_posts()) : $latest_cat_post->the_post(); ?>
@@ -109,6 +115,8 @@
               <?php endwhile; } wp_reset_query(); ?>
           </ul>
         </div>
+      </div>
+      </div>
     </div> <!-- fin fila -->
   </div>
 </div>
