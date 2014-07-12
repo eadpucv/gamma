@@ -656,7 +656,7 @@
 // Para lograr separar bien los contenidos y mantener un órden de blancos y lectura:
 
 .bloque {
-    margin: 0 0 0 15px;
+    margin: 0;
     width: 100%;
 
     &.mapa {
@@ -1510,6 +1510,21 @@ hr {
     background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
     border: none;
 }
+
+    .bloque-aside {
+        margin: 50px 0;
+
+        &.sm {
+            min-height: @cuadratin * 8;
+        }
+
+        &.noticia {
+            width: 90%;
+            margin: 20px auto;
+            float: none;
+            padding: 0;
+        }
+    }
 }
 
 
@@ -1954,6 +1969,10 @@ hr {
 
         &.sm {
             min-height: @cuadratin * 8;
+        }
+
+        &.noticia {
+            width: 100%;
         }
     }
 }

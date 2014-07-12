@@ -3,6 +3,14 @@
 ?>
 
 <div class='fondo-blanco'>
+                <?php if ( has_post_thumbnail() ) { ?>
+              <div class='prev-imagen franja'>
+                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+                if ($image) : ?>
+                    <img src="<?php echo $image[0]; ?>" alt="" class="centrado-vertical" />
+                <?php endif; ?>                 
+              </div>
+            <?php } ?>
   <div class='wrap'>
     <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
     <div class='contenedor-sin-relleno oculto-xs'>
@@ -20,20 +28,12 @@
   <div class='wrap'>
     <div class='fila'>
       <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-          <article class="h-entry">
-            <?php if ( has_post_thumbnail() ) { ?>
-              <div class='prev-imagen franja'>
-                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
-                if ($image) : ?>
-                    <img src="<?php echo $image[0]; ?>" alt="" class="centrado-vertical" />
-                <?php endif; ?>                 
-              </div>
-            <?php } ?>
+            <article class="h-entry">
             <div class="e-content p-summary p-name">
               <div class='bloque'><?php the_content();  ?></div>
             </div>
           </article> 
-            <div class='bloque-aside noticia comparte oculto-sm oculto-xs'>
+            <div class='bloque-aside noticia comparte'>
               <div class="e-content p-summary p-name">
                 <div class='bloque'>
                 <h5 class='fino rotulo-compartir'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>

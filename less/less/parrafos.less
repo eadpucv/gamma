@@ -206,7 +206,8 @@ ul li {
         img{
             width: 100%;
             height: auto;
-        }	}
+        }	
+    }
 
 	span {
 		margin: 0;
@@ -462,22 +463,27 @@ color: @gris-oscuro;
 }
 }
 
-.h-entry {
-width: 100%;
+    .h-entry {
+        width: 100%;
 
-.imagen-inserta {
-width: 100%;
-padding-bottom: 20px;
+        p {
+            font-size: 16px;
+            line-height: 30px;
+        }
 
-&.izquierda {
-padding-right: 0px;
-}
+        .imagen-inserta {
+            width: 100%;
+            padding-bottom: 20px;
 
-&.derecha {
-padding-left: 0px;
-}
-}
-}
+            &.izquierda {
+                padding-right: 0px;
+            }
+
+            &.derecha {
+                padding-left: 0px;
+            }
+        }
+    }
 
 .e-content, .p-summary, .p-name {
 width: 100%;
@@ -512,61 +518,71 @@ display: none;
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
-.cita {
-font-size: @cuerpo * 0.9;
-padding: 20px 0;
-width: 100%;
-border-left: none;
-border-right: none;
-}
+    .cita {
+        font-size: @cuerpo * 0.9;
+        padding: 20px 0;
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
 
-#breadcrumb {
-font-size: @cuerpo * .75;
-padding: 0;
-letter-spacing: 0.5px;
+    #breadcrumb {
+        font-size: @cuerpo * .75;
+        padding: 0;
+        letter-spacing: 0.5px;
 
-li {
-display: none;
-}
+        li {
+            display: none;
+        }
 
-li:last-child {
-display: inline-block;
-a {
-color: @rojo-claro;
+        li:last-child {
+            display: inline-block;
+        
+            a {
+                color: @rojo-claro;
 
-&:hover {
-color: @pizarra;
-}
-}
-}
+                &:hover {
+                    color: @pizarra;
+                }
+            }
+        }
 
-li:last-child:before {
-position: absolute;
-margin: 2px 0 0 -20px;
-vertical-align: middle;
-display: inline-block;
-font-family: "Stampa";
-content: "\e602";
-color: @gris-oscuro;
-}
-}
+        li:last-child:before {
+            position: absolute;
+            margin: 2px 0 0 -20px;
+            vertical-align: middle;
+            display: inline-block;
+            font-family: "Stampa";
+            content: "\e602";
+            color: @gris-oscuro;
+        }
+    }
 
 
 .h-entry {
-width: 100%;
+    width: 100%;
 
-.imagen-inserta {
-width: 100%;
-padding-bottom: 30px;
+    p {
+        font-size: 16px;
+        line-height: 30px;
 
-&.izquierda {
-padding-right: 0px;
-}
+        img {
+            width: 100%;
+        }
+    }
 
-&.derecha {
-padding-left: 0px;
-}
-}
+    .imagen-inserta {
+        width: 100%;
+        padding-bottom: 30px;
+
+        &.izquierda {
+            padding-right: 0px;
+        }
+
+        &.derecha {
+            padding-left: 0px;
+        }
+    }
 }
 
 .e-content, .p-summary, .p-name {
@@ -633,53 +649,53 @@ font-size: 20px;
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
-.cita {
-font-size: @cuerpo * 0.9;
-padding: 0 20px;
-width: 70%;
-}
+    .cita {
+    font-size: @cuerpo * 0.9;
+    padding: 0 20px;
+    width: 70%;
+    }
 
-#breadcrumb {
-font-size: @cuerpo * .8;
-letter-spacing: 0.5px;
-}
+    #breadcrumb {
+    font-size: @cuerpo * .8;
+    letter-spacing: 0.5px;
+    }
 
-.e-content, .p-summary, .p-name {
-    width: 75%;
-}
+    .e-content, .p-summary, .p-name {
+        width: 75%;
+    }
 
-.h-entry {
-    width: 100%;
+    .h-entry {
+        width: 100%;
 
-    .imagen-inserta {
-        width: 60%;
-        padding-bottom: 30px;
+        .imagen-inserta {
+            width: 60%;
+            padding-bottom: 30px;
 
-        &.izquierda {
-            padding-right: 30px;
-        }
+            &.izquierda {
+                padding-right: 30px;
+            }
 
-        &.derecha {
-            padding-left: 30px;
+            &.derecha {
+                padding-left: 30px;
+            }
         }
     }
-}
 
-// Aside
+    // Aside
 
-.publicaciones-enlazadas {
+    .publicaciones-enlazadas {
 
-li {
-margin: 13px 0;
-padding: 0 0 0 20px;
-font-size: 13px;
-list-style: none;
+        li {
+            margin: 13px 0;
+            padding: 0 0 0 20px;
+            font-size: 13px;
+            list-style: none;
 
-a {
-font-weight: 300;
-}
-}
-}
+            a {
+                font-weight: 300;
+            }
+        }
+    }
 }
 
 // Large screen / wide desktop
