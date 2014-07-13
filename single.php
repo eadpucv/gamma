@@ -2,15 +2,15 @@
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
 
-<div class='fondo-blanco'>
-                <?php if ( has_post_thumbnail() ) { ?>
-              <div class='prev-imagen franja'>
-                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
-                if ($image) : ?>
-                    <img src="<?php echo $image[0]; ?>" alt="" class="centrado-vertical" />
-                <?php endif; ?>                 
-              </div>
-            <?php } ?>
+  <div class='fondo-blanco'>
+  <?php if ( has_post_thumbnail() ) { ?>
+    <div class='prev-imagen franja'>
+      <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+        if ($image) : ?>
+          <img src="<?php echo $image[0]; ?>" alt="" class="centrado-vertical" />
+        <?php endif; ?>                 
+    </div>
+  <?php } ?>
   <div class='wrap'>
     <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
     <div class='contenedor-sin-relleno oculto-xs'>
