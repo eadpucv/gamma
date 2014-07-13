@@ -25,8 +25,8 @@
           </div> 
           <div class='wrap-carousel'> 
             <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
-              <h1><?php the_title(); ?></h1> 
-              <?php the_excerpt() ?>
+              <a href="<?php the_permalink() ?>"><h1><?php the_title(); ?></h1> </a>
+              <p><?php echo the_excerpt_max_charlength(250); ?></p>
               <span class='derecha'> <?php the_author(); ?> </span>
             </div>
           </div> 
