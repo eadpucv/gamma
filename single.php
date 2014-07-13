@@ -17,7 +17,7 @@
       <?php the_breadcrumb(); ?>
     </div>
     <aside class='entry-details'>
-      <span class='categorias'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?></span><br>
+      <span class='categorias'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?> <?php edit_post_link('editar', '[', ']'); ?></span><br>
       <span class='categorias'>Archivado en: <?php the_category(', ') ?></span><br>
       <span class='categorias'><?php the_tags(__('Palabras claves: '), ', ', ' ') ?></span>
     </aside>    
