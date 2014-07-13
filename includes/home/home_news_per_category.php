@@ -28,7 +28,7 @@
             </div>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php echo get_the_excerpt(); ?></p>
+              <p><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
         <?php endwhile; endif; ?>
         </div>
@@ -41,7 +41,7 @@
             </div>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php echo get_the_excerpt(); ?></p>
+              <p><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
         <?php endwhile; endif; ?>   
       </div>
@@ -54,7 +54,7 @@
             </div>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php echo get_the_excerpt(); ?></p>
+              <p><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
         <?php endwhile; endif; ?>
         </div>
@@ -67,7 +67,7 @@
             </div>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php echo get_the_excerpt(); ?></p>
+              <p><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
         <?php endwhile; endif; ?>
       </div>
@@ -80,7 +80,7 @@
             </div>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php echo get_the_excerpt(); ?></p>
+              <p><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
         <?php endwhile; endif; ?>
         </div>
@@ -93,7 +93,7 @@
             </div>
               <h5 class='rojo-claro'><?php the_title(); ?></h5>
               <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-              <p><?php echo get_the_excerpt(); ?></p>
+              <p><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
         <?php endwhile; endif; ?>
       </div>      

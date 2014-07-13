@@ -19,7 +19,7 @@
 								<a href='<?php the_permalink() ?>' class='bloque-enlace portada info-docencia'> 
 									<p class='seguir-leyendo'><?php the_time("d")?> de <?php the_time("F, Y") ?></p>
 									<h6><?php the_title(); ?></h6>
-									<p><?php echo get_the_limit_excerpt() ?></p>
+									<p><?php echo get_the_excerpt(); ?></p>
 								</a>
 							</div>
 						<?php endwhile; ?>

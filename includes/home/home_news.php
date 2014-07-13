@@ -1,8 +1,3 @@
-<?php 
-  // noticia más reciente"
-  $cat_id = 1; 
-  $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
-?>
 <div class='seccion'>
   <a href='<?php echo get_category_link(1); ?>'><h5><i class="icn icn-noticias icn-md"></i> Noticias</h5></a>
 </div>
@@ -30,7 +25,7 @@
           </div>
           <h6><?php the_title(); ?></h6>
           <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
-          <?php the_excerpt() ?>
+          <p><?php echo the_excerpt_max_charlength(150); ?></p>
         </div>
       </a>
     </div>
