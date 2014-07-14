@@ -1,14 +1,16 @@
 <?php 
   // ultimo posts de "Carrusel"
   $cat_id = 1927; 
+  $i = 0;
   $carrusel_posts = new WP_Query( array('posts_per_page' => 5, 'category__in' => array($cat_id)));
 ?>  
 <div class='alto-lg'>
   <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
     <ol class="carousel-indicators"> 
-      <?php for ($i = 0; $i <= count($carrusel_posts); $i++) { ?>
+      <?php if( $carrusel_posts->have_posts() ) : while( $carrusel_posts->have_posts() ) : $carrusel_posts->the_post(); ?>        
         <li data-slide-to="<?php echo $i; ?>" data-target="#carousel-example-generic" <?php if ($i===0) { ?> class="active"<?php } ?>></li> 
-      <?php } ?>
+        <?php $i++; ?>
+      <?php endwhile; endif; ?>   
     </ol> 
 
     <div class="carousel-inner"> 
