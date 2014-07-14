@@ -30,7 +30,7 @@
                                             </div>
                                             <h6><?php the_title(); ?></h6>
                                             <aside class='entry-details'>    <aside class='entry-details blanco'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?></aside>    </aside>
-                                            <p><?php echo get_the_limit_excerpt() ?></p>
+                                            <p><?php echo the_excerpt_max_charlength(160); ?></p>
                                         </a>
                                     </div>
                                 </div>

@@ -10,7 +10,7 @@
             </div>
             <div class='col-lg-4 col-md-4 col-sm-5 escuela'>
                 <p class='direccion'>
-                <a href='http://www.ead.pucv.cl/contacto/'><i class='icn icn-email icn-md'></i>Contacto</a><br> Matta 12, Recreo, Viña del Mar, Chile.
+                <a href='<?php echo get_permalink(43); ?>'><i class='icn icn-email icn-md'></i>Contacto</a><br> Matta 12, Recreo, Viña del Mar, Chile.
                 <br>Cód. Postal: 2580129, Casilla 4170 V2 Valparaíso</p>
             </div>
         </div>

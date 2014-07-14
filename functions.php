@@ -4,6 +4,12 @@ add_theme_support( 'post-thumbnails' );
 add_filter('show_admin_bar', '__return_false');
 add_action('wp_logout', 'clean_session');
 
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999);
+add_filter('excerpt_more', 'new_excerpt_more');
+function custom_excerpt_length( $length ) {
+  return 40;
+}
+
 function catch_that_image() {
 	global $post, $posts;
   	$first_img = '';
@@ -18,15 +24,42 @@ function catch_that_image() {
   	return $first_img;
 }
 
-function get_the_limit_excerpt(){
-	$excerpt = get_the_content();
-	$excerpt = strip_shortcodes($excerpt);
-	$excerpt = strip_tags($excerpt);
-	$the_str = substr($excerpt, 0, 200);
-	return $the_str;
-}
 
-    
+function the_excerpt_max_charlength($charlength) {
+  $excerpt = get_the_excerpt();
+  $charlength++;
+
+  if ( mb_strlen( $excerpt ) > $charlength ) {
+    $subex = mb_substr( $excerpt, 0, $charlength - 5 );
+    $exwords = explode( ' ', $subex );
+    $excut = - ( mb_strlen( $exwords[ count( $exwords ) - 1 ] ) );
+    if ( $excut < 0 ) {
+      echo mb_substr( $subex, 0, $excut );
+    } else {
+      echo $subex;
+    }
+    echo '[...]';
+  } else {
+    echo $excerpt;
+  }
+}    
+
+function the_excerpt_of_text_max_charlength($charlength,$excerpt) {
+  $charlength++;
+  if ( mb_strlen( $excerpt ) > $charlength ) {
+    $subex = mb_substr( $excerpt, 0, $charlength - 5 );
+    $exwords = explode( ' ', $subex );
+    $excut = - ( mb_strlen( $exwords[ count( $exwords ) - 1 ] ) );
+    if ( $excut < 0 ) {
+      echo mb_substr( $subex, 0, $excut );
+    } else {
+      echo $subex;
+    }
+    echo '[...]';
+  } else {
+    echo $excerpt;
+  }
+}
 
 function the_breadcrumb() {
   global $post;
@@ -90,6 +123,10 @@ function get_user_extra_attributes() {
       $_SESSION['cas_mail'] = $obj["usuario"]["mail"];
     }
   }
+}
+
+function new_excerpt_more( $more ) {
+  return "  [...]";
 }
 
 ?>
