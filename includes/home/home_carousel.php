@@ -1,6 +1,6 @@
 <?php 
   // ultimo posts de "Carrusel"
-  $cat_id = 1927; 
+  $cat_id = 1915; 
   $i = 0;
   $carrusel_posts = new WP_Query( array('posts_per_page' => 5, 'category__in' => array($cat_id)));
 ?>  
