@@ -19,6 +19,7 @@
             </div>
             <p class='cita'><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
+          <a href='<?php echo get_category_link(123); ?>' class='btn btn-md derecha ver-todo gris-oscuro'>Ver información de docencia<i class="icn icn-flecha-der icn-sm input"></i></a>
         </div>
       <?php endwhile; endif; ?>      
     </div>

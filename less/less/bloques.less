@@ -3,7 +3,7 @@
 // el valor de alto-xs es la unidad
 
 .alto-xs {
-    min-height: @cuadratin * 3;
+    min-height: @cuadratin * 5;
 }
 
 // el valor de alto-sm son 2 unidades + una mitad
@@ -276,11 +276,23 @@
         }
 
         &:hover {
+        a{
+            h6 {
+                background-color: transparent;
+                color: @gris-oscuro;
 
+            &:hover{
+                color: @rojo-claro;
 
-        h6 {
-            background-color: transparent;
-            color: @gris-oscuro;
+                    .ver-todo{
+                         &.noticias-por-carrera{
+                                i{
+                                    color: @rojo-claro;
+                                }
+                            }
+                        }
+                    }
+            }
         }
 
             .franja-seguir {
@@ -291,6 +303,15 @@
                 -o-transition: opacity .3s linear, opacity 0.2s linear;
             }
             .transition(.3s ease all);
+
+            .ver-todo{
+                &.noticias-por-carrera {
+                    background-color: @blanco;
+                    color: @gris-oscuro;
+                    border-color: @blanco;
+                    .transition(.3s ease all);
+                }
+            }
         }
 
         .seguir-leyendo {
