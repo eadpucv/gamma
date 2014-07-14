@@ -1,6 +1,6 @@
 <?php 
-  // ultimo posts de "Informacion de Docencia"
-  $cat_id = 1915; 
+  // ultimo posts de "Carrusel"
+  $cat_id = 1927; 
   $carrusel_posts = new WP_Query( array('posts_per_page' => 5, 'category__in' => array($cat_id)));
 ?>  
 <div class='alto-lg'>
