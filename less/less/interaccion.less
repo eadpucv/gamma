@@ -117,7 +117,7 @@ a.btn {
             }
         }
 
-        &.editar, .compartir{
+        &.editar, &.compartir{
             margin: 0px 0px;
             background-color: transparent;
             color: @gris-oscuro;
@@ -574,7 +574,10 @@ form{
                 &:hover {
                     background-color: fade(@blanco, 45);
                 }
+        }
 
+        &.ver-todo {
+            display: none;
         }
     }
 }
@@ -612,6 +615,10 @@ form{
                     background-color: fade(@blanco, 45);
                 }
         }
+
+        &.ver-todo {
+            display: none;
+        }
     }
 
 }
@@ -619,6 +626,173 @@ form{
 // Medium screen / desktop
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
+a.btn {
+    display: inline-block;
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    margin: 0;
+    cursor: pointer;
+    font-size: @cuerpo;
+    background: none;
+    text-align: center;
+    vertical-align: middle;
+    .border-radius(@radio);
+
+    &:active{
+        .box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
+    }
+
+    // Extensiones de tamaño
+
+    &.btn-md{
+        font-size: @cuerpo * 1.2;
+        letter-spacing: .05ex;
+        font-weight: 200;
+        margin: 10px 5px;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border: 2px solid;
+        border-image: none;
+        border-style: solid;
+        border-width: 1px 1px 3px;
+        display: inline-block;
+        padding: 10px;
+
+        i {
+            text-align: center;
+            line-height: 25px;
+        }
+
+        &:hover {
+            background: none repeat scroll 0 0 @rojo-claro;
+            border-color: @rojo-oscuro;
+            color: @blanco;
+            .transition(.3s ease all);
+        }
+
+        &.cargar-mas {
+            margin-top: 30px;
+            height: 50px;
+            margin-bottom: 30px;
+            width: 180px;
+            background-color: darken(@gris, 5);
+            color: @blanco;
+
+            &:hover {
+                background-color: @rojo-claro;
+            }
+        }
+    }
+
+    &.btn-lg{
+        font-size: @cuerpo * 2.5;
+        letter-spacing: .05px;
+        font-weight: 200;
+    }
+
+    // Extensiones de colores
+
+    &.ver-todo {
+        margin: 10px 40px;
+        border-width: 0px;
+        background-color: fade(@blanco, 60);
+        font-size: 12.5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 200;
+        padding: 10px 10px 13px 13px;
+
+        i {
+            bottom: -3px;
+            position: relative;
+        }
+
+        &.noticias-por-carrera{
+            position: absolute;
+            color: transparent;
+            background-color: fade(@blanco, 0);
+            bottom: 0px;
+            right: -30px;
+
+            &:hover {
+                background-color: @blanco;
+                color: @gris-oscuro;
+                border-color: @blanco;
+
+            i {
+                color: @rojo-claro;
+            }
+
+                .bloque-enlace{
+                    &.oficio{
+                        a{
+                            h6{
+                                color: @rojo-claro;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.editar, &.compartir{
+            margin: 0px 0px;
+            background-color: transparent;
+            color: @gris-oscuro;
+            font-size: 12px;
+            padding: 5px;
+            font-weight: 300;
+            border: 1px solid @gris;
+
+            span{
+                display: none;
+            }
+
+            i{
+                position: relative;
+                top: 1px;
+                font-size: 15px;
+            }
+
+            &:hover{
+                border: 1px solid @rojo-claro;
+                color: @rojo-claro;
+
+                span{
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                i{
+                    color: @rojo-claro;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &:hover {
+            background-color: @blanco;
+            color: @gris-oscuro;
+            border-color: @blanco;
+                .bloque-enlace{
+                    &.oficio{
+                        a{
+                            h6{
+                            color: @rojo-claro;
+                            }
+                        }
+                    }
+                }
+
+            i {
+                color: @rojo-claro;
+            }
+        }
+    }
+}
 
 }
 

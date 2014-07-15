@@ -20,8 +20,10 @@
       <span class='categorias'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?></span><br>
       <span class='categorias'>Archivado en: <?php the_category(', ') ?></span><br>
       <span class='categorias'><?php the_tags(__('Palabras claves: '), ', ', ' ') ?></span>
-      <a class='btn btn-md ver-todo editar derecha gris-oscuro'><span>Editar</span> <i class="icn icn-lapiz icn-md"></i></a>
-      <a class='btn btn-md ver-todo editar derecha gris-oscuro'><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a>
+      <div class='derecha botones-auxiliares'>
+        <a class='btn btn-md ver-todo editar gris-oscuro'><span>Editar</span> <i class="icn icn-lapiz icn-md"></i></a>
+        <a class='btn btn-md ver-todo compartir gris-oscuro'><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a>
+      </div>
     </aside>
   </div>
 </div>
