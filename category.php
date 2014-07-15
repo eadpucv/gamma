@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-<div class='fondo-negro'>
-    <div class='wrap'>
-		<h1 class="entry-title generico"><?php single_cat_title( '', true ); ?></h1> <!-- título del post -->
-	</div>
+<div class='fondo-blanco'>
+  <div class='wrap'>
+    <h1 class="entry-title especifico"><?php single_cat_title( '', true ); ?></h1> <!-- título del post -->
+  </div>
 </div>
 
 <div class='fondo-blanco'>

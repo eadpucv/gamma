@@ -29,7 +29,7 @@
 </head>
 
 <body lang='ES_es' data-spy="scroll" data-target="#menu-fixed">
-  <div class='fondo-blanco'>
+  <div class='fondo-header'>
     <div class='wrap header'>
         <a href=' <?php echo home_url(); ?> '>
           <div class='logo'>
