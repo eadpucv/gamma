@@ -25,13 +25,13 @@
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
-              <a href='#'><h6>| arquitectura</h6></a>
+              <a href='<?php echo get_category_link(7); ?>'><h6>| arquitectura</h6></a>
               <div class='pagina md carrera'>
                 <h3 class='blanco'><?php the_title(); ?></h3>
-
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo the_excerpt_max_charlength(350); ?></p>
               </div>
+               <a href='<?php echo get_category_link(7); ?>' class='btn btn-md derecha ver-todo noticias-por-carrera gris-oscuro'>Ver todas<i class="icn icn-flecha-der icn-sm input"></i></a>
             </div>
           <?php endwhile; endif; ?>
           </a>        
@@ -47,12 +47,13 @@
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
-              <a href='#'><h6>| diseño gráfico</h6></a>
+              <a href='<?php echo get_category_link(8); ?>'><h6>| diseño gráfico</h6></a>
               <div class='pagina md carrera'>
                 <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo the_excerpt_max_charlength(350); ?></p>
               </div>
+              <a href='<?php echo get_category_link(8); ?>' class='btn btn-md derecha ver-todo noticias-por-carrera gris-oscuro'>Ver todas<i class="icn icn-flecha-der icn-sm input"></i></a>
             </div>
           <?php endwhile; endif; ?>    
           </a>      
@@ -68,12 +69,13 @@
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
-              <a href='#'><h6>| diseño industrial</h6></a>
+              <a href='<?php echo get_category_link(9); ?>'><h6>| diseño industrial</h6></a>
               <div class='pagina md carrera'>
                 <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo the_excerpt_max_charlength(350); ?></p>
               </div>
+              <a href='<?php echo get_category_link(9); ?>' class='btn btn-md derecha ver-todo noticias-por-carrera gris-oscuro'>Ver todas<i class="icn icn-flecha-der icn-sm input"></i></a>
             </div>
           <?php endwhile; endif; ?>  
           </a>                  

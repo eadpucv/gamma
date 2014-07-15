@@ -1,6 +1,9 @@
 <?php get_header(); global $post; ?>
 <div class='fondo-blanco'>
   <div class='wrap'>
+  	    <div class='contenedor-sin-relleno oculto-xs'>
+      <?php the_breadcrumb(); ?>
+    </div>
   	<div class='numero-evento'>
 		<?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php if ($EM_Event->end_date != $EM_Event->start_date) { ?> - <?php } ?> <p class='dia-evento'><?php echo date("F", strtotime($EM_Event->start_date)); ?></p> 
 	</div>
@@ -20,9 +23,6 @@
 			Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?>
 		</aside>
 	</div>
-    <div class='contenedor-sin-relleno oculto-xs'>
-      <?php the_breadcrumb(); ?>
-    </div>
   </div>
 </div>
 <div class='fondo-blanco'>

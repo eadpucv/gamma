@@ -1,8 +1,9 @@
 <?php get_header(); ?>
-<div class='fondo-negro'>
-    <div class='wrap'>
-        <h1 class="entry-title generico">TAG : <?php single_tag_title(); ?> </h1> <!-- título del post -->
-    </div>
+
+<div class='fondo-blanco'>
+  <div class='wrap'>
+    <h1 class="entry-title especifico">Palabra clave : <?php single_tag_title(); ?></h1> <!-- título del post -->
+  </div>
 </div>
 
 <div class='fondo-blanco'>
