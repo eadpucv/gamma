@@ -468,9 +468,72 @@ form{
         }
 
         &.ver-todo {
-            display: none;
-        }
-    }
+            margin: 15px 10px;
+            border-width: 0px;
+            background-color: @blanco;
+            font-size: 10.5px;
+            width: 100%;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 300;
+            color: @gris-oscuro;
+            padding: 6px 10px 8px 13px;
+
+            i {
+                bottom: -3px;
+                position: relative;
+            }
+
+            &:hover {
+                color: @gris-oscuro;
+                background-color: @blanco;
+            }
+
+            &.noticias-por-carrera{
+                display: none;
+            }
+     
+
+            &.botones-post {
+                margin: 0px 0px;
+                background-color: transparent;
+                color: @gris-oscuro;
+                font-size: 12px;
+                padding: 0px;
+                font-weight: 300;
+                border: 1px solid @gris;
+                width: 120px;
+                float: left !important;
+                height: 55px;
+
+                span{
+                    display: inline-block;
+                }
+
+                i{
+                    position: relative;
+                    top: 1px;
+                    font-size: 13px;
+                }
+
+                &:hover{
+                    border: 1px solid @rojo-claro;
+                    color: @rojo-claro;
+
+                    span{
+                        display: inline-block;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    i{
+                        color: @rojo-claro;
+                        font-size: 12px;
+                    }
+                }
+            }
+}
+   }
 }
 
 // Small screen / tablet
@@ -586,14 +649,15 @@ a.btn {
     // Extensiones de colores
 
     &.ver-todo {
-        margin: 10px 40px;
+        margin: 15px 10px;
         border-width: 0px;
         background-color: fade(@blanco, 60);
-        font-size: 12.5px;
+        font-size: 10.5px;
+        width: 15%;
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-weight: 200;
-        padding: 10px 10px 13px 13px;
+        font-weight: 300;
+        padding: 12px 10px 8px 13px;
 
         i {
             bottom: -3px;
@@ -605,7 +669,9 @@ a.btn {
             color: transparent;
             background-color: fade(@blanco, 0);
             bottom: 0px;
-            right: -30px;
+            right: 0px;
+            width: 150px;
+            padding-top: 5px;
 
             &:hover {
                 background-color: @blanco;
@@ -616,19 +682,21 @@ a.btn {
                 color: @rojo-claro;
             }
 
-                .bloque-enlace{
-                    &.oficio{
-                        a{
-                            h6{
-                                color: @rojo-claro;
-                            }
-                        }
-                    }
-                }
             }
         }
 
-            .botones-post {
+        &:hover {
+            background-color: @blanco;
+            color: @gris-oscuro;
+            border-color: @blanco;
+
+            i {
+                color: @rojo-claro;
+            }
+        }
+    }
+
+        &.botones-post {
             margin: 0px 0px;
             background-color: transparent;
             color: @gris-oscuro;
@@ -636,6 +704,7 @@ a.btn {
             padding: 5px;
             font-weight: 300;
             border: 1px solid @gris;
+            width: auto;
 
             span{
                 display: none;
@@ -663,28 +732,7 @@ a.btn {
                 }
             }
         }
-
-        &:hover {
-            background-color: @blanco;
-            color: @gris-oscuro;
-            border-color: @blanco;
-                .bloque-enlace{
-                    &.oficio{
-                        a{
-                            h6{
-                            color: @rojo-claro;
-                            }
-                        }
-                    }
-                }
-
-            i {
-                color: @rojo-claro;
-            }
-        }
-    }
 }
-
 }
 
 // Large screen / wide desktop

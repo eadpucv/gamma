@@ -192,14 +192,6 @@ text-align: center;
 // Extra small screen / wide desktop
 @media(max-width: @screen-xs-max){
 
-
-    .categoria-publicacion {
-        font-size: 11px;
-        letter-spacing: 2px;
-        border-left: 2px solid;
-        padding-left: 8px;
-    }
-
 .seccion{
 
 h5{
@@ -289,13 +281,6 @@ margin-bottom: 30px;
 // Small screen / wide desktop
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
     
-    .categoria-publicacion {
-        font-size: 13px;
-        letter-spacing: 2px;
-        border-left: 2px solid;
-        padding-left: 8px;
-    }
-    
     .seccion{
 
         h3{
@@ -354,13 +339,15 @@ margin-bottom: 30px;
 // Medium screen / wide desktop
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
-    .seccion{
-        h3{
-            &:before,
-            &:after{
-                width: 19vw;
-            }
-        }
-    }
+.seccion{
+
+h3{
+
+&:before,
+&:after{
+width: 19vw;
+}
+}
+}
 }
 
