@@ -322,9 +322,9 @@
     &.categoria {
         border: none;
         margin-top: 0;
-        height: auto;
-        padding-bottom: 50px;
-        padding-top: 25px;
+        height: 250px;
+        margin: 5px 0 45px 0;
+        padding: 10px 0;
 
         h6 {
             font-size: 14px;
@@ -337,6 +337,7 @@
         }
 
         &:hover {
+            background-color: fade(@gris-claro, 20%);
 
             .franja-seguir {
                 visibility: visible;
@@ -947,6 +948,10 @@ hr {
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
+    .alto-categoria {
+        height: auto;
+    }
+
     .mama {
         text-align: left;
         color: @blanco;
@@ -1199,8 +1204,10 @@ hr {
     }
 
         &.categoria {
+            float: none;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
+            background-color: fade(@gris-claro, 20%);
 
             h6 {
                 font-size: 14px;
@@ -1558,6 +1565,14 @@ hr {
         height: 550px;
     }
 
+    .alto-sm {
+        height: 220px;
+    }
+
+    .alto-categoria {
+        height: 350px;
+    }
+
     .cita-carousel {
         height: 130px;
         padding: @cuadratin / 2;
@@ -1721,9 +1736,7 @@ hr {
         }
 
         &.categoria {
-            height: 350px;
-            margin-bottom: 30px;
-            border-top: none;
+            height: auto;
 
             h6 {
                 font-size: 16px;
@@ -2009,6 +2022,7 @@ hr {
     }
 
     .alto-sm {
+        height: 175px;
         display: inline-block;
         margin: 0 0 40px 0;
     }
@@ -2120,14 +2134,7 @@ hr {
     .bloque-enlace {
 
         &.categoria {
-            height: 310px;
-            margin-bottom: 20px;
-        }
-
-        &:hover {
-
-            .carrera {
-            }
+            height: 240px;
         }
     }
 
