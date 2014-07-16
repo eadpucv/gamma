@@ -64,116 +64,8 @@ a.btn {
                 background-color: @rojo-claro;
             }
         }
-    }
 
-    &.btn-lg{
-        font-size: @cuerpo * 2.5;
-        letter-spacing: .05px;
-        font-weight: 200;
-    }
-
-    // Extensiones de colores
-
-    &.ver-todo {
-        margin: 30px 60px;
-        border-width: 0px;
-        background-color: fade(@blanco, 60);
-        font-size: 12.5px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 200;
-        padding: 10px 10px 13px 13px;
-
-        i {
-            bottom: -3px;
-            position: relative;
-        }
-
-        &.noticias-por-carrera{
-            position: absolute;
-            color: transparent;
-            background-color: fade(@blanco, 0);
-            bottom: 0px;
-            right: -30px;
-
-            &:hover {
-                background-color: @blanco;
-                color: @gris-oscuro;
-                border-color: @blanco;
-
-            i {
-                color: @rojo-claro;
-            }
-
-                .bloque-enlace{
-                    &.oficio{
-                        a{
-                            h6{
-                                color: @rojo-claro;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        &.editar, &.compartir{
-            margin: 0px 0px;
-            background-color: transparent;
-            color: @gris-oscuro;
-            font-size: 12px;
-            padding: 5px;
-            font-weight: 300;
-            border: 1px solid @gris;
-
-            span{
-                display: none;
-            }
-
-            i{
-                position: relative;
-                top: 1px;
-                font-size: 15px;
-            }
-
-            &:hover{
-                border: 1px solid @rojo-claro;
-                color: @rojo-claro;
-
-                span{
-                    display: inline-block;
-                    margin: 0;
-                    padding: 0;
-                }
-
-                i{
-                    color: @rojo-claro;
-                    font-size: 12px;
-                }
-            }
-        }
-
-        &:hover {
-            background-color: @blanco;
-            color: @gris-oscuro;
-            border-color: @blanco;
-                .bloque-enlace{
-                    &.oficio{
-                        a{
-                            h6{
-                            color: @rojo-claro;
-                            }
-                        }
-                    }
-                }
-
-            i {
-                color: @rojo-claro;
-            }
-        }
-    }
-
-    &.transparente-blanco {
+            &.transparente-blanco {
         -moz-border-bottom-colors: none;
         -moz-border-left-colors: none;
         -moz-border-right-colors: none;
@@ -209,102 +101,101 @@ a.btn {
         border-style: solid;
         border-width: 1px 1px 3px;
     }
-}
+    }
 
-/*button.btn,
-input[type='submit'],
-a.btn{
-display: inline-block;
-font-family: 'Source Sans Pro';
-font-weight: 500;
-margin-top: 0;
-cursor: pointer;
-white-space: nowrap;
-font-size: @cuerpo-nav * .9;
-color: @blanco;
-text-align: center;
-background-color: @pizarra;
-vertical-align: middle;
-.border-radius(@radio);
-&:hover {
-text-decoration: none;
-background-color: saturate(@pizarra, 50%);
-color: @blanco;
-}
+    &.btn-lg{
+        font-size: @cuerpo * 2.5;
+        letter-spacing: .05px;
+        font-weight: 200;
+    }
 
-// cuando se aprieta el botón, que aparezca una sombra interior para que se vea hundido
-&:active{
-.box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
-}
+    // Extensiones de colores
 
-&.btn-xs{
-font-size: @cuerpo-nav * .6;
-text-transform: uppercase;
-font-weight: normal;
-padding: @padding-sm*.7 2*@padding-sm;
-}
-&.btn-sm{
-font-size: @cuerpo-nav * .8;
-text-transform: uppercase;
-font-weight: normal;
-padding: @padding-sm 4*@padding-sm;
-}
+    &.ver-todo {
+        margin: 30px 30px;
+        border-width: 0px;
+        background-color: fade(@blanco, 60);
+        font-size: 12.5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 200;
+        padding: 5px 10px 10px 15px;
 
-&.btn-md{
-font-weight: 300;
-font-size: @cuerpo-nav * 1;
-padding: @padding-md 2*@padding-md;
-}
+        i {
+            bottom: -3px;
+            position: relative;
+        }
 
-&.btn-lg{
-font-size: @cuerpo-nav * 1.5;
-letter-spacing: .05ex;
-font-weight: 200;
-padding: @padding-lg 1.8*@padding-lg;
-}
+        &:hover {
+                background-color: @blanco;
+                color: @rojo-claro;
+                border-color: @blanco;
 
-&.btn-accion{
-text-shadow: 1px 1px 0 fade(@negro, 40%);
-background-color: @rojo-opuesto;
-&:hover{
-background-color: @rojo-opuesto;
-}
-}
-&.btn-alerta{
-text-shadow: 1px 1px 0 fade(@negro, 40%);
-background-color: @rojo-alerta;
-&:hover{
-background-color: darken(saturate(@rojo-alerta, 10), 10);
-color: @blanco;
-}
-}
+                i {
+                    color: @rojo-claro;
+                }
 
-&.btn-accion,
-&.btn-alerta{
-&:active{
-.box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
-}
-}
+            }
 
-&.btn-busqueda{
-border:0;
-display: inline-block;
-font-family: 'Source Sans Pro';
-font-weight: 200;
-margin-top: 0;
-cursor: pointer;
-white-space: nowrap;
-color: @blanco;
-text-align: center;
-background-color: @transparente;
-vertical-align: middle;
-font-size: @cuerpo-nav * .8;
-text-transform: uppercase;
-font-weight: normal;
-padding: @padding-sm * 2 @padding-md;
+        &.noticias-por-carrera{
+            position: absolute;
+            color: transparent;
+            background-color: transparent;
+            bottom: 0;
+            right: 0;
+
+            &:hover {
+                background-color: @rojo-claro;
+                color: @rojo-claro;
+                border-color: @blanco;
+
+            i {
+                color: @rojo-claro;
+            }
+
+            }
+        }
+
+        &.botones-post {
+            margin: 0px 0px;
+            background-color: transparent;
+            color: @gris-oscuro;
+            font-size: 12px;
+            padding: 5px;
+            font-weight: 300;
+            border: 1px solid @gris;
+            float: right;
+            margin-bottom: 5px;
+
+            span{
+                display: none;
+            }
+
+            i{
+                position: relative;
+                top: 1px;
+                font-size: 15px;
+            }
+
+            &:hover{
+                border: 1px solid @rojo-claro;
+                color: @rojo-claro;
+
+                span{
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                i{
+                    color: @rojo-claro;
+                    font-size: 12px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
 }
-}
-*/
 
 .pegado-antes{.border-radius(@radio 0 0 @radio)}
 .pegado-despues{.border-radius(0 @radio @radio 0)}
@@ -737,7 +628,7 @@ a.btn {
             }
         }
 
-        &.editar, &.compartir{
+            .botones-post {
             margin: 0px 0px;
             background-color: transparent;
             color: @gris-oscuro;
