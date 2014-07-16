@@ -4,6 +4,7 @@
 <head profile="http://gmpg.org/xfn/11">
   <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
 
   <style type="text/css" media="screen">

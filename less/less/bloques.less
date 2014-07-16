@@ -3,7 +3,7 @@
 // el valor de alto-xs es la unidad
 
 .alto-xs {
-    min-height: @cuadratin * 5;
+    min-height: 130px;
 }
 
 // el valor de alto-sm son 2 unidades + una mitad
@@ -322,8 +322,9 @@
     &.categoria {
         border: none;
         margin-top: 0;
-        height: 320px;
-        padding-bottom: 20px;
+        height: 250px;
+        margin: 5px 0 45px 0;
+        padding: 10px 0;
 
         h6 {
             font-size: 14px;
@@ -336,6 +337,7 @@
         }
 
         &:hover {
+            background-color: fade(@gris-claro, 20%);
 
             .franja-seguir {
                 visibility: visible;
@@ -946,6 +948,10 @@ hr {
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
+    .alto-categoria {
+        height: auto;
+    }
+
     .mama {
         text-align: left;
         color: @blanco;
@@ -1198,8 +1204,10 @@ hr {
     }
 
         &.categoria {
+            float: none;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
+            background-color: fade(@gris-claro, 20%);
 
             h6 {
                 font-size: 14px;
@@ -1557,6 +1565,14 @@ hr {
         height: 550px;
     }
 
+    .alto-sm {
+        height: 220px;
+    }
+
+    .alto-categoria {
+        height: 350px;
+    }
+
     .cita-carousel {
         height: 130px;
         padding: @cuadratin / 2;
@@ -1720,9 +1736,7 @@ hr {
         }
 
         &.categoria {
-            height: 350px;
-            margin-bottom: 30px;
-            border-top: none;
+            height: auto;
 
             h6 {
                 font-size: 16px;
@@ -2004,10 +2018,11 @@ hr {
 
 
     .alto-lg {
-        height: 500px;
+        height: 460px;
     }
 
     .alto-sm {
+        height: 175px;
         display: inline-block;
         margin: 0 0 40px 0;
     }
@@ -2021,11 +2036,20 @@ hr {
         height: 456px;
         padding: @cuadratin / 2;
         position: absolute;
-        width: 350px;
-        right: @cuadratin;
+        width: 285px;
+        right: @cuadratin * 2.5;
 
+        h1 {
+            font-size: 26px;
+        }
         p {
-            max-height: 230px;
+            font-size: 16px;
+            line-height: 24px;
+            max-height: 122px;
+        }
+
+        span {
+            bottom: 25px;
         }
     }
     // Ajuste de página
@@ -2110,14 +2134,7 @@ hr {
     .bloque-enlace {
 
         &.categoria {
-            height: 310px;
-            margin-bottom: 20px;
-        }
-
-        &:hover {
-
-            .carrera {
-            }
+            height: 240px;
         }
     }
 
@@ -2129,6 +2146,7 @@ hr {
 
         h6 {
             width: 90%;
+            font-size: @cuerpo;
         }
 
         i {
