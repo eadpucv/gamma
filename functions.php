@@ -6,6 +6,7 @@ add_action('wp_logout', 'clean_session');
 
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999);
 add_filter('excerpt_more', 'new_excerpt_more');
+add_filter('edit_post_link', 'custom_edit_post_link');
 function custom_excerpt_length( $length ) {
   return 40;
 }
@@ -128,5 +129,11 @@ function get_user_extra_attributes() {
 function new_excerpt_more( $more ) {
   return "  [...]";
 }
+
+function custom_edit_post_link($output) {
+    $output = str_replace('class="post-edit-link"', 'class="btn btn-md ver-todo botones-post gris-oscuro"', $output);
+    return $output;
+}
+
 
 ?>

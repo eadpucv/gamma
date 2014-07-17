@@ -21,7 +21,8 @@
       <span class='categorias'>Archivado en: <?php the_category(', ') ?></span><br>
       <span class='categorias'><?php the_tags(__('Palabras claves: '), ', ', ' ') ?></span>
       <div class='derecha botones-auxiliares'>
-        <a class='btn btn-md ver-todo botones-post gris-oscuro' href='<?php edit_post_link('editar <i class="icn icn-lapiz icn-md"></i>'); ?>'><span>Editar</span> <i class="icn icn-lapiz icn-md"></i></a>
+
+        <?php echo edit_post_link("<span>Editar</span><i class='icn icn-lapiz icn-md'></i>","",""); ?>
       </div>
       <div class='derecha botones-auxiliares'>
         <a class='btn btn-md ver-todo botones-post gris-oscuro'><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a>

@@ -27,7 +27,7 @@
               <article class="h-entry enunciado">
                 <?php if ( has_post_thumbnail() ) { ?>
                   <div class='prev-imagen franja'>
-                    <?php the_post_thumbnail( 'medium', array( 'class' => "centrada-vertical") ); ?>
+                    <?php the_post_thumbnail( 'full', array( 'class' => "centrada-vertical") ); ?>
                   </div>
                 <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
@@ -60,10 +60,4 @@
   }
   $('.enunciado').scrollspy({ target: '#menu-fixed' })
 </script>
-
-<script>
-$('.enunciado').scrollspy({ target: '#menu-fixed' })
-</script>
-
-
 <?php get_footer(); ?>
