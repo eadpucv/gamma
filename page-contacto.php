@@ -22,13 +22,32 @@
           <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
             <div class='bloque'>
               <article class="h-entry enunciado">
-                <?php if ( has_post_thumbnail() ) { ?>
-                  <div class='prev-imagen franja'>
-                    <?php the_post_thumbnail( 'medium', array( 'class' => "centrada-vertical") ); ?>
-                  </div>
-                <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
-                  <div class='bloque' id="bloque_texto"><?php the_content(); ?></div>
+                  <div class='bloque' id="bloque_texto">
+                    <h2>e-mail</h2>
+                    <form class='contacto'>
+                        <legend>Envíanos un mail de contacto</legend>    
+                        <div class='grupo obligatorio'>
+                            <label><i class="icn icn-usuario icn-md"></i>Nombre</label>
+                            <input type='text' class='relleno-formulario' required />
+                            <label><i class="icn icn-email icn-md"></i> Correo electrónico</label>
+                            <input type='email' class='relleno-formulario' required/>
+                        </div>
+                        <div class='grupo'>
+                            <label><i class="icn icn-lapiz icn-md"></i> Mensaje</label>
+                            <textarea></textarea>
+                        </div>
+                        <input type='submit' class='btn btn-md' value='Enviar'>
+                    </form>
+                    <h2>Teléfono</h2>
+                    <p>Teléfono +56 32 2274401<br>
+                    Fax +56 32 2274421</p>
+                    <h2>Ubicación</h2>
+                    <h4>Escuela de Arquitectura y Diseño</h4>
+                    <h6>Pontificia Universidad Católica de Valparaíso</h6>
+                    <p>Matta 12, Recreo, Viña del Mar, Chile.<br>
+                    <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/idar.im6c5nep/attribution,zoompan,geocoder.html'></iframe>
+                  </div>
                 </div>
               </article> 
             </div>

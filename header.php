@@ -22,6 +22,7 @@
   <script src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/dropdown.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/smooth-scroll.js"></script>
+  <script src="<?php bloginfo('template_directory') ?>/js/modal.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/affix.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
   <script src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
@@ -93,7 +94,7 @@
              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
                <li role="presentation"><a href="<?php echo get_permalink(784); ?>" tabindex="-1" role="menuitem">Cuerpo coordinador</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(13710); ?>" tabindex="-1" role="menuitem">Asuntos estudiantiles</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(21); ?>" tabindex="-1" role="menuitem">Estudia en el extranjero</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25573); ?>" tabindex="-1" role="menuitem">Estudia en el extranjero</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(19); ?>" tabindex="-1" role="menuitem">Servicios</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(26); ?>" tabindex="-1" role="menuitem">Bolsa de trabajo</a></li>
                <li class="divider" role="presentation"></li>

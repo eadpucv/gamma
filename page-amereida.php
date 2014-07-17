@@ -4,9 +4,6 @@
 <div class='fondo-blanco'>
   <div class='wrap'>
     <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-    <div class='contenedor-sin-relleno oculto-xs'>
-      <?php the_breadcrumb(); ?>
-    </div>
   </div>
 </div>
 
