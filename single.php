@@ -21,7 +21,6 @@
       <span class='categorias'>Archivado en: <?php the_category(', ') ?></span><br>
       <span class='categorias'><?php the_tags(__('Palabras claves: '), ', ', ' ') ?></span>
       <div class='derecha botones-auxiliares'>
-
         <?php echo edit_post_link("<span>Editar</span><i class='icn icn-lapiz icn-md'></i>","",""); ?>
       </div>
       <div class='derecha botones-auxiliares'>
