@@ -14,7 +14,7 @@
 				</div>									
 				<?php endforeach; ?>
 			<?php else : // If there are no comments yet ?>
-				<p><?php _e('Aun no hay comentarios en esta publicación'); ?></p>
+				<p><?php _e('Aún no hay comentarios en esta publicación'); ?></p>
 			<?php endif; ?>
 		</div>
 		<?php if ( comments_open() ) : ?>

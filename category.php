@@ -14,19 +14,20 @@
                     <div class='fila pbd-alp-load-posts' id="first_container" >
                         <?php if ( have_posts() ) : ?>
                             <?php while ( have_posts() ) : the_post(); ?>
-                                <div class='col-lg-4 col-xs-12 post'>                            
+                                <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'>                            
                                     <div class='noticia-chica'>
                                         <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
-                                            <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
+                                            <div class='franja-seguir fija'>
+                                                <p>seguir leyendo +</p>
+                                            </div>
                                             <div class='seguir-leyendo-cuadro'>
                                             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
                                             </div>
                                             <div class='prev-imagen sm'>
-                                                <?php if ( has_post_thumbnail() ) { ?>
-                                                    <?php the_post_thumbnail( 'medium', array( 'class' => "ancho-maximo") ); ?>
-                                                <?php } else { ?>
-                                                    <img class='ancho-maximo' src='<?php echo catch_that_image() ?>'>
-                                                <?php } ?>
+                                                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+                                                if ($image) : ?>
+                                                <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
+                                                <?php endif; ?> 
                                             </div>
                                             <h6><?php the_title(); ?></h6>
                                             <aside class='entry-details'>    <aside class='entry-details blanco'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?> por <?php the_author(); ?></aside>    </aside>
@@ -36,7 +37,7 @@
                                 </div>
                             <?php endwhile; ?>
                         <?php else: ?>
-                            <p>Sorry, no posts matched your criteria.</p>
+                            <p>Lo siento, no hay entradas que coincidan con tu búsqueda.</p>
                         <?php endif; ?>                             
                     </div>
 
