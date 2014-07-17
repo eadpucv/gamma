@@ -96,6 +96,14 @@
         </div>
     </div>
 </footer>
+  <script async src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
+  <script async src="<?php bloginfo('template_directory') ?>/js/dropdown.js"></script>
+  <script async src="<?php bloginfo('template_directory') ?>/js/smooth-scroll.js"></script>
+  <script async src="<?php bloginfo('template_directory') ?>/js/modal.js"></script>
+  <script async src="<?php bloginfo('template_directory') ?>/js/affix.js"></script>
+  <script async src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
+  <script async src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
+  <script async src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script> 
 		<?php get_user_extra_attributes(); ?>
 		<script type="text/javascript">
 
