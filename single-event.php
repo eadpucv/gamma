@@ -33,7 +33,7 @@
     				<article class="h-entry">
         				<div class="e-content p-summary p-name">
             			<div class='bloque'>
-            				<?php echo $EM_Event->post_content?>
+            				<?php echo $EM_Event->post_content?><br />
             			</div>
         				</div>
 						<div class='keywords'>
