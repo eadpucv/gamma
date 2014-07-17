@@ -68,8 +68,9 @@
                             <p><?php echo the_excerpt_max_charlength(350); ?></p>
                         </div>
                       </a>
-                      <?php endforeach; } ?>
+                      <?php endforeach; ?>
                     </div>
+                  <?php } ?>
                 </div>
               </article> 
             </div>
