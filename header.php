@@ -19,15 +19,7 @@
   <?php wp_head(); ?>
   <script src="<?php bloginfo('template_directory') ?>/js/jquery.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/carousel.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/dropdown.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/smooth-scroll.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/modal.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/affix.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
-  <script src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.js"></script>
-  <script src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script>  
+  <script src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.js"></script> 
 </head>
 
 <body lang='ES_es' data-spy="scroll" data-target="#menu-fixed">
