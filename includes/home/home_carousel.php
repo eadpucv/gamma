@@ -1,21 +1,24 @@
 <?php 
   // ultimo posts de "Carrusel"
-  $cat_id = 1915; 
-  $i = 0;
-  $carrusel_posts = new WP_Query( array('posts_per_page' => 5, 'category__in' => array($cat_id)));
-?>  
+
+global $post;
+$args = array( 'numberposts' => 6, 'category_name' => 'carrusel' );
+$posts = get_posts( $args );
+$i = 0;
+?>
+
 <div class='alto-lg'>
   <div data-ride="carousel" class="carousel slide" id="carousel-example-generic"> 
     <ol class="carousel-indicators"> 
-      <?php if( $carrusel_posts->have_posts() ) : while( $carrusel_posts->have_posts() ) : $carrusel_posts->the_post(); ?>        
+      <?php foreach( $posts as $post ): setup_postdata($post);  ?>
         <li data-slide-to="<?php echo $i; ?>" data-target="#carousel-example-generic" <?php if ($i===0) { ?> class="active"<?php } ?>></li> 
         <?php $i++; ?>
-      <?php endwhile; endif; ?>   
+      <?php endforeach;  ?>
     </ol> 
 
     <div class="carousel-inner"> 
       <?php $i=0; ?>
-      <?php if( $carrusel_posts->have_posts() ) : while( $carrusel_posts->have_posts() ) : $carrusel_posts->the_post(); ?>        
+      <?php foreach( $posts as $post ): setup_postdata($post);  ?>
         <div class="item <?php if ($i == 0){ echo ' active '; $i=1; }?> imagen-carousel">
           <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
           if ($image) : ?>
@@ -33,7 +36,7 @@
             </div>
           </div> 
         </div>
-      <?php endwhile; endif; ?>     
+      <?php endforeach;  ?>     
     </div>
   </div>
 </div> 

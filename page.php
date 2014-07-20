@@ -24,11 +24,53 @@
               <article class="h-entry enunciado">
                 <?php if ( has_post_thumbnail() ) { ?>
                   <div class='prev-imagen franja'>
-                    <?php the_post_thumbnail( 'medium', array( 'class' => "centrada-vertical") ); ?>
+                    <?php the_post_thumbnail( 'full', array( 'class' => "centrada-vertical") ); ?>
                   </div>
                 <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto"><?php the_content(); ?></div>
+
+                  <?php if ($post->post_name === "bolsa-de-trabajo" || $post->post_name === "taller-de-amereida" || $post->post_name === "investigacion" || $post->post_name === "archivo" || $post->post_name === "magister-nautico-y-maritimo" || $post->post_name === "magister-en-diseno-nautico-y-maritimo" || $post->post_name === "magister-ciudad-y-territorio") { 
+                    
+                    switch ($post->post_name) {
+                      case "bolsa-de-trabajo":
+                        $cat_name = "trabajos";
+                        break;
+                      case "taller-de-amereida":
+                        $cat_name = "taller-amereida";
+                        break;
+                      case "investigacion":
+                        $cat_name = "investigacion";
+                        break;
+                      case "archivo":
+                        $cat_name = "archivo";                        
+                        break;
+                      case "magister-nautico-y-maritimo":
+                        $cat_name = "nautico-maritimo";                      
+                        break;
+                      case "magister-en-diseno-nautico-y-maritimo":
+                        $cat_name = "nautico-maritimo";                      
+                        break;                      
+                      case "magister-ciudad-y-territorio":
+                        $cat_name = "ciudad-y-territorio";                      
+                        break;                      
+                    }
+                    $args = array( 'numberposts' => 10, 'category_name' => $cat_name );
+                    $posts_publications = get_posts( $args ); ?>
+                    
+                    <div id='publicaciones' class='bloque'>
+                      <h2 class='rojo-claro'>Publicaciones</h2>
+                      <?php foreach( $posts_publications as $post ): setup_postdata($post);  ?>                      
+                      <a href='<?php the_permalink() ?>' class='bloque-publicacion'>
+                        <div class='pagina publicacion'>
+                            <h6 class='rojo-claro'><?php the_title(); ?></h6> 
+                            <aside class='entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+                            <p><?php echo the_excerpt_max_charlength(350); ?></p>
+                        </div>
+                      </a>
+                      <?php endforeach; ?>
+                    </div>
+                  <?php } ?>
                 </div>
               </article> 
             </div>
@@ -57,10 +99,4 @@
   }
   $('.enunciado').scrollspy({ target: '#menu-fixed' })
 </script>
-
-<script>
-$('.enunciado').scrollspy({ target: '#menu-fixed' })
-</script>
-
-
 <?php get_footer(); ?>
