@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('body').addClass('js');
-  var $menu = $('#menu'),
+  var $menu = $('#menu-responsive'),
     $menulink = $('.menu-link');
   
 $menulink.click(function() {
