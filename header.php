@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
-
+  <?php   header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days) ?>
   <style type="text/css" media="screen">
     @import url( <?php bloginfo('stylesheet_url'); ?> );
   </style>
