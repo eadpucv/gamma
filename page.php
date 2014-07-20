@@ -55,7 +55,7 @@
                         $cat_name = "ciudad-y-territorio";                      
                         break;                      
                     }
-                    $args = array( 'numberposts' => 10, 'category_name' => $cat_name );
+                    $args = array( 'numberposts' => 10, 'category_name' => $cat_name, 'no_found_rows' => true, 'cache_results' => false );
                     $posts_publications = get_posts( $args ); ?>
                     
                     <div id='publicaciones' class='bloque'>

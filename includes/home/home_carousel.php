@@ -2,7 +2,7 @@
   // ultimo posts de "Carrusel"
 
 global $post;
-$args = array( 'numberposts' => 6, 'category_name' => 'carrusel' );
+$args = array( 'numberposts' => 6, 'category_name' => 'carrusel', 'no_found_rows' => true, 'cache_results' => false  );
 $posts = get_posts( $args );
 $i = 0;
 ?>

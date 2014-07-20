@@ -1,7 +1,7 @@
 <?php 
   // ultimo posts de "Informacion de Docencia"
   $cat_id = 123; 
-  $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
+  $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id), 'no_found_rows' => true, 'cache_results' => false ));
 ?>
 <div class='wrap'>
   <div class='fila'>

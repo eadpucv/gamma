@@ -10,7 +10,7 @@
   <style type="text/css" media="screen">
     @import url( <?php bloginfo('stylesheet_url'); ?> );
   </style>
-  <link href='<?php bloginfo('template_directory') ?>/js/ead-bar/css/meta.css' rel='stylesheet' />
+  <link href='<?php bloginfo('template_directory') ?>/js/ead-bar/css/meta.min.css' rel='stylesheet' />
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
   <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
   <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php bloginfo('atom_url'); ?>" />
@@ -19,7 +19,7 @@
   <?php wp_head(); ?>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.js "></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/carousel.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.js"></script> 
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
 </head>
 
 <body lang='ES_es' data-spy="scroll" data-target="#menu-fixed">
@@ -47,7 +47,7 @@
                <li role="presentation"><a href="<?php echo get_permalink(4); ?>" tabindex="-1" role="menuitem">Autoridades</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="<?php echo get_category_link(1); ?>" tabindex="-1" role="menuitem">Portada noticias</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(25432); ?>" tabindex="-1" role="menuitem">Portada eventos</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink( get_page_by_title( 'Events' ) ) ?>" tabindex="-1" role="menuitem">Portada eventos</a></li>
 	             <li role="presentation"><a href="<?php echo get_category_link(123); ?>" tabindex="-1" role="menuitem">Portada información académica</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="http://wiki.ead.pucv.cl" tabindex="-1" role="menuitem">Wiki Casiopea</a></li>
