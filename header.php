@@ -17,9 +17,7 @@
 
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <?php wp_head(); ?>
-  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.js "></script>
-  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/carousel.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
+  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
 </head>
 
 <body lang='ES_es' data-spy="scroll" data-target="#menu-fixed">
@@ -39,7 +37,7 @@
           <ul class="nav nav-pills">
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="primer-dropdown" class="dropdown-toggle">Escuela<b class="caret"></b></a>
-             <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu">
+             <ul aria-labelledby="drop1" role="menu" class="dropdown-menu" id="menuEscuela">
                <li role="presentation"><a href="<?php echo get_permalink(5038); ?>" tabindex="-1" role="menuitem">Historia</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(7); ?>" tabindex="-1" role="menuitem">Amereida</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(6); ?>" tabindex="-1" role="menuitem">Campus</a></li>
@@ -60,7 +58,7 @@
          <ul class="nav nav-pills">
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
-             <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu">
+             <ul aria-labelledby="drop2" role="menu" class="dropdown-menu" id="menuCarreras">
                <li role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Arquitectura</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
@@ -72,7 +70,7 @@
          <ul class="nav nav-pills">
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Admisión<b class="caret"></b></a>
-             <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu">
+             <ul aria-labelledby="drop3" role="menu" class="dropdown-menu" id="menuAdmision">
                <li role="presentation"><a href="<?php echo get_permalink(3); ?>" tabindex="-1" role="menuitem">Pregrado</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(3); ?>" tabindex="-1" role="menuitem">Posgrado</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(21); ?>" tabindex="-1" role="menuitem">Intercambio estudiantil</a></li>
@@ -83,7 +81,7 @@
          <ul class="nav nav-pills">
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Estudiantes<b class="caret"></b></a>
-             <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu">
+             <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menuEstudiantes">
                <li role="presentation"><a href="<?php echo get_permalink(784); ?>" tabindex="-1" role="menuitem">Cuerpo coordinador</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(13710); ?>" tabindex="-1" role="menuitem">Asuntos estudiantiles</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(25573); ?>" tabindex="-1" role="menuitem">Estudia en el extranjero</a></li>
@@ -97,7 +95,7 @@
          <ul class="nav nav-pills">
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Extensión<b class="caret"></b></a>
-             <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu">
+             <ul aria-labelledby="drop5" role="menu" class="dropdown-menu" id="menuExtension">
                <li role="presentation"><a href="<?php echo get_permalink(11); ?>" tabindex="-1" role="menuitem">Archivo Histórico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(305); ?>" tabindex="-1" role="menuitem">Ediciones e[ad]</a></li>
               <li role="presentation"><a href="<?php echo get_permalink(90); ?>" tabindex="-1" role="menuitem">Investigación</a></li>
@@ -107,7 +105,7 @@
          <ul class="nav nav-pills">
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="ultimo-dropdown" class="dropdown-toggle">Amereida<b class="caret"></b></a>
-             <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu">
+             <ul aria-labelledby="drop6" role="menu" class="dropdown-menu" id="menuAmereida">
                <li role="presentation"><a href="<?php echo get_permalink(6937); ?>" tabindex="-1" role="menuitem">Taller de Amereida</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(10); ?>" tabindex="-1" role="menuitem">Ciudad Abierta</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(9); ?>" tabindex="-1" role="menuitem">Travesías</a></li>
@@ -118,8 +116,8 @@
         </div> <!-- fin navegacion -->
    <div id="pattern" class="oculto-lg oculto-md pattern">
       <!--Begin Pattern HTML-->
-      <a href="#menu-responsive" class="menu-link"><i class="icn icn-menu icn-lg"></i> </a>
-      <nav id="menu-responsive" role="navigation">
+      <a href="#menu" class="menu-link"><i class="icn icn-menu icn-lg"></i> </a>
+      <nav id="menu" role="navigation">
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
