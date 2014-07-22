@@ -51,11 +51,10 @@
             <div class='fila'>
     <div class='fondo-blanco'>
         <div class='wrap'>
-            <div class='historia'>
-                <h1 class='rojo-claro'>Escuela de Arquitectura y Diseño, Casa de estudio</h1>
-                <h4 class='subtitulo gris'>Avenida Matta 12, Recreo, Viña del Mar</h4>
                 <div class='bloque'>
                     <article class="h-entry especifico">
+                        <h1 class='rojo-claro'>Escuela de Arquitectura y Diseño, Casa de estudio</h1>
+                        <h4 class='subtitulo gris'>Avenida Matta 12, Recreo, Viña del Mar</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p>La sede de la Escuela de Arquitectura y Diseño se encuentra ubicada en la calle Matta, Recreo. La casa original fue construida alrededor de 1940 con fines residenciales conforme a su primera recepción municipal y fue adquirida por la Universidad en el año 1951 bajo la rectoría del R.P. Jorge González, quien en su momento dijo que...“la ubicación está muy de acuerdo con los ideales de un arquitecto que debe ser un hombre que tenga visión amplia y que mire el mar”. </p>
@@ -71,18 +70,16 @@
                         </div>
                     </article> 
                 </div>
-            </div>
         </div>
     </div>
 </div>
 <div class='fila'>
     <div class='fondo-oscuro'>
         <div class='wrap'>
-            <div class='historia'>
-                <h1 class='rojo-claro'>Ciudad Abierta</h1>
-                <h4 class='subtitulo gris'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h4>
                 <div class='bloque'>
                     <article class="h-entry especifico">
+                        <h1 class='rojo-claro'>Ciudad Abierta</h1>
+                        <h4 class='subtitulo gris'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p class='gris-claro'>En 1969, los profesores de la facultad, fundaron una cooperativa privada, hoy conocida como Corporación Cultural Amereida, la cual adquirió un extenso terreno en el sector de Punta de Piedra, ubicada entre las localidades de Con-cón y Quintero. Dicho terreno fue bautizado como Ciudad Abierta y se convirtió en un campo de experimentación arquitectónico, donde se construyeron (y se siguen construyendo), proyectos experimentales de arquitectura, utilizando materiales y formas poco convencionales, siendo ejecutados principalmente por los alumnos y profesores de la facultad.</p>
@@ -97,18 +94,16 @@
                         </div>
                     </article> 
                 </div>
-            </div>
         </div>
     </div>
 </div>
 <div class='fila'>
     <div class='fondo-blanco'>
         <div class='wrap'>
-            <div class='historia'>
-                <h1 class='rojo-claro'>Pontificia Universidad Católica de Valparaíso, Casa Central</h1>
-                <h4 class='subtitulo blanco'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h4>
                 <div class='bloque'>
                     <article class="h-entry especifico">
+                        <h1 class='rojo-claro'>Pontificia Universidad Católica de Valparaíso, Casa Central</h1>
+                        <h4 class='subtitulo'>Av Brasil 2950, Región V</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p>El 21 de septiembre del año 1925, era puesta la primera piedra de la que hoy es una de las instituciones de mayor trayectoria y prestigio de la educación superior chilena. Ese día nacía la Universidad Católica de Valparaíso.</p>
@@ -121,7 +116,6 @@
                         </div>
                     </article> 
                 </div>
-            </div>
         </div>
     </div>
 </div>

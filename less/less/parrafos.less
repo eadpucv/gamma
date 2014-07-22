@@ -177,13 +177,14 @@ ul li {
 	width: 100%;
     margin: 0 auto;
 
-    h1 {
-        margin-bottom: 30px;
+    h1, h2 {
+        margin-bottom: 15px;
+        text-align: center;
     }
 
-	h2 {
-		margin-bottom: 30px;
-	}
+    h5 {
+        margin-bottom: 30px;
+    }
 
 	h6 {
 		margin-bottom: 15px;
@@ -194,7 +195,8 @@ ul li {
     }
 
     h4{
-        margin-bottom: 15px;
+        margin-bottom: 30px;
+        text-align: center;
     }
 
 	p {
@@ -206,6 +208,7 @@ ul li {
         img{
             width: 100%;
             height: auto;
+            margin: 20px 0 30px 0;
         }	
     }
 
@@ -256,6 +259,14 @@ ul li {
 
     &.enunciado {
 
+        h1, h2 {
+            text-align: left;
+        }
+
+            h5 {
+            margin-bottom: 30px;
+        }
+
         p{
             font-size: 16px;
             line-height: 28px;
@@ -292,6 +303,8 @@ ul li {
     h2 {
         margin-bottom: 25px;
         }
+
+
 
     a{
         font-family: @serif;
@@ -519,7 +532,7 @@ display: none;
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
     .cita {
-        font-size: @cuerpo * 0.9;
+        font-size: @cuerpo * 0.78;
         padding: 20px 0;
         width: 100%;
         border-left: none;
@@ -652,6 +665,7 @@ font-size: 20px;
     .cita {
     font-size: @cuerpo * 0.75;
     padding: 0 20px;
+    line-height: 21px;
     width: 48%;
     }
 
@@ -680,6 +694,17 @@ font-size: 20px;
             }
         }
     }
+
+    .entry-details {
+        font-size: 10.5px;
+        margin: 0 0 10px 0;
+        padding: 14px 0 0 0;
+        color: @gris-oscuro;
+
+        a {
+         color: @gris-oscuro;
+        }
+}
 
     // Aside
 

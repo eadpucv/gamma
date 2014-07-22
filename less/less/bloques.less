@@ -1122,7 +1122,7 @@ hr {
         &.docente {
             padding: 10px;
             margin-bottom: 15px;
-            height: @cuadratin * 14;
+            height: auto;
 
             &.historia {
                 height: auto;
@@ -1682,8 +1682,8 @@ hr {
         }
 
         &.docente {
-            height: auto;
             margin: 20px 0;
+            height: @cuadratin * 11;
 
             &.historia {
                 height: auto;
@@ -2021,6 +2021,10 @@ hr {
         height: 460px;
     }
 
+    .alto-xs {
+    min-height: 100px;
+}
+
     .alto-sm {
         height: 175px;
         display: inline-block;
@@ -2028,7 +2032,7 @@ hr {
     }
 
     .alto-md {
-        height: 430px;
+        height: 420px;
         margin: 0 0 40px 0;
     }
     
@@ -2106,8 +2110,9 @@ hr {
         }
 
         &.docente {
-            height: auto;
+            height: @cuadratin * 12;
             margin: 20px 0;
+
             &.historia {
                 height: auto;
             }

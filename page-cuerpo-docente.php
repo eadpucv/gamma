@@ -11,7 +11,7 @@
 			<div class='fila'>
 					<div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
 						<div class='fila'>
-							<h5 class='rojo-claro cuerpo-docente'>Profesores de la Escuela</h5>
+							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Profesores de la Escuela</h5>
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
@@ -406,7 +406,7 @@
 								</div>
 							</div>-->
 						<div class='fila'>
-							<h5 class='rojo-claro cuerpo-docente'>Profesores ayudantes</h5>
+							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Profesores ayudantes</h5>
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
@@ -521,7 +521,7 @@
 							</div>
 						</div>
 						<div class='fila'>
-							<h5 class='rojo-claro cuerpo-docente'>Staff</h5>
+							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Staff</h5>
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
