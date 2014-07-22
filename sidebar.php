@@ -5,24 +5,24 @@
     $args=array('tag__in' => array($tags[0]->term_id,$tags[1]->term_id,$tags[2]->term_id ),'post__not_in' => array($post->ID),'posts_per_page'=>7,'caller_get_posts'=>1);
     $related_posts = new WP_Query($args);
   } else if (is_page( 'diseno-grafico' ) ) {
-    $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(8)));
+    $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(8), 'no_found_rows' => true, 'cache_results' => false));
   } else if (is_page( 'arquitectura' ) ) {
-    $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(7)));
+    $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(7), 'no_found_rows' => true, 'cache_results' => false));
   } else if (is_page( 'diseno-industrial' ) ) {
-    $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(9)));
+    $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(9), 'no_found_rows' => true, 'cache_results' => false));
   } else if (is_category()) {
     $category = get_category(get_query_var('cat'));
     $cat_id = $category->cat_ID;
     if (is_category( 'docencia' ) ) {
-      $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(123)));
+      $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(123), 'no_found_rows' => true, 'cache_results' => false));
     } else {
-      $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array($cat_id)));
+      $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array($cat_id), 'no_found_rows' => true, 'cache_results' => false));
     }
 
   }
 
   // Noticias
-  $latest_cat_post = new WP_Query( array('posts_per_page' => 7, 'post__not_in' => array($post->ID), 'category__in' => array(1)));
+  $latest_cat_post = new WP_Query( array('posts_per_page' => 7, 'post__not_in' => array($post->ID), 'category__in' => array(1), 'no_found_rows' => true, 'cache_results' => false));
 ?>
 
 <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12'>
@@ -53,7 +53,9 @@
     <div class='bloque-aside oculto-sm oculto-xs'>
       <h6 class='naranja-opuesto'><i class="icn icn-twitter icn-lg"></i> @eadpucv</h6>
       <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <script type="text/javascript">
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
     </div>
     <div class='bloque-aside'>
       <h5 class='fino'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>

@@ -77,7 +77,7 @@ function the_breadcrumb() {
         if (is_single()) {
             if( get_post_type() == 'event' ) {
               echo '<li><a href="';
-              echo get_permalink(25432); 
+              echo get_permalink( get_page_by_title( 'Events' ) ); 
               echo '">Eventos</a></li>';
             }
         }

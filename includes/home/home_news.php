@@ -5,7 +5,7 @@
 <?php 
   // 7 noticias"
   $cat_id = 1; 
-  $latest_cat_post = new WP_Query( array('posts_per_page' => 8, 'category__in' => array($cat_id)));
+  $latest_cat_post = new WP_Query( array('posts_per_page' => 8, 'category__in' => array($cat_id), 'no_found_rows' => true, 'cache_results' => false ));
 ?>
   <?php if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post(); ?>        
     <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
@@ -18,7 +18,7 @@
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
         </div>
           <div class='prev-imagen sm'>
-            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
             if ($image) : ?>
             <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
             <?php endif; ?> 

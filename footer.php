@@ -37,7 +37,7 @@
     </div>        
     <div class='container-lg'>
         <div class=' mapa'>
-            <iframe width='100%' height='200px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/idar.ilih71di/attribution,zoompan,geocoder.html'></iframe>
+            <iframe width='100%' height='250px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/idar.ilih71di/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoiaWRhciIsImEiOiJQNGFvOVdVIn0.7FwJUgWdhWOSOXt-jdtnUw'></iframe>
         </div>
     </div>
     <div class='wrap'>
@@ -96,14 +96,16 @@
         </div>
     </div>
 </footer>
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/dropdown.js"></script>
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/smooth-scroll.js"></script>
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/modal.js"></script>
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/affix.js"></script>
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
-  <script async type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script> 
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.js "></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/carousel.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/dropdown.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/smooth-scroll.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/modal.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/affix.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script> 
 		<?php get_user_extra_attributes(); ?>
 		<script type="text/javascript">
 

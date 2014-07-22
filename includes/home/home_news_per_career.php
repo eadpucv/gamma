@@ -4,9 +4,9 @@
   $cat_diseno_grafico = 8; 
   $cat_diseno_industrial = 9;
 
-  $latest_dg = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_diseno_grafico)));
-  $latest_di = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_diseno_industrial)));
-  $latest_ar = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_arquitectura)));
+  $latest_dg = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_diseno_grafico),'no_found_rows' => true, 'cache_results' => false ));
+  $latest_di = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_diseno_industrial), 'no_found_rows' => true, 'cache_results' => false ));
+  $latest_ar = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_arquitectura), 'no_found_rows' => true, 'cache_results' => false ));
 ?>
   <div class='wrap-ancho-maximo'>
     <div class='col-lg-12'>

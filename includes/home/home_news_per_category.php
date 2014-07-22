@@ -7,12 +7,12 @@
   $cat_observacion = 157;
   $cat_investigacion = 11;
 
-  $latest_archivo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_archivo)));
-  $latest_ciudad_territorio = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_ciudad_territorio)));
-  $latest_nautico_maritimo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_nautico_maritimo)));
-  $latest_trabajos = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_trabajos)));  
-  $latest_obs = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_observacion)));    
-  $latest_investigacion = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_investigacion)));      
+  $latest_archivo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_archivo), 'no_found_rows' => true, 'cache_results' => false ));
+  $latest_ciudad_territorio = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_ciudad_territorio), 'no_found_rows' => true, 'cache_results' => false ));
+  $latest_nautico_maritimo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_nautico_maritimo), 'no_found_rows' => true, 'cache_results' => false ));
+  $latest_trabajos = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_trabajos), 'no_found_rows' => true, 'cache_results' => false ));  
+  $latest_obs = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_observacion), 'no_found_rows' => true, 'cache_results' => false ));    
+  $latest_investigacion = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_investigacion), 'no_found_rows' => true, 'cache_results' => false ));      
 ?>
   <div class='wrap'>
     <div class='seccion'>
