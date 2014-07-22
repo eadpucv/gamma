@@ -7,9 +7,6 @@
 <div class='fondo-blanco'>
   <div class='wrap'>
     <h1 class="entry-title especifico"><i class="icn icn-calendario icn-sm"></i> Eventos  <?php if ($_GET["calendar_day"]) { ?> | <?php echo date("d", strtotime($_GET["calendar_day"])); ?> de <?php echo date("F", strtotime($_GET["calendar_day"]));  } ?>  </h1> <!-- título del post -->
-    <div class='contenedor-sin-relleno oculto-xs'>
-      <?php the_breadcrumb(); ?>
-    </div>
   </div>
 </div>
 <div class='fondo-blanco'>
