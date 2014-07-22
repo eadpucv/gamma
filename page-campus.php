@@ -51,10 +51,10 @@
             <div class='fila'>
     <div class='fondo-blanco'>
         <div class='wrap'>
-                <h1 class='rojo-claro'>Casa de estudios en Recreo</h1>
-                <h4 class='subtitulo gris'>Avenida Matta 12, Recreo, Viña del Mar</h4>
                 <div class='bloque'>
-                    <article class="h-entry enunciado">
+                    <article class="h-entry">
+                        <h1 class='rojo-claro'>Casa de estudios en Recreo</h1>
+                        <h4 class='subtitulo gris'>Avenida Matta 12, Recreo, Viña del Mar</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p>La sede de la Escuela de Arquitectura y Diseño se encuentra ubicada en la calle Matta, Recreo. La casa original fue construida alrededor de 1940 con fines residenciales conforme a su primera recepción municipal y fue adquirida por la Universidad en el año 1951 bajo la rectoría del R.P. Jorge González, quien en su momento dijo que...“la ubicación está muy de acuerdo con los ideales de un arquitecto que debe ser un hombre que tenga visión amplia y que mire el mar”. Hasta el día de hoy el edificio mantiene la tipología de una residencia de estilo neocolonial y sus recintos han sido alterados conforme a los requerimientos educacionales. Asímismo, durante los años 90-95 se realizó una serie de transformaciones en la propiedad de Matta 12, que incluyó modificaciones en sus espacios exteriores. </p>
@@ -70,11 +70,10 @@
 <div class='fila'>
     <div class='fondo-oscuro'>
         <div class='wrap'>
-            <div class='historia'>
-                <h1 class='rojo-claro'>Ciudad Abierta</h1>
-                <h4 class='subtitulo gris'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h4>
                 <div class='bloque'>
-                    <article class="h-entry enunciado">
+                    <article class="h-entry">
+                        <h1 class='rojo-claro'>Ciudad Abierta</h1>
+                        <h4 class='subtitulo gris'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p class='gris-claro'>La Escuela es la autora y principal protagonista, aunque no la única, del proyecto denominado “Ciudad Abierta”. En lo fundamental, es una extensión de 270 hectáreas ubicada 20 kilómetros al norte de Valparaíso, fundada en 1970 por poetas, arquitectos, diseñadores, escultores y filósofos, como una utopía que permite vincular vida, trabajo y estudio en “la plenitud y libertad de los oficios”.</p>
@@ -84,18 +83,16 @@
                         </div>
                     </article> 
                 </div>
-            </div>
         </div>
     </div>
 </div>
 <div class='fila'>
     <div class='fondo-blanco'>
         <div class='wrap'>
-            <div class='historia'>
-                <h1 class='rojo-claro'>Pontificia Universidad Católica de Valparaíso, Casa Central</h1>
-                <h4 class='subtitulo blanco'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h4>
                 <div class='bloque'>
-                    <article class="h-entry enunciado">
+                    <article class="h-entry">
+                        <h1 class='rojo-claro'>Pontificia Universidad Católica de Valparaíso, Casa Central</h1>
+                        <h4 class='subtitulo'>Av Brasil 2950, Región V</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p>El 21 de septiembre del año 1925, era puesta la primera piedra de la que hoy es una de las instituciones de mayor trayectoria y prestigio de la educación superior chilena. Ese día nacía la Universidad Católica de Valparaíso.</p>
@@ -108,7 +105,6 @@
                         </div>
                     </article> 
                 </div>
-            </div>
         </div>
     </div>
 </div>

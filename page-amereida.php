@@ -53,7 +53,7 @@
         <div class='wrap'>
             <div class='historia'>
                 <div class='bloque'>
-                    <article class="h-entry enunciado">
+                    <article class="h-entry">
                         <h1 class='rojo-claro'>Amereida</h1>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>

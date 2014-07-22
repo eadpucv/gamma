@@ -52,7 +52,7 @@
                 <div class='fondo-blanco'>
                     <div class='wrap'>
                         <div class='bloque'>
-                            <article class="h-entry enunciado">
+                            <article class="h-entry">
                                 <h1 class='rojo-claro'>Fundación</h1>
                                 <h4 class='subtitulo gris'>Escuela de arquitectura y diseño</h4>
                                 <div class="e-content p-summary p-name">
@@ -206,7 +206,7 @@
                 <div class='fondo-gris-claro'>
                     <div class='wrap'>
                         <div class='bloque'>
-                            <article class="h-entry enunciado">
+                            <article class="h-entry">
                                 <h1 class='rojo-claro'>Escuela de Arquitectura y Diseño e[ad]</h1>
                                     <div class="e-content p-summary p-name">
                                         <p>Desde su constitución, la e[ad] se ha consolidado como una de las escuelas referentes en Chile y el mundo, que se funda en el encuentro y co-generación de los tres oficios que imparte: Arquitectura, y los Diseños Gráfico e Industrial, en permanente relación con la poesía. Así, afirmamos que tanto la Arquitectura como el Diseño son, en su sentido más profundo, un arte.</p>
@@ -222,7 +222,7 @@
                     <div class='fondo-gris-claro'>
                         <div class='wrap'>
                             <div class='bloque'>
-                                <article class="h-entry enunciado">
+                                <article class="h-entry">
                                     <h1 class='rojo-claro'>Misión de la e[ad]</h1>
                                     <div class="e-content p-summary p-name">
                                         <p>“Cultivar el arte de la Arquitectura y del Diseño, armónicamente con los principios de la Pontificia Universidad Católica de Valparaíso. Cultivar el arte de la Arquitectura y el Diseño es develar lo invisible e inadvertido del habitar humano experimentando, investigando y reflexionando desde y sobre nuestros contextos poéticos del habitar. Y por medio de la creación y transmisión del conocimiento del oficio de dichas artes formar profesionales de Arquitectura y Diseño en base a competencias valóricas, disciplinares y profesionales que le permitan desempeñarse con mirada sensible, ubicua y crítica, con capacidad creativa, analítica, y de intervención social y con actitud propositiva, proyectiva y constructora. Profesionales con vocación de concebir obras que den cabida y expresión al habitar humano. Por lo tanto, dispuestos a transformarse en actores que trabajen por una sociedad más humanista.”</p>
@@ -230,7 +230,7 @@
                                 </article> 
                             </div>
                             <div class='bloque'>
-                                <article class="h-entry enunciado">
+                                <article class="h-entry">
                                     <h1 class='rojo-claro'>Visión de la e[ad]</h1>
                                     <div class="e-content p-summary p-name">
                                         <p>“Construir un polo único y notable que se transforme en referente de una imagen académica a nivel americano de la comunidad Amereida, que se identifique con un modelo de integración de los ámbitos académicos, artísticos y profesionales, para que los principios fundamentales de vocación de servicio a la sociedad, sean representados en el más pleno de sus propósitos en donde la experimentación traspase los límites formales y sea una real exposición palpable de la condición poética del hombre”.</p>
@@ -244,7 +244,7 @@
                     <div class='fondo-blanco'>
                         <div class='wrap'>
                             <div class='bloque'>
-                                <article class="h-entry enunciado">
+                                <article class="h-entry">
                                     <h1 class='rojo-claro'>Metodología</h1>
                                     <h4 class='subtitulo gris'>El oficio</h4>
                                         <div class="e-content p-summary p-name">
@@ -261,11 +261,11 @@
                                         </div>
                                     </article> 
                                 </div>
-                                <h4 class='subtitulo gris'>La observación</h4>
                                 <div class='bloque'>
-                                    <article class="h-entry enunciado">
+                                    <article class="h-entry">
                                         <div class="e-content p-summary p-name">
                                             <div class='bloque'>
+                                                <h4 class='subtitulo gris'>La observación</h4>
                                                 <h6 class='rojo-claro'>Su Ubicación</h6>
                                                 <p>Para ubicarse diremos que es más que un informarse; por ejemplo, mirar hacia afuera para ver cómo amaneció el clima de un nuevo día.</p>
                                                 <p>También, agregaremos, es más que documentarse; por ejemplo, indagar las variables del recorrido de un cierto itinerario, afín de acertar con el más breve.</p>
