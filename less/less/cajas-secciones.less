@@ -48,7 +48,7 @@
 
 .imagen-docente {
     display: block;
-    margin: 5px 20px 0 0;
+    margin: 20px 20px 0 0;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -66,7 +66,7 @@
 }
 
 .datos-docente {
-    width: 65%;
+    width: 74%;
     margin: 5px 0;
     min-height: @cuadratin * 2;
     display: inline-block;
@@ -83,7 +83,7 @@
 
 .resena-docente {
     margin: 5px 0;
-    width: 65%;
+    width: 74%;
     display: inline-block;
 
     p {
@@ -101,14 +101,14 @@
 
     &.historia {
 
-    p{
-        font-size: @cuerpo * 0.95;
-        padding: 0;
-        line-height: @interlinea * 0.95;
-        font-family: @sans;
-        max-height: 275px;
-        overflow: hidden;
-    }
+        p{
+            font-size: 16.2px;
+            line-height: 20.9px;
+            padding: 0;
+            font-family: @sans;
+            max-height: 275px;
+            overflow: hidden;
+        }
     }
 }
 
@@ -153,10 +153,8 @@
 }
 
 .contenido-comentario {
-    border-top: 1px solid fade(@pizarra, 20);
-    //box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
     padding: 20px;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .imagen-usuario {
@@ -174,12 +172,12 @@
 }
 
 .bloque-comentario {
-    padding-left: 0px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .comentario {
     display: inline-block;
-    padding: 10px;
 
     p {
         font-family: @sans;
@@ -192,9 +190,9 @@
 }
 
 .comentar {
-    border-top: 1px solid fade(@pizarra, 10);
-    //box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05) inset;
+    border: 1px solid fade(@pizarra, 10);
     padding: 20px;
+    margin-top: 20px;
 }
 
 // Calendario
@@ -321,15 +319,7 @@
 
 
     .contenido-comentario {
-        margin-top: 30px;
-        border: none;
-        border-bottom: 1px solid @gris-claro;
-        box-shadow: none;
-        padding: 0 0 20px 0;
-    }
-
-    .bloque-comentario {
-        padding-left: 160px;
+        padding: 0;
     }
 
     .comentario {
@@ -342,20 +332,15 @@
     }
 
     .comentar {
-        border: none;
         box-shadow:none;
-        padding: 0px;
-        margin: 20px 0 0 0;
+        padding: 10px;
+        margin: 30px 0 0 0;
     }
 
     // Comentario
 
     .imagen-usuario {
         display: none;
-    }
-
-    .bloque-comentario {
-        padding: 0;
     }
 
     .imagen-docente {
@@ -494,6 +479,13 @@
             width: 100%;
         }
     }
+
+    // comentarios
+
+    .contenido-comentario {
+        padding: 20px 0;
+    }
+
 
     // eventos
 
@@ -636,7 +628,7 @@
         }
 
         &.historia {
-            width: 55%;
+            width: 65%;
         }
 
         h2 {
@@ -663,13 +655,17 @@
             max-height: 80px;
             overflow: hidden;
         }
+
+        &.historia {
+            width: 65%;
+        }
     }
 
 
     // comentarios
 
-    .bloque-comentario {
-        padding-left: 0;
+    .contenido-comentario {
+        padding: 20px 0;
     }
 
     // calendario
