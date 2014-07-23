@@ -96,7 +96,7 @@
         </div>
     </div>
 </footer>
-  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.js "></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/carousel.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/dropdown.js"></script>
@@ -110,7 +110,6 @@
 
 		<?php get_user_extra_attributes(); ?>
 		<script type="text/javascript">
-
 			$(document).ready(function(){ $( "body" ).load_ead_bar({
 				id: "<?php echo $_SESSION['cas_id']; ?>",
 				mail: "<?php echo $_SESSION['cas_mail']; ?>",
@@ -125,5 +124,8 @@
 				})
 			});
 		</script>
+    <script type='text/javascript'>
+      smoothScroll.init();
+    </script>
 	</body>
 </html>
