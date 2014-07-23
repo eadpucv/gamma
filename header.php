@@ -1,10 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
+<!DOCTYPE html>
+ 
+<html lang="es">
 
-<head profile="http://gmpg.org/xfn/11">
+<head>
   <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta charset="utf-8" />
   <title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
   <?php   header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days) ?>
   <style type="text/css" media="screen">
@@ -17,10 +19,10 @@
 
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <?php wp_head(); ?>
-  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.js "></script>
 </head>
 
-<body lang='ES_es' data-spy="scroll" data-target="#menu-fixed">
+<body data-spy="scroll" data-target="#menu-fixed">
   <div class='fondo-header'>
     <div class='wrap header'>
         <a href=' <?php echo home_url(); ?> '>
@@ -57,7 +59,7 @@
          </ul>
          <ul class="nav nav-pills">
            <li class="dropdown">
-             <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
+             <a href="#" data-toggle="dropdown" role="button" id="drop2" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
              <ul aria-labelledby="drop2" role="menu" class="dropdown-menu" id="menuCarreras">
                <li role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Arquitectura</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
@@ -69,7 +71,7 @@
          </ul>
          <ul class="nav nav-pills">
            <li class="dropdown">
-             <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Admisión<b class="caret"></b></a>
+             <a href="#" data-toggle="dropdown" role="button" id="drop3" class="dropdown-toggle">Admisión<b class="caret"></b></a>
              <ul aria-labelledby="drop3" role="menu" class="dropdown-menu" id="menuAdmision">
                <li role="presentation"><a href="<?php echo get_permalink(3); ?>" tabindex="-1" role="menuitem">Pregrado</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(3); ?>" tabindex="-1" role="menuitem">Posgrado</a></li>
@@ -80,7 +82,7 @@
          </ul>
          <ul class="nav nav-pills">
            <li class="dropdown">
-             <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Estudiantes<b class="caret"></b></a>
+             <a href="#" data-toggle="dropdown" role="button" id="drop4" class="dropdown-toggle">Estudiantes<b class="caret"></b></a>
              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menuEstudiantes">
                <li role="presentation"><a href="<?php echo get_permalink(784); ?>" tabindex="-1" role="menuitem">Cuerpo coordinador</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(13710); ?>" tabindex="-1" role="menuitem">Asuntos estudiantiles</a></li>
@@ -94,7 +96,7 @@
          </ul>
          <ul class="nav nav-pills">
            <li class="dropdown">
-             <a href="#" data-toggle="dropdown" role="button" id="drop" class="dropdown-toggle">Extensión<b class="caret"></b></a>
+             <a href="#" data-toggle="dropdown" role="button" id="drop5" class="dropdown-toggle">Extensión<b class="caret"></b></a>
              <ul aria-labelledby="drop5" role="menu" class="dropdown-menu" id="menuExtension">
                <li role="presentation"><a href="<?php echo get_permalink(11); ?>" tabindex="-1" role="menuitem">Archivo Histórico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(305); ?>" tabindex="-1" role="menuitem">Ediciones e[ad]</a></li>
