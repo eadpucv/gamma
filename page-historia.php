@@ -85,7 +85,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25610); ?>'>Alberto Cruz</a></h3>
-                                            <h5>n. 1917 - † 2013</h5>
+                                            <h5 class='h-sin-margen'>n. 1917 - † 2013</h5>
                                             <h6>Arquitecto y teórico de la arquitectura, Premio Nacional de Arquitectura de 1975</h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -98,7 +98,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(143); ?>'>Godofredo Iommi</a></h3>
-                                            <h5>n. 1917 - † 2001</h5>
+                                            <h5 class='h-sin-margen'>n. 1917 - † 2001</h5>
                                             <h6>Poeta y profesor universitario </h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -111,7 +111,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(149); ?>'>Arturo Baeza</a></h3>
-                                            <h5>n. 1927 - † 2001</h5>
+                                            <h5 class='h-sin-margen'>n. 1927 - † 2001</h5>
                                             <h6>Arquitecto y profesor universitario</h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -124,7 +124,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(529); ?>'>Fabio Cruz</a></h3>
-                                            <h5>n. 1927 - † 2007</h5>
+                                            <h5 class='h-sin-margen'>n. 1927 - † 2007</h5>
                                             <h6>Arquitecto</h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -137,7 +137,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25614); ?>'>Miguel Eyquem</a></h3>
-                                            <h5>n. </h5>
+                                            <h5 class='h-sin-margen'>n. </h5>
                                             <h6>Arquitecto</h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -150,7 +150,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(146); ?>'>José Viál Amstrong</a></h3>
-                                            <h5>n. 1917 - † 1983</h5>
+                                            <h5 class='h-sin-margen'>n. 1917 - † 1983</h5>
                                             <h6>Arquitecto y profesor universitario</h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -163,7 +163,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='#'>Francisco Méndez</a></h3>
-                                            <h5>n. 1922 - </h5>
+                                            <h5 class='h-sin-margen'>n. 1922 - </h5>
                                             <h6>Arquitecto, escenógrafo, artista digital y pintor</h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -176,7 +176,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='#'>Jaime Bellalta</a></h3>
-                                            <h5>n.  - † 2007</h5>
+                                            <h5 class='h-sin-margen'>n.  - † 2007</h5>
                                             <h6>Arquitecto y profesor universitario </h6>
                                         </div>
                                         <div class='resena-docente historia'>
@@ -189,7 +189,7 @@
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(150); ?>'>Claudio Girola</a></h3>
-                                            <h5>n. 1923 - † 1994</h5>
+                                            <h5 class='h-sin-margen'>n. 1923 - † 1994</h5>
                                             <h6>Escultor y artista visual</h6>
                                         </div>
                                         <div class='resena-docente historia'>
