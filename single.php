@@ -72,8 +72,13 @@
               </div>
       </div>
     </div>
+  </div> <!-- fin wrap -->
+    <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+      <div class='fondo-rojo'>espacio para nuevo "aside"
+      </div>
+    </div>
+  <!--<div class='wrap'> ASIDE ANTIGUO
     <div class='fila'>
-      <div class="e-content p-summary p-name">
         <div class='bloque'>
             <?php
 
@@ -122,9 +127,8 @@
           </ul>
         </div>
       </div>
-      </div>
-    </div> <!-- fin fila -->
-  </div>
+    </div> 
+  </div> FIN ASIDE ANTIGUO -->
 </div>
 <?php endwhile; else: ?>
   <p>Sorry, no posts matched your criteria.</p>

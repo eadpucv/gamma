@@ -537,6 +537,7 @@
         
     p {
         max-height: 85px;
+        font-size: 13.5px;
         overflow: hidden;
         margin: 0;
     }
@@ -913,7 +914,7 @@ hr {
 
 }
 
-.mama {
+/*.mama {
         text-align: left;
         color: @blanco;
         padding: 15px;
@@ -939,7 +940,7 @@ hr {
         h3 {
         font-size: 18px;
         }
-}
+}*/
 
 .imagen-landing {
     position: fixed;
@@ -949,11 +950,27 @@ hr {
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
+    // Ajuste de página
+
+    .alto-sm {
+        height: auto;
+        margin: 15px 0;
+    } 
+
+    .alto-md {
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .alto-lg {
+        height: 315px;
+    }
+
     .alto-categoria {
         height: auto;
     }
 
-    .mama {
+    /*.mama {
         text-align: left;
         color: @blanco;
         padding: 15px;
@@ -972,7 +989,7 @@ hr {
 
         .abuela {
             font-size: 5.6vmin; 
-}
+}*/
 
     .logo{
         margin: 0 auto;
@@ -989,41 +1006,26 @@ hr {
         margin: 0;
         border-left: 1px solid fade(@gris, 80);
 
-    .entry-details {
-        padding: 7px 47px 0;
-    }
+        .entry-details {
+            padding: 7px 47px 0;
+        }
 
-    h6 {
-        width: 300px;
-    }
+        h6 {
+            width: 300px;
+        }
 
-    i {
-        font-size: @cuerpo * 3;
-        margin: -@cuadratin * .25 45px 0;
+        i {
+            font-size: @cuerpo * 3;
+            margin: -@cuadratin * .25 45px 0;
+        }
     }
-}
 
     .franja-postulante {
         min-height: @cuadratin * 11;
         padding: 25px 0 45px;
         margin: 0;
-}
-
-    // Ajuste de página
-
-    .wrap {
-        width: 90%;
     }
 
-    .alto-sm {
-        height: auto;
-        margin: 15px 0;
-    }
-
-    .alto-md {
-        height: auto;
-        margin: 15px 0;
-    }
     .pagina {
 
         // Clases extendidas
@@ -1071,8 +1073,8 @@ hr {
             p {
                 max-height: 120px;
                 padding: 0 0 0 2px;
-                font-size: 14px;
-                line-height: @cuerpo * 1.45;
+                font-size: 12px;
+                line-height: 21px;
 
             }
 
@@ -1153,15 +1155,14 @@ hr {
             right: 15px;
             color: @blanco;
             font-size: 14px;
-            }
         }
+    }
 
     .bloque-enlace {
         margin-top: 0;
         border-top: 0px;
         max-height: 100%;
 
-        // Esto es necesario para que sólo las imágenes de los oficios de la home se oscurezcan al :hover
         &.oficio {
             border-top: none;
             margin: 0px;
@@ -1200,9 +1201,9 @@ hr {
           
                 .seguir-leyendo {
                     top: 24px;
+                }
             }
         }
-    }
 
         &.categoria {
             float: none;
@@ -1272,44 +1273,37 @@ hr {
                         top: -43px;
                     }
 
-            &:hover {
-                border-top: 40px solid @gris;
+                &:hover {
+                    border-top: 40px solid @gris;
 
-                h6 {
-                    color: fade(@negro, 90);
+                    h6 {
+                        color: fade(@negro, 90);
+                    }
+                }
+            }
+
+            &.evento {
+                margin-top: 0;
+                height: auto;
+
+                &:hover {
+                    border-top: none;
                 }
             }
         }
-
-            &.evento {
-            margin-top: 0;
-            height: auto;
-
-            &:hover {
-                border-top: none;
-            }
-        }
-    }
         
         &:hover {
 
-            .seguir-leyendo {
-            }
             .evento {
                 border-top: none;
             }
-
             .carrera {
                 bottom: 0px;
                 max-height: 580px;
                 opacity: 0.9;
             }
         }
-    }
-
-    .alto-lg {
-        height: 315px;
-    }
+    } // fin bloque enlace
 
     .cita-carousel {
         height: 35px;
@@ -1326,7 +1320,6 @@ hr {
             font-size: @cuerpo * 1.2;
         }
     }
-
 
     .seguir-leyendo {
         display: none;
@@ -1372,7 +1365,7 @@ hr {
                 color: @blanco;
                 font-size: 30px;
                 display: none;
-                }
+            }
         }
     }
 
@@ -1491,6 +1484,7 @@ hr {
 
         p {
             margin-bottom: 30px;
+            font-style: 12.5px !important;
         }
 
         &:hover {
@@ -1514,7 +1508,7 @@ hr {
             }  
 
         }
-}
+    }
 
     // Aside 
 
@@ -1535,11 +1529,11 @@ hr {
         }
     }
 
-.fondo-ruido {
-    background-color: @gris-blanco;
-    background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
-    border: none;
-}
+    .fondo-ruido {
+        background-color: @gris-blanco;
+        background: url('@{ruta-imagenes}/ruido-gris-blanco.png');
+        border: none;
+    }
 
     .bloque-aside {
         margin: 50px 0;
@@ -1609,6 +1603,10 @@ hr {
 
             h6{
                 font-size: 21px;
+            }
+
+            p {
+                font-size: 12.5px;
             }
 
             &.portada {
@@ -1970,6 +1968,10 @@ hr {
             color: @rojo-claro;
         }
 
+        p {
+            font-size: 12.5px;
+        }
+
         &:hover {
             .franja-seguir {
                 height: 0px;
@@ -2023,8 +2025,8 @@ hr {
     }
 
     .alto-xs {
-    min-height: 100px;
-}
+        min-height: 100px;
+    }
 
     .alto-sm {
         height: 175px;
@@ -2033,7 +2035,7 @@ hr {
     }
 
     .alto-md {
-        height: 420px;
+        height: 470px;
         margin: 0 0 40px 0;
     }
     
@@ -2064,7 +2066,15 @@ hr {
 
     .pagina {
 
+        &.md {
+            height: 425px;
+        }
+
         // Clases extendidas
+
+        &.info-docencia {
+            padding: 0 15px;
+        }
 
         &.evento {
 
@@ -2074,6 +2084,7 @@ hr {
 
             p {
                 max-height: 110px;
+                font-size: 13px;
             }
 
             &.portada {
@@ -2217,11 +2228,17 @@ hr {
         }
     }
 
-        .enlace-noticia {
+    .enlace-noticia {
+
+        p {
+            font-size: 12.5px;
+            line-height: 20px;
+        }
 
         h6{
-            font-size: 19px;
-            line-height: 25px;
+            font-size: 23px;
+            line-height: 26px;
+            color: @rojo-claro;
         }
     }
 }
