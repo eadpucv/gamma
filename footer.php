@@ -106,6 +106,8 @@
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script> 
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
+
 		<?php get_user_extra_attributes(); ?>
 		<script type="text/javascript">
 
