@@ -107,6 +107,13 @@
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/scrollspy.js"></script> 
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
+  <!-- prueba de parallax -->
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.parallax-1.1.3.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.localscroll-1.2.7-min.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.scrollTo-1.4.2-min.js"></script>
+
+  <!-- fin prueba parallax -->
+
 
 		<?php get_user_extra_attributes(); ?>
 		<script type="text/javascript">
@@ -127,5 +134,21 @@
     <script type='text/javascript'>
       smoothScroll.init();
     </script>
+
+    <script type="text/javascript">
+$(document).ready(function(){
+  $('#nav').localScroll(800);
+  
+  //.parallax(xPosition, speedFactor, outerHeight) options:
+  //xPosition - Horizontal position of the element
+  //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+  //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+  $('#intro').parallax("50%", 0.1);
+  $('#second').parallax("50%", 0.1);
+  $('.bg').parallax("50%", 0.4);
+  $('#third').parallax("50%", 0.3);
+
+})
+</script>
 	</body>
 </html>

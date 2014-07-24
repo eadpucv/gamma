@@ -1,60 +1,21 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-<div class='fondo-blanco'>
-  <div class='wrap'>
-    <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-  </div>
-</div>
-
     <!-- contenido -->
-    <div class='fondo-blanco'>
+    <div id='intro'>
+        <div class='wrap'>
+            <h1 class="entry-title introductora blanco">Historia</h1> <!-- título del post -->
+        </div>
+    </div>
+    <div class='fondo-gris'>
         <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
             <div class='fila'>
-                <div class='fondo-blanco'>
-                    <div class='wrap'>
-                        <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
-                            <div class="carousel-inner">
-
-                                <div class="item active">
-                                    <div class='noticia grande'>
-                                        <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="First slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia5.jpg'>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class='noticia grande'>
-                                        <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="Second slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia2.jpg'>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class='noticia grande'>
-                                        <div class='noticia-imagen'>
-                                            <img class='marco-imagen carousel-historia' alt="third slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia3.jpg'>
-                                        </div>
-                                    </div>
-                                </div>  <!-- fin de item -->
-                            </div>
-
-                            <!-- Controles -->
-                            <a data-slide="prev" href="#carousel-example-generic" class="left carousel-control"><i class="icn icn-nav-izq"></i></a>
-                            <a data-slide="next" href="#carousel-example-generic" class="right carousel-control"><i class="icn icn-nav-der"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class='fila'>
-                <div class='fondo-blanco'>
+                <div class='fondo-gris'>
                     <div class='wrap'>
                         <div class='bloque'>
                             <article class="h-entry">
                                 <h1 class='rojo-claro'>Fundación</h1>
-                                <h4 class='subtitulo gris'>Escuela de arquitectura y diseño</h4>
+                                <h2 class='subtitulo gris'>Escuela de arquitectura y diseño</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='bloque'>
                                         <p>En 1952, un grupo de arquitectos y artistas -Alberto Cruz, Godofredo Iommi, Fabio Cruz P, Miguel Eyquem, José Vial, Arturo Baeza, Francisco Méndez, Jaime Bellalta y Claudio Girola, quien llegó al poco tiempo- se incorporan a la Escuela de Arquitectura de la Universidad Católica de Valparaíso, fundando, simultáneamente, el Instituto de Arquitectura que sirve y alimenta a la Escuela.</p>
@@ -74,10 +35,15 @@
             </div>
         <div class='fila'>
             <div class='fondo-oscuro'>
+                                <div id='fundadores'>
+        <div class='wrap'>
+            <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
+        </div>
+    </div>
                 <div class='wrap'>
                     <div class='bloque'>
                         <article class="h-entry especifico">
-                            <h4 class='subtitulo gris'>Fundadores</h4>
+                            <h2 class='gris'>Fundadores</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente'>
@@ -246,16 +212,16 @@
                             <div class='bloque'>
                                 <article class="h-entry">
                                     <h1 class='rojo-claro'>Metodología</h1>
-                                    <h4 class='subtitulo gris'>El oficio</h4>
+                                    <h2 class='subtitulo gris'>El oficio</h2>
                                         <div class="e-content p-summary p-name">
                                             <div class='bloque'>
                                                 <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.
                                                 La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte. Esto diferencia profundamente de otras orientaciones, disciplinas y saberes, e implica una manera peculiar de estudiar y de hacer.</p>
-                                                <h6 class='rojo-claro'>La Observación como Fundamento</h6>
+                                                <h5>La Observación como Fundamento</h5>
                                                 <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
-                                                <h6 class='rojo-claro'>Compromiso de Vida y Ámbito</h6>
+                                                <h5>Compromiso de Vida y Ámbito</h5>
                                                 <p>Esta modalidad de estudiar y hacer exige de alumnos y profesores un real compromiso de vida. Este que le confiere a la Escuela una gran unidad y, a su vez establece un ámbito, y un ritmo de estudio que da cabida a actividades ordinarias y extraordinarias, en que participan creativamente todos los alumnos y profesores.</p>
-                                                <h6 class='rojo-claro'>El Taller Columna Vertebral</h6>
+                                                <h5>El Taller Columna Vertebral</h5>
                                                 <p>El taller es la columna vertebral de los estudios de cada disciplina impartida en nuestra Escuela. En él tiene lugar el proceso creativo de cada estudiante, y es donde se decantan los conocimientos humanísticos, matemáticos, científicos y tecnológicos que se imparten en las demás asignaturas de nuestro Plan de Estudios.</p>
                                             </div>
                                         </div>
@@ -265,17 +231,17 @@
                                     <article class="h-entry">
                                         <div class="e-content p-summary p-name">
                                             <div class='bloque'>
-                                                <h4 class='subtitulo gris'>La observación</h4>
-                                                <h6 class='rojo-claro'>Su Ubicación</h6>
+                                                <h2 class='rojo-claro'>La observación</h2>
+                                                <h5>Su Ubicación</h5>
                                                 <p>Para ubicarse diremos que es más que un informarse; por ejemplo, mirar hacia afuera para ver cómo amaneció el clima de un nuevo día.</p>
                                                 <p>También, agregaremos, es más que documentarse; por ejemplo, indagar las variables del recorrido de un cierto itinerario, afín de acertar con el más breve.</p>
                                                 <p>La observación es salir a ciudades, campos, montañas, mares…para mirar su orden. Dicho orden da cuenta de una evolución de la naturaleza y de un desenvolvimiento histórico del hombre. Pero el objetivo de la observación no es reconocer tales leyes de evolución y de desenvolvimiento, sino que es ver en el orden reinante una manifestación de la creatividad humana. Y dentro de ella, llegarse hasta el alma de esa creatividad que es la palabra, que es la palabra poética.</p>
                                                 <p>Así la observación ve en cualquier parte, en cualquier momento de ésta, el requerimiento de creatividad. Ella, intenta siempre por tanto, construir una medida. La medida de un límite del habitar del hombre. Tal habitar va en una perpetua renovación conforme a civilizaciones y épocas.</p>
-                                                <h6 class='rojo-claro'>Su Construcción</h6>
+                                                <h5>Su Construcción</h5>
                                                 <p>La observación implica una dimensión o magnitud de contemplación. Esta comienza por ir, por deambular para detenerse en cierto momento en algún punto.</p>
                                                 <p>Junto a la dimensión antes dicha se da otra magnitud de ejecución. En ella, una vez detenido se dibuja lo que se ve. Y al par se escribe un pequeño texto en la forma de unas notas. El dibujo trata de expresar la construcción humana que se ve, lo que ésta alcanza ya, alcanzará, o bien es inalcanzable, ello -se entiende- en cuanto a lo poético. El texto por su parte trata de expresar seso que se ve, en relación con la marcha general, en común, de la época. También -se entiende- en cuanto a lo poético.</p>
                                                 <p>La observación al ser una medida del habitar del hombre -como ya se dijo en el punto anterior- es una formulación escueta, precisa y taxativa. No puede ser nunca algo indeciso,vacilante, que enunciara opiniones o pareceres. Es que la observación es un acto. Un acto creativo. Que es el primero de concepción y realización de la obra. Por eso, el acto es algo en si mismo, concluso, tal como una obra lo es. Concluso a su vez quiere decir, presente, que ha cobrado su plena presencia.</p>
-                                                <h6 class='rojo-claro'>Su labor</h6>
+                                                <h5>Su labor</h5>
                                                 <p>El acto de la observación se practica mediante una actitud interna nuestra. Dicha actitud no es algo esporádico u ocasional. Al contrario, ella tiende a extenderse de una manera conformada</p>
                                             </div>
                                         </div>

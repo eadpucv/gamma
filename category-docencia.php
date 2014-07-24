@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class='fondo-blanco'>
+<div class='fondo-gris'>
   <div class='wrap'>
     <h1 class="entry-title especifico"><i class="icn icn-anuncio icn-sm"></i> Información académica</h1> <!-- título del post -->
     <div class='contenedor-sin-relleno oculto-xs'>
@@ -8,7 +8,7 @@
   </div>
 </div>
 
-<div class='fondo-blanco'>
+<div class='fondo-gris'>
 	<div class='wrap'>
 		<div class='fila'>
 			<div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
