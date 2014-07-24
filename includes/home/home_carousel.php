@@ -40,3 +40,4 @@ $i = 0;
     </div>
   </div>
 </div> 
+<?php wp_reset_query(); ?>
