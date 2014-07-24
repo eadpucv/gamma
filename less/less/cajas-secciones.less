@@ -66,7 +66,7 @@
 }
 
 .datos-docente {
-    width: 74%;
+    width: 65%;
     margin: 5px 0;
     min-height: @cuadratin * 2;
     display: inline-block;
@@ -79,11 +79,15 @@
     &.listado {
         width: 55%;
     }
+
+    &.historia {
+        width: 74%; 
+    }
 }
 
 .resena-docente {
     margin: 5px 0;
-    width: 74%;
+    width: 65%;
     display: inline-block;
 
     p {
@@ -100,6 +104,7 @@
     }
 
     &.historia {
+        width: 74%;
 
         p{
             font-size: 16.2px;
@@ -370,6 +375,10 @@
             width: 100%;
         }
 
+        &.historia {
+            width: 100%;
+        }
+
         h2 {
             margin: 0;
             font-size: 25px;
@@ -391,6 +400,15 @@
 
         &.listado {
             width: 100%;
+        }
+
+        &.historia {
+            width: 100%;
+            
+            p {
+                text-align: left;
+                max-height: auto;
+            }   
         }
 
         p {
@@ -540,7 +558,7 @@
         }
 
         &.historia {
-            width: 55%;
+            width: 65%;
         }
 
         h2 {
@@ -559,12 +577,16 @@
             width: 100%
         }
 
+        &.historia {
+            width: 65%;
+        }
+
         p {
             font-size: @cuerpo * .9;
             padding: 0;
             line-height: @interlinea * .9;
             font-family: @sans;
-            max-height: 100px;
+            max-height: 109px;
             overflow: hidden;
         }
     }

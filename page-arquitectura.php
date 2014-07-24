@@ -59,66 +59,58 @@
                   <div class='bloque' id="bloque_texto">
                   	<h2>Estudiar arquitectura en la e[ad]</h2>
                   	<p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
-                  	<p>La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte. Esto diferencia profundamente de otras orientaciones, disciplinas y saberes, e implica una manera peculiar de estudiar y de hacer.</p>
-                  	<h4>La Observación como fundamento</h4>
-                  	<p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
-					<h4>Compromiso de vida y ámbito</h4>
-					<p>Esta modalidad de estudiar y hacer exige de alumnos y profesores un real compromiso de vida. Este que le confiere a la Escuela una gran unidad y, a su vez establece un ámbito, y un ritmo de estudio que da cabida a actividades ordinarias y extraordinarias, en que participan creativamente todos los alumnos y profesores.</p>
-                  	<h4>El taller columna vertebral</h4>
-                  	<p>El taller es la columna vertebral de los estudios de cada disciplina impartida en nuestra Escuela. En él tiene lugar el proceso creativo de cada estudiante, y es donde se decantan los conocimientos humanísticos, matemáticos, científicos y tecnológicos que se imparten en las demás asignaturas de nuestro Plan de Estudios.</p>
                   	<!-- este contenido está tomado de pucv.cl -->
-                  	<h2>El arquitecto de la Escuela</h2>
-                  	<p>El Diseñador Gráfico de la Pontificia Universidad Católica de Valparaíso es capaz de ubicarse dentro de equipos multidisciplinarios proyectando y concretando trabajos de distintos grados de complejidad, de manera original y eficiente. </p>
-                  	<p>Además, ha desarrollado un lenguaje teórico del oficio en constante resonancia con la Poesía, lo cual le permite interpretar y poseer una visión artística del mundo, permanece así en la abertura creativa del oficio; concibiendo y realizando obras y estudios de postítulos en el ámbito profesional; generando líneas de investigación y estudiando postgrados en el ámbito académico.</p>
-                  	<h4>Sentido general de la formación</h4>
-                  	<p>En esta Escuela, cuyo centro es el taller, la convergencia de todas las dimensiones formativas va en dirección a acotar el proceso de una obra, que se da en cinco dimensiones, ellas son:</p>
-                  	<ol>
-						<li>El Origen Común desde una misma Visión.</li>
-						<li>El Ser en Completitud.</li>
-						<li>Un Método de Estudio.</li>
-						<li>La capacidad de contemplación.</li>
-						<li>La Capacidad de Celebración.</li>
-					</ol>
-					<p>El método de trabajo del taller se basa en la “observación” dibujada, medida y escrita de la ciudad en que vivimos y lo que en ella acontece, para dar con el acto o lectura de su presente.</p>
-					<p>Dichas experiencias, vividas por los alumnos en la ciudad, constituyen un suelo fecundo de relaciones las cuales son orientadas por el profesor comunicando a los alumnos su visión. La docencia impartida corresponde entonces a un acto creativo donde ningún taller es repetición de otro, procurando despertar la capacidad de observación en los alumnos y exteriorizar el modo peculiar en que ella se manifiesta para cada uno.</p>
-					<p>La observación -acto de naturaleza artística- al situarse en el origen mismo de la forma no se opone ni se contradice con la formación técnica, ya que como acto creativo se le ubica como un medio y no como un fin, concretándose para cada caso y nivel específico.</p>
-					<p>Todos los talleres realizan travesías, que son viajes en los que se recorre el continente americano, realizando obras junto a profesores y alumnos de Arquitectura y Diseño Industrial.</p>
-                  	<h2>Concepción perfil del egresado</h2>
-                  	<ul>
-						<li>Un egresado de esta Escuela posee las competencias que le permiten ejercer el Diseño Gráfico desde la observación, como origen del proceso creativo. Este ha sido encarnado durante los estudios de lo urbano en los talleres de Valparaíso, de lo experimental en la Ciudad Abierta y de la visión de Continente en las Travesías.</li>
-						<li>El origen de este proceso le otorga gran versatilidad para afrontar artísticamente el oficio en todas sus manifestaciones y magnitudes reconociendo y abstrayendo cualquier campo del Diseño Gráfico, tanto análogo como digital pudiendo actuar en ellos sea por autogestión o coparticipación.</li>
-					</ul>
+                  	<h1>Perfil del egresado</h1>
+ 					<p>Un Arquitecto que conciba la arquitectura como un arte al servicio del hombre. Que desde una visión poética de su contexto y una alta capacidad de reflexión sean capaces con creatividad de proponer, proyectar y construir obras arquitectónicas y urbanas que de un modo innovador en el arte y en la técnica den cabida y expresión al habitar humano, satisfaciendo necesidades de la sociedad en las distintas escalas- Edificio, ciudad, continente- y magnitudes del proyecto arquitectónico y urbano.
+					Las competencias fundamentales, disciplinares y profesionales de este arquitecto son aquellas que permiten que sus proyectos sean  un consecuente paso de la observación arquitectónica a la forma construida.</p>
                   	<h2>Competencias fundamentales</h2>
-                  	<p>El egresado de la Escuela de Arquitectura y Diseño de la Pontificia Universidad Católica de Valparaíso posee las competencias valóricas, disciplinares y profesionales que le permiten ejercer el Diseño Gráfico a partir de una visión poética del mundo, colocándolo de esta manera en el origen del oficio y proyectándolo creativamente en todos los campos de su desempeño.</p>
-					<p>Esta virtud que se encarna a lo largo de los años de estudio, se hace posible a través del desarrollo de la observación; lenguaje complejo al que concurren el dibujo y el texto como medio eficaz para develar la realidad y proponer en ella las distintas escalas y campos del diseño.</p>
-					<p>El egresado de la carrera de Diseño Gráfico ha desarrollado las siguientes competencias: </p>
-					<h4>Competencias genéricas de formación fundamental</h4>
+                  	<p>Se propicia una educación integral, que favorece el crecimiento armónico de todas las dimensiones que constituyen la persona humana, abordados tanto desde la perspectiva intelectual como vivencial, de modo de promover la coherencia entre el conocimiento, la verdad y la vida. Se privilegian valores que sustentan una integridad y competencias humanísticas que permiten acceder al método de estudio que propone la carrera basado principalmente en la “Observación” dibujada, medida y escrita que es el modo de comprender e interactuar con el entorn</p>
+                  	<ol>
+						<li>Valores de Apertura a la trascendencia; libertad; solidaridad; respeto y aceptación de la diversidad; y compromiso ético y de responsabilidad social.</li>
+						<li>Capacidad para observar la realidad circundante, la ciudad se origina y se desarrolla, a partir de la observación directa de su realidad.</li>
+					</ol>
+					<h4>Competencias disciplinares</h4>
+					<ol>
+						<li>Competencias que permiten al arquitecto a dar existencia física a la formulación del paso de la observación a la forma.</li>
+						<li>Capacidad para integrar los aspectos poéticos, sociales y físicos presentes en los lugares y casos a abordar.</li>
+						<li>Capacidad creativa y de maestría formal, que le permita innovar en la forma arquitectónica del espacio habitable y su contexto.</li>
+						<li>Capacidad analítica, de reflexión y de intervención social que le permita realizar planes y programas apropiados en una correcta relación lugar y contexto.</li>
+					</ol>
+					<h4>Competencias profesionales</h4>
+					<p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
 					<ul>
-						<li>Posee una postura ética fundada en el compromiso con la obra que emprende y con la responsabilidad social implícita en toda creación humana, en concordancia con el marco valórico señalado en la misión de nuestra universidad.</li>
-						<li>Posee un lenguaje teórico del oficio en constante resonancia con la poesía, lo cual le permite interpretar y manifestar a través del elogio y la celebración una visión artística del mundo.</li>
-						<li>Posee un pensamiento crítico para abordar y generar proyectos, desarrollarse profesionalmente, y realizar estudios de postítulo y posgrado. </li>
+						<li>Capacidad racional para coordinar, integrar y derivar las distintos aspectos científicos, técnicos y legales presentes en el desarrollo y la ejecución del Proyecto arquitectónico.</li>
+						<li>Capacidad para integrar equipos interdisciplinarios.</li>
 					</ul>
-					<h4>Competencias específicas disciplinares</h4>
+                  	<h1>Concepción del Perfil de Egreso</h1>
+                  	<p>El perfil de egreso del Arquitecto de la PUCV se define brevemente como: Un arquitecto que concibe la arquitectura como un arte al servicio del hombre y que es un profesional activo en la sociedad.
+					Para lograr la construcción de dicho perfil el postulante a la carrera tiene un perfil de ingreso que se basa en una vocación artística.
+					Esta Escuela que se ubica en una concepción artística del oficio de la Arquitectura, tiene un estándar que está medido por la Obra, es decir, es cada vez inaugural. Cada obra quiere traer a presencia aquella dimensión del Arte que es única, que se puede formular como la poiesis, aquello que pasa del no ser al ser. Es por esto que se ubica en la vanguardia del obrar arquitectónico.
+					Es esta ubicación la que le abre el modo de estudio del Taller, donde se reune la teoría, palabra dicha con la proyección palabra hecha. Así, la trasmisión del conocimiento se imparte como una formación, en la cual se madura para adquirir autoridad, lo que sólo se logra accediendo a aquello que constituye el origen de una materia.
+					Esta Escuela forma Arquitectos con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
+					<h2>Objetivos educacionales</h2>
+					<p>Los objetivos educacionales que transmiten el oficio de dar cabida al habitar humano construyen simultáneamente tres magnitudes del arte arquitectónico:</p>
 					<ul>
-						<li>Con capacidad de observación que le permite acceder a un sentido original de la realidad, orientado a la construcción de los fundamentos del trabajo creativo.</li>
-						<li>Posee un lenguaje teórico del oficio en constante resonancia con la poesía y las distintas manifestaciones artísticas, lo cual le permite reinterpretar el mundo.</li>
-						<li>Posee una abertura creativa del oficio que integra e interpreta la realidad de los requerimientos en formas visuales, espaciales e interactivas en concordancia y justeza al público que sirve.</li>
-						<li>Posee gran versatilidad para afrontar artísticamente el oficio en todas sus manifestaciones y magnitudes: desde el diseño tipográfico al complejo editorial, desde la miniatura al gran formato, desde el afiche a la escenografía, desde el grabado a la página web, desde la infografía a la interfaz, desde el envase al packaging, desde el módulo a la exposición y finalmente desde todos ellos al espacio.</li>
-						<li>Es capaz de formular un pensamiento previo a la idea, comprendiendo y analizando los actos, construcciones humanas y elementos naturales que lo circundan.</li>
-						<li>Domina el lenguaje computacional específico del oficio, quedando acorde con las actuales dinámicas de búsqueda, creación, proyección necesarias para comprender las técnicas modernas de producción, pudiendo dialogar así con diferentes disciplinas.</li>
-						<li>Domina un lenguaje de dibujo para develar la realidad y utilizarla además como elemento expresivo y proyectivo de las nuevas ideas hacia la realidad.</li>
-					</ul>
-					<h4>Competencias específicas profesionales</h4>
-					<ul>
-						<li>Lidera e integra equipos transdisciplinarios, ideando, proyectando y concretando trabajos en distintos grados de complejidad de manera original y eficiente.</li>
-						<li>Domina las bases de los lenguajes técnicos y tecnológicos lo que le permiten interactuar con distintas especialidades.</li>
-						<li>Reconoce y abstrae cualquier campo del diseño gráfico que le permite actuar con autonomía y eficiencia en ellos, sea por autogestión o coparticipación.</li>
-						<li>Gestiona proyectos desde su diseño hasta la producción de la obra, respondiendo a los requerimientos del medio.</li>
-						<li>Construye diálogos entre audiencias identificando territorios culturales, geográficos, sociales, económicos y tecnológicos para la innovación, dando respuestas y recreando los constantes cambios en el mundo.</li>
-						<li>Escucha empáticamente para integrar e interpretar la realidad de los requerimientos de forma visual, espacial e interactiva en concordancia y justeza al público que sirve.</li>
-					</ul>
-                  	<h2>Objetivos educacionales</h2>
-                  	<p>El ejercicio profesional se desarrolla en instituciones y empresas relacionadas con la comunicación, campo publicitario, editorial, la industria gráfica y multimedial. Ejercicio independiente de la profesión. Docencia universitaria y continuidad en estudios de post-grado.</p>
+					<li><b>Magnitud del Lenguaje</b></li>
+					<p>La magnitud de un lenguaje que funda la vocación desde la relación Poesía y Arquitectura. Es una experiencia de la Poesía de Amereida, de la Música de las Matemáticas, del Taller de América, los cursos de matemáticas y de Cultura Religiosa. Y que como experiencia de los Originales se ejerce en todo concebir de los talleres y de la Escuela en general.</p>
+					<li><b>Vida, Trabajo y Estudio</b></li>
+					<p>La magnitud de un régimen que funda la convergencia de la vida, el trabajo y el estudio. Es una experiencia del acto del habitar y que se lleva a cabo en el “Taller”, en la casa de la Escuela, en la Ciudad Abierta, en las Travesías: experiencia en su sentido histórico en el curso de “Presentación de la Arquitectura”, en su sentido corporal en el curso de “Cultura del Cuerpo” y en un sentido ejecutorio de las ciencias y las técnicas en los cursos de “Construcción” y que se ejerce en toda realización del alumno en la Escuela.</p>
+                  	<li><b>Magnitud de un Instrumento</b></li>
+                  	<p>La Observación. Ésta ubica todo concebir y realizar en un ahora y aquí. La experiencia de la Observación del entorno, tanto el de Valparaíso como el del continente, se acumula en una carpeta que acompaña, cual hábito, a profesores, alumnos y exalumnos. Ella se lleva a cabo en el taller, pero se llega hasta la manera de estudiar los Ramos Generales que imparte la Universidad.
+					Se trata de tres magnitudes que generan gratuitamente una cuarta: de celebración. Ella arma, para sí misma e invitados, lecturas poéticas, conciertos, exposiciones de esculturas, cine de vanguardia, comidas para dialogar y en donde se madura la fidelidad al origen de todas las magnitudes. Estos objetivos devienen en propósitos, que fueron planteados por primera vez en 1952, cuando la Escuela de Arquitectura se refunda. Momento inicial en que los Arquitectos exponen en formulación y el poeta abre el entusiasmo de la fidelidad. Desde el comienzo de la Escuela, hace ya 50 años, no ha habido modificaciones en cuanto a la formulación inicial y a tener conciencia de fidelidad. Sí ha habido en cuanto a su dilatarse en profundizaciones y ampliaciones. Así, específicamente en los talleres y en la Escuela en general.
+					Estudiar los cerros de Valparaíso al inicio, enseguida su plan, al gran Valparaíso bioceánico, Chile, América del Sur, es nuestra ancla según la poesía de Amereida. Las carpetas de observaciones se vuelven más reflexivas. Nuestra luz (Amereida), creciente acceder a Europa desde el “se principia latino” poético; en los cursos de Presentación de la Arquitectura y Construcción. Nuestra aventura (Amereida), atreverse a una hospitalidad de vida, trabajo y estudio en la Ciudad Abierta, incorporando huéspedes Arquitectos y artistas y de otros oficios a la ronda creativa que es el modo de concebir y realizar en común desde la carpeta de observaciones.
+					El modelo pedagógico sobre el cual se basa esta formación es el Taller el cual se estructura en torno a un tema que los profesores exponen en clases ubicatorias y de abertura, las que generan tareas y estudios que se llevan a cabo en la ciudad mediante observaciones que se fijan en croquis y anotaciones. Las tareas de Observación se exponen colectivamente al interior del Taller, donde los profesores las corrigen individualmente, así cada alumno va dando pasos de maduración que le permiten formular un fundamento, el que luego da origen a su proposición, la que es corregida un cierto número de veces dependiendo del caso, y termina en una proposición final la que es calificada.</p>
+                  	<blockquote><i>El Taller es así un ámbito de estudio colectivo en que cada alumno fructifica en su trabajo individual, por medio de un camino creativo en común que considera el desarrollo individual de cada cual.</i></blockquote>
+                  	<p>Este modelo conduce a ciertas capacidades que definen el perfil de un egresado de arquitectura en esta escuela este perfil se logra mediante la transmisión de los conocimientos y herramientas para el logro de un conjunto de competencias genéricas de formación fundamental, disciplinares y profesionales que se dan en la relación entre ciclos del proyecto formativo y las áreas de formación[1]. El concepto de ciclo corresponde a la estructura temporal de la carrera, seis años que se dividen en cuatro ciclos; Ciclo de inicio en primer año, ciclo de Formación; Segundo y tercer año; Tercer ciclo disciplinar; cuarto y quinto año; y cuarto ciclo profesionalizante; correspondiente a la Titulación. El concepto de área corresponde a las áreas formativas las que se constituyen en columnas vertebrales de la carrera estructurando los ciclos.</p>
+                  	</ul>
+                  	<h2>Competencias Genéricas de formación fundamental</h2>
+                  	<p>Lo fundamental es tener presente las magnitudes del arte arquitectónico descritas anteriormente desde dichas magnitudes traducidas como competencias se vinculan más bien al concepto de área y se van logrando a lo largo de la carrera implícitas concretamente en el ámbito de estudio sostenido académicamente por aquellas dimensiones que construyen en los estudiantes el vinculo entre vida, trabajo y estudio. Dicho vinculo se da principalmente en las Travesías, en la Ciudad Abierta y en la posibilidad de construcción de obras que se da en el Taller Arquitectónico, es decir se dan mediante experiencias sensibles. Y la contextualización de esas experiencias se dan en ciertos ejes estructurales como lo son el Taller de Amereida, Cultura del Cuerpo, Matemáticas y estudios generales. Cabe mencionar que el conjunto de competencias genéricas de formación fundamental han sido estudiadas por un grupo de expertos de la PUCV para determinar ciertas competencias claves y transversales al perfil de un egresado de la PUCV.</p>
+                  	<p>Cada carrera considera estas competencias aportando una visión de transversalidad disciplinaria dentro de la Universidad. Estas competencias son las siguientes:</p>
+                  	<ol>
+                  	<li><b>Capacidad de observación:</b> Capacidad para observar la realidad circundante, la ciudad se origina y se desarrolla, a partir de esa observación directa de la realidad.</li>
+                  	<li><b>Conocer reflexivamente:</b> Reflexionar sobre los propios planes de acción, los propios conocimientos, y la relación de ambos con las demás personas que intervienen en la situación. Se trata de un metaconocimiento, es decir un conjunto de conocimientos que permiten la reflexión acerca de los propios conocimientos.</li>
+                  	<li><b>Capacidad crítica, autocrítica y propositiva:</b> Analizar, examinar y juzgar de manera consciente el objeto de estudio integrando las consideraciones relevantes y generando una opinión fundada (crítica) y de realizar esas acciones sobre sí mismo (autocrítica).</li>
+                  	</ol>
                   	<h2>Malla Curricular</h2>
                   	<a href='http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
 						<p>Quisque luctus, metus quis volutpat varius, velit lorem egestas erat, vel lobortis libero nulla vitae est. Nam varius lectus ut molestie pharetra. Proin quis justo lectus. Nulla risus tellus, vehicula eget nulla vitae, rhoncus tristique neque. Duis vulputate metus a tellus sagittis facilisis. Maecenas non congue mauris. Suspendisse commodo quam id iaculis consequat. Proin quis lacus sodales, pellentesque sem sed, consequat nulla. Donec sed massa et lorem laoreet tristique. Proin viverra quam auctor urna dapibus, sit amet posuere arcu porta. </p>
@@ -341,7 +333,7 @@
 							</tbody>
 						</table>
                   	<h2>Profesores de arquitectura</h2>
-                  	<div class='pagina docente'>
+                  	<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm1.staticflickr.com/40/113495505_cfcbe72ac6_q.jpg'>
 						</div>
@@ -353,7 +345,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7227/7176686306_9d983d6f1d_q.jpg'>
 						</div>
@@ -365,7 +357,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/miguel-eyquem.jpg?w=710'>
 						</div>
@@ -377,7 +369,7 @@
 							<p>Arquitecto; P.U. Católica de Chile, Chile. <br>Doctor Honoris Causa; P.U. Católica de Valparaíso, Chile.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/jorge-ferrada.jpg'>
 						</div>
@@ -389,7 +381,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3180/3076032024_36528d141a_q.jpg'>
 						</div>
@@ -401,7 +393,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor©; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm2.staticflickr.com/1208/547980377_33e5c40e28_q.jpg'>
 						</div>
@@ -413,7 +405,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; U. Rey Juan Carlos de Madrid, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3551/3530547063_23a62dc53f_q.jpg'>
 						</div>
@@ -425,7 +417,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm1.staticflickr.com/63/181241286_74a22951ed_q.jpg'>
 						</div>
@@ -437,7 +429,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.<br>Decano de la facultad</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7223/7176564182_b19fd32326_q.jpg'>
 						</div>
@@ -449,7 +441,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3060/3066658572_a3e561695c_q.jpg'>
 						</div>
@@ -461,7 +453,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7220/7171615052_2a29d54806_q.jpg'>
 						</div>
@@ -473,7 +465,7 @@
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.<br>Director Escuela de Arquitectura y Diseño</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7083/7166400025_09461911ce_q.jpg'>
 						</div>
@@ -486,7 +478,7 @@
 						</div>
 					</div>
                   	<h2>Profesores ayudantes</h2>
-                  	<div class='pagina docente'>
+                  	<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='http://oi59.tinypic.com/jsy51i.jpg'>
 						</div>
@@ -498,7 +490,7 @@
 							<p>Ayudante de Arquitectura</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='http://oi59.tinypic.com/34ioivo.jpg'>
 						</div>
@@ -510,7 +502,7 @@
 							<p>Ayudante de Arquitectura</p>
 						</div>
 					</div>
-					<div class='pagina docente'>
+					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
 							<img class='ancho-maximo' src='https://farm3.staticflickr.com/2493/4172133723_ffbc7e6c4d_q.jpg'>
 						</div>
