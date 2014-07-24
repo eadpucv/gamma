@@ -93,3 +93,4 @@
       </div>      
     </div>
   </div> <!-- wrap -->
+  <?php wp_reset_query(); ?>
