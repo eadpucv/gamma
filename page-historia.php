@@ -35,6 +35,10 @@
             </div>
         <div class='fila'>
             <div class='fondo-oscuro'>
+                <div id='fundadores-anterior-1'>
+                </div>
+                <div id='fundadores-anterior-2'>
+                </div>
                 <div id='fundadores'>
                     <div class='wrap'>
                         <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
@@ -43,10 +47,9 @@
                 <div class='wrap'>
                     <div class='bloque'>
                         <article class="h-entry especifico">
-                            <h2 class='gris'>Fundadores</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador1.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -59,7 +62,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador2.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -72,7 +75,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador3.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -85,7 +88,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador4.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -98,7 +101,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='https://farm5.staticflickr.com/4139/4924302705_acd574b3e4_q.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -111,7 +114,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador5.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -124,7 +127,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='https://farm3.staticflickr.com/2443/3641798926_a55dde55ab_q.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -137,7 +140,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://news.nd.edu/assets/65330/bellalta_200.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -150,7 +153,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://oi61.tinypic.com/241pded.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
