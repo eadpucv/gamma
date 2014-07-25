@@ -1,21 +1,19 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-<div class='fondo-gris'>
-  <div class='wrap'>
-    <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-  </div>
-</div>
-
     <!-- contenido -->
     <div class='fondo-gris'>
         <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
             <div class='fila'>
+                <div id='amereida'>
+                    <div class='wrap'>
+                        <h1 class="entry-title introductora blanco">Amereida</h1> <!-- título del post -->
+                    </div>
+                </div>
         <div class='wrap'>
             <div class='historia'>
                 <div class='bloque'>
                     <article class="h-entry">
-                        <h1 class='rojo-claro'>Amereida</h1>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p>Amereida es un poema que reune en su nombre el hallazgo de América y la épica latina del piadoso Eneas escrita en la Eneida. Dos años después de la Travesía del 65 se recolectaron textos diversos, anotaciones, poemas, cartas de los primeros cronistas americanos, blancos enteros, recortes y dibujos, y se realizó un trabajo de edición del material para darle forma a un libro titulado Amereida, sin firma de autor alguno, nada numerando sus páginas y ninguna mayúscula; la primera edición reza: <em>amereida</em>, volumen primero, colección poesía, Santiago, Chile; Editorial Cooperativa Lambda. Inscripción Nº 33306; el libro remata antes de la página de gracia con un <em>15 de mayo de 1967.</em></p>

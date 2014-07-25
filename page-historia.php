@@ -35,11 +35,11 @@
             </div>
         <div class='fila'>
             <div class='fondo-oscuro'>
-                                <div id='fundadores'>
-        <div class='wrap'>
-            <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
-        </div>
-    </div>
+                <div id='fundadores'>
+                    <div class='wrap'>
+                        <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
+                    </div>
+                </div>
                 <div class='wrap'>
                     <div class='bloque'>
                         <article class="h-entry especifico">
