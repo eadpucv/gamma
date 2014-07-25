@@ -1,5 +1,5 @@
 <?php get_header(); global $post; ?>
-<div class='fondo-blanco'>
+<div class='fondo-gris'>
   <div class='wrap'>
   	    <div class='contenedor-sin-relleno oculto-xs'>
       <?php the_breadcrumb(); ?>
@@ -14,7 +14,7 @@
 	<?php } ?>
 	<div class='datos-evento'>
 		<h1 class="entry-title especifico"><?php echo $EM_Event->name;?></h1> <!-- título del post -->
-		<aside class='entry-details blanco'>
+		<aside class='entry-details evento'>
 			<?php if ( $EM_Event->output('#_24HSTARTTIME') === $EM_Event->output('#_24HENDTIME')) { ?>
 				A las <?php echo $EM_Event->output('#_24HSTARTTIME'); ?>
 			<?php } else { ?>
@@ -25,7 +25,7 @@
 	</div>
   </div>
 </div>
-<div class='fondo-blanco'>
+<div class='fondo-gris'>
 	<div class='wrap'>
 		<div class='fila'>
 			<div class='col-lg-9 col-md-9 col-sm-12'>
@@ -33,7 +33,8 @@
     				<article class="h-entry">
         				<div class="e-content p-summary p-name">
             			<div class='bloque'>
-            				<?php echo $EM_Event->post_content?><br />
+            				<p>
+            				<?php echo $EM_Event->post_content?><br /></p>
             			</div>
         				</div>
 						<div class='keywords'>

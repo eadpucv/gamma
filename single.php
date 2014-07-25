@@ -2,7 +2,7 @@
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
 
-  <div class='fondo-blanco'>
+  <div class='fondo-gris'>
   <?php if ( has_post_thumbnail() ) { ?>
     <div class='prev-imagen franja'>
       <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
@@ -30,7 +30,7 @@
   </div>
 </div>
 
-<div class='fondo-blanco'>
+<div class='fondo-gris'>
   <div class='wrap'>
     <div class='fila'>
       <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
