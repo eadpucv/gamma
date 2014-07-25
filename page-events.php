@@ -4,12 +4,12 @@
   } else {
     $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>20, 'orderby'=>'start_date')); 
   } ?>
-<div class='fondo-blanco'>
+<div class='fondo-gris'>
   <div class='wrap'>
     <h1 class="entry-title especifico"><i class="icn icn-calendario icn-sm"></i> Eventos  <?php if ($_GET["calendar_day"]) { ?> | <?php echo date("d", strtotime($_GET["calendar_day"])); ?> de <?php echo date("F", strtotime($_GET["calendar_day"]));  } ?>  </h1> <!-- título del post -->
   </div>
 </div>
-<div class='fondo-blanco'>
+<div class='fondo-gris'>
   <div class='wrap'>
     <div class='fila'>
       <div class='col-lg-9 col-md-9 col-sm-12'>
