@@ -15,7 +15,7 @@
               <p class='dia centrado'><?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php echo date("M", strtotime($EM_Event->start_date)); ?></p> 
             </div>  
             <h6 class='rojo-claro'><?php echo $EM_Event->name;?></h6> 
-            <p><?php echo the_excerpt_of_text_max_charlength(180,$EM_Event->post_content); ?></p>
+            <p><?php echo the_excerpt_of_text_max_charlength(180,strip_tags ( $EM_Event->post_content )); ?></p>
         </div>
       </a>
     </div>   

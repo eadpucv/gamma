@@ -74,9 +74,9 @@
              <a href="#" data-toggle="dropdown" role="button" id="drop3" class="dropdown-toggle">Admisión<b class="caret"></b></a>
              <ul aria-labelledby="drop3" role="menu" class="dropdown-menu" id="menuAdmision">
                <li role="presentation"><a href="<?php echo get_permalink(3); ?>" tabindex="-1" role="menuitem">Pregrado</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(25599); ?>" tabindex="-1" role="menuitem">Posgrado</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25692); ?>" tabindex="-1" role="menuitem">Posgrado</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(21); ?>" tabindex="-1" role="menuitem">Intercambio estudiantil</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(25603); ?>" tabindex="-1" role="menuitem">Becas y ayudas estudiantiles</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25690); ?>" tabindex="-1" role="menuitem">Becas y ayudas estudiantiles</a></li>
              </ul>
            </li>
          </ul>
@@ -86,7 +86,7 @@
              <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menuEstudiantes">
                <li role="presentation"><a href="<?php echo get_permalink(784); ?>" tabindex="-1" role="menuitem">Cuerpo coordinador</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(13710); ?>" tabindex="-1" role="menuitem">Asuntos estudiantiles</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(25573); ?>" tabindex="-1" role="menuitem">Estudia en el extranjero</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25677); ?>" tabindex="-1" role="menuitem">Estudia en el extranjero</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(19); ?>" tabindex="-1" role="menuitem">Servicios</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(26); ?>" tabindex="-1" role="menuitem">Bolsa de trabajo</a></li>
                <li class="divider" role="presentation"></li>

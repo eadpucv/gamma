@@ -50,7 +50,7 @@
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador1.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
-                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25610); ?>'>Alberto Cruz</a></h3>
+                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25694); ?>'>Alberto Cruz</a></h3>
                                             <h6 class='h-sin-margen'>Arquitecto y teórico de la arquitectura, Premio Nacional de Arquitectura de 1975</h6>
                                             <h6>n. 1917 - † 2013</h6>
                                         </div>
@@ -102,7 +102,7 @@
                                             <img class='ancho-maximo' src='https://farm5.staticflickr.com/4139/4924302705_acd574b3e4_q.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
-                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25614); ?>'>Miguel Eyquem</a></h3>
+                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25696); ?>'>Miguel Eyquem</a></h3>
                                             <h6 class='h-sin-margen'>Arquitecto</h6>
                                             <h6>n. </h6>
                                         </div>
