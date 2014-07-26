@@ -126,8 +126,8 @@
 				admin: "<?php echo $_SESSION['cas_admin']; ?>",							
 				path_js: "<?php bloginfo('template_directory') ?>/js/ead-bar/",
 				site_name: "ead", // ead, wiki, metasearch, estorninos, archivo, travesias
-				site_login_url: "<?php echo wp_login_url( get_permalink() ); ?>",
-				site_logout_url: "<?php echo wp_logout_url( get_permalink() ); ?>"
+				site_login_url: "<?php echo wp_login_url(); ?>",
+				site_logout_url: "<?php echo wp_logout_url(); ?>"
 				})
 			});
 		</script>
@@ -136,19 +136,19 @@
     </script>
 
     <script type="text/javascript">
-$(document).ready(function(){
-  $('#nav').localScroll(800);
-  
-  //.parallax(xPosition, speedFactor, outerHeight) options:
-  //xPosition - Horizontal position of the element
-  //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-  //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-  $('#intro').parallax("50%", 0.1);
-  $('#second').parallax("50%", 0.1);
-  $('.bg').parallax("50%", 0.4);
-  $('#third').parallax("50%", 0.3);
+      $(document).ready(function(){
+        $('#nav').localScroll(800);
+        
+        //.parallax(xPosition, speedFactor, outerHeight) options:
+        //xPosition - Horizontal position of the element
+        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+        $('#intro').parallax("50%", 0.1);
+        $('#second').parallax("50%", 0.1);
+        $('.bg').parallax("50%", 0.4);
+        $('#third').parallax("50%", 0.3);
 
-})
-</script>
+      })
+    </script>
 	</body>
 </html>
