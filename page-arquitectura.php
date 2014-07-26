@@ -25,21 +25,21 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia5.jpg'>
+                                <img alt="First slide" title="carrera arquitectura" src='https://farm4.staticflickr.com/3915/14446078555_c266eeb60c_k.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia2.jpg'>
+                                <img alt="Second slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7091/7362611238_d8ccba137e_k.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia3.jpg'>
+                                <img alt="third slide" title="carrera arquitectura" src='https://farm4.staticflickr.com/3573/5703840667_8ba437e873_b.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
