@@ -25,8 +25,7 @@
                 <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto">
                     <?php the_content();  ?>
-<!--                    
- <form class='contacto'>
+                      <form class='contacto'>
                         <legend>Envíanos un mail de contacto</legend>    
                         <div class='grupo obligatorio'>
                             <label><i class="icn icn-usuario icn-md"></i>Nombre</label>
@@ -39,7 +38,8 @@
                             <textarea></textarea>
                         </div>
                         <input type='submit' class='btn btn-md' value='Enviar'>
-                    </form> -->
+                    </form>
+                    
                     <h2>Teléfono</h2>
                     <p>Teléfono +56 32 2274401<br>
                     Fax +56 32 2274421</p>
