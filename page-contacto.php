@@ -24,7 +24,9 @@
               <article class="h-entry enunciado">
                 <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto">
-<!--                     <form class='contacto'>
+                    <?php the_content();  ?>
+<!--                    
+ <form class='contacto'>
                         <legend>Envíanos un mail de contacto</legend>    
                         <div class='grupo obligatorio'>
                             <label><i class="icn icn-usuario icn-md"></i>Nombre</label>
