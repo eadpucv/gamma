@@ -17,21 +17,21 @@
         <div class='fila'>
         	<div class='col-lg-8 col-md-9 col-sm-12 col-xs-12'>
                 <p>sitios relacionados</p>
-                <div class='sitio-relacionado'>
+                <!--<div class='sitio-relacionado'>
                     <p><a href=''><i class="icn icn-archivo icn-lg"></i> Archivo Histórico José Vial Armstrong</a></p>
-                </div>
+                </div>-->
                 <div class='sitio-relacionado'>
                     <p><a href=''><i class="icn icn-casiopea icn-lg"></i> Wiki Casiopea</a></p>
                 </div>
                 <div class='sitio-relacionado'>
-                    <p><a href=''><i class="icn icn-travesia icn-lg"></i> Travesía</a></p>
+                    <p><a href=''><i class="icn icn-travesia icn-lg"></i> Travesías</a></p>
                 </div>
                 <div class='sitio-relacionado'>
                     <p><a href=''><i class="icn icn-estorninos icn-lg"></i>  Estorninos</a></p>
                 </div>
-                <div class='sitio-relacionado'>
+                <!--<div class='sitio-relacionado'>
                     <p><a href=''><i class="icn icn-ampolleta icn-lg"></i>  Madlab</a></p>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>        

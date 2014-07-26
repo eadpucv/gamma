@@ -97,7 +97,7 @@
                                             <p class='gris-claro'>Estudió en el colegio Colegio SS.CC. de Santiago, siendo Bachiller en Humanidades en 1944. Luego estudió arquitectura en la Escuela de Arquitectura de la P.U.C.C. (1945-1948) y en la Escuela de Arquitectura de la P.U.C.V. (1949-1950) donde se titula con la tesis Diseño Urbano para una ciudad de 25.000 habitantes (Talagante, Chile). Es miembro fundador del “Instituto de Arquitectura de la P.UCV”, junto a los profesores Alberto cruz C., Godofredo Iommi M., Miguel Eyquem A., Francisco Méndez L., Jaime Bellalta, José Vial A., y Arturo Baeza D. Dicho Instituto dará origen a la re-fundación de la Escuela de Arquitectura de la P.UCV., ocurrida en 1952. Orientación y Visión original de la arquitectura y de la enseñanza de la arquitectura, que perdura hasta hoy.</p>
                                         </div>
                                     </div>
-                                    <div class='pagina docente historia'>
+                                    <!--<div class='pagina docente historia'> FALTA CONTENIDO DE MIGUEL EYQUEM
                                         <div class='imagen-docente'>
                                             <img class='ancho-maximo' src='https://farm5.staticflickr.com/4139/4924302705_acd574b3e4_q.jpg'>
                                         </div>
@@ -109,7 +109,7 @@
                                         <div class='resena-docente historia'>
                                             <p class='gris-claro'> 
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador5.jpg'>
