@@ -114,7 +114,6 @@
 
   <!-- fin prueba parallax -->
 
-
 		<?php get_user_extra_attributes(); ?>
 		<script type="text/javascript">
 			$(document).ready(function(){ $( "body" ).load_ead_bar({
