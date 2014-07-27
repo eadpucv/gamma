@@ -1,7 +1,7 @@
 <?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>4, 'orderby'=>'start_date')); ?>
                    
 <div class='seccion'>
-    <a href='<?php echo get_permalink( get_page_by_title( 'Events' ) ); ?>'><h5><i class="icn icn-calendario icn-md"></i> Eventos</h5></a>
+    <a href='<?php echo get_permalink( get_page_by_title( 'Eventos' ) ); ?>'><h5><i class="icn icn-calendario icn-md"></i> Eventos</h5></a>
 </div>
 <div class='fila'>
   <?php foreach ( $EM_Events as $EM_Event ) { ?>
@@ -15,7 +15,7 @@
               <p class='dia centrado'><?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php echo date("M", strtotime($EM_Event->start_date)); ?></p> 
             </div>  
             <h6 class='rojo-claro'><?php echo $EM_Event->name;?></h6> 
-            <p><?php echo the_excerpt_of_text_max_charlength(180,$EM_Event->post_content); ?></p>
+            <p><?php echo the_excerpt_of_text_max_charlength(180,strip_tags ( $EM_Event->post_content )); ?></p>
         </div>
       </a>
     </div>   

@@ -40,7 +40,7 @@
                         </div>  
                         <h4 class='rojo-claro'><?php echo $EM_Event->name;?></h4> 
                         <aside class='blanco entry-details'>Publicado el 22 de mayo, 2014</aside> 
-                        <p class='extracto'><?php echo the_excerpt_of_text_max_charlength(250,$EM_Event->post_content); ?></p>
+                        <p class='extracto'><?php echo the_excerpt_of_text_max_charlength(250,strip_tags ( $EM_Event->post_content )); ?></p>
                     </div>
                   </a>
                 </div>

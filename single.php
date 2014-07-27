@@ -74,11 +74,9 @@
     </div>
   </div> <!-- fin wrap -->
     <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-      <div class='fondo-rojo'>espacio para nuevo "aside"
-      </div>
-    </div>
-  <!--<div class='wrap'> ASIDE ANTIGUO
+  <div class='wrap'>
     <div class='fila'>
+      <div class="e-content p-summary p-name">
         <div class='bloque'>
             <?php
 
@@ -125,10 +123,12 @@
                 <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
               <?php endwhile; } wp_reset_query(); ?>
           </ul>
+          </div>
         </div>
       </div>
     </div> 
-  </div> FIN ASIDE ANTIGUO -->
+  </div>
+    </div>
 </div>
 <?php endwhile; else: ?>
   <p>Sorry, no posts matched your criteria.</p>

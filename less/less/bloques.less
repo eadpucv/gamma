@@ -793,15 +793,23 @@ footer {
 }
 
 .direccion {
-    margin: 0;
-    font-family: @sans;
+    margin: 20px 0;
 
-    a, p {
+    p {
         font-size: @cuerpo * 0.8;
+        font-family: @sans;
+        color: @blanco;
+
+        i {
+            margin-right: 5px;
+        }
     }
 
-    i {
-        margin-right: 5px;
+    a {
+        font-family: @sans;
+        font-size: @cuerpo;
+        color: @rojo-claro;
+        font-weight: 400;
     }
 }
 
@@ -865,7 +873,7 @@ footer {
 }
 
 .licencia {
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     width: 100%;
     height: auto;
     background-color: @negro-claro;
@@ -922,34 +930,6 @@ hr {
     }
 
 }
-
-/*.mama {
-        text-align: left;
-        color: @blanco;
-        padding: 15px;
-        display: block;
-        border: 1px solid @blanco;
-        border-radius: 2px;
-        margin: 5px 0 0 0;
-        width: 70vmin;
-
-        &:hover{
-            background-color: @blanco;
-            .transition(.3s ease all);
-        }
-}
-
-.abuela {
-        margin-bottom: 15px;
-
-        h1 {
-        font-size: 25px;
-        }
-
-        h3 {
-        font-size: 18px;
-        }
-}*/
 
 .imagen-landing {
     position: fixed;
@@ -1515,6 +1495,10 @@ hr {
                 height: 0px;
             }
         }
+    }
+
+    .direccion {
+        margin-bottom: 30px;
     }
 
     .enlace-evento {

@@ -25,21 +25,28 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia5.jpg'>
+                                <img alt="First slide" title="carrera diseño gráfico" src='https://farm4.staticflickr.com/3881/14444706492_091683cda3_k.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia2.jpg'>
+                                <img alt="Second slide" title="carrera diseño gráfico" src='https://farm8.staticflickr.com/7243/7362642254_b437a4ac2f_k.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia3.jpg'>
+                                <img alt="third slide" title="carrera diseño gráfico" src='https://farm3.staticflickr.com/2514/3992010361_dcfd1e4233_b.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera diseño gráfico" src='https://farm2.staticflickr.com/1285/4689192308_deb7d4f501_b.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->

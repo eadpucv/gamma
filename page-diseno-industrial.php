@@ -25,21 +25,21 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia5.jpg'>
+                                <img alt="First slide" title="carrera diseño industrail" src='https://farm8.staticflickr.com/7410/14006462789_2ec1e83099_k.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia2.jpg'>
+                                <img alt="Second slide" title="carrera diseño industrail" src='https://farm4.staticflickr.com/3677/13873698675_2bae8cd099_k.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="Noticia Destacada" src='http://eadpucv.github.io/giornata/img/historia3.jpg'>
+                                <img alt="third slide" title="carrera diseño industrail" src='https://farm8.staticflickr.com/7227/13743404163_f56542cee1_k.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
@@ -428,7 +428,7 @@
                   	<h4>Profesores ayudantes</h4>
                   	<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
-							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7207/6979639313_f74d11b3cd_q.jpg'>
+							<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/uploads/2013/05/IMG_5615.jpg'>
 						</div>
 						<div class='datos-docente'>
 							<h4 class='rojo-claro'>Danisa Peric</h4>
@@ -440,7 +440,7 @@
 					</div>
 					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
-							<img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/ayudante3.jpg'>
+							<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/9/95/Perfilsalgado.jpg/160px-Perfilsalgado.jpg'>
 						</div>
 						<div class='datos-docente'>
 							<h4 class='rojo-claro'>Daniela Salgado</h4>
@@ -452,11 +452,11 @@
 					</div>
 					<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
-							<img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/ayudante1.jpg'>
+							<img class='ancho-maximo' src='https://scontent-a.xx.fbcdn.net/hphotos-xpa1/t31.0-8/10497173_10152585840479074_8085829394821380997_o.jpg'>
 						</div>
 						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Nano</h4>
-							<h6>Diseñadora Industrial</h6>
+							<h4 class='rojo-claro'>Manuel Toledo</h4>
+							<h6>Diseñador Industrial</h6>
 						</div>
 						<div class='resena-docente'>
 							<p>Ayudante de Diseño Gráfico</p>

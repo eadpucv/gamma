@@ -24,21 +24,8 @@
               <article class="h-entry enunciado">
                 <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto">
-                    <h2>e-mail</h2>
-                    <form class='contacto'>
-                        <legend>Envíanos un mail de contacto</legend>    
-                        <div class='grupo obligatorio'>
-                            <label><i class="icn icn-usuario icn-md"></i>Nombre</label>
-                            <input type='text' class='relleno-formulario' required />
-                            <label><i class="icn icn-email icn-md"></i> Correo electrónico</label>
-                            <input type='email' class='relleno-formulario' required/>
-                        </div>
-                        <div class='grupo'>
-                            <label><i class="icn icn-lapiz icn-md"></i> Mensaje</label>
-                            <textarea></textarea>
-                        </div>
-                        <input type='submit' class='btn btn-md' value='Enviar'>
-                    </form>
+                    <?php the_content();  ?>
+                    
                     <h2>Teléfono</h2>
                     <p>Teléfono +56 32 2274401<br>
                     Fax +56 32 2274421</p>

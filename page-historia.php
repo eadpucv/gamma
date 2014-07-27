@@ -4,7 +4,7 @@
     <!-- contenido -->
     <div id='intro'>
         <div class='wrap'>
-            <h1 class="entry-title introductora blanco">Historia</h1> <!-- título del post -->
+            <h1 class="entry-title introductora blanco">Fundación</h1> <!-- título del post -->
         </div>
     </div>
     <div class='fondo-gris'>
@@ -14,7 +14,7 @@
                     <div class='wrap'>
                         <div class='bloque'>
                             <article class="h-entry">
-                                <h1 class='rojo-claro'>Fundación</h1>
+                                <h1 class='rojo-claro'>Reseña histórica</h1>
                                 <h2 class='subtitulo gris'>Escuela de arquitectura y diseño</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='bloque'>
@@ -53,7 +53,7 @@
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador1.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
-                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25610); ?>'>Alberto Cruz</a></h3>
+                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25694); ?>'>Alberto Cruz</a></h3>
                                             <h6 class='h-sin-margen'>Arquitecto y teórico de la arquitectura, Premio Nacional de Arquitectura de 1975</h6>
                                             <h6>n. 1917 - † 2013</h6>
                                         </div>
@@ -100,12 +100,13 @@
                                             <p class='gris-claro'>Estudió en el colegio Colegio SS.CC. de Santiago, siendo Bachiller en Humanidades en 1944. Luego estudió arquitectura en la Escuela de Arquitectura de la P.U.C.C. (1945-1948) y en la Escuela de Arquitectura de la P.U.C.V. (1949-1950) donde se titula con la tesis Diseño Urbano para una ciudad de 25.000 habitantes (Talagante, Chile). Es miembro fundador del “Instituto de Arquitectura de la P.UCV”, junto a los profesores Alberto cruz C., Godofredo Iommi M., Miguel Eyquem A., Francisco Méndez L., Jaime Bellalta, José Vial A., y Arturo Baeza D. Dicho Instituto dará origen a la re-fundación de la Escuela de Arquitectura de la P.UCV., ocurrida en 1952. Orientación y Visión original de la arquitectura y de la enseñanza de la arquitectura, que perdura hasta hoy.</p>
                                         </div>
                                     </div>
-                                   <!-- <div class='pagina docente historia'>
-                                        <div class='imagen-docente historia'>
+                                    <!--<div class='pagina docente historia'> FALTA CONTENIDO DE MIGUEL EYQUEM
+                                        <div class='imagen-docente'>
+
                                             <img class='ancho-maximo' src='https://farm5.staticflickr.com/4139/4924302705_acd574b3e4_q.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
-                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25614); ?>'>Miguel Eyquem</a></h3>
+                                            <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25696); ?>'>Miguel Eyquem</a></h3>
                                             <h6 class='h-sin-margen'>Arquitecto</h6>
                                             <h6>n. </h6>
                                         </div>
@@ -173,13 +174,13 @@
             </div>
             <div class='fila'>
                 <div class='fondo-gris-claro'>
-                    <div id='fundadores-anterior-1'>
+                    <div id='vision-anterior-1'>
                     </div>
-                    <div id='fundadores-anterior-2'>
+                    <div id='vision-anterior-2'>
                     </div>
-                    <div id='fundadores'>
+                    <div id='vision'>
                         <div class='wrap'>
-                            <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
+                            <h1 class="entry-title introductora blanco">Visión</h1> <!-- título del post -->
                         </div>
                     </div>
                     <div class='wrap'>
@@ -207,6 +208,8 @@
                                     </div>
                                 </article> 
                             </div>
+                        </div>
+                        <div class='wrap'>
                             <div class='bloque'>
                                 <article class="h-entry">
                                     <h1 class='rojo-claro'>Visión de la e[ad]</h1>

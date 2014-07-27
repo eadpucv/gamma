@@ -11,7 +11,7 @@
             <p class='blanco'>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE. Ut mollis rutrum pulvinar. Suspendisse Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y </p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2011/11/DSC04076.jpg'/ >
+            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/uploads/2011/11/DSC04076.jpg'/ >
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(3); ?>'>Vías de ingreso</a>
@@ -67,7 +67,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.Ut mollis rutrum pulvinar. Suspendisse.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2011/12/DSC04269.jpg' />
+            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/uploads/2011/12/DSC04269.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(5); ?>'>Profesores</a>
@@ -83,7 +83,7 @@
             <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/archivos/2010/09/DSC02638.jpg' />
+            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/uploads/2010/09/DSC02638.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(5038); ?>'>Historia</a>
