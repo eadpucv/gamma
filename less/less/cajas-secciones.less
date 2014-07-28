@@ -87,7 +87,7 @@
     &.historia {
         width: 48%; 
         text-align: right;
-        margin-right: 30px;
+        margin: -3px 30px 0 0;
         float: left;
     }
 }
@@ -102,7 +102,6 @@
         padding: 0;
         line-height: @interlinea;
         font-family: @sans;
-        max-height: 92px;
         overflow: hidden;
     }
 
@@ -124,7 +123,7 @@
             padding: 0;
             font-family: @sans;
             font-weight: 100;
-            max-height: 275px;
+            height: inherit;
             overflow: hidden;
         }
     }
@@ -374,6 +373,11 @@
         .ancho-maximo {
             width: 100%;
         }
+
+        &.historia {
+            width: 250px;
+            height: 250px;
+        }
     }
 
     .datos-docente {
@@ -390,6 +394,7 @@
 
         &.historia {
             width: 100%;
+            text-align: left;
         }
 
         h2 {
@@ -420,7 +425,7 @@
             
             p {
                 text-align: left;
-                max-height: auto;
+                max-height: inherit;
             }   
         }
 
@@ -560,10 +565,10 @@
     }
 
         .datos-docente {
-        width: 59%;
-        margin: 5px 0;
-        min-height: @cuadratin * 2;
-        display: inline-block;
+            width: 100%;
+            margin: 5px 0;
+            min-height: @cuadratin * 2;
+            display: inline-block;
 
         &.listado {
             width: 100%
@@ -571,6 +576,8 @@
 
         &.historia {
             width: 65%;
+            text-align: left;
+            margin: 0 auto !important;
         }
 
         h2 {
@@ -586,19 +593,21 @@
         display: inline-block;
 
         &.listado {
-            width: 100%
+            width: 100%;
         }
 
         &.historia {
-            width: 65%;
+            width: 80%;
         }
 
         p {
             font-size: @cuerpo * .9;
+            margin: 0 auto;
+            display: block;
             padding: 0;
             line-height: @interlinea * .9;
             font-family: @sans;
-            max-height: 109px;
+            max-height: inherit;
             overflow: hidden;
         }
     }
@@ -672,7 +681,7 @@
             a{
                 &:hover{
                     color: @beige;
-                    .transition(.4s ease all);
+                    .transition(.1s ease all);
                 }
             }
         }

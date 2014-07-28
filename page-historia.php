@@ -14,7 +14,7 @@
                     <div class='wrap'>
                         <div class='bloque'>
                             <article class="h-entry">
-                                <h1 class='rojo-claro'>Reseña histórica</h1>
+                                <h1 class='rojo-claro h-sin-margen'>Reseña histórica</h1>
                                 <h2 class='subtitulo gris'>Escuela de arquitectura y diseño</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='bloque'>
@@ -194,12 +194,6 @@
                                     </div>
                                 </article> 
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class='fila'>
-                    <div class='fondo-gris-claro'>
-                        <div class='wrap'>
                             <div class='bloque'>
                                 <article class="h-entry">
                                     <h1 class='rojo-claro'>Misión de la e[ad]</h1>
@@ -208,8 +202,6 @@
                                     </div>
                                 </article> 
                             </div>
-                        </div>
-                        <div class='wrap'>
                             <div class='bloque'>
                                 <article class="h-entry">
                                     <h1 class='rojo-claro'>Visión de la e[ad]</h1>
@@ -223,20 +215,19 @@
                 </div>
                 <div class='fila'>
                     <div class='fondo-blanco'>
-                        <div id='fundadores-anterior-1'>
+                        <div id='oficio-anterior-1'>
                         </div>
-                        <div id='fundadores-anterior-2'>
+                        <div id='oficio-anterior-2'>
                         </div>
-                        <div id='fundadores'>
+                        <div id='oficio'>
                             <div class='wrap'>
-                                <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
+                                <h1 class="entry-title introductora blanco">Oficio</h1> <!-- título del post -->
                             </div>
                         </div>
                         <div class='wrap'>
                             <div class='bloque'>
                                 <article class="h-entry">
                                     <h1 class='rojo-claro'>Metodología</h1>
-                                    <h2 class='subtitulo gris'>El oficio</h2>
                                         <div class="e-content p-summary p-name">
                                             <div class='bloque'>
                                                 <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.
