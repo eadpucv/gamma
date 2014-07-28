@@ -24,7 +24,7 @@
         <?php echo edit_post_link("<span>Editar</span><i class='icn icn-lapiz icn-md'></i>","",""); ?>
       </div>
       <div class='derecha botones-auxiliares'>
-        <a class='btn btn-md ver-todo botones-post gris-oscuro'><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a>
+        <a class='btn btn-md ver-todo botones-post'><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a>
       </div>
     </aside>
   </div>
