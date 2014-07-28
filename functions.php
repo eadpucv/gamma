@@ -119,8 +119,8 @@ function clean_session() {
 function get_user_extra_attributes() {
   if ( is_user_logged_in() ) { 
     if (empty($_SESSION['cas_name'])){
-      phpCAS::checkAuthentication();
       try {
+        phpCAS::checkAuthentication();
         $json = file_get_contents('http://personas.ead.pucv.cl/api/data4wp?u='.phpCAS::getUser().'&key=d0c0e3d43f100c138b2142fd48eaac32');
         $obj = json_decode($json,true);
         $_SESSION['cas_id'] = $obj["usuario"]["id"];
