@@ -11,7 +11,7 @@
             <p class='blanco'>Para postular se deberá ingresar a los portales oficiales y autorizados para este fin. En el caso de nuestra universidad es: http://www.pucv.cl/. Para mayor información sobre las fechas visita el portal oficial del DEMRE. Ut mollis rutrum pulvinar. Suspendisse Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y </p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/uploads/2011/11/DSC04076.jpg'/ >
+            <img class='altura-maxima sm' src='https://farm9.staticflickr.com/8153/7171358580_f03e70f9a9_h.jpg'/ >
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(3); ?>'>Vías de ingreso</a>
@@ -29,7 +29,7 @@
             <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://wiki.ead.pucv.cl/images/b/ba/Limpieza_llegada.jpg' />
+            <img class='altura-maxima sm' src='https://farm4.staticflickr.com/3821/13447560585_35eda32d92_h.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(13); ?>'>Arquitectura</a>
@@ -50,7 +50,7 @@
             El nombre ‘Ciudad Abierta’ tiene uno de sus orígenes en la película ‘Roma ciudad abierta’ (Roma città aperta, 1945) y viene de la idea de ciudad desprotegida, en la cuál no existe una fortaleza construida, la fortaleza que la defiende se construye por medio de la hospitalidad y la palabra.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://photos1.blogger.com/blogger/1463/1331/1600/DSCN4426.0.jpg' />
+            <img class='altura-maxima sm' src='https://farm8.staticflickr.com/7119/6961283684_15244979f4_h.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(6); ?>'>Casa de estudio</a>
@@ -83,7 +83,7 @@
             <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/uploads/2010/09/DSC02638.jpg' />
+            <img class='altura-maxima sm' src='https://farm4.staticflickr.com/3750/13877449393_4450fa758e_b.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(5038); ?>'>Historia</a>

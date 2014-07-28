@@ -47,7 +47,7 @@
                <li role="presentation"><a href="<?php echo get_permalink(4); ?>" tabindex="-1" role="menuitem">Autoridades</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="<?php echo get_category_link(1); ?>" tabindex="-1" role="menuitem">Portada noticias</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink( get_page_by_title( 'Events' ) ) ?>" tabindex="-1" role="menuitem">Portada eventos</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink( get_page_by_title( 'Eventos' ) ); ?>" tabindex="-1" role="menuitem">Portada eventos</a></li>
 	             <li role="presentation"><a href="<?php echo get_category_link(123); ?>" tabindex="-1" role="menuitem">Portada información académica</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="<?php echo get_permalink(25727); ?>" tabindex="-1" role="menuitem">Wiki Casiopea</a></li>
