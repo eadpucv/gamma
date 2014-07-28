@@ -49,11 +49,11 @@
 .imagen-docente {
     display: block;
     margin: 20px 20px 0 0;
-    width: 200px;
-    height: 200px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     overflow: hidden;
-    float: left;
+    float: center;
 
     .ancho-maximo {
         width: 100%;
@@ -62,6 +62,10 @@
     &.listado {
         width: 140px;
         height: 140px;
+    }
+
+    &.historia {
+        margin: 0 auto 30px auto !important;
     }
 }
 
@@ -81,7 +85,10 @@
     }
 
     &.historia {
-        width: 74%; 
+        width: 48%; 
+        text-align: right;
+        margin: -3px 30px 0 0;
+        float: left;
     }
 }
 
@@ -95,7 +102,6 @@
         padding: 0;
         line-height: @interlinea;
         font-family: @sans;
-        max-height: 92px;
         overflow: hidden;
     }
 
@@ -104,14 +110,20 @@
     }
 
     &.historia {
-        width: 74%;
+        width: 48%;
+
+        h3 {
+            font-size: 30px;
+        }
 
         p{
-            font-size: 16.2px;
-            line-height: 20.9px;
+            font-size: 18.5px;
+            line-height: 23px;
+            letter-spacing: 0.2px;
             padding: 0;
             font-family: @sans;
-            max-height: 275px;
+            font-weight: 100;
+            height: inherit;
             overflow: hidden;
         }
     }
@@ -251,7 +263,7 @@
 
     .dia {
         font-family: @sans;
-        font-weight: 200;
+        font-weight: 100;
         margin: 0;
         padding: 4px;
         float: center;
@@ -361,6 +373,11 @@
         .ancho-maximo {
             width: 100%;
         }
+
+        &.historia {
+            width: 250px;
+            height: 250px;
+        }
     }
 
     .datos-docente {
@@ -377,6 +394,7 @@
 
         &.historia {
             width: 100%;
+            text-align: left;
         }
 
         h2 {
@@ -407,7 +425,7 @@
             
             p {
                 text-align: left;
-                max-height: auto;
+                max-height: inherit;
             }   
         }
 
@@ -434,28 +452,27 @@
 
         .dia {
             font-family: @sans;
-            font-weight: 100;
-            font-size: @cuerpo * 1.3;
+            font-weight: 200;
             margin: 0;
             padding: 0;
             float: center;
             color:@pizarra-claro;
-            font-size: 20px !important;
-            line-height: 25px;
-            letter-spacing: 4px;
-            line-height: 30px !important;
+            font-size: 16px !important;
+            margin: 0 10px;
+            letter-spacing: 3px;
+            line-height: 26px !important;
         }
 
 
         &.portada {
             margin: 0;
-            padding: 20px 13px;
+            padding: 0px 13px;
             width: 36%;
             height: 70px;
 
             .dia {
                 font-size: 20px;
-                letter-spacing: 1px;
+                letter-spacing: 0.5px;
                 padding: 0;
                 margin-bottom: 15px;
             }
@@ -520,12 +537,12 @@
         .dia {
             font-family: @sans;
             font-weight: 100;
-            margin: 0;
+            margin: 0 30px;
             padding: 0;
             float: center;
             height: 65px;
             color:@pizarra-claro;
-            font-size: 24.8px !important;
+            font-size: 18px !important;
             line-height: 32px;
             letter-spacing: 2px;
         }
@@ -534,7 +551,7 @@
         &.portada {
             height: 60px;
             margin: 0;
-            padding: 11px 0;
+            padding: 5px 0;
             width: 30%;
 
 
@@ -548,10 +565,10 @@
     }
 
         .datos-docente {
-        width: 59%;
-        margin: 5px 0;
-        min-height: @cuadratin * 2;
-        display: inline-block;
+            width: 100%;
+            margin: 5px 0;
+            min-height: @cuadratin * 2;
+            display: inline-block;
 
         &.listado {
             width: 100%
@@ -559,6 +576,8 @@
 
         &.historia {
             width: 65%;
+            text-align: left;
+            margin: 0 auto !important;
         }
 
         h2 {
@@ -574,19 +593,21 @@
         display: inline-block;
 
         &.listado {
-            width: 100%
+            width: 100%;
         }
 
         &.historia {
-            width: 65%;
+            width: 80%;
         }
 
         p {
             font-size: @cuerpo * .9;
+            margin: 0 auto;
+            display: block;
             padding: 0;
             line-height: @interlinea * .9;
             font-family: @sans;
-            max-height: 109px;
+            max-height: inherit;
             overflow: hidden;
         }
     }
@@ -623,8 +644,8 @@
     // Cajas de docentes
 
     .imagen-docente {
-        width: 160px;
-        height: 160px;
+        width: 300px;
+        height: 300px;
         margin:0 20px 0 0;
 
         &.listado {
@@ -641,7 +662,7 @@
 
     .datos-docente {
         width: 50%;
-        margin: 5px 0;
+        margin: 0px 0;
         min-height: @cuadratin * 2;
         display: inline-block;
 
@@ -650,7 +671,24 @@
         }
 
         &.historia {
-            width: 65%;
+            width: 40%;
+            margin-top: -1px;
+        }
+
+        h3{
+            font-size: 25px;
+
+            a{
+                &:hover{
+                    color: @beige;
+                    .transition(.1s ease all);
+                }
+            }
+        }
+
+        h6{
+            font-weight: 100;
+            font-size: 17px;
         }
 
         h2 {
@@ -679,7 +717,14 @@
         }
 
         &.historia {
-            width: 65%;
+            width: 50%;
+
+            p{
+                letter-spacing: 0px;
+                line-height: 24px;
+                max-height: 430px;
+                font-size: 17.9px;
+            }
         }
     }
 
@@ -693,7 +738,7 @@
     // calendario
 
     .em-calendar {
-    width: 19.5vw;
+    width: 16vw;
     }
 
     // eventos
@@ -711,12 +756,12 @@
         .dia {
             font-family: @sans;
             font-weight: 100;
-            margin: 0;
-            padding: 0;
+            margin: 0 10px;
+            padding: 0 10px;
             height: 65px;
             float: center;
             color:@pizarra-claro;
-            font-size: 24.8px !important;
+            font-size: 17px !important;
             line-height: 30px;
             letter-spacing: 2px;
         }
@@ -724,7 +769,7 @@
 
         &.portada {
             width: 45%;
-            padding: 20px 0;
+            padding: 0px 0;
             margin: 0;
             height: 60px;
 

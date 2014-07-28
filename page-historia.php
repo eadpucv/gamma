@@ -4,7 +4,7 @@
     <!-- contenido -->
     <div id='intro'>
         <div class='wrap'>
-            <h1 class="entry-title introductora blanco">Historia</h1> <!-- título del post -->
+            <h1 class="entry-title introductora blanco">Fundación</h1> <!-- título del post -->
         </div>
     </div>
     <div class='fondo-gris'>
@@ -14,7 +14,7 @@
                     <div class='wrap'>
                         <div class='bloque'>
                             <article class="h-entry">
-                                <h1 class='rojo-claro'>Fundación</h1>
+                                <h1 class='rojo-claro h-sin-margen'>Reseña histórica</h1>
                                 <h2 class='subtitulo gris'>Escuela de arquitectura y diseño</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='bloque'>
@@ -35,6 +35,10 @@
             </div>
         <div class='fila'>
             <div class='fondo-oscuro'>
+                <div id='fundadores-anterior-1'>
+                </div>
+                <div id='fundadores-anterior-2'>
+                </div>
                 <div id='fundadores'>
                     <div class='wrap'>
                         <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
@@ -43,10 +47,9 @@
                 <div class='wrap'>
                     <div class='bloque'>
                         <article class="h-entry especifico">
-                            <h2 class='gris'>Fundadores</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador1.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -59,7 +62,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador2.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -72,7 +75,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador3.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -85,7 +88,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador4.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -99,6 +102,7 @@
                                     </div>
                                     <!--<div class='pagina docente historia'> FALTA CONTENIDO DE MIGUEL EYQUEM
                                         <div class='imagen-docente'>
+
                                             <img class='ancho-maximo' src='https://farm5.staticflickr.com/4139/4924302705_acd574b3e4_q.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -109,9 +113,9 @@
                                         <div class='resena-docente historia'>
                                             <p class='gris-claro'> 
                                         </div>
-                                    </div>-->
+                                    </div> -->
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador5.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -124,7 +128,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='https://farm3.staticflickr.com/2443/3641798926_a55dde55ab_q.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -137,7 +141,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://news.nd.edu/assets/65330/bellalta_200.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -150,7 +154,7 @@
                                         </div>
                                     </div>
                                     <div class='pagina docente historia'>
-                                        <div class='imagen-docente'>
+                                        <div class='imagen-docente historia'>
                                             <img class='ancho-maximo' src='http://oi61.tinypic.com/241pded.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
@@ -170,6 +174,15 @@
             </div>
             <div class='fila'>
                 <div class='fondo-gris-claro'>
+                    <div id='vision-anterior-1'>
+                    </div>
+                    <div id='vision-anterior-2'>
+                    </div>
+                    <div id='vision'>
+                        <div class='wrap'>
+                            <h1 class="entry-title introductora blanco">Visión</h1> <!-- título del post -->
+                        </div>
+                    </div>
                     <div class='wrap'>
                         <div class='bloque'>
                             <article class="h-entry">
@@ -181,12 +194,6 @@
                                     </div>
                                 </article> 
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class='fila'>
-                    <div class='fondo-gris-claro'>
-                        <div class='wrap'>
                             <div class='bloque'>
                                 <article class="h-entry">
                                     <h1 class='rojo-claro'>Misión de la e[ad]</h1>
@@ -208,11 +215,19 @@
                 </div>
                 <div class='fila'>
                     <div class='fondo-blanco'>
+                        <div id='oficio-anterior-1'>
+                        </div>
+                        <div id='oficio-anterior-2'>
+                        </div>
+                        <div id='oficio'>
+                            <div class='wrap'>
+                                <h1 class="entry-title introductora blanco">Oficio</h1> <!-- título del post -->
+                            </div>
+                        </div>
                         <div class='wrap'>
                             <div class='bloque'>
                                 <article class="h-entry">
                                     <h1 class='rojo-claro'>Metodología</h1>
-                                    <h2 class='subtitulo gris'>El oficio</h2>
                                         <div class="e-content p-summary p-name">
                                             <div class='bloque'>
                                                 <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.
