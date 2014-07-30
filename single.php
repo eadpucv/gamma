@@ -24,7 +24,7 @@
         <?php echo edit_post_link("<span>Editar</span><i class='icn icn-lapiz icn-md'></i>","",""); ?>
       </div>
       <div class='derecha botones-auxiliares'>
-        <a class='btn btn-md ver-todo botones-post'><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a>
+        <a class='btn btn-md ver-todo botones-post' data-toggle="modal" data-target="#compartir"><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a> 
       </div>
     </aside>
   </div>
@@ -130,6 +130,46 @@
   </div>
     </div>
 </div>
+
+<div id="compartir" class="modal fade" style="display: none;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 id="myModalLabel" class="modal-title">Compartir en redes sociales</h4>
+      </div>
+      <div class="modal-body centrado">
+        <a class='red-social' href='#'>
+          <span class="icn-stack icn-lg">
+            <i class="icn icn-cuadro icn-stack-2x naranja-opuesto"></i>
+            <i class="icn icn-twitter icn-stack-1x icn-inverse"></i>
+          </span>
+        </a>
+        <a class='red-social' href='#'>
+          <span class="icn-stack icn-lg">
+            <i class="icn icn-cuadro icn-stack-2x damasco-opuesto"></i>
+            <i class="icn icn-facebook icn-stack-1x icn-inverse"></i>
+          </span>
+        </a>
+        <a class='red-social' href='#'>
+          <span class="icn-stack icn-lg">
+            <i class="icn icn-cuadro icn-stack-2x rojo-claro"></i>
+            <i class="icn icn-enlace icn-stack-1x icn-inverse"></i>
+          </span>
+        </a>
+        <a class='red-social' href='#'>
+          <span class="icn-stack icn-lg">
+            <i class="icn icn-cuadro icn-stack-2x naranja"></i>
+            <i class="icn icn-rss icn-stack-1x icn-inverse"></i>
+          </span>
+        </a>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-default btn-sm" type="button" data-dismiss="modal">Cerrar ventana</a>
+      </div>
+    </div>
+  </div>
+</div> <!-- modal compartir social media -->
+
 <?php endwhile; else: ?>
   <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
