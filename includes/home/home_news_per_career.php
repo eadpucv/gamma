@@ -14,7 +14,7 @@
         <div class='seccion'>
           <h5><i class="icn icn-noticias icn-lg"></i> noticias por carrera</h5>
         </div>
-        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
           <a href='<?php the_permalink() ?>'> 
           <?php if( $latest_ar->have_posts() ) : while( $latest_ar->have_posts() ) : $latest_ar->the_post(); ?>
             <div class='bloque-enlace oficio'>
@@ -36,7 +36,7 @@
           <?php endwhile; endif; ?>
           </a>        
         </div>
-        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
           <a href='<?php the_permalink() ?>'>
           <?php if( $latest_dg->have_posts() ) : while( $latest_dg->have_posts() ) : $latest_dg->the_post(); ?>                  
             <div class='bloque-enlace oficio'>
@@ -58,7 +58,7 @@
           <?php endwhile; endif; ?>    
           </a>      
         </div>
-        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 alto-md'>
+        <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
           <a href='<?php the_permalink() ?>'>
           <?php if( $latest_di->have_posts() ) : while( $latest_di->have_posts() ) : $latest_di->the_post(); ?>                                         
             <div class='bloque-enlace oficio'>
