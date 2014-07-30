@@ -64,7 +64,7 @@
         <div class='wrap-postulante'>
           <div class='col-lg-3 col-md-3 col-sm-5 col-xs-12 seccion-postulante'>
             <h1>Cuerpo Docente</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper purus sit amet nisl accumsan, commodo sodales lectus sagittis. Ut mollis rutrum pulvinar. Suspendisse libero nulla, lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur lacinia sit amet ullamcorper et, ultrices et nisi. Aliquam erat volutpat. Aenean rhoncus ornare consectetur.Ut mollis rutrum pulvinar. Suspendisse.</p>
+            <p>El cuerpo académico de la e[ad] está compuesto por arquitectos y diseñadores que se han especializado en su área, en conjunto con un destacado equipo de profesores de dedicación parcial que, desde su área de experticia, fortalecen nuestra docencia.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
             <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/uploads/2011/12/DSC04269.jpg' />

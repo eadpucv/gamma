@@ -99,20 +99,6 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7227/7176686306_9d983d6f1d_q.jpg'>
-									</div>
-									<div class='datos-docente listado'>
-										<h2 class='rojo-claro'>Fernando Espósito</h2>
-										<h6>Arquitecto</h6>
-									</div>
-									<div class='resena-docente listado'>
-										<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor; UPC Barcelona, España.</p>
-									</div>
-								</div>
-							</div>
-							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
-								<div class='pagina docente'>
-									<div class='imagen-docente listado'>
 										<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/5/59/Katherine_exss_wiki.jpg'>
 									</div>
 									<div class='datos-docente listado'>
@@ -406,14 +392,14 @@
 								</div>
 							</div>-->
 						<div class='fila'>
-							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Profesores ayudantes</h5>
+							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Profesores asistentes</h5>
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://oi59.tinypic.com/jsy51i.jpg'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
 									</div>
 									<div class='datos-docente listado'>
-										<h2 class='rojo-claro'>Óscar Andrade</h2>
+										<h2 class='rojo-claro'>Álvaro Mercado</h2>
 										<h6>Arquitecto</h6>
 									</div>
 									<div class='resena-docente listado'>
@@ -438,14 +424,28 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7207/6979639313_f74d11b3cd_q.jpg'>
+										<img class='ancho-maximo' src='http://oi59.tinypic.com/jsy51i.jpg'>
 									</div>
 									<div class='datos-docente listado'>
-										<h2 class='rojo-claro'>Karen Carrera</h2>
-										<h6>Diseñadora Gráfica</h6>
+										<h2 class='rojo-claro'>Óscar Andrade</h2>
+										<h6>Arquitecto</h6>
 									</div>
 									<div class='resena-docente listado'>
-										<p>Ayudante de Diseño gráfico</p>
+										<p>Ayudante de Arquitectura</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/9/95/Perfilsalgado.jpg/160px-Perfilsalgado.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h2 class='rojo-claro'>Daniela Salgado</h2>
+										<h6>Diseñadora Industrial</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Ayudante de Diseño Industrial</p>
 									</div>
 								</div>
 							</div>
@@ -460,6 +460,135 @@
 									</div>
 									<div class='resena-docente listado'>
 										<p>Ayudante de Arquitectura</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7101/7348794040_fbe9e72893_q.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Vanessa Siviero</h4>
+										<h6>Diseñadora Industrial</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Diseñador Industrial; P.U. Católica de Valparaíso, Chile. Doctor ©; PUC-Río; Río de Janeiro, Brasil.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='fila'>
+							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Profesores agregados</h5>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3068/3046034763_4fc32e1289_q.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Alfred Thiers</h4>
+										<h6>Diseñador Industrial</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile.<br>MDes Interaction Design; Carnegie Mellon University, EE.UU. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Belén Reed</h4>
+										<h6>Arquitecta</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>?</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://m.c.lnkd.licdn.com/mpr/pub/image-VOHYmgdt7MKqH6BaiufmGbmwc-UF9o4G5OfgIqztcANDL-5QVOHgQfMtcIZA9oA-xktC/ana-bel%C3%A9n-alejandra-oyarz%C3%BAn-leal.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Ana Belén Oyarzún</h4>
+										<h6>Arquitecta</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>?</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='https://scontent-a.xx.fbcdn.net/hphotos-xpa1/t31.0-8/10497173_10152585840479074_8085829394821380997_o.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Manuel Toledo</h4>
+										<h6>Diseñador Industrial</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Ayudante de Diseño Gráfico</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Camila Fuenzalida</h4>
+										<h6>?</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>?</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Elisa Donoso</h4>
+										<h6>?</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>?</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Catalina Bodelón</h4>
+										<h6>?</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>?</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7207/6979639313_f74d11b3cd_q.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h2 class='rojo-claro'>Karen Carrera</h2>
+										<h6>Diseñadora Gráfica</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Ayudante de Diseño gráfico</p>
 									</div>
 								</div>
 							</div>
@@ -494,20 +623,6 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/9/95/Perfilsalgado.jpg/160px-Perfilsalgado.jpg'>
-									</div>
-									<div class='datos-docente listado'>
-										<h2 class='rojo-claro'>Daniela Salgado</h2>
-										<h6>Diseñadora Industrial</h6>
-									</div>
-									<div class='resena-docente listado'>
-										<p>Ayudante de Diseño Industrial</p>
-									</div>
-								</div>
-							</div>
-							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
-								<div class='pagina docente'>
-									<div class='imagen-docente listado'>
 										<img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/ayudante1.jpg'>
 									</div>
 									<div class='datos-docente listado'>
@@ -522,6 +637,48 @@
 						</div>
 						<div class='fila'>
 							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Staff</h5>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/uploads/2013/05/IMG_5615.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h2 class='rojo-claro'>Danisa Peric</h2>
+										<h6>Diseñadora Industrial</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>MADLAB</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h2 class='rojo-claro'>Catalina Porzio</h2>
+										<h6>Diseñadora Gráfica</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Taller de Investigaciones Gráficas</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h2 class='rojo-claro'>Antonia Casali</h2>
+										<h6>Diseñadora Gráfica</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Taller de Investigaciones Gráficas</p>
+									</div>
+								</div>
+							</div>
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
@@ -575,6 +732,34 @@
 									</div>
 									<div class='resena-docente listado'>
 										<p>Secretaria de docencia</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h2 class='rojo-claro'>Sigris Cartagena</h2>
+										<h6>Secretaria</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Decanato</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+									</div>
+									<div class='datos-docente listado'>
+										<h2 class='rojo-claro'>Sonia Rodriguez</h2>
+										<h6>Secretaria</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Secretaria Dirección</p>
 									</div>
 								</div>
 							</div>
