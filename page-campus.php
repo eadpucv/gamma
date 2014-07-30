@@ -11,6 +11,8 @@
     <div class='fondo-gris'>
         <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
             <div class='fila'>
+                <div id='casa-ead'>
+                </div>
         <div class='wrap'>
                 <div class='bloque'>
                     <article class="h-entry">
@@ -29,6 +31,8 @@
 </div>
 <div class='fila'>
     <div class='fondo-oscuro'>
+         <div id='ciudad-abierta'>
+         </div>
         <div class='wrap'>
                 <div class='bloque'>
                     <article class="h-entry">
@@ -48,6 +52,8 @@
 </div>
 <div class='fila'>
     <div class='fondo-blanco'>
+        <div id='casa-central'>
+        </div>
         <div class='wrap'>
                 <div class='bloque'>
                     <article class="h-entry">

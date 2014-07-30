@@ -39,7 +39,7 @@
               <div class='bloque'><?php the_content();  ?></div>
             </div>
           </article> 
-            <div class='bloque-aside noticia comparte'>
+            <!--<div class='bloque-aside noticia comparte'>
               <div class="e-content p-summary p-name">
                 <div class='bloque'>
                 <h5 class='fino rotulo-compartir'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>
@@ -69,7 +69,7 @@
                 </a>
             </div>
                 </div>
-              </div>
+              </div>-->
       </div>
     </div>
   </div> <!-- fin wrap -->

@@ -12,13 +12,13 @@
       <a href='<?php the_permalink() ?>' class='enlace-noticia'>
         <div class='pagina md'>
           <div class='franja-seguir'>
-            <p>seguir leyendo +</p>
+            <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
           </div>
         <div class='seguir-leyendo-cuadro'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
         </div>
           <div class='prev-imagen sm'>
-            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); 
+            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' ); 
             if ($image) : ?>
             <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
             <?php endif; ?> 

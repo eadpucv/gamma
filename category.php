@@ -18,7 +18,7 @@
                                     <div class='noticia-chica'>
                                         <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                                             <div class='franja-seguir fija'>
-                                                <p>seguir leyendo +</p>
+                                                <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
                                             </div>
                                             <div class='seguir-leyendo-cuadro'>
                                             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>

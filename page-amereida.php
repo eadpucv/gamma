@@ -7,7 +7,7 @@
             <div class='fila'>
                 <div id='amereida'>
                     <div class='wrap'>
-                        <h1 class="entry-title introductora blanco">Amereida</h1> <!-- título del post -->
+                        <h1 class="entry-title introductora blanco">amereida</h1> <!-- título del post -->
                     </div>
                 </div>
         <div class='wrap'>
