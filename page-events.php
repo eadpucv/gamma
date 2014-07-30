@@ -29,7 +29,7 @@
                 <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                   <a href='<?php echo $EM_Event->guid; ?>' class='bloque-enlace portada evento'>
                     <div class='franja-seguir fija'>
-                      <p>seguir leyendo +</p>
+                      <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
                     </div>
                     <div class='pagina evento portada'>
                         <div class='dato-evento portada'> 

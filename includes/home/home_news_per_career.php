@@ -19,7 +19,7 @@
           <?php if( $latest_ar->have_posts() ) : while( $latest_ar->have_posts() ) : $latest_ar->the_post(); ?>
             <div class='bloque-enlace oficio'>
               <div class='franja-seguir fija'>
-                <p>seguir leyendo +</p>
+                <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
               </div>
               <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
               <div class='seguir-leyendo-cuadro'>
@@ -41,7 +41,7 @@
           <?php if( $latest_dg->have_posts() ) : while( $latest_dg->have_posts() ) : $latest_dg->the_post(); ?>                  
             <div class='bloque-enlace oficio'>
               <div class='franja-seguir fija'>
-                <p>seguir leyendo +</p>
+                <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
               </div>
               <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
               <div class='seguir-leyendo-cuadro'>
@@ -63,7 +63,7 @@
           <?php if( $latest_di->have_posts() ) : while( $latest_di->have_posts() ) : $latest_di->the_post(); ?>                                         
             <div class='bloque-enlace oficio'>
               <div class='franja-seguir fija'>
-                <p>seguir leyendo +</p>
+                <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
               </div>
               <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
               <div class='seguir-leyendo-cuadro'>

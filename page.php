@@ -81,7 +81,7 @@
   </div>
 </div>
 <?php endwhile; else: ?>
-  <p>Sorry, no posts matched your criteria.</p>
+  <p>Lo siento, no hay post que coincidan con tu búsqueda.</p>
 <?php endif; ?>
 
 <script>
