@@ -119,16 +119,17 @@ function clean_session() {
 function get_user_extra_attributes() {
   if ( is_user_logged_in() ) { 
     if (empty($_SESSION['cas_name'])){
-      phpCAS::checkAuthentication();
-      $json = file_get_contents('http://personas.ead.pucv.cl/api/data4wp?u='.phpCAS::getUser().'&key=d0c0e3d43f100c138b2142fd48eaac32');
-      $obj = json_decode($json,true);
-      $_SESSION['cas_id'] = $obj["usuario"]["id"];
-      $_SESSION['cas_username'] = phpCAS::getUser();
-      $_SESSION['cas_name'] = $obj["usuario"]["nombre"];
-      $_SESSION['cas_lastname'] = $obj["usuario"]["apellido"];
-      $_SESSION['cas_admin'] = $obj["usuario"]["admin"];
-      $_SESSION['cas_wikipage'] = $obj["usuario"]["wikipage"];
-      $_SESSION['cas_mail'] = $obj["usuario"]["mail"];
+      if (phpCAS::checkAuthentication()){
+        $json = file_get_contents('http://personas.ead.pucv.cl/api/data4wp?u='.phpCAS::getUser().'&key=d0c0e3d43f100c138b2142fd48eaac32');
+        $obj = json_decode($json,true);
+        $_SESSION['cas_id'] = $obj["usuario"]["id"];
+        $_SESSION['cas_username'] = phpCAS::getUser();
+        $_SESSION['cas_name'] = $obj["usuario"]["nombre"];
+        $_SESSION['cas_lastname'] = $obj["usuario"]["apellido"];
+        $_SESSION['cas_admin'] = $obj["usuario"]["admin"];
+        $_SESSION['cas_wikipage'] = $obj["usuario"]["wikipage"];
+        $_SESSION['cas_mail'] = $obj["usuario"]["mail"];          
+      }
     }
   }
 }

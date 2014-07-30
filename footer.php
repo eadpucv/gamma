@@ -112,7 +112,6 @@
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.parallax-1.1.3.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.localscroll-1.2.7-min.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.scrollTo-1.4.2-min.js"></script>
-
   <!-- fin prueba parallax -->
 
 		<?php get_user_extra_attributes(); ?>

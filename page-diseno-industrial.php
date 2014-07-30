@@ -435,7 +435,7 @@
 							<h6>Diseñadora Industrial</h6>
 						</div>
 						<div class='resena-docente'>
-							<p>Ayudante de Diseño gráfico</p>
+							<p>MADLAB, Ayudante de Diseño industrial</p>
 						</div>
 					</div>
 					<div class='pagina docente carrera-especifica'>
