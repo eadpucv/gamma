@@ -100,7 +100,7 @@
 }
 
 .resena-docente {
-    margin: 5px 0;
+    margin: 3px 0;
     width: 65%;
     display: inline-block;
 
@@ -147,14 +147,22 @@
         color: @gris-oscuro;
         font-size: 15px;
         padding: 0px 5px 0px 0;
-        border-right:2px solid #f9f9f9;
+        border-right: 2px solid #f9f9f9;
         text-align: right;
+
+        &.sin-aside{
+        width: 320px;
+        }
     }   
 
     .active .ancla-fixed {
         color: @rojo-claro;
         border-right:2px solid @rojo-claro;
         .transition(.3s ease all);
+
+        &.sin-aside{
+        width: 320px;
+        }
 
         &:hover {
             cursor: pointer;
@@ -418,7 +426,7 @@
     }
 
     .resena-docente {
-        margin: 5px 0;
+        margin: 3px 0;
         width: 100%;
         padding: 0 10px;
         display: inline-block;
@@ -595,9 +603,9 @@
     }
 
     .resena-docente {
-        margin: 5px 0;
         width: 59%;
         display: inline-block;
+        margin: 3px 0;
 
         &.listado {
             width: 100%;
@@ -645,8 +653,21 @@
 
         .ancla-fixed {
             width: 12vw;
+
+            &.sin-aside{
+                width: 18vw;
+            }
+        }
+
+        .active .ancla-fixed {
+            
+
+        &.sin-aside{
+        width: 220px;
         }
     }
+
+}
 
     // Cajas de docentes
 
@@ -705,7 +726,6 @@
     }
 
     .resena-docente {
-        margin: 5px 0;
         width: 50%;
         display: inline-block;
 
@@ -716,7 +736,7 @@
         p {
             font-size: @cuerpo * .9;
             padding: 0;
-            line-height: @interlinea * .9;
+            line-height: 25px !important;
             font-family: @sans;
             max-height: 80px;
             overflow: hidden;
