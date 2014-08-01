@@ -25,21 +25,49 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="carrera arquitectura" src='https://farm4.staticflickr.com/3915/14446078555_c266eeb60c_k.jpg'>
+                                <img alt="First slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/arq2.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7091/7362611238_d8ccba137e_k.jpg'>
+                                <img alt="Second slide" title="carrera arquitectura" src='https://farm6.staticflickr.com/5573/14444955434_5a5041f025_b.jpg'>
                             </div>
                         </div>
                     </div>
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera arquitectura" src='https://farm3.staticflickr.com/2896/14466255463_1b9760e8ca_b.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/arq3.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
                                 <img alt="third slide" title="carrera arquitectura" src='https://farm4.staticflickr.com/3573/5703840667_8ba437e873_b.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7460/13904220867_20b18e4650_b.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera arquitectura" src='https://farm4.staticflickr.com/3803/9509631443_56c1257eec_b.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
@@ -112,10 +140,10 @@
                   	<li><b>Capacidad crítica, autocrítica y propositiva:</b> Analizar, examinar y juzgar de manera consciente el objeto de estudio integrando las consideraciones relevantes y generando una opinión fundada (crítica) y de realizar esas acciones sobre sí mismo (autocrítica).</li>
                   	</ol>
                   	<h2>Malla Curricular</h2>
-                  	<a href='http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
+                  	<a href='http://web.archive.org/web/20130507102015/http://www.ead.pucv.cl/wp-content/archivos/2009/08/malla-arq1.pdf'>Descargar malla curricular Arquitectura (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
 						<p>Quisque luctus, metus quis volutpat varius, velit lorem egestas erat, vel lobortis libero nulla vitae est. Nam varius lectus ut molestie pharetra. Proin quis justo lectus. Nulla risus tellus, vehicula eget nulla vitae, rhoncus tristique neque. Duis vulputate metus a tellus sagittis facilisis. Maecenas non congue mauris. Suspendisse commodo quam id iaculis consequat. Proin quis lacus sodales, pellentesque sem sed, consequat nulla. Donec sed massa et lorem laoreet tristique. Proin viverra quam auctor urna dapibus, sit amet posuere arcu porta. </p>
 						<!-- Se piensa que esto no debería ser una tabla, pero es un diseño que tendremos que volver a redefinirlo, por ahora queremos dejarlo así y luego pensarlo de una manera más coherente con la gráfica nueva -->
-						<table class='w100 malla-curricular'>
+						<!--<table class='w100 malla-curricular'>
 							<tbody>
 								<tr>
 									<td>
@@ -132,14 +160,13 @@
 									<td> 
 										<ul class='curso-malla'>
 											<li>ARQ 150 – (37 Créditos)<br>
-											 Primer Año Diseño Plan Común<br>
+											 Primer Año Arquitectura Plan Común<br>
 											<p><a href='#'>Taller Inicial Común 1ª y 2ª Etapa</a></p>
 											<p><a href='#'>Taller de Construcción 1</a></p>
-											<p><a href='#'>Presentación del Diseño Común</a></p>
+											<p><a href='#'>Presentación de la Arquitectura 0</a></p>
 											<p><a href='#'>Fundamentos de Matemáticas 1</a></p>
-											<p><a href='#'>Lenguaje Computacional 0 – Imagen Escrita</a></p>
-											<p><a href='#'>Cultura Religiosa: Antropología Cristiana</a></p>
-											<p><a href='#'>Cultura Religiosa: Moral Cristiana</a></p>
+											<p><a href='#'>Cultura Religiosa: Fundamentos de la Religión Cristiana</a></p>
+											<p><a href='#'>Cultura Religiosa: Moral Profesional</a></p>
 											<p><a href='#'>Cultura del Cuerpo 1 y 2</a></p>
 											<p><a href='#'>Taller de Amereida 1, 2 y 3</a></p></li>
 										</ul>
@@ -163,36 +190,36 @@
 								<tr>
 									<td> 
 										<ul class='curso-malla'>
-											<li>ARQ 280 – (10 Créditos)<br>
-											<a href='#'>Taller de Diseño Gráfico 3ª Etapa</a></li>
-											<li>MAT 229 - (4 Créditos)<br>
-											<a href='#'>Fundamentos de Matemáticas 2</a></li>
+											<li>ARQ 250 – (10 Créditos)<br>
+											<a href='#'>Taller Arquitectónico 3ª Etapa</a></li>
 											<li>ARQ 266 – (1 Crédito)<br>
 											<a href='#'>Taller de Amereida 4</a></li>
 											<li>ARQ 251 – (1 Crédito)<br>
 											<a href='#'>Cultura del Cuerpo 3</a></li>
+											<li>ARQ 241 – (2 Créditos)<br>
+											<a href='#'>Presentación de la Arquitectura 1 </a></li>
 										</ul>
 									</td>
 									<td>
 										<ul class='curso-malla'>
-											<li>ARQ 271 - (2 Créditos)<br>
-											<a href='#'>Presentación del Diseño Gráfico 1</a></li>
-											<li>ARQ 267 – (1 Crédito)<br>
+											<li>MAT 229 - (4 Créditos)<br>
+											<a href='#'>Fundamentos de Matemáticas 2</a></li>
+											<li>ARQ 266 – (1 Crédito)<br>
 											<a href='#'>Taller de Amereida 5</a></li>
 											<li>ARQ 252 – (1 Crédito)<br>
 											<a href='#'>Cultura del Cuerpo 4</a></li>
-											<li>ARQ 281 – (2 Créditos)<br>
+											<li>ARQ 200 – (2 Créditos)<br>
 											<a href='#'>Taller de Construcción 2</a></li>
-											<li>ARQ 286 – (2 Créditos)<br>
-											<a href='#'>Lenguaje Computacional 1</a></li>
-											<li>ARQ 287 – (2 Créditos)<br>
-											<a href='#'>Lenguaje Tipográfico</a></li>
+											<li>ARQ 206 – (2 Créditos)<br>
+											<a href='#'>Conceptos Físicos del Equilibrio en Sólidos y Fluídos</a></li>
+											<li>ARQ 207 – (2 Créditos)<br>
+											<a href='#'>Conceptos Físicos de Calor y Ondas</a></li>
 										</ul>
 									</td>
 									<td>
 										<ul class='curso-malla'>
-											<li>ARQ 285 – (10 Créditos)<br>
-											<a href='#'>Taller de Diseño Gráfico 4ª Etapa</a></li>
+											<li>ARQ 255 – (10 Créditos)<br>
+											<a href='#'>Taller Arquitectónico 4ª Etapa </a></li>
 											<li>ARQ 268 - (1 Crédito)<br>
 											<a href='#'>Taller de Amereida 6</a></li>
 										</ul>
@@ -331,7 +358,7 @@
 									</td>
 								</tr>
 							</tbody>
-						</table>
+						</table>-->
                   	<h2>Profesores de arquitectura</h2>
                   	<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>

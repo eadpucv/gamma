@@ -25,21 +25,42 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="carrera diseño industrail" src='https://farm8.staticflickr.com/7410/14006462789_2ec1e83099_k.jpg'>
+                                <img alt="First slide" title="carrera diseño industrial" src='<?php bloginfo('template_directory') ?>/img/diseno-industrial.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="carrera diseño industrail" src='https://farm4.staticflickr.com/3677/13873698675_2bae8cd099_k.jpg'>
+                                <img alt="third slide" title="carrera diseño industrial" src='<?php bloginfo('template_directory') ?>/img/diseno-industrial2.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="Second slide" title="carrera diseño industrial" src='<?php bloginfo('template_directory') ?>/img/diseno-industrial3.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera diseño industrail" src='https://farm8.staticflickr.com/7227/13743404163_f56542cee1_k.jpg'>
+                                <img alt="third slide" title="carrera diseño industrial" src='<?php bloginfo('template_directory') ?>/img/diseno-industrial4.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera diseño industrial" src='<?php bloginfo('template_directory') ?>/img/diseno-industrial5.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera diseño industrial" src='<?php bloginfo('template_directory') ?>/img/diseno-industrial8.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
@@ -120,10 +141,10 @@
                   	<h2>Objetivos educacionales</h2>
                   	<p>El ejercicio profesional se desarrolla en instituciones y empresas relacionadas con la comunicación, campo publicitario, editorial, la industria gráfica y multimedial. Ejercicio independiente de la profesión. Docencia universitaria y continuidad en estudios de post-grado.</p>
                   	<h2>Malla Curricular</h2>
-                  	<a href='http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
-						<p>Quisque luctus, metus quis volutpat varius, velit lorem egestas erat, vel lobortis libero nulla vitae est. Nam varius lectus ut molestie pharetra. Proin quis justo lectus. Nulla risus tellus, vehicula eget nulla vitae, rhoncus tristique neque. Duis vulputate metus a tellus sagittis facilisis. Maecenas non congue mauris. Suspendisse commodo quam id iaculis consequat. Proin quis lacus sodales, pellentesque sem sed, consequat nulla. Donec sed massa et lorem laoreet tristique. Proin viverra quam auctor urna dapibus, sit amet posuere arcu porta. </p>
+                  	<a href='http://web.archive.org/web/20130512094250/http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_I.pdf'>Descargar malla curricular Diseño industrial (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
+						<p></p>
 						<!-- Se piensa que esto no debería ser una tabla, pero es un diseño que tendremos que volver a redefinirlo, por ahora queremos dejarlo así y luego pensarlo de una manera más coherente con la gráfica nueva -->
-						<table class='w100 malla-curricular'>
+						<!--<table class='w100 malla-curricular'>
 							<tbody>
 								<tr>
 									<td>
@@ -339,7 +360,7 @@
 									</td>
 								</tr>
 							</tbody>
-						</table>
+						</table>-->
                   	<h2>Profesores de diseño industrial</h2>
                   	<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
