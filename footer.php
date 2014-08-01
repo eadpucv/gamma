@@ -93,7 +93,7 @@
     </div>
     <div class='contenedor-lg'>
         <div class='mapa'>
-            <iframe width='100%' height='200px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/idar.ilih71di/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoiaWRhciIsImEiOiJQNGFvOVdVIn0.7FwJUgWdhWOSOXt-jdtnUw'></iframe>
+            <iframe width="100%" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=calle%20matta%2012%2C%20recreo&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> 
         </div>
     </div>
 </footer>
@@ -142,12 +142,62 @@
         //xPosition - Horizontal position of the element
         //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
         //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-        $('#intro').parallax("50%", 0.1);
-        $('#second').parallax("50%", 0.1);
+        $('#intro').parallax("50%", 0.5);
+        $('#fundadores-anterior-1').parallax("50%", 0.5);
+        $('#fundadores-anterior-2').parallax("30%", 0.3);
+        $('#fundadores').parallax("20%", 0.2);
+        $('#vision-anterior-1').parallax("50%", 0.5);
+        $('#vision-anterior-2').parallax("50%", 0.6);
+        $('#vision').parallax("50%", 0.5);
+        $('#oficio-anterior-1').parallax("50%", 0.5);
+        $('#oficio-anterior-2').parallax("50%", 0.6);
+        $('#oficio').parallax("50%", 0.5);
         $('.bg').parallax("50%", 0.4);
-        $('#third').parallax("50%", 0.3);
+        $('#casa-ead').parallax("50%", 0.5);
+        $('#ciudad-abierta').parallax("50%", 0.5);
+        $('#casa-central').parallax("50%", 0.5);
+        $('#amereida').parallax("50%", 0.3);
 
       })
+    </script>
+
+    <script type='text/javascript'>
+    var el = $('#map');
+    var map;
+
+    function enableScrollingWithMouseWheel() {
+        map.setOptions({ scrollwheel: true });
+    }
+
+    function disableScrollingWithMouseWheel() {
+        map.setOptions({ scrollwheel: false });
+    }
+
+    function init() {
+        map = new google.maps.Map(el[0], {
+            zoom: 10,
+            center: new google.maps.LatLng(47.49840560, 19.04075779),
+            scrollwheel: false // disableScrollingWithMouseWheel as default
+        });
+
+        google.maps.event.addListener(map, 'mousedown', function(){
+            enableScrollingWithMouseWheel()
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', init);
+
+    $('body').on('mousedown', function(event) {
+        var clickedInsideMap = $(event.target).parents('#map').length > 0;
+
+        if(!clickedInsideMap) {
+            disableScrollingWithMouseWheel();
+        }
+    });
+
+    $(window).scroll(function() {
+        disableScrollingWithMouseWheel();
+    });
     </script>
 	</body>
 </html>
