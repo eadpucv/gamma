@@ -25,28 +25,49 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="carrera diseño gráfico" src='https://farm4.staticflickr.com/3881/14444706492_091683cda3_k.jpg'>
+                                <img alt="First slide" title="carrera diseño gráfico" src='<?php bloginfo('template_directory') ?>/img/diseno-grafico12.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="carrera diseño gráfico" src='https://farm8.staticflickr.com/7243/7362642254_b437a4ac2f_k.jpg'>
+                                <img alt="Second slide" title="carrera diseño gráfico" src='<?php bloginfo('template_directory') ?>/img/disenografico.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera diseño gráfico" src='https://farm3.staticflickr.com/2514/3992010361_dcfd1e4233_b.jpg'>
+                                <img alt="third slide" title="carrera diseño gráfico" src='<?php bloginfo('template_directory') ?>/img/diseno-grafico2.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera diseño gráfico" src='https://farm2.staticflickr.com/1285/4689192308_deb7d4f501_b.jpg'>
+                                <img alt="third slide" title="carrera diseño gráfico" src='<?php bloginfo('template_directory') ?>/img/diseno-grafico5.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                   <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera diseño gráfico" src='<?php bloginfo('template_directory') ?>/img/diseno-grafico6.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera diseño gráfico" src='<?php bloginfo('template_directory') ?>/img/diseno-grafico4.jpg'>
+                            </div>
+                        </div>
+                    </div>  <!-- fin de item -->
+                    <div class="item">
+                        <div class='noticia grande'>
+                            <div class='noticia-imagen'>
+                                <img alt="third slide" title="carrera diseño gráfico" src='https://farm6.staticflickr.com/5506/14259419489_27e2afc82c_h.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
@@ -130,7 +151,7 @@
                   	<a href='http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
 						<p>Quisque luctus, metus quis volutpat varius, velit lorem egestas erat, vel lobortis libero nulla vitae est. Nam varius lectus ut molestie pharetra. Proin quis justo lectus. Nulla risus tellus, vehicula eget nulla vitae, rhoncus tristique neque. Duis vulputate metus a tellus sagittis facilisis. Maecenas non congue mauris. Suspendisse commodo quam id iaculis consequat. Proin quis lacus sodales, pellentesque sem sed, consequat nulla. Donec sed massa et lorem laoreet tristique. Proin viverra quam auctor urna dapibus, sit amet posuere arcu porta. </p>
 						<!-- Se piensa que esto no debería ser una tabla, pero es un diseño que tendremos que volver a redefinirlo, por ahora queremos dejarlo así y luego pensarlo de una manera más coherente con la gráfica nueva -->
-						<table class='w100 malla-curricular'>
+						<!--<table class='w100 malla-curricular'>
 							<tbody>
 								<tr>
 									<td>
@@ -346,7 +367,7 @@
 									</td>
 								</tr>
 							</tbody>
-						</table>
+						</table>-->
                   	<h2>Profesores de diseño gráfico</h2>
                   	<div class='pagina docente carrera-especifica'>
 						<div class='imagen-docente'>
