@@ -93,7 +93,7 @@
     </div>
     <div class='contenedor-lg'>
         <div class='mapa'>
-            <iframe width='100%' height='200px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/idar.ilih71di/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoiaWRhciIsImEiOiJQNGFvOVdVIn0.7FwJUgWdhWOSOXt-jdtnUw'></iframe>
+            <iframe width="100%" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=calle%20matta%2012%2C%20recreo&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> 
         </div>
     </div>
 </footer>
