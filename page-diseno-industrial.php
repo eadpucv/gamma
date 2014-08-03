@@ -502,7 +502,7 @@
       id = "title_"+randomNumberRange(1111, 9999);
       $(this).addClass("rojo-claro");
       $(this).attr("id",id);
-      $("#title_list").append("<li><a class='ancla-fixed' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
+      $("#title_list").append("<li><a class='ancla-fixed sin-aside' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
   });
 
   function randomNumberRange(min, max)

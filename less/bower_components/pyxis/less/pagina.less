@@ -42,7 +42,11 @@ header {
 	padding: @cuadratin;
 
 	&.menu{
-		padding: 0 0 0 @cuadratin;
+		padding: 0;
+	}
+
+	&.sin-relleno {
+		padding: 0 30px;
 	}
 }
 
@@ -62,6 +66,15 @@ header {
        }
 }
 
+.fondo-header {
+	background-color: @blanco;
+  .box-shadow(0 0 10px fade(@negro, 30));
+	position: fixed;
+	z-index: 10;
+	margin: 0 auto;
+	width: 100%;
+}
+
 .imagen-alta {
 	width: auto;
 	height: @cuadratin * 2;
@@ -78,16 +91,19 @@ header {
 	margin-bottom: @cuadratin;
 }
 
-.franja {
+.imagen-index {
+	height: 200px;
+}
+
+ .franja {
 	width: 100%;
-	background-color: @negro-oscuro;
+	background-color: #3c464b;
 	position: relative;
 	overflow: hidden;
 	.cf;
 
 	&.xl{
 		min-height: 500px;
-		max-height: 700px;
 
 		canvas{
 			position: absolute;
@@ -100,8 +116,12 @@ header {
 		}
 
 		.leyenda{
-			margin-top: @cuadratin * 4;
+			padding: @cuadratin * 4 0;
 			text-align: center;
+		}
+
+		.descripcion-proyecto {
+			margin: 0 auto;
 		}
 	}
 
@@ -123,21 +143,48 @@ header {
 }
 
 footer{
+	background-color: #3c464b;
 	margin: 0 auto;
 	line-height: @interlinea * .7;
+
+	h4 {
+		margin-bottom: 0;
+	}
+
 	
 	p{
 		font-size: @cuerpo * .7;
 		letter-spacing: inherit;
-		margin: 0 0 @interlinea * 1.3 0;
+		margin: 0;
 		
 		img{
 			display: inline-block;
 			margin-bottom: -4px;
 		}
+	}
+
 	span {
 		margin: 0;
 	}
+
+	a {
+		&:hover{
+			color: @blanco; 
+		}
+	}
+
+	ul {
+		margin: 10px 0;
+		padding: 0;
+		float: right;
+
+		li {
+			float: left;
+			padding-left: 15px;
+			color: @blanco;
+			font-size: @cuerpo;
+			list-style: none;
+		}
 	}
 	
 	address{
@@ -184,9 +231,6 @@ footer{
 
   //  Small screen / tablet
   @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
-  		.pag{
-  			width: @container-sm *1.1;
-  		}
 
   			.cita {
 			color: @gris;
@@ -216,40 +260,7 @@ footer{
 
   //  Large screen / wide desktop
   @media (min-width: @screen-lg){
-  	  	.franja {
 
-	&.xl{
-		min-height: 750px;
-		max-height: 900px;
-
-		.leyenda{
-			margin-top: @cuadratin * 6;
-			text-align: center;
-		}
-
-		.cita {
-			margin: 22px 0px 28.6px;
-			line-height: 22px;
-			margin-bottom: 30px;
-			text-align: center;
-			font-style: italic;
-			font-weight: 200;
-			letter-spacing: -0.1ex;
-			color: #C1C2C2;
-			//font-size: @cuerpo * 1.3;
-		}
-		.autor {
-			margin: 22px 0px 28.6px;
-			line-height: 22px;
-			margin-bottom: 30px;
-			text-align: center;
-			font-weight: 200;
-			letter-spacing: -0.1ex;
-			color: @gris;
-			//font-size: @cuerpo * 1.3;
-		}
-	  }
-   }
    }
 
  

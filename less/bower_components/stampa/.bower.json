@@ -1,11 +1,11 @@
 {
   "name": "stampa",
   "homepage": "https://github.com/eadpucv/stampa",
-  "_release": "cde4971246",
+  "_release": "876dbe5d4b",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "cde49712460290254bef5114764e2ccc3d5c645e"
+    "commit": "876dbe5d4bb5446c8f337f424d4dee6db04012af"
   },
   "_source": "https://github.com/eadpucv/stampa.git",
   "_target": "*",

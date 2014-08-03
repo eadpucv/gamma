@@ -31,7 +31,7 @@
 
 <div class='fondo-gris'>
   <div class='wrap'>
-    <h1 class="entry-title especifico"><i class="icn icn-noticias icn-sm"></i>Actualidad</h1> <!-- título del post -->
+    <h1 class="entry-title especifico"><i class="icn icn-noticias-lig icn-sm"></i> Portada de noticias</h1> <!-- título del post -->
     <div class='contenedor-sin-relleno oculto-xs'>
       <?php the_breadcrumb(); ?>
     </div>
@@ -112,11 +112,11 @@
                 <div class='bloque'>
                     <div class='fila'>
                           <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'>
-                            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo noticias'>Noticias</a></h5>
+                            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo noticias'>Actualidad</a></h5>
                             <?php if( $latest_actualidad->have_posts() ) : while( $latest_actualidad->have_posts() ) : $latest_actualidad->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -138,7 +138,7 @@
                             <h5><a href='<?php echo get_category_link(7); ?>' class='categoria-titulo noticias'>Arquitectura</a></h5>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -160,7 +160,7 @@
                             <?php if( $latest_diseno->have_posts() ) : while( $latest_diseno->have_posts() ) : $latest_diseno->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -182,7 +182,7 @@
                             <?php if( $latest_industrial->have_posts() ) : while( $latest_industrial->have_posts() ) : $latest_industrial->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -204,7 +204,7 @@
                             <?php if( $latest_archivo->have_posts() ) : while( $latest_archivo->have_posts() ) : $latest_archivo->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -226,7 +226,7 @@
                             <?php if( $latest_nautico_maritimo->have_posts() ) : while( $latest_nautico_maritimo->have_posts() ) : $latest_nautico_maritimo->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -248,7 +248,7 @@
                             <?php if( $latest_ciudad_territorio->have_posts() ) : while( $latest_ciudad_territorio->have_posts() ) : $latest_ciudad_territorio->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -270,7 +270,7 @@
                             <?php if( $latest_obs->have_posts() ) : while( $latest_obs->have_posts() ) : $latest_obs->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -287,12 +287,12 @@
                           </a>
                             <?php endwhile; endif; ?>
                         </div><!-- fin noticia 7 -->
-                        <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'><!-- noticia 8 -->
+                        <!--<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'>
                             <h5><a href='<?php echo get_category_link(15); ?>' class='categoria-titulo noticias'>Bolsa de trabajo</a></h5>
                             <?php if( $latest_trabajos->have_posts() ) : while( $latest_trabajos->have_posts() ) : $latest_trabajos->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -308,13 +308,13 @@
                               <?php the_excerpt() ?>
                           </a>
                             <?php endwhile; endif; ?>
-                        </div><!-- fin noticia 8 -->
+                        </div>-->
                         <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'><!-- noticia 8 -->
                             <h5><a href='<?php echo get_category_link(15); ?>' class='categoria-titulo noticias'>Carreras</a></h5>
                             <?php if( $latest_carreras->have_posts() ) : while( $latest_carreras->have_posts() ) : $latest_carreras->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -336,7 +336,7 @@
                             <?php if( $latest_estudiantes->have_posts() ) : while( $latest_estudiantes->have_posts() ) : $latest_estudiantes->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
-                              <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                              <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
                             </div>
                               <div class='seguir-leyendo-cuadro'>
                               <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
