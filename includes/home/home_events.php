@@ -1,5 +1,4 @@
-<?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>4, 'orderby'=>'start_date')); ?>
-                   
+<?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>4, 'orderby'=>'event_start_date', 'order'=>'DESC')); ?>                   
 <div class='seccion'>
     <a href='<?php echo get_permalink( get_page_by_title( 'Eventos' ) ); ?>'><h5><i class="icn icn-calendario icn-md"></i> Eventos</h5></a>
 </div>
