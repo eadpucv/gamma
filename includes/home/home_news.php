@@ -12,7 +12,7 @@
       <a href='<?php the_permalink() ?>' class='enlace-noticia'>
         <div class='pagina md'>
           <div class='franja-seguir'>
-            <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
+            <p>seguir leyendo <i class='icn icn-mas-lig icn-md'></i></p>
           </div>
         <div class='seguir-leyendo-cuadro'>
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>

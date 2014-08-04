@@ -31,7 +31,7 @@
 
 <div class='fondo-gris'>
   <div class='wrap'>
-    <h1 class="entry-title especifico"><i class="icn icn-noticias-lig icn-sm"></i> Portada de noticias</h1> <!-- título del post -->
+    <h1 class="entry-title especifico"><i class="icn icn-noticias-lig icn-md"></i> Portada de noticias</h1> <!-- título del post -->
     <div class='contenedor-sin-relleno oculto-xs'>
       <?php the_breadcrumb(); ?>
     </div>
