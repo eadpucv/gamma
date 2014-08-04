@@ -1,5 +1,5 @@
 <?php get_header(); global $post; ?>
-<div class='fondo-gris'>
+<div class='fondo-negro'>
   <div class='wrap'>
   	    <div class='contenedor-sin-relleno oculto-xs'>
       <?php the_breadcrumb(); ?>

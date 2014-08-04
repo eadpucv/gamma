@@ -8,7 +8,7 @@
       <a href='<?php echo $EM_Event->guid; ?>' class='enlace-evento'>
         <div class='pagina sm evento'>
           <div class='franja-seguir'>
-            <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+            <p>seguir leyendo <i class='icn icn-mas-lig icn-md'></i></p>
           </div>
             <div class='dato-evento'> 
               <p class='dia centrado'><?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php echo date("M", strtotime($EM_Event->start_date)); ?></p> 
