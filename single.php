@@ -170,6 +170,16 @@
   </div>
 </div> <!-- modal compartir social media -->
 
+<script type="text/javascript">
+  // Imagenes por WikiAppend
+  if ($('.wiki-embed').length > 0) {
+    $(".wiki-embed").find("img").each(function(i) {
+      url = "http://wiki.ead.pucv.cl" + $(this).attr("src");
+      $(this).attr("src",url);
+    });
+  }
+</script>
+
 <?php endwhile; else: ?>
   <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>

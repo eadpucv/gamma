@@ -93,6 +93,14 @@
       $("#title_list").append("<li><a class='ancla-fixed' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
   });
 
+  // Imagenes por WikiAppend
+  if ($('.wiki-embed').length > 0) {
+    $(".wiki-embed").find("img").each(function(i) {
+      url = "http://wiki.ead.pucv.cl" + $(this).attr("src");
+      $(this).attr("src",url);
+    });
+  }
+
   function randomNumberRange(min, max)
   {
     return Math.floor(Math.random() * (max - min + 1) + min);
