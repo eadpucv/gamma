@@ -61,11 +61,16 @@
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="drop2" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
              <ul aria-labelledby="drop2" role="menu" class="dropdown-menu" id="menuCarreras">
+               <li role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Carreras</a></li>
+               <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Arquitectura</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
                <li class="divider" role="presentation"></li>
-               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Postgrados</a></li>
+               <li class="divider" role="presentation"></li>
+               <li role="presentation"><a href="<?php echo get_permalink(16); ?>" tabindex="-1" role="menuitem">Magíster Náutico y Marítimo</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Magíster de Ciudad y Territorio</a></li>
              </ul>
            </li>
          </ul>
