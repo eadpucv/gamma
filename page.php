@@ -14,7 +14,7 @@
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix' id='menu-fixed'>
-              <div data-spy="affix" data-offset-top="270" data-offset-bottom='500'>
+              <div data-spy="affix " data-offset-top="270" data-offset-bottom='500'>
                 <ul class="nav" id="title_list"></ul>
               </div>
             </div>
@@ -92,6 +92,14 @@
       $(this).attr("id",id);
       $("#title_list").append("<li><a class='ancla-fixed' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
   });
+
+  // Imagenes por WikiAppend
+  if ($('.wiki-embed').length > 0) {
+    $(".wiki-embed").find("img").each(function(i) {
+      url = "http://wiki.ead.pucv.cl" + $(this).attr("src");
+      $(this).attr("src",url);
+    });
+  }
 
   function randomNumberRange(min, max)
   {

@@ -176,6 +176,10 @@
             margin-bottom: 60px;
             margin-top: 30px;
             height: auto;
+
+        h4{
+            text-align: right;
+        }
         }
 
         &.carrera-especifica {
@@ -525,7 +529,6 @@
     position: relative;
     
         &:hover {
-
             .franja-seguir {
                 height: 25px;
                 -webkit-transition: height .3s linear, opacity 0.2s linear;
@@ -1002,7 +1005,8 @@ hr {
 
         h6 {
             width: 300px;
-        }
+            font-size: 16px;
+           }
 
         i {
             font-size: @cuerpo * 3;
@@ -1011,7 +1015,7 @@ hr {
     }
 
     .franja-postulante {
-        min-height: @cuadratin * 11;
+        height: 670px !important;
         padding: 25px 0 45px;
         margin: 0;
     }
@@ -1065,7 +1069,6 @@ hr {
                 padding: 0 0 0 2px;
                 font-size: 12px;
                 line-height: 21px;
-
             }
 
             &.portada {
@@ -1129,6 +1132,10 @@ hr {
 
             &.historia {
                 height: auto;
+
+                h6, h4, h3{
+                    text-align: center;
+                }
             }
         }
 
@@ -1170,9 +1177,9 @@ hr {
             a{
                 h6{
                     bottom: 8px;
-                    background-color: @gris-oscuro;
+                    background-color: @gris-oscuro !important;
                     opacity: 0.5;
-                    color: @blanco;
+                    color: @blanco !important;
                     top: auto;
                 }
             }
@@ -1200,7 +1207,7 @@ hr {
                 }
           
                 .seguir-leyendo {
-                    top: 24px;
+                    top: 18px;
                 }
             }
         }
@@ -1389,7 +1396,7 @@ hr {
         border-left: none;
 
         h6 {
-            width: 90%;
+            width: 90%; 
         }
 
         i {
@@ -1448,8 +1455,15 @@ hr {
         position: absolute;
         display: table;
         height: 250px;
+        right: 0;
         text-align: center;
         width: 100%;
+
+        .btn-md {
+            &:hover {
+                background-color: fade(@blanco, 40) !important; 
+            }
+        }
     }
 
     // Footer
@@ -1611,7 +1625,7 @@ hr {
 
             h6{
                 font-size: 21px;
-                //max-width: 88px;
+                height: 80px;
             }
 
             p {
@@ -1703,6 +1717,10 @@ hr {
 
             &.historia {
                 height: auto;
+
+                h4{
+                    text-align: left;
+                }
             }
         }
     }
@@ -1741,12 +1759,12 @@ hr {
                 }
 
                 h6 {
-                    background-color: @gris;
-                    color: @blanco;
+                    background-color: @gris !important;
+                    color: @blanco !important;
                 }
                 .franja-seguir {
-                visibility: hidden;
-                opacity: 0;
+                    visibility: hidden;
+                    opacity: 0;
                 }
             }
         }
@@ -1961,9 +1979,16 @@ hr {
     position: absolute;
     text-align: center;
     height: 280px;
+    right: 0;
     display: table;
     width: 100%;
     margin: 0;
+
+    .btn-md {
+        &:hover {
+            background-color: fade(@blanco, 40) !important; 
+        }
+    }
     }
 
     // Footer
@@ -2103,13 +2128,15 @@ hr {
         &.evento {
 
             h6 {
-                font-size: 21px;
+                font-size: 19px;
+                height: 80px;
             }
 
             p {
                 max-height: 110px;
                 font-size: 13px;
             }
+
 
             &.portada {
                 height: auto;

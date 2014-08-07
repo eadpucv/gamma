@@ -10,7 +10,7 @@
 <div class='fondo-gris'>
   <div class='wrap'>
     <div class='fila'>
-      <div class='col-lg-9 col-md-9 col-sm-12'>
+      <div class='col-lg-12 col-md-12 col-sm-12'>
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix' id='menu-fixed'>
@@ -73,8 +73,8 @@
                     </div>  <!-- fin de item -->
                 </div>
                 <!-- Controles -->
-                <a data-slide="prev" href="#carousel-example-generic" class="left carousel-control"><i class="icn icn-nav-izq"></i></a>
-                <a data-slide="next" href="#carousel-example-generic" class="right carousel-control"><i class="icn icn-nav-der"></i></a>
+                <a data-slide="prev" href="#carousel-example-generic" class="left carrera carousel-control"><i class="icn icn-nav-izq"></i></a>
+                <a data-slide="next" href="#carousel-example-generic" class="right carrera carousel-control"><i class="icn icn-nav-der"></i></a>
             </div>
             <div class='bloque'>
               <article class="h-entry enunciado">
@@ -369,124 +369,124 @@
 							</tbody>
 						</table>-->
                   	<h2>Profesores de diseño gráfico</h2>
-                  	<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+                  	<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/silvia-arriagada.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Sylvia Arriagada</h4>
 							<h6>Diseñadora Gráfica</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile. <br> Doctor©; PUC-Río, Río de Janeiro, Brasil.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/jose-balcells.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>José Balcells</h4>
 							<h6>Diseñador Gráfico, escultor</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/5/59/Katherine_exss_wiki.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Katherine Exss</h4>
 							<h6>Diseñadora Gráfica</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Diseñador Gráfico; P.U. Católica de Valparaíso, Chile.<br>MA Information Design, University of Reading, Reino Unido.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3262/3483598559_d1c644fb76_q.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Alejandro Garretón</h4>
 							<h6>Diseñador Gráfico</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile.<br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3157/3082752662_1d39dde79b_q.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Manuel Sanfuentes</h4>
 							<h6>Diseñador Gráfico</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm6.staticflickr.com/5194/7176578488_3c88076e53_q.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Herbert Spencer</h4>
 							<h6>Diseñador Gráfico</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile.<br>MDes Interaction Design; Carnegie Mellon University, EE.UU. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm5.staticflickr.com/4004/4481267383_02353ef1ba_q.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Michèle Wilkomirsky</h4>
 							<h6>Diseñadora Gráfica</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile. <br>Doctor©; Universidad Rey Juan Carlos de Madrid, España.</p>
 						</div>
 					</div>
                   	<h2>Profesores ayudantes</h2>
-                  	<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+                  	<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7207/6979639313_f74d11b3cd_q.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Karen Carrera</h4>
 							<h6>Diseñadora Gráfica</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Ayudante de Diseño gráfico</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/ayudante3.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Jaime Pérez Moena</h4>
 							<h6>Diseñador Gráfico</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Ayudante de Diseño Gráfico</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/ayudante1.jpg'>
 						</div>
-						<div class='datos-docente'>
+						<div class='datos-docente historia'>
 							<h4 class='rojo-claro'>Macarena Álamos</h4>
 							<h6>Diseñadora Gráfica</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Ayudante de Diseño Gráfico</p>
 						</div>
 					</div>
@@ -497,7 +497,6 @@
           </div>
         </div>
       </div>    
-      <?php get_sidebar(); ?>
   </div>
 </div>
 <?php endwhile; else: ?>
@@ -510,7 +509,7 @@
       id = "title_"+randomNumberRange(1111, 9999);
       $(this).addClass("rojo-claro");
       $(this).attr("id",id);
-      $("#title_list").append("<li><a class='ancla-fixed' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
+      $("#title_list").append("<li><a class='ancla-fixed sin-aside' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
   });
 
   function randomNumberRange(min, max)

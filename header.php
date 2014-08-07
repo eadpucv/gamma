@@ -65,7 +65,7 @@
                <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
                <li class="divider" role="presentation"></li>
-               <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
              </ul>
            </li>
          </ul>
@@ -161,7 +161,7 @@
                <li role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Arquitectura</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
-               <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
               </ul>
               </div>
             </div>

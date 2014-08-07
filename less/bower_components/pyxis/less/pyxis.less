@@ -11,9 +11,13 @@
 @ruta-tipografias: 		'../fos/';
 @ruta-imagenes:  		'../img/';
 
+// Neutralizadores
+
+@import 'normalize.less';				// neutralizar navegadores
+@import 'reset.less';					// volver a no saber, redefinir el blanco
+
 // Ensamblador
 
-@import 'reset.less';					// volver a no saber, redefinir el blanco
 @import 'tipografias-web.less';			// las familias tipográficas de base
 @import 'variables.less';				// los nombres de las cifras 
 @import 'funciones.less';				// los nombres de los algoritmos
@@ -42,6 +46,12 @@
 @import 'interaccion.less';				// elementos de diálogo y uso
 @import 'tablas.less';					// tablas
 @import 'layout.less';					// estilos para bloques
+@import 'bloques.less';					// estilos para bloques
+
+
+// Tratado de imágenes
+
+@import 'tratado-imagenes.less';		// los ajustes de cómo se configuran las imágenes
 
 
 // Javascript
@@ -53,6 +63,7 @@
 @import 'dropdowns.less';				// Dropdowns
 @import 'carousel.less';				// Carousel
 @import 'affix.less';				// Affix
+@import 'parallax.less';				// Affix
 
 
 // Íconos

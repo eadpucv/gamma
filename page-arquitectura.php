@@ -10,7 +10,7 @@
 <div class='fondo-gris'>
   <div class='wrap'>
     <div class='fila'>
-      <div class='col-lg-9 col-md-9 col-sm-12'>
+      <div class='col-lg-12 col-md-12 col-sm-12'>
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix' id='menu-fixed'>
@@ -73,8 +73,8 @@
                     </div>  <!-- fin de item -->
                 </div>
                 <!-- Controles -->
-                <a data-slide="prev" href="#carousel-example-generic" class="left carousel-control"><i class="icn icn-nav-izq"></i></a>
-                <a data-slide="next" href="#carousel-example-generic" class="right carousel-control"><i class="icn icn-nav-der"></i></a>
+                <a data-slide="prev" href="#carousel-example-generic" class="left carrera carousel-control"><i class="icn icn-nav-izq"></i></a>
+                <a data-slide="next" href="#carousel-example-generic" class="right carrera carousel-control"><i class="icn icn-nav-der"></i></a>
             </div>
             <div class='bloque'>
               <article class="h-entry enunciado">
@@ -359,185 +359,173 @@
 								</tr>
 							</tbody>
 						</table>-->
-                  	<h2>Profesores de arquitectura</h2>
-                  	<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+            <h2>Profesores de arquitectura</h2>
+            <div class='pagina docente historia '>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm1.staticflickr.com/40/113495505_cfcbe72ac6_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Patricio Cáraves</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Patricio Cáraves</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
-							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7227/7176686306_9d983d6f1d_q.jpg'>
-						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Fernando Espósito</h4>
-							<h6>Arquitecto</h6>
-						</div>
-						<div class='resena-docente'>
-							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor; UPC Barcelona, España.</p>
-						</div>
-					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/miguel-eyquem.jpg?w=710'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Miguel Eyquem</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Miguel Eyquem</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Chile, Chile. <br>Doctor Honoris Causa; P.U. Católica de Valparaíso, Chile.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/jorge-ferrada.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Jorge Ferrada</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Jorge Ferrada</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3180/3076032024_36528d141a_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Andrés Garcés</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Andrés Garcés</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor©; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm2.staticflickr.com/1208/547980377_33e5c40e28_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Iván Ivelic</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Iván Ivelic</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; U. Rey Juan Carlos de Madrid, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3551/3530547063_23a62dc53f_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>David Jolly</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>David Jolly</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm1.staticflickr.com/63/181241286_74a22951ed_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>David Luza</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>David Luza</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.<br>Decano de la facultad</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7223/7176564182_b19fd32326_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Mauricio Puentes</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Mauricio Puentes</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.<br>Doctor; UPC Barcelona, España.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3060/3066658572_a3e561695c_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Isabel Margarita Reyes</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Isabel Margarita Reyes</h4>
 							<h6>Arquitecta</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile.</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7220/7171615052_2a29d54806_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Rodrigo Saavedra</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Rodrigo Saavedra</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Doctor; UPC Barcelona, España.<br>Director Escuela de Arquitectura y Diseño</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7083/7166400025_09461911ce_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Salvador Zahr</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Salvador Zahr</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Arquitecto; P.U. Católica de Valparaíso, Chile. <br>Estudios de posgrado en Estructuras de Hormigón Armado; Politécnico de Milán, Italia.</p>
 						</div>
 					</div>
                   	<h2>Profesores ayudantes</h2>
-                  	<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+                  	<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://oi59.tinypic.com/jsy51i.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Óscar Andrade</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Óscar Andrade</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Ayudante de Arquitectura</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='http://oi59.tinypic.com/34ioivo.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Erick Caro</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Erick Caro</h4>
 							<h6>Arquitecto</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Ayudante de Arquitectura</p>
 						</div>
 					</div>
-					<div class='pagina docente carrera-especifica'>
-						<div class='imagen-docente'>
+					<div class='pagina docente historia'>
+						<div class='imagen-docente historia'>
 							<img class='ancho-maximo' src='https://farm3.staticflickr.com/2493/4172133723_ffbc7e6c4d_q.jpg'>
 						</div>
-						<div class='datos-docente'>
-							<h4 class='rojo-claro'>Ursula Exss</h4>
+						<div class='datos-docente historia'>
+							<h4 class='rojo-claro h-sin-margen'>Ursula Exss</h4>
 							<h6>Arquitecta</h6>
 						</div>
-						<div class='resena-docente'>
+						<div class='resena-docente historia'>
 							<p>Ayudante de Arquitectura</p>
 						</div>
 					</div>
@@ -548,7 +536,6 @@
           </div>
         </div>
       </div>    
-      <?php get_sidebar(); ?>
   </div>
 </div>
 <?php endwhile; else: ?>
@@ -561,7 +548,7 @@
       id = "title_"+randomNumberRange(1111, 9999);
       $(this).addClass("rojo-claro");
       $(this).attr("id",id);
-      $("#title_list").append("<li><a class='ancla-fixed' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
+      $("#title_list").append("<li><a class='ancla-fixed sin-aside' data-scroll href='#"+id+"'>"+$(this).html()+"</a></li>")
   });
 
   function randomNumberRange(min, max)

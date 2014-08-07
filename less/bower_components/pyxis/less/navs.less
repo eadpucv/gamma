@@ -7,7 +7,6 @@
 
 nav {
   margin: 0 auto;
-  border-top: 1px solid @color-borde;
   
   ul, ol{
   margin: 0;
@@ -34,6 +33,18 @@ nav {
     span{
       margin: 0 !important;
     }
+
+    h5 {
+      margin: 0;
+      margin-top: 5px;
+      margin-left: 0;
+      z-index: -1;
+
+        span{
+          margin: 0;
+          padding: 0;
+        }
+    }
       
       a:hover{
         text-decoration: none;
@@ -47,35 +58,26 @@ nav {
 
 //  Menú Pyxis
 .menu-pyxis {
-  min-height: @cuadratin * 1.4;
-  width: 100%;
-  margin: 0 auto;
-  position: fixed;
-  background-color: @blanco;
-  padding: 0;
-  z-index: 10;
-  .box-shadow(0 0 10px fade(@negro, 30));
+    margin: 0 auto;
+    padding: 0;
 
-  nav {
-
-    h5 {
-      margin: 0;
-      margin-top: 5px;
-      margin-left: 0;
-      z-index: -1;
-
-        span{
-          margin: 0;
-          padding: 0;
-        }
+    h5{
+      display: inline-block;
+      margin: 5px;
+      padding: 7px 0.5px;
     }
-  }
+
+    span {
+      padding: 0;
+      margin: 0;
+    }
 
   &.movil {
 
     position: relative !important;
     margin: 0;
     padding: 0;
+    top: 0;
 
     h4 {
       margin: 0;
@@ -89,6 +91,86 @@ nav {
     }
     }
   }
+}
+.nav-rotulos {
+   padding: 8px 0 0;
+   }
+   
+// logo 
+
+.logo-pyxis {
+  width: 200px;
+  float: left;
+
+  img {
+    padding: 10px 0;
+    width: 35px;
+    float: left;
+  }
+}
+
+//
+// Navs
+// -------------------------------------------------- Responsive
+
+a.menu-link {
+        float: right;
+        display: block;
+        padding: 0 1em;
+    }
+    nav[role=navigation] {
+      clear: both;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+    .js nav[role=navigation] {
+      overflow: hidden;
+      max-height: 0;
+    }
+    nav[role=navigation].active {
+      max-height: 60em;
+    }
+    nav[role=navigation] ul {
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid #808080;
+    }
+    nav[role=navigation] li a {
+      display: block;
+      padding: 10px 40px;
+    }
+    
+    @media screen and (min-width: 68.25em) {
+      a.menu-link {
+         display: none;
+      }
+      .js nav[role=navigation] {
+        max-height: none;
+      }
+      nav[role=navigation] ul {
+        margin: 0 0 0 -0.25em;
+        border: 0;
+      }
+      
+      nav[role=navigation] li {
+        display: inline-block;
+        margin: 0 0.25em;
+      }
+      nav[role=navigation] li a {
+        border: 0;
+      }
+    }
+
+// Estilos del menú responsive
+
+.panel-title {
+  padding: 20px 0;
+  border-bottom: 1px solid fade(@gris, 40);
+  font-size: 18px;
+
 }
 
 //  Para dropdowns:
@@ -333,7 +415,34 @@ nav {
 //  Responsive adaptable
 
     //  Extra Small screen / Phone
-  @media (min-width: @screen-xs) and (max-width: @screen-xs-max){
+  @media(max-width: @screen-xs-max){
+
+          // logo 
+
+  .logo {
+    width: 300px;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    padding: 20px 0 0 0;
+
+    h5 {
+      font-size: 25px;
+      margin: 0;
+      padding: 0 0 0 5px;
+      display: inline-block;
+    }
+
+    span {
+      margin: 0;
+    }
+
+    img {
+      float: none;
+      padding: 0;
+      width: 25px;
+    }
+  }
 
   .menu-pyxis {
     min-height: @cuadratin * 1.7;
@@ -343,17 +452,33 @@ nav {
   //  Small screen / tablet
   @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
-  nav {
-          ul{
-            li{
-              a{
-                padding: @cuerpo * 1.2 * 0.5 @cuerpo * 0.6;
-                font-size: @cuerpo * 0.9;
-              }
-            }
-            
+      // logo 
+
+  .logo {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    float: none;
+    text-align: center;
+
+    h5 {
+      font-size: 30px;
+      margin: 0;
+      padding: 0 0 0 5px;
+      display: inline-block;
+    }
+
+    span {
+      margin: 0;
+    }
+
+    img {
+      float: none;
+      padding: 0;
+      width: 35px;
+    }
   }
-  }
+
   }
 
 
@@ -364,4 +489,6 @@ nav {
   //  Large screen / wide desktop
   @media (min-width: @screen-lg){
   }
+
+
 

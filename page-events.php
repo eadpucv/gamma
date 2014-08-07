@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <?php if ($_GET["calendar_day"]) {
-    $EM_Events =  EM_Events::get(array('scope'=>$_GET["calendar_day"], 'limit'=>20, 'orderby'=>'start_date')); 
+    $EM_Events =  EM_Events::get(array('scope'=>$_GET["calendar_day"], 'orderby'=>'event_start_date', 'order'=>'DESC')); 
   } else {
-    $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>20, 'orderby'=>'start_date')); 
+    $EM_Events =  EM_Events::get(array('scope'=>'all', 'orderby'=>'event_start_date', 'order'=>'DESC'));
   } ?>
 <div class='fondo-gris'>
   <div class='wrap'>

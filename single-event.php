@@ -1,5 +1,5 @@
 <?php get_header(); global $post; ?>
-<div class='fondo-gris'>
+<div class='fondo-negro'>
   <div class='wrap'>
   	    <div class='contenedor-sin-relleno oculto-xs'>
       <?php the_breadcrumb(); ?>
@@ -33,8 +33,7 @@
     				<article class="h-entry">
         				<div class="e-content p-summary p-name">
             			<div class='bloque'>
-            				<p>
-            				<?php echo $EM_Event->post_content?><br /></p>
+            				<?php echo $EM_Event->output('#_NOTES'); ?>
             			</div>
         				</div>
 						<div class='keywords'>

@@ -38,6 +38,7 @@
         bottom: -2px;
     }
 
+
     &.fija {
         height: 25px;
         visibility: hidden;
@@ -100,7 +101,7 @@
 }
 
 .resena-docente {
-    margin: 5px 0;
+    margin: 3px 0;
     width: 65%;
     display: inline-block;
 
@@ -147,14 +148,22 @@
         color: @gris-oscuro;
         font-size: 15px;
         padding: 0px 5px 0px 0;
-        border-right:2px solid #f9f9f9;
+        border-right: 2px solid #f9f9f9;
         text-align: right;
+
+        &.sin-aside{
+        width: 320px;
+        }
     }   
 
     .active .ancla-fixed {
         color: @rojo-claro;
         border-right:2px solid @rojo-claro;
         .transition(.3s ease all);
+
+        &.sin-aside{
+        width: 320px;
+        }
 
         &:hover {
             cursor: pointer;
@@ -418,7 +427,7 @@
     }
 
     .resena-docente {
-        margin: 5px 0;
+        margin: 3px 0;
         width: 100%;
         padding: 0 10px;
         display: inline-block;
@@ -450,7 +459,7 @@
     .dato-evento {
         border-left: 4px solid fade(@pizarra-claro, 20%);
         float: left;
-        height: 75px;
+        height: 110px;
         padding: 8px 5px 10px;
         margin: 0 20px 0 0;
         position: relative;
@@ -487,20 +496,20 @@
     }
 
     .icono-info {
-        height: 105px;
+        height: auto;
         width: 45px;
 
         i {
             font-size: @cuerpo * 2;
             margin-left: 0;
-            margin-top: 30%;
+            margin-top: 0 ;
         }
     }
 
     .botones-auxiliares {
-    width: auto;
-    margin: 10px 5px 30px 0px;
-    float: left !important;
+        width: auto;
+        margin: 10px 5px 30px 0px;
+        float: left !important;
 }
 }
 
@@ -595,9 +604,9 @@
     }
 
     .resena-docente {
-        margin: 5px 0;
         width: 59%;
         display: inline-block;
+        margin: 3px 0;
 
         &.listado {
             width: 100%;
@@ -645,8 +654,21 @@
 
         .ancla-fixed {
             width: 12vw;
+
+            &.sin-aside{
+                width: 18vw;
+            }
+        }
+
+        .active .ancla-fixed {
+            
+
+        &.sin-aside{
+        width: 220px;
         }
     }
+
+}
 
     // Cajas de docentes
 
@@ -705,7 +727,6 @@
     }
 
     .resena-docente {
-        margin: 5px 0;
         width: 50%;
         display: inline-block;
 
@@ -716,7 +737,7 @@
         p {
             font-size: @cuerpo * .9;
             padding: 0;
-            line-height: @interlinea * .9;
+            line-height: 25px !important;
             font-family: @sans;
             max-height: 80px;
             overflow: hidden;

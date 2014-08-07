@@ -1,5 +1,4 @@
-<?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>4, 'orderby'=>'start_date')); ?>
-                   
+<?php $EM_Events =  EM_Events::get(array('scope'=>'all', 'limit'=>4, 'orderby'=>'event_start_date', 'order'=>'DESC')); ?>                   
 <div class='seccion'>
     <a href='<?php echo get_permalink( get_page_by_title( 'Eventos' ) ); ?>'><h5><i class="icn icn-calendario icn-md"></i> Eventos</h5></a>
 </div>
@@ -9,7 +8,7 @@
       <a href='<?php echo $EM_Event->guid; ?>' class='enlace-evento'>
         <div class='pagina sm evento'>
           <div class='franja-seguir'>
-            <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+            <p>seguir leyendo <i class='icn icn-mas-lig icn-md'></i></p>
           </div>
             <div class='dato-evento'> 
               <p class='dia centrado'><?php echo date("d", strtotime($EM_Event->start_date)); ?> <?php echo date("M", strtotime($EM_Event->start_date)); ?></p> 

@@ -26,7 +26,7 @@ $i = 0;
           <?php endif; ?> 
 
           <div class='pie-de-foto'> 
-            <p class='centrado'><i class="icn icn-noticias icn-lg"></i><?php the_title(); ?></p> 
+            <p class='centrado'><i class="icn icn-noticias-lig icn-lg"></i><?php the_title(); ?></p> 
           </div> 
           <div class='wrap-carousel'> 
             <div class='col-lg-3 oculto-sm oculto-xs cita-carousel'> 
