@@ -1,24 +1,19 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-<div class='fondo-gris'>
-  <div class='wrap'>
-    <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-  </div>
-</div>
 
-<div class='fondo-gris'>
+<div class='fondo-negro'>
                 <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
-                   <ol class="carousel-indicators"> 
+                   <!--<ol class="carousel-indicators"> 
                     <li data-slide-to="0" data-target="#carousel-example-generic" class="active"></li> 
                     <li data-slide-to="1" data-target="#carousel-example-generic"></li> 
                     <li data-slide-to="2" data-target="#carousel-example-generic"></li>
                     <li data-slide-to="3" data-target="#carousel-example-generic"></li>
                     <li data-slide-to="4" data-target="#carousel-example-generic"></li> 
-                  </ol>
+                  </ol>-->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <div class='noticia grande'>
+                        <div class='noticia grande portada'>
                             <div class='noticia-imagen'>
                                 <img  alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8167/7351688608_963bd41ec5_h.jpg'>
                             </div>
@@ -54,6 +49,19 @@
                     </div>  <!-- fin de item -->
                 </div>
             </div>
+  </div>
+
+    <div class='fondo-negro-oscuro'>
+    <div class='wrap'>
+      <h1 class="entry-title especifico bajo-imagen blanco"><?php the_title(); ?></h1>
+      <div class='enlaces-postulante portada'> 
+        <a class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
+        <a class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+      </div>
+    </div>
+
+
+  </div>
 
   <div class='wrap'>
     <div class='fila'>
@@ -79,6 +87,7 @@
                       <h2>Presentación</h2>
                       <p>Los postgrados nacen en nuestra Escuela como la respuesta natural a las nuevas fronteras que el conocimiento, las ciencias, el arte y el estudio le plantean a nuestra propia visión. Es por ello que ya no sólo ofrecemos el pre grado, sino además el siguiente y necesario paso en la formación de la excelencia en nuestros profesionales.</p>
                       <h2>Programa de Magíster en Arquitectura y Diseño</h2>
+
                       <p>El Magister en Arquitectura y Diseño que nuestra Escuela quiere implementar, es fiel trasunto de su tradición, en cuanto que la concepción de la Arquitectura y del Diseño son oficios artísticos. Así, el diseñador y el arquitecto, abiertos a las necesidades del hombre, a las cuales deben dar respuesta eficaz apelando a toda sus capacidades y formación racional y lógica, buscan además que su obra adquiera sentido y trascienda las necesidades. La obra, así concebida, ha de manifestar esta capacidad inagotable propia del acto creativo, mostrando el esplendor del mundo y de la condición humana. Es nuestro propósito ofrecerle al postulante a Magister una experiencia fundamentalmente creativa que cuestione la relación que habitualmente el hombre establece con la naturaleza y con sus semejantes.</p>
 
                       <p>Por la naturaleza de los oficios en cuestión creemos que estos programas de magister colocarán a los estudiantes venidos de distintas áreas del saber y del producir, en condiciones tanto de incremento del potencial profesional como de la capacidad de llevar adelante investigaciones significativas a la realidad de nuestro país y desarrollar capacidades creativas e innovadoras.</p>
@@ -108,6 +117,7 @@
         </div>
       </div>    
     <!-- Sidebar -->
+
     <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12'>
     <div class='aside'>
       <div class='bloque-aside sm'>
@@ -118,9 +128,24 @@
         </ul>
         <hr>
       </div>
+      <div class='bloque-aside sm'>
+      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesis</h6>
+
+      <ul class='publicaciones-enlazadas'>
+            <li><a href="#">Una publicación</a></li>
+            <li><a href="#">Una publicación</a></li>
+            <li><a href="#">Una publicación</a></li>
+            <li><a href="#">Una publicación</a></li>
+      </ul>
+
+      <hr>
+    </div>
     <div class='bloque-aside sm'>
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
       <ul class='publicaciones-enlazadas'>
+            <li><a href="#">Una publicación</a></li>
+            <li><a href="#">Una publicación</a></li>
+            <li><a href="#">Una publicación</a></li>
             <li><a href="#">Una publicación</a></li>
       </ul>
       <hr>
