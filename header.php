@@ -67,7 +67,7 @@
                <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
                <li class="divider" role="presentation"></li>
-               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Postgrados</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Estudios avanzados</a></li>
                <li class="divider" role="presentation"></li>
                <li role="presentation"><a href="<?php echo get_permalink(16); ?>" tabindex="-1" role="menuitem">Magíster Náutico y Marítimo</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Magíster de Ciudad y Territorio</a></li>
