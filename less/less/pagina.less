@@ -25,6 +25,35 @@ body{
     position: inherit !important;
 }
 
+.absoluto {
+    position: absolute;
+    display: block;
+    height: auto;
+
+    &.abajo {
+        bottom: 0 !important;
+        top: auto;
+        width: 100%;
+    }
+
+    &.arriba{
+        top: 0 !important;
+        bottom: auto;
+        width: 100%;
+        z-index: 12;
+    }
+
+    &.transparente{
+        background-color: fade(@pizarra, 30);        
+    }
+
+    &.portada {
+        top: 50px !important;
+        height: auto;
+        background-color: @negro;
+    }
+}
+
 .pag-ancho-total {
     .container();
     margin: 0 auto;

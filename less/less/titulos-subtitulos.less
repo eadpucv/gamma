@@ -136,15 +136,21 @@ float: left;
         left: 260px;
     }
 
-    &.bajo-imagen{
-        padding-left: 260px;
+    &.portada {
+        letter-spacing: -1px;
+        display: inline-block;
+        text-align: right;
+        padding-right: 30px;
+        margin: 0 40px 20px 10px;
+        border-right: 3px solid @rojo-claro;
     }
 
      &.generico {
          font-size: 18px;
          text-transform: uppercase;
-         letter-spacing: 7px;
+         letter-spacing: 3px;
          font-weight: 300;
+         padding-left: 10px;
      }
 }
 
@@ -387,13 +393,46 @@ margin-bottom: 30px;
 
 .seccion{
 
-h3{
+    h3{
 
-&:before,
-&:after{
-width: 19vw;
-}
-}
-}
-}
+        &:before,
+        &:after{
+            width: 19vw;
+            }
+        }   
+    }
 
+.entry-title {
+    margin: 0;
+    
+    &.especifico {
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0;
+    }
+
+    &.sobre-imagen{
+        display: block;
+        position: absolute;
+        bottom: 100px;
+        font-weight: 200;
+        font-size: 65px;
+        color: @blanco;
+        z-index: 11;
+        letter-spacing: -2px;
+        left: 260px;
+    }
+
+    &.portada {
+        padding-left: 19%;
+        letter-spacing: -1px;
+    }
+
+     &.generico {
+         font-size: 24px;
+         text-transform: uppercase;
+         letter-spacing: 3px;
+         font-weight: 300;
+     }
+}
+}
