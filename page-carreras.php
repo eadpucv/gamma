@@ -42,8 +42,8 @@
                                     <div class='absoluto abajo transparente'>
                                       <div class='wrap'>
                                         <div class='enlaces-postulante portada'> 
-                                          <h1 class="entry-title generico portada blanco">Proyectos</h1>
-                                          <a class='btn btn-md transparente-blanco'>Ver todos</a>
+                                          <h1 class="entry-title generico portada blanco">Estudiantes</h1>
+                                          <a class='btn btn-md transparente-blanco'>Ver noticias</a>
                                         </div>
                                       </div>
                                     </div>

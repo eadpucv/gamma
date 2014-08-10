@@ -45,7 +45,6 @@
                                           <h1 class="entry-title generico portada blanco">Tesis</h1>
                                           <a class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
                                           <a class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
-                                          <a class='btn btn-md transparente-blanco'>Ver todas</a>
                                         </div>
                                       </div>
                                     </div>
@@ -60,8 +59,6 @@
                                       <div class='wrap'>
                                         <div class='enlaces-postulante portada'> 
                                           <h1 class="entry-title generico portada blanco">Publicaciones</h1>
-                                          <a class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                          <a class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
                                           <a class='btn btn-md transparente-blanco'>Ver todas</a>
                                         </div>
                                       </div>
