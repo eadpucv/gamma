@@ -4,8 +4,8 @@
   $cat_diseno = 8; 
   $cat_industrial = 9; 
   $cat_archivo = 40;
-  $cat_nautico_maritimo = 35;
-  $cat_ciudad_territorio = 714; 
+  $cat_estudios_avanzados = 1953;
+  $cat_concursos = 1067; 
   $cat_observacion = 157;
   $cat_investigacion = 11;
   $cat_trabajos = 15;
@@ -15,8 +15,8 @@
 
 
   $latest_archivo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_archivo)));
-  $latest_ciudad_territorio = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_ciudad_territorio)));
-  $latest_nautico_maritimo = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_nautico_maritimo)));
+  $latest_concursos = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_concursos)));
+  $latest_estudios_avanzados = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_estudios_avanzados)));
   $latest_trabajos = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_trabajos)));  
   $latest_investigacion = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_investigacion)));      
   $latest_arquitectura = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_arquitectura)));  
@@ -223,7 +223,7 @@
                         </div><!-- fin noticia 4 -->
                         <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'><!-- noticia 5 -->
                             <h5><a href='<?php echo get_category_link(35); ?>' class='categoria-titulo noticias'>Magister Náutico y Marítimo</a></h5>
-                            <?php if( $latest_nautico_maritimo->have_posts() ) : while( $latest_nautico_maritimo->have_posts() ) : $latest_nautico_maritimo->the_post(); ?>
+                            <?php if( $latest_estudios_avanzados->have_posts() ) : while( $latest_estudios_avanzados->have_posts() ) : $latest_estudios_avanzados->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
                               <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>
@@ -245,7 +245,7 @@
                         </div><!-- fin noticia 5 -->
                         <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'><!-- noticia 6 -->
                             <h5><a href='<?php echo get_category_link(714); ?>' class='categoria-titulo noticias'>Magister Ciudad y Territorio</a></h5>
-                            <?php if( $latest_ciudad_territorio->have_posts() ) : while( $latest_ciudad_territorio->have_posts() ) : $latest_ciudad_territorio->the_post(); ?>
+                            <?php if( $latest_concursos->have_posts() ) : while( $latest_concursos->have_posts() ) : $latest_concursos->the_post(); ?>
                           <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                             <div class='franja-seguir fija'>
                               <p>seguir leyendo <i class='icn icn-lentes-lig icn-md'></i></p>

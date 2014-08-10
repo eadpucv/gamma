@@ -76,7 +76,7 @@
                     <?php the_post_thumbnail( 'medium', array( 'class' => "centrada-vertical") ); ?>
                   </div>
                 <?php } ?>
-                <div class="e-content p-summary p-name enunciado">
+                <div class="e-content p-summary p-name carrera">
                   <div class='bloque' id="bloque_texto">
                   	<h2>Estudiar diseño industrial en la e[ad]</h2>
                   	<p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>

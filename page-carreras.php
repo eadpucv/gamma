@@ -125,7 +125,7 @@
         <hr>
       </div>
       <div class='bloque-aside sm'>
-      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesis</h6>
+      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
 
       <ul class='publicaciones-enlazadas'>
             <li><a href="#">Una publicación</a></li>
@@ -137,7 +137,7 @@
       <hr>
     </div>
     <div class='bloque-aside sm'>
-      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
+      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Estudiantes</h6>
       <ul class='publicaciones-enlazadas'>
             <li><a href="#">Una publicación</a></li>
             <li><a href="#">Una publicación</a></li>

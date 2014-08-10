@@ -57,32 +57,5 @@
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
       </script>
     </div>
-    <div class='bloque-aside'>
-      <h5 class='fino'><i class="icn icn-vinculo icn-md"></i> Comparte esta publicación</h5>
-        <a class='red-social' href='#'>
-          <span class="icn-stack icn-md">
-            <i class="icn icn-cuadro icn-stack-2x naranja-opuesto"></i>
-            <i class="icn icn-twitter icn-stack-1x icn-inverse"></i>
-          </span>
-        </a>
-        <a class='red-social' href='#'>
-          <span class="icn-stack icn-md">
-            <i class="icn icn-cuadro icn-stack-2x damasco-opuesto"></i>
-            <i class="icn icn-facebook icn-stack-1x icn-inverse"></i>
-          </span>
-        </a>
-        <a class='red-social' href='#'>
-          <span class="icn-stack icn-md">
-            <i class="icn icn-cuadro icn-stack-2x rojo-claro"></i>
-            <i class="icn icn-enlace icn-stack-1x icn-inverse"></i>
-          </span>
-        </a>
-        <a class='red-social' href='#'>
-          <span class="icn-stack icn-md">
-            <i class="icn icn-cuadro icn-stack-2x naranja"></i>
-            <i class="icn icn-rss icn-stack-1x icn-inverse"></i>
-          </span>
-        </a>
-    </div>
   </div>
 </div>
