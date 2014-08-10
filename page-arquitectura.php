@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
-          	        	<div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+          	    <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
                 <div class="carousel-inner">
                     <div class="item active">
                         <div class='noticia grande'>

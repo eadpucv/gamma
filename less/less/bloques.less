@@ -687,6 +687,15 @@
     right: 20px;
     bottom: 10px;
     display: block;
+    z-index: 11;
+
+    &.portada {
+        display: block;
+        position: relative;
+        text-align: left;
+        bottom: 0;
+        padding-left: 100px;
+    }
 }
 
 // Para las publicaciones
@@ -735,7 +744,7 @@
     margin: 0 0 30px 0;
 
     &.sm {
-        min-height: @cuadratin * 8;
+        min-height: auto;
     }
 
     &.noticia {
@@ -2248,7 +2257,7 @@ hr {
                 width: auto;
             }
         }
-        }
+    }
       
 
     // Franja postulante
@@ -2267,6 +2276,14 @@ hr {
         width: 100%;
 
     }
+
+    .enlaces-postulante {
+
+    &.portada {
+        padding-left: 20%;
+        display: inline-block;
+    }
+}
 
     // Footer
 
