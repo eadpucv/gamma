@@ -27,8 +27,9 @@
                                         <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
                                         <div class='enlaces-postulante portada'> 
                                           <h1 class="entry-title generico portada blanco">Menciones</h1>
-                                          <a class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                          <a class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                          <!-- pages -->
+                                          <a href="<?php echo get_permalink(16); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
+                                          <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
                                         </div>
                                       </div>
                                     </div>
@@ -43,8 +44,9 @@
                                       <div class='wrap'>
                                         <div class='enlaces-postulante portada'> 
                                           <h1 class="entry-title generico portada blanco">Tesis</h1>
-                                          <a class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                          <a class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                          <!-- listado de categorias -->
+                                          <a href="<?php echo get_category_link(35); ?> " class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
+                                          <a href="<?php echo get_category_link(714); ?> " class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
                                         </div>
                                       </div>
                                     </div>
@@ -55,14 +57,14 @@
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
                                 <img alt="third slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7096/7351612024_94af406f40_h.jpg'>
-                                    <div class='absoluto abajo transparente'>
-                                      <div class='wrap'>
-                                        <div class='enlaces-postulante portada'> 
-                                          <h1 class="entry-title generico portada blanco">Publicaciones</h1>
-                                          <a class='btn btn-md transparente-blanco'>Ver todas</a>
-                                        </div>
-                                      </div>
+                                <div class='absoluto abajo transparente'>
+                                  <div class='wrap'>
+                                    <div class='enlaces-postulante portada'> 
+                                      <h1 class="entry-title generico portada blanco">Publicaciones</h1>
+                                      <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md transparente-blanco'>Ver todas</a>
                                     </div>
+                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
@@ -137,25 +139,27 @@
         </ul>
         <hr>
       </div>
-      <div class='bloque-aside sm'>
+    <div class='bloque-aside sm'>
+      <?php 
+        $latest_carreras = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(1951,1950)));
+        $latest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));      
+      ?>
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesis</h6>
 
       <ul class='publicaciones-enlazadas'>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
+          <?php foreach( $lastest_carreras as $post ): setup_postdata($post);  ?>
+            <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+          <?php endforeach; ?>
       </ul>
 
       <hr>
     </div>
     <div class='bloque-aside sm'>
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
-      <ul class='publicaciones-enlazadas'>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
+      <ul class='publicaciones-enlazadas'>      
+          <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
+            <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+          <?php endforeach; ?>
       </ul>
       <hr>
     </div>

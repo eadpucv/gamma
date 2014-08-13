@@ -26,9 +26,10 @@
                                       <div class='wrap'>
                                         <div class='enlaces-postulante portada'> 
                                           <h1 class="entry-title generico portada blanco">Menciones</h1>
-                                          <a class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                          <a class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                          <a class='btn btn-md transparente-blanco'>Diseño de objetos</a>
+                                          <!-- esto va a las paginas -->
+                                          <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
+                                          <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
+                                          <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
                                         </div>
                                       </div>
                                     </div>
@@ -43,7 +44,7 @@
                                       <div class='wrap'>
                                         <div class='enlaces-postulante portada'> 
                                           <h1 class="entry-title generico portada blanco">Estudiantes</h1>
-                                          <a class='btn btn-md transparente-blanco'>Ver noticias</a>
+                                          <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md transparente-blanco'>Ver noticias</a>
                                         </div>
                                       </div>
                                     </div>
@@ -58,9 +59,10 @@
                                       <div class='wrap'>
                                         <div class='enlaces-postulante portada'> 
                                           <h1 class="entry-title generico portada blanco">Publicaciones</h1>
-                                          <a class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                          <a class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                          <a class='btn btn-md transparente-blanco'>Diseño de objetos</a>
+                                          <!-- esto va a tags -->
+                                          <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
+                                          <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
+                                          <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
                                           <a class='btn btn-md transparente-blanco'>Ver todas</a>
                                         </div>
                                       </div>
@@ -124,35 +126,36 @@
         </ul>
         <hr>
       </div>
+
+      <?php 
+        $latest_estudiantes = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(63)));
+        $latest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));   
+      ?>
       <div class='bloque-aside sm'>
-      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
-
-      <ul class='publicaciones-enlazadas'>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-      </ul>
-
-      <hr>
-    </div>
-    <div class='bloque-aside sm'>
-      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Estudiantes</h6>
-      <ul class='publicaciones-enlazadas'>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-            <li><a href="#">Una publicación</a></li>
-      </ul>
-      <hr>
-    </div>
-    <div class='bloque-aside oculto-sm oculto-xs'>
-      <h6 class='naranja-opuesto'><i class="icn icn-twitter icn-lg"></i> @eadpucv</h6>
-      <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
-      <script type="text/javascript">
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-      </script>
-    </div>
+        <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
+        <ul class='publicaciones-enlazadas'>      
+            <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
+              <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+        <hr>
+      </div>
+      <div class='bloque-aside sm'>
+        <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Estudiantes</h6>
+        <ul class='publicaciones-enlazadas'>
+            <?php foreach( $lastest_estudiantes as $post ): setup_postdata($post);  ?>
+              <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+        <hr>
+      </div>      
+      <div class='bloque-aside oculto-sm oculto-xs'>
+        <h6 class='naranja-opuesto'><i class="icn icn-twitter icn-lg"></i> @eadpucv</h6>
+        <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
+        <script type="text/javascript">
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        </script>
+      </div>
 
   </div>
 </div>
