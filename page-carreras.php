@@ -19,57 +19,91 @@
 
                 <div class="carousel-inner">
                     <div class="item active">
-                        <div class='noticia grande portada'>
-                            <div class='noticia-imagen'>
-                                <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8027/7346648702_380e8c1d5f_h.jpg'>
-                                     <div class='absoluto abajo transparente'>
-                                      <div class='wrap'>
-                                        <div class='enlaces-postulante portada'> 
-                                          <h1 class="entry-title generico portada blanco">Menciones</h1>
-                                          <!-- esto va a las paginas -->
-                                          <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                          <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                          <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
-                                        </div>
+                          <div class='noticia grande'>
+                              <div class='noticia-imagen'>
+                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8027/7346648702_380e8c1d5f_h.jpg'>
+                                      <div class='absoluto abajo transparente'>
+                                        <div class='wrap'>
+                                          <div class='fila'>
+                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                              <div class='fila'>
+                                              <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
+                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                  <div class='enlaces-postulante portada'> 
+                                                    <h1 class="entry-title generico portada blanco">Menciones</h1>
+                                                  </div>
+                                                </div>
+                                            <!-- pages -->
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
+                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
+                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
+                                                </div>
+                                              </div> <!--fila-->
+                                            </div> <!--fin col-->
+                                          </div>
+                                        </div> <!--fin de wrap -->
                                       </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img class='centrado-vertical' alt="Second slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7104/7346696016_bed217c9f8_h.jpg'>
-                                    <div class='absoluto abajo transparente'>
-                                      <div class='wrap'>
-                                        <div class='enlaces-postulante portada'> 
-                                          <h1 class="entry-title generico portada blanco">Estudiantes</h1>
-                                          <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md transparente-blanco'>Ver noticias</a>
-                                        </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class='noticia grande'>
+                              <div class='noticia-imagen'>
+                                  <img class='centrado-vertical' alt="Second slide slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7104/7346696016_bed217c9f8_h.jpg'>
+                                      <div class='absoluto abajo transparente'>
+                                        <div class='wrap'>
+                                          <div class='fila'>
+                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                              <div class='fila'>
+                                              <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
+                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                  <div class='enlaces-postulante portada'> 
+                                                    <h1 class="entry-title generico portada blanco">Estudiantes</h1>
+                                                  </div>
+                                                </div>
+                                            <!-- pages -->
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                                    <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md transparente-blanco'>Ver noticias</a>
+                                                </div>
+                                              </div> <!--fila-->
+                                            </div> <!--fin col-->
+                                          </div>
+                                        </div> <!--fin de wrap -->
                                       </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7072/7161436697_71767cf424_h.jpg'>
-                                    <div class='absoluto abajo transparente'>
-                                      <div class='wrap'>
-                                        <div class='enlaces-postulante portada'> 
-                                          <h1 class="entry-title generico portada blanco">Publicaciones</h1>
-                                          <!-- esto va a tags -->
-                                          <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                          <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                          <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
-                                          <a class='btn btn-md transparente-blanco'>Ver todas</a>
-                                        </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class='noticia grande'>
+                              <div class='noticia-imagen'>
+                                  <img class='centrado-vertical' alt="Second slide slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7072/7161436697_71767cf424_h.jpg'>
+                                      <div class='absoluto abajo transparente'>
+                                        <div class='wrap'>
+                                          <div class='fila'>
+                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                              <div class='fila'>
+                                              <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
+                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                  <div class='enlaces-postulante portada'> 
+                                                    <h1 class="entry-title generico portada blanco">Publicaciones</h1>
+                                                  </div>
+                                                </div>
+                                            <!-- pages -->
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
+                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
+                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
+                                                    <a class='btn btn-md transparente-blanco'>Ver todas</a>
+                                                </div>
+                                              </div> <!--fila-->
+                                            </div> <!--fin col-->
+                                          </div>
+                                        </div> <!--fin de wrap -->
                                       </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>  <!-- fin de item -->
+                              </div>
+                          </div>
+                      </div>
                 </div>
                 <a data-slide="prev" href="#carousel-example-generic" class="left carrera carousel-control"><i class="icn icn-nav-izq"></i></a>
                 <a data-slide="next" href="#carousel-example-generic" class="right carrera carousel-control"><i class="icn icn-nav-der"></i></a>

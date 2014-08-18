@@ -18,56 +18,89 @@
                   </ol>-->
 
                 <div class="carousel-inner">
-                    <div class="item active">
-                        <div class='noticia grande portada'>
-                            <div class='noticia-imagen'>
-                                <img alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8167/7351688608_963bd41ec5_h.jpg'>
-                                     <div class='absoluto abajo transparente'>
-                                      <div class='wrap'>
-                                        <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                        <div class='enlaces-postulante portada'> 
-                                          <h1 class="entry-title generico portada blanco">Menciones</h1>
-                                          <!-- pages -->
-                                          <a href="<?php echo get_permalink(16); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                          <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
-                                        </div>
+                      <div class="item active">
+                          <div class='noticia grande'>
+                              <div class='noticia-imagen'>
+                                  <img alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8167/7351688608_963bd41ec5_h.jpg'>
+                                      <div class='absoluto abajo transparente'>
+                                        <div class='wrap'>
+                                          <div class='fila'>
+                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                              <div class='fila'>
+                                              <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
+                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                  <div class='enlaces-postulante portada'> 
+                                                    <h1 class="entry-title generico portada blanco">Menciones</h1>
+                                                  </div>
+                                                </div>
+                                            <!-- pages -->
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                                  <a href="<?php echo get_permalink(16); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                                </div>
+                                              </div> <!--fila-->
+                                            </div> <!--fin col-->
+                                          </div>
+                                        </div> <!--fin de wrap -->
                                       </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img class='centrado-vertical' alt="Second slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8014/7166496749_794607c47f_h.jpg'>
-                                    <div class='absoluto abajo transparente'>
-                                      <div class='wrap'>
-                                        <div class='enlaces-postulante portada'> 
-                                          <h1 class="entry-title generico portada blanco">Tesis</h1>
-                                          <!-- listado de categorias -->
-                                          <a href="<?php echo get_category_link(35); ?> " class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                          <a href="<?php echo get_category_link(714); ?> " class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
-                                        </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class='noticia grande'>
+                              <div class='noticia-imagen'>
+                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8014/7166496749_794607c47f_h.jpg'>
+                                      <div class='absoluto abajo transparente'>
+                                        <div class='wrap'>
+                                          <div class='fila'>
+                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                              <div class='fila'>
+                                              <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
+                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                  <div class='enlaces-postulante portada'> 
+                                                    <h1 class="entry-title generico portada blanco">Tesis</h1>
+                                                  </div>
+                                                </div>
+                                            <!-- pages -->
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                                  <a href="<?php echo get_permalink(35); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(714); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                                </div>
+                                              </div> <!--fila-->
+                                            </div> <!--fin col-->
+                                          </div>
+                                        </div> <!--fin de wrap -->
                                       </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7096/7351612024_94af406f40_h.jpg'>
-                                <div class='absoluto abajo transparente'>
-                                  <div class='wrap'>
-                                    <div class='enlaces-postulante portada'> 
-                                      <h1 class="entry-title generico portada blanco">Publicaciones</h1>
-                                      <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md transparente-blanco'>Ver todas</a>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  <!-- fin de item -->
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class='noticia grande'>
+                              <div class='noticia-imagen'>
+                                  <img alt="First slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7096/7351612024_94af406f40_h.jpg'>
+                                      <div class='absoluto abajo transparente'>
+                                        <div class='wrap'>
+                                          <div class='fila'>
+                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                              <div class='fila'>
+                                              <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
+                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                  <div class='enlaces-postulante portada'> 
+                                                    <h1 class="entry-title generico portada blanco">Publicaciones</h1>
+                                                  </div>
+                                                </div>
+                                            <!-- pages -->
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                                  <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md transparente-blanco'>Ver todas</a>
+                                                </div>
+                                              </div> <!--fila-->
+                                            </div> <!--fin col-->
+                                          </div>
+                                        </div> <!--fin de wrap -->
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
                 </div>
                 <a data-slide="prev" href="#carousel-example-generic" class="left carrera carousel-control"><i class="icn icn-nav-izq"></i></a>
                 <a data-slide="next" href="#carousel-example-generic" class="right carrera carousel-control"><i class="icn icn-nav-der"></i></a>
