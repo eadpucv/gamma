@@ -14,10 +14,10 @@
                   </ol>-->
 
                 <div class="carousel-inner">
-                    <div class="item active">
+                      <div class="item active">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8027/7346648702_380e8c1d5f_h.jpg'>
+                                  <img alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8167/7351688608_963bd41ec5_h.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
@@ -31,9 +31,8 @@
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
+                                                  <a href="<?php echo get_permalink(16); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -46,7 +45,7 @@
                       <div class="item">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img class='centrado-vertical' alt="Second slide slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7104/7346696016_bed217c9f8_h.jpg'>
+                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8014/7166496749_794607c47f_h.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
@@ -55,12 +54,13 @@
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
                                                 <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
                                                   <div class='enlaces-postulante portada'> 
-                                                    <h1 class="entry-title generico portada blanco">Estudiantes</h1>
+                                                    <h1 class="entry-title generico portada blanco">Tesis</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md transparente-blanco'>Ver noticias</a>
+                                                  <a href="<?php echo get_permalink(35); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(714); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -73,7 +73,7 @@
                       <div class="item">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img alt="Second slide slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7072/7161436697_71767cf424_h.jpg'>
+                                  <img alt="First slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7096/7351612024_94af406f40_h.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
@@ -87,10 +87,7 @@
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
-                                                    <a class='btn btn-md transparente-blanco'>Ver todas</a>
+                                                  <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md transparente-blanco'>Ver todas</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -112,7 +109,7 @@
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix portada' id='menu-fixed'>
-              <div data-spy="affix" data-offset-top="650" data-offset-bottom='500'>
+              <div data-spy="affix" data-offset-top="780" data-offset-bottom='500'>
                 <ul class="nav" id="title_list"></ul>
               </div>
             </div>
@@ -127,15 +124,31 @@
                 <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto"><!--<?php the_content(); ?>-->
-                      <h2 class='portada'>Pregrado</h2>
-                      <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la <a title="página de la carrera de arquitectura" href="http://www.ead.pucv.cl/programas/arquitectura">Arquitectura</a>, del <a title="página de la carrera de diseño gráfico" href="http://www.ead.pucv.cl/programas/diseno/diseno-grafico/">Diseño Gráfico</a> y del <a title="página de la carrera de diseño industrial" href="http://www.ead.pucv.cl/programas/diseno/diseno-industrial/">Diseño Industrial</a> por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
-                      <p>La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte. Esto diferencia profundamente de otras orientaciones, disciplinas y saberes, e implica una manera peculiar de estudiar y de hacer.</p>
-                      <h2>La Observación como Fundamento</h2>
-                      <p>En nuestra Escuela se accede a la Arquitectura y al Diseño a través de la observación. La observación es una actividad profundamente artística que permite penetrar la realidad de manera siempre nueva y original. A partir de esta postura de pensamiento tomada como fundamento se desarrollan los diferentes trabajos, estudios y proyectos.</p>
-                      <h2>Compromiso de Vida y Ámbito</h2>
-                      <p>Esta modalidad de estudiar y hacer exige de alumnos y profesores un real compromiso de vida. Este que le confiere a la Escuela una gran unidad y, a su vez establece un ámbito, y un ritmo de estudio que da cabida a actividades ordinarias y extraordinarias, en que participan creativamente todos los alumnos y profesores.</p>
-                      <h2>El Taller Columna Vertebral</h2>
-                      <p>El taller es la columna vertebral de los estudios de cada disciplina impartida en nuestra Escuela. En él tiene lugar el proceso creativo de cada estudiante, y es donde se decantan los conocimientos humanísticos, matemáticos, científicos y tecnológicos que se imparten en las demás asignaturas de nuestro Plan de Estudios.</p>
+                      <h2 class='portada'>Presentación</h2>
+                      <p>Los postgrados nacen en nuestra Escuela como la respuesta natural a las nuevas fronteras que el conocimiento, las ciencias, el arte y el estudio le plantean a nuestra propia visión. Es por ello que ya no sólo ofrecemos el pre grado, sino además el siguiente y necesario paso en la formación de la excelencia en nuestros profesionales.</p>
+                      <h2>Programa de Magíster en Arquitectura y Diseño</h2>
+
+                      <p>El Magister en Arquitectura y Diseño que nuestra Escuela quiere implementar, es fiel trasunto de su tradición, en cuanto que la concepción de la Arquitectura y del Diseño son oficios artísticos. Así, el diseñador y el arquitecto, abiertos a las necesidades del hombre, a las cuales deben dar respuesta eficaz apelando a toda sus capacidades y formación racional y lógica, buscan además que su obra adquiera sentido y trascienda las necesidades. La obra, así concebida, ha de manifestar esta capacidad inagotable propia del acto creativo, mostrando el esplendor del mundo y de la condición humana. Es nuestro propósito ofrecerle al postulante a Magister una experiencia fundamentalmente creativa que cuestione la relación que habitualmente el hombre establece con la naturaleza y con sus semejantes.</p>
+
+                      <p>Por la naturaleza de los oficios en cuestión creemos que estos programas de magister colocarán a los estudiantes venidos de distintas áreas del saber y del producir, en condiciones tanto de incremento del potencial profesional como de la capacidad de llevar adelante investigaciones significativas a la realidad de nuestro país y desarrollar capacidades creativas e innovadoras.</p>
+
+                      <p>Para proceder a implementarlos, nuestra Escuela cuenta con una gran cantidad de investigaciones y proyectos, todos reconocidos por otras entidades universitarias y profesionales tanto del país como del extranjero.</p>
+                      <h3>Objetivos Generales</h3>
+                      <p>Se quiere formar graduados que incrementen su capacidad creativa e innovadora, su capacidad teórica y de investigación y su capacidad de lenguaje técnico y científico. Capacidades que le permitan diseñar objetos náuticos y trabajar en la dimensión del territorio marítimo, a fin de lograr coordinar estas capacidades, con un pensamiento crítico sustentable, en el contexto de una visión de país.</p>
+
+                      <h3>Travesía anual</h3>
+                      <p>En el segundos semestre de cada año, se realiza una Travesía, como parte del taller de proyectos. Se viaja por Chile o el extranjero y su duración es de aproximadamente 15 días.</p>
+
+                      <p>Los objetivos son los siguientes:</p>
+
+                      <ul>
+                        <li>Capacidad de emitir hipótesis, por vía de la observación, de los lugares visitados.</li>
+                        <li>Capacidad de realización de modelos, náuticos y/o marítimos con extrapolación de sus resultados. Modelos que verifican las hipótesis que se enuncian.</li>
+                        <li>Capacidad de verificar los conceptos constructivos y estructurales tratados teóricamente en el primer semestre, con visitas a astilleros y talleres, en la fabricación de embarcaciones de distintas magnitudes y distintos materiales. (Valparaíso, San Antonio, Talcahuano, Valdivia, Puerto Varas, Puerto Montt, Punta Arenas).</li>
+                        <li>Adquirir experiencia de navegante a bordo de la Embarcación Amereida y deportivas: Kayak, catamarán, veleros, yates. Se trata de verificar los conceptos de hidrostática y de hidrodinámica, experimentando física y corpóreamente la navegación.</li>
+                        <li>Visitas a puertos, marinas, bordes marítimos, lacustres y fluviales ligados a los proyectos náuticos y marítimos que se estudian y proyectan.</li>
+                        <li>Visitas a canal de pruebas de la UA, a los laboratorios del Instituto de Hidráulica Nacional, al simulador de Puente de Mando del Cimar.</li>
+                      </ul>
                   </div>
                 </div>
               </article> 
@@ -150,42 +163,42 @@
       <div class='bloque-aside sm'>
         <h6 class='gris'><i class="icn icn-marcador-lig icn-md"></i> Menciones </h6>
         <ul class='publicaciones-enlazadas'>
-            <li><a href="<?php echo get_permalink(13); ?>">Arquitectura</a></li>
-            <li><a href="<?php echo get_permalink(14); ?>">Diseño gráfico</a></li>
-            <li><a href="<?php echo get_permalink(15); ?>">Diseño de objetos</a></li>
+            <li><a href="<?php echo get_permalink(16); ?>">Magister Náutico & Marítimo</a></li>
+            <li><a href="#">Magister Ciudad & Territorio</a></li>
         </ul>
         <hr>
       </div>
-
+    <div class='bloque-aside sm'>
       <?php 
-        $latest_estudiantes = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(63)));
-        $latest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));   
+        $latest_carreras = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(1951,1950)));
+        $latest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));      
       ?>
-      <div class='bloque-aside sm'>
-        <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
-        <ul class='publicaciones-enlazadas'>      
-            <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
-              <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-            <?php endforeach; ?>
-        </ul>
-        <hr>
-      </div>
-      <div class='bloque-aside sm'>
-        <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Estudiantes</h6>
-        <ul class='publicaciones-enlazadas'>
-            <?php foreach( $lastest_estudiantes as $post ): setup_postdata($post);  ?>
-              <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-            <?php endforeach; ?>
-        </ul>
-        <hr>
-      </div>      
-      <div class='bloque-aside oculto-sm oculto-xs'>
-        <h6 class='naranja-opuesto'><i class="icn icn-twitter icn-lg"></i> @eadpucv</h6>
-        <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
-        <script type="text/javascript">
-          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-        </script>
-      </div>
+      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesis</h6>
+
+      <ul class='publicaciones-enlazadas'>
+          <?php foreach( $lastest_carreras as $post ): setup_postdata($post);  ?>
+            <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+          <?php endforeach; ?>
+      </ul>
+
+      <hr>
+    </div>
+    <div class='bloque-aside sm'>
+      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
+      <ul class='publicaciones-enlazadas'>      
+          <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
+            <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+          <?php endforeach; ?>
+      </ul>
+      <hr>
+    </div>
+    <div class='bloque-aside oculto-sm oculto-xs'>
+      <h6 class='naranja-opuesto'><i class="icn icn-twitter icn-lg"></i> @eadpucv</h6>
+      <a class="twitter-timeline"  href="https://twitter.com/eadpucv"  data-widget-id="451107933158244352">Tweets por @eadpucv</a>
+      <script type="text/javascript">
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+    </div>
 
   </div>
 </div>

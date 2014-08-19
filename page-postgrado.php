@@ -3,10 +3,6 @@
 ?>
 
 <div class='fondo-blanco'>
-
-                <div class='wrap'>
-                  <h1 class="entry-title especifico gris-oscuro">Estudios Avanzados</h1>
-                </div>
                            
                 <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
                    <!--<ol class="carousel-indicators"> 
@@ -106,7 +102,7 @@
                 <a data-slide="next" href="#carousel-example-generic" class="right carrera carousel-control"><i class="icn icn-nav-der"></i></a>
             </div>
   </div>
-
+  
   <div class='wrap'>
     <div class='fila'>
       <div class='col-lg-9 col-md-9 col-sm-12'>
@@ -128,7 +124,7 @@
                 <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto"><!--<?php the_content(); ?>-->
-                      <h2>Presentación</h2>
+                      <h2 class='portada'>Presentación</h2>
                       <p>Los postgrados nacen en nuestra Escuela como la respuesta natural a las nuevas fronteras que el conocimiento, las ciencias, el arte y el estudio le plantean a nuestra propia visión. Es por ello que ya no sólo ofrecemos el pre grado, sino además el siguiente y necesario paso en la formación de la excelencia en nuestros profesionales.</p>
                       <h2>Programa de Magíster en Arquitectura y Diseño</h2>
 
@@ -137,10 +133,10 @@
                       <p>Por la naturaleza de los oficios en cuestión creemos que estos programas de magister colocarán a los estudiantes venidos de distintas áreas del saber y del producir, en condiciones tanto de incremento del potencial profesional como de la capacidad de llevar adelante investigaciones significativas a la realidad de nuestro país y desarrollar capacidades creativas e innovadoras.</p>
 
                       <p>Para proceder a implementarlos, nuestra Escuela cuenta con una gran cantidad de investigaciones y proyectos, todos reconocidos por otras entidades universitarias y profesionales tanto del país como del extranjero.</p>
-                      <h3>Objetivos Generales</h3>
+                      <h2>Objetivos Generales</h2>
                       <p>Se quiere formar graduados que incrementen su capacidad creativa e innovadora, su capacidad teórica y de investigación y su capacidad de lenguaje técnico y científico. Capacidades que le permitan diseñar objetos náuticos y trabajar en la dimensión del territorio marítimo, a fin de lograr coordinar estas capacidades, con un pensamiento crítico sustentable, en el contexto de una visión de país.</p>
 
-                      <h3>Travesía anual</h3>
+                      <h2>Travesía anual</h2>
                       <p>En el segundos semestre de cada año, se realiza una Travesía, como parte del taller de proyectos. Se viaja por Chile o el extranjero y su duración es de aproximadamente 15 días.</p>
 
                       <p>Los objetivos son los siguientes:</p>
