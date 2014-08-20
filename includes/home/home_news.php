@@ -8,7 +8,7 @@
   $latest_cat_post = new WP_Query( array('posts_per_page' => 8, 'category__in' => array($cat_id), 'no_found_rows' => true, 'cache_results' => false ));
 ?>
   <?php if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post(); ?>        
-    <div class='col-lg-3 col-md-6 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
+    <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12 alto-md'> <!-- noticia 1 -->
       <a href='<?php the_permalink() ?>' class='enlace-noticia'>
         <div class='pagina md'>
           <div class='franja-seguir'>

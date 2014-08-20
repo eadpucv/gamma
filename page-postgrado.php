@@ -168,7 +168,7 @@
         <h6 class='gris'><i class="icn icn-marcador-lig icn-md"></i> Menciones </h6>
         <ul class='publicaciones-enlazadas'>
             <li><a href="<?php echo get_permalink(16); ?>">Magister Náutico & Marítimo</a></li>
-            <li><a href="#">Magister Ciudad & Territorio</a></li>
+            <li><a href="<?php echo get_permalink(4759); ?>">Magister Ciudad & Territorio</a></li>
         </ul>
         <hr>
       </div>

@@ -25,7 +25,7 @@
 <body data-spy="scroll" data-target="#menu-fixed">
   <div class='fondo-header'>
     <div class='wrap header'>
-        <a href=' <?php echo home_url(); ?> '>
+        <a class='inicio' href=' <?php echo home_url(); ?> '>
           <div class='logo'>
             <p class='logo-ead marca'>e[ad]</p>
           </div>
@@ -105,6 +105,7 @@
              <ul aria-labelledby="drop5" role="menu" class="dropdown-menu" id="menuExtension">
                <li role="presentation"><a href="<?php echo get_permalink(11); ?>" tabindex="-1" role="menuitem">Archivo Histórico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(305); ?>" tabindex="-1" role="menuitem">Ediciones e[ad]</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25941); ?>" tabindex="-1" role="menuitem">Concursos</a></li>
               <li role="presentation"><a href="<?php echo get_permalink(90); ?>" tabindex="-1" role="menuitem">Investigación</a></li>
              </ul>
            </li>
@@ -227,6 +228,7 @@
                 <ul>
                <li role="presentation"><a href="<?php echo get_permalink(11); ?>" tabindex="-1" role="menuitem">Archivo Histórico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(305); ?>" tabindex="-1" role="menuitem">Ediciones e[ad]</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25941); ?>" tabindex="-1" role="menuitem">Concursos</a></li>
               <li role="presentation"><a href="<?php echo get_permalink(90); ?>" tabindex="-1" role="menuitem">Investigación</a></li>
               </ul>
               </div>

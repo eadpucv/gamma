@@ -26,7 +26,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <a href='<?php echo get_category_link(7); ?>'><h6>| arquitectura</h6></a>
-              <div class='pagina md carrera'>
+              <div class='pagina carrera'>
                 <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo the_excerpt_max_charlength(350); ?></p>
@@ -48,7 +48,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <a href='<?php echo get_category_link(8); ?>'><h6>| diseño gráfico</h6></a>
-              <div class='pagina md carrera'>
+              <div class='pagina carrera'>
                 <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo the_excerpt_max_charlength(350); ?></p>
@@ -70,7 +70,7 @@
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
               <a href='<?php echo get_category_link(9); ?>'><h6>| diseño industrial</h6></a>
-              <div class='pagina md carrera'>
+              <div class='pagina carrera'>
                 <h3 class='blanco'><?php the_title(); ?></h3>
                 <aside class='blanco entry-details'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
                 <p class='blanco'><?php echo the_excerpt_max_charlength(350); ?></p>

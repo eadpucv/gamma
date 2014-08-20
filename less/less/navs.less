@@ -80,6 +80,10 @@ a.menu-link {
 
 #ultimo-dropdown {
   padding-right: 0;
+
+  .caret {
+    margin-right: 0;
+  }
 }
 
   > li {
@@ -186,6 +190,7 @@ a.menu-link {
     // Links rendered as pills
     > a {
       border-radius: @nav-pills-border-radius;
+      padding: 0;
     }
     + li {
       margin-left: 2px;
@@ -304,4 +309,28 @@ a.menu-link {
   margin-top: -1px;
   // Remove the top rounded corners here since there is a hard edge above the menu
   .border-top-radius(0);
+}
+
+// Extra small screen / phone
+@media(max-width: @screen-xs-max){
+
+}
+
+// Small screen / tablet
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max){
+
+}
+
+// Medium screen / desktop
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max){
+  
+  .nav {
+    li {
+      a {
+        font-size: 13px;
+      }
+    }
+  }
+
 }

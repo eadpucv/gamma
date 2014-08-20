@@ -237,6 +237,14 @@
             .transition(.3s ease all);
         }
     }
+
+    &.categoria {  
+        padding: 10px 5px;
+
+        &:hover {
+            background-color: fade(@gris-claro, 20%);
+        }
+    }
 }
 
 .referencia-cita {
@@ -346,7 +354,6 @@
         margin-top: 0;
         height: 250px;
         margin: 5px 0 45px 0;
-        padding: 10px 0;
 
         h6 {
             font-size: 14px;
@@ -359,7 +366,6 @@
         }
 
         &:hover {
-            background-color: fade(@gris-claro, 20%);
 
             .franja-seguir {
                 visibility: visible;
@@ -589,6 +595,10 @@
                 -webkit-transition: height .3s linear, opacity 0.2s linear;
                 -moz-transition: height .3s linear, opacity 0.2s linear;
                 -o-transition: height .3s linear, opacity 0.2s linear;
+
+                i {
+                    visibility: visible;
+                }
             }
 
         h6 {
@@ -2117,14 +2127,22 @@ hr {
     }
 
     .alto-sm {
-        height: 175px;
+        height: 190px;
         display: inline-block;
         margin: 0 0 40px 0;
     }
 
     .alto-md {
-        height: 470px;
+        height: 385px;
         margin: 0 0 10px 0;
+    }
+
+    .logo{
+        margin: 0;
+        display: block;
+        max-width: 74%;
+        float: left;
+        position: relative;
     }
     
     .cita-carousel {
@@ -2153,9 +2171,14 @@ hr {
     }
 
     .pagina {
+        padding: 0 5px;
+        p {
+            font-size: 11px;
+            line-height: 18px;
+        }
 
         &.md {
-            height: 425px;
+            height: 395px;
         }
 
         // Clases extendidas
@@ -2167,13 +2190,15 @@ hr {
         &.evento {
 
             h6 {
-                font-size: 19px;
+                font-size: 17px;
+                line-height: 20px;
                 height: 80px;
             }
 
             p {
+                font-size: 11px;
+                line-height: 18px;
                 max-height: 110px;
-                font-size: 13px;
             }
 
 
@@ -2249,10 +2274,25 @@ hr {
     .bloque-enlace {
 
         &.categoria {
-            height: 240px;
+            height: 200px;
 
             h5{
                 font-size: 18px;
+                line-height: 21px;
+            }
+        }
+
+        &.portada {
+
+            h6 {
+                font-size: 18px;
+                line-height: 20px;
+                color: @rojo-claro;
+            }
+
+            p {
+                font-size: 11px;
+                line-height: 18px;
             }
         }
     }
@@ -2303,11 +2343,11 @@ hr {
     // Header
 
     .navegacion {
-        margin: 5px 0 20px 0;
+        margin: 12px 0 0 0;
         padding: 0;
-        float: right;
+        float: left;
         display: inline-block;
-        width: 100%;
+        width: 573px;
 
     }
 
@@ -2348,13 +2388,13 @@ hr {
     .enlace-noticia {
 
         p {
-            font-size: 12.5px;
-            //line-height: 20px;
+            font-size: 11px;
+            line-height: 18px;
         }
 
         h6{
-            font-size: 20px;
-            line-height: 26px;
+            font-size: 17px;
+            line-height: 20px;
             color: @rojo-claro;
         }
     }
