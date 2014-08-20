@@ -33,7 +33,7 @@
 
     i{
         font-size: 14px;
-        display: inline-block;
+        visibility: hidden;
         position: relative;
         bottom: -2px;
     }
@@ -50,6 +50,13 @@
     }
 }
 
+// header 
+
+.inicio {
+    display: inline-block;
+    float: left;
+    width: auto;
+}
 
 
 // Cajas de docentes
@@ -64,7 +71,7 @@
     float: center;
 
     .ancho-maximo {
-        width: 100%;
+        width: 110%;
     }
 
     &.listado {
@@ -74,6 +81,12 @@
 
     &.historia {
         margin: 0 auto 30px auto !important;
+    }
+
+    &.indice {
+        height: 180px;
+        margin: 0 auto;
+        width: 180px;
     }
 }
 
@@ -97,6 +110,11 @@
         text-align: right;
         margin: -3px 30px 0 0;
         float: left;
+    }
+
+    &.indice {
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -134,6 +152,10 @@
             height: inherit;
             overflow: hidden;
         }
+    }
+
+    &.indice {
+        width: 100%;
     }
 }
 
@@ -643,17 +665,26 @@
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
+    // header 
+
+    .inicio {
+        display: inline-block;
+        float: left;
+        width: 35%;
+    }
+
     // portada noticias 
 
     .noticia-portada {
-        min-height: 545px;
-        margin-bottom: 30px;
+        min-height: 500px;
+        margin-bottom: 20px;
     }
 
     #menu-fixed {
 
         .ancla-fixed {
             width: 12vw;
+            font-size: 13.5px;
 
             &.sin-aside{
                 width: 18vw;
@@ -661,14 +692,26 @@
         }
 
         .active .ancla-fixed {
-            
 
-        &.sin-aside{
-        width: 220px;
+            &.sin-aside{
+            width: 220px;
+            }
         }
+
     }
 
-}
+    // Hover de cajas
+    .franja-seguir {
+
+        p {
+            margin: 0;
+            text-align: right;
+            padding-top: 2px;
+            padding-right: 10px;
+            letter-spacing: 2px;
+            font-size: 10px !important;
+        }
+    }
 
     // Cajas de docentes
 
@@ -753,6 +796,12 @@
                 font-size: 17.9px;
             }
         }
+
+        &.indice {
+            p {
+                max-height: none;
+            }
+        }
     }
 
 
@@ -771,20 +820,20 @@
     // eventos
 
     .dato-evento {
-        border-left: 4px solid fade(@pizarra-claro, 20%);
+        border-left: 2px solid fade(@pizarra-claro, 20%);
         float: left;
         height: 75px;
         padding: 8px 5px 10px;
         margin: 0 10px 0 0;
         position: relative;
         top: 0;
-        width: 75px;
+        width: 55px;
 
         .dia {
             font-family: @sans;
             font-weight: 100;
-            margin: 0 10px;
-            padding: 0 10px;
+            margin: 0;
+            padding: 0;
             height: 65px;
             float: center;
             color:@pizarra-claro;

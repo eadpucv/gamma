@@ -1,3 +1,4 @@
+
 p {
     font-size: 14px;
     margin: 12px 0 28.6px;
@@ -9,6 +10,45 @@ p {
     margin-top: 0;
     font-family : @serif;
 }
+
+// ----Estilos para trabajar
+
+.interletraje-xs {
+        letter-spacing: 2.5px !important;
+}
+
+.interletraje-sm{
+        letter-spacing: 3.5px !important;
+    }
+
+.interletraje-md{
+        letter-spacing: 4.5px !important;
+    }
+
+.interletraje-lg{
+        letter-spacing: 6px !important;
+    }
+
+
+
+.fuente-xs{
+        font-weight: 100;
+    }
+
+.fuente-sm{
+        font-weight: 200;
+    }
+
+.fuente-md {
+        font-weight: 300;
+    }
+
+.fuente-lg{
+        font-weight: 500;
+    }
+
+
+// -----------------------
 
 .cita {
     margin: 0;
@@ -182,10 +222,14 @@ ul li {
     width: 100%;
     margin: 0 auto;
 
-    h1, h2 {
+    h1, h2{
         margin-bottom: 15px;
         margin-top: 10px;
         text-align: center;
+
+        &.portada {
+            margin-top: 0 !important;
+        }
     }
 
     h5 {
@@ -217,13 +261,21 @@ ul li {
             height: auto;
             margin: 0px 0px 15px 0px;
         }   
+
+        .ajax-loader {
+            width: auto;
+        }	
+
     }
 
-    span {
-        margin: 0;
-        font-family: inherit;
-        display: inline;
-    }
+    .wpcf7{
+            width: 65%;
+        }
+	span {
+		margin: 0;
+		font-family: inherit;
+		display: inline;
+	}
 
     ol {
         margin-bottom: 30px;
@@ -236,6 +288,7 @@ ul li {
             line-height: 34px;
             font-family: @sans;
             color: rgba(43, 44, 42, 0.8);
+            list-style: decimal;
 
             a {
                 font-weight: 200;
@@ -263,6 +316,7 @@ ul li {
             left: -25px;
             font-size: 25px;
             vertical-align: middle;
+            list-style: decimal;
             display: inline-block;
             color: @gris-oscuro;
         }
@@ -391,9 +445,9 @@ ul li {
 
     a{
         font-family: @serif;
-        font-size: 14px;
+        font-size: 16px;
     }
-    }
+}
 
     .imagen-inserta {
         width: 50%;
@@ -416,6 +470,10 @@ ul li {
     &.enunciado {
         width: 90%;
         margin: 0;
+    }
+
+    &.carrera {
+        width: 100%;
     }
 }
 
@@ -567,6 +625,10 @@ color: @gris-oscuro;
             text-align: left;
         }
 
+        .wpcf7{
+            width: 100%;
+        }
+
         p {
             font-size: 16px;
             line-height: 30px;
@@ -693,6 +755,10 @@ display: none;
         }
     }
 
+    .wpcf7{
+            width: 100%;
+        }
+
     .imagen-inserta {
         width: 100%;
         padding-bottom: 30px;
@@ -791,12 +857,26 @@ font-size: 20px;
         width: 100%;
 
         p {
+
+        font-size: 15px;
+        line-height: 25.5px;
+
             img{
                 width: 100%;
                 height: auto;
                 margin: 15px 0px;
-        }   
-    }
+            }      
+        }
+
+            blockquote{
+                font-size: 13.5px !important;
+        }
+
+        h5{
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
 
         .imagen-inserta {
             width: 60%;
@@ -810,10 +890,74 @@ font-size: 20px;
                 padding-left: 30px;
             }
         }
+
+            &.enunciado {
+
+        h1, h2 {
+            text-align: left;
+        }
+
+        h1{
+            font-size: 26.5px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 10px;
+            margin-bottom: 22px;
+        }
+
+        h4 {
+            text-align: left;
+        }
+
+        h5 {
+            margin-bottom: 30px;
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 24px;
+
+            strong {
+                font-family: @serif;
+                font-weight: 600;
+            }
+        }
+
+        ul, ol {
+            a{
+                font-family: @sans;
+                font-size: 12px;
+            }
+
+            strong {
+                font-family: @sans;
+                font-weight: 300;
+            }
+        }
+
+        li {
+            margin: 0;
+            padding: 0 0 0 10px;
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 25px;
+            list-style: none;
+            font-family: @sans;
+            color: rgba(43, 44, 42, 0.8);
+        }
+
+
+    a{
+        font-family: @serif;
+        font-size: 14px;
+    }
+}
     }
 
     .entry-details {
-        font-size: 11.5px;
+        font-size: 11px;
         margin: 0 0 10px 0;
         padding: 5px 0 0 0;
 }

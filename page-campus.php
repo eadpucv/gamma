@@ -1,28 +1,25 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-<div class='fondo-gris'>
-  <div class='wrap'>
-    <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-  </div>
-</div>
 
     <!-- contenido -->
     <div class='fondo-gris'>
         <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
             <div class='fila'>
                 <div id='casa-ead'>
-                </div>
+                    <div class='wrap'>
+                        <h1 class='entry-title introductora campus blanco'>Casa de estudios en Recreo</h1>
+                        <h6 class='blanco centrado blanco altas interletraje-md fuente-xs'>Avenida Matta 12, Recreo, Viña del Mar</h6>
+                    </div>
+                </div> 
         <div class='wrap'>
                 <div class='bloque'>
                     <article class="h-entry">
-                        <h1 class='rojo-claro'>Casa de estudios en Recreo</h1>
-                        <h4 class='subtitulo gris'>Avenida Matta 12, Recreo, Viña del Mar</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p>La sede de la Escuela de Arquitectura y Diseño se encuentra ubicada en la calle Matta, Recreo. La casa original fue construida alrededor de 1940 con fines residenciales conforme a su primera recepción municipal y fue adquirida por la Universidad en el año 1951 bajo la rectoría del R.P. Jorge González, quien en su momento dijo que...“la ubicación está muy de acuerdo con los ideales de un arquitecto que debe ser un hombre que tenga visión amplia y que mire el mar”. Hasta el día de hoy el edificio mantiene la tipología de una residencia de estilo neocolonial y sus recintos han sido alterados conforme a los requerimientos educacionales. Asímismo, durante los años 90-95 se realizó una serie de transformaciones en la propiedad de Matta 12, que incluyó modificaciones en sus espacios exteriores. </p>
                                 <p>Cabe señalar que el espacio físico para esta Escuela ha sido materia de estudio permanentemente, inherente al oficio de los arquitectos y diseñadores que han encontrado, en distintas oportunidades, un campo para la realización de obras que plantean problemáticas innovadoras, propias al oficio.</p>
-                                <iframe width="100%" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=calle%20matta%2012%2C%20recreo&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> 
+                                <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=calle%20matta%2012%2C%20recreo&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe>
                             </div>
                         </div>
                     </article> 
@@ -32,32 +29,36 @@
 <div class='fila'>
     <div class='fondo-oscuro'>
          <div id='ciudad-abierta'>
+            <div class='wrap'>
+                <h1 class='entry-title introductora campus blanco'>Ciudad Abierta</h1>
+                <h6 class='blanco centrado blanco altas interletraje-xs fuente-xs'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h6>
+            </div>
          </div>
         <div class='wrap'>
                 <div class='bloque'>
                     <article class="h-entry">
-                        <h1 class='rojo-claro'>Ciudad Abierta</h1>
-                        <h4 class='subtitulo gris'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p class='gris-claro'>La Escuela es la autora y principal protagonista, aunque no la única, del proyecto denominado “Ciudad Abierta”. En lo fundamental, es una extensión de 270 hectáreas ubicada 20 kilómetros al norte de Valparaíso, fundada en 1970 por poetas, arquitectos, diseñadores, escultores y filósofos, como una utopía que permite vincular vida, trabajo y estudio en “la plenitud y libertad de los oficios”.</p>
-                                <p class='gris-claro'>Hoy la Ciudad Abierta está íntimamente vinculada a la Escuela, y es habitada por algunos de sus profesores y otros adherentes. Ella está constituida como una corporación cultural sin fines de lucro, que da cabida a obras de arquitectura y diseño de carácter experimental y otras actividades académicas en que participan los alumnos constantemente.</p>
-                                <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=-32.888817%2C%20-71.504260&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> 
+                                <p class='gris-claro'>Hoy la Ciudad Abierta está íntimamente vinculada a la Escuela, y es habitada por algunos de sus profesores y otros adherentes. Ella está constituida como una corporación cultural sin fines de lucro, que da cabida a obras de arquitectura y diseño de carácter experimental y otras actividades académicas en que participan los alumnos constantemente.</p>      
+                                <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=-32.888817%2C%20-71.504260&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe>
+                            </div>
                         </div>
                     </article> 
                 </div>
         </div>
     </div>
 </div>
-<div class='fila'>
     <div class='fondo-blanco'>
         <div id='casa-central'>
+            <div class='wrap'>
+                <h1 class='entry-title introductora campus blanco'>Casa Central PUCV</h1>
+                <h6 class='blanco centrado blanco altas interletraje-xs fuente-xs'>Av Brasil 2950, Región V</h6>
+            </div>
         </div>
         <div class='wrap'>
                 <div class='bloque'>
                     <article class="h-entry">
-                        <h1 class='rojo-claro'>Pontificia Universidad Católica de Valparaíso, Casa Central</h1>
-                        <h4 class='subtitulo'>Av Brasil 2950, Región V</h4>
                         <div class="e-content p-summary p-name">
                             <div class='bloque'>
                                 <p>El 21 de septiembre del año 1925, era puesta la primera piedra de la que hoy es una de las instituciones de mayor trayectoria y prestigio de la educación superior chilena. Ese día nacía la Universidad Católica de Valparaíso.</p>

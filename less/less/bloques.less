@@ -182,6 +182,15 @@
         }
         }
 
+        &.indice {
+            text-align: left;
+            height: 555px;
+
+            h4 {
+                text-align: center;
+            }
+        }
+
         &.carrera-especifica {
                 height: auto !important;
                 margin: 30px 0 60px 0;
@@ -226,6 +235,14 @@
         &:hover {
             background-color: lighten(@gris-claro, 6%);
             .transition(.3s ease all);
+        }
+    }
+
+    &.categoria {  
+        padding: 10px 5px;
+
+        &:hover {
+            background-color: fade(@gris-claro, 20%);
         }
     }
 }
@@ -337,7 +354,6 @@
         margin-top: 0;
         height: 250px;
         margin: 5px 0 45px 0;
-        padding: 10px 0;
 
         h6 {
             font-size: 14px;
@@ -350,7 +366,6 @@
         }
 
         &:hover {
-            background-color: fade(@gris-claro, 20%);
 
             .franja-seguir {
                 visibility: visible;
@@ -442,6 +457,21 @@
             }
         }
     }
+
+    &.magister {
+        margin-top: 0px;
+        border:none;
+        max-height: 600px;
+        height: 505px;
+        width: 100%;
+
+        p {
+            max-height: 201px;
+            font-size: 13px !important;
+            line-height: 24px !important;
+            overflow: hidden;
+        }
+    }    
 
     &:hover {
         .seguir-leyendo {
@@ -565,6 +595,10 @@
                 -webkit-transition: height .3s linear, opacity 0.2s linear;
                 -moz-transition: height .3s linear, opacity 0.2s linear;
                 -o-transition: height .3s linear, opacity 0.2s linear;
+
+                i {
+                    visibility: visible;
+                }
             }
 
         h6 {
@@ -685,8 +719,18 @@
     text-align: center;
     width: auto;
     right: 20px;
+    margin: 0;
     bottom: 10px;
     display: block;
+    z-index: 11;
+
+    &.portada {
+        display: block;
+        text-align: right;
+        right: 15px !important;
+        top: 18px;
+        //padding-left: 100px;
+    }
 }
 
 // Para las publicaciones
@@ -735,7 +779,7 @@
     margin: 0 0 30px 0;
 
     &.sm {
-        min-height: @cuadratin * 8;
+        min-height: auto;
     }
 
     &.noticia {
@@ -1238,6 +1282,11 @@ hr {
                 opacity: 0;
                 }
             }
+        }
+
+        &.magister {
+            height: none;
+            max-height: none;
         }
 
         &.portada {
@@ -1970,19 +2019,19 @@ hr {
     }
 
     .medio-postulante {
-    display: table-cell;
-    vertical-align: middle;
+        display: table-cell;
+        vertical-align: middle;
     }
 
     .enlaces-postulante {
-    padding: 0px;
-    position: absolute;
-    text-align: center;
-    height: 280px;
-    right: 0;
-    display: table;
-    width: 100%;
-    margin: 0;
+        padding: 0px;
+        position: absolute;
+        text-align: center;
+        height: 280px;
+        right: 0;
+        display: table;
+        width: 100%;
+        margin: 0;
 
     .btn-md {
         &:hover {
@@ -2078,14 +2127,22 @@ hr {
     }
 
     .alto-sm {
-        height: 175px;
+        height: 190px;
         display: inline-block;
         margin: 0 0 40px 0;
     }
 
     .alto-md {
-        height: 470px;
+        height: 385px;
         margin: 0 0 10px 0;
+    }
+
+    .logo{
+        margin: 0;
+        display: block;
+        max-width: 74%;
+        float: left;
+        position: relative;
     }
     
     .cita-carousel {
@@ -2114,9 +2171,14 @@ hr {
     }
 
     .pagina {
+        padding: 0 5px;
+        p {
+            font-size: 11px;
+            line-height: 18px;
+        }
 
         &.md {
-            height: 425px;
+            height: 395px;
         }
 
         // Clases extendidas
@@ -2128,13 +2190,15 @@ hr {
         &.evento {
 
             h6 {
-                font-size: 19px;
+                font-size: 17px;
+                line-height: 20px;
                 height: 80px;
             }
 
             p {
+                font-size: 11px;
+                line-height: 18px;
                 max-height: 110px;
-                font-size: 13px;
             }
 
 
@@ -2183,6 +2247,10 @@ hr {
             &.historia {
                 height: auto;
             }
+
+            &.indice {
+                height: 470px;
+            }
         }
 
         &.carrera {
@@ -2206,10 +2274,25 @@ hr {
     .bloque-enlace {
 
         &.categoria {
-            height: 240px;
+            height: 200px;
 
             h5{
                 font-size: 18px;
+                line-height: 21px;
+            }
+        }
+
+        &.portada {
+
+            h6 {
+                font-size: 18px;
+                line-height: 20px;
+                color: @rojo-claro;
+            }
+
+            p {
+                font-size: 11px;
+                line-height: 18px;
             }
         }
     }
@@ -2248,7 +2331,7 @@ hr {
                 width: auto;
             }
         }
-        }
+    }
       
 
     // Franja postulante
@@ -2260,13 +2343,22 @@ hr {
     // Header
 
     .navegacion {
-        margin: 5px 0 20px 0;
+        margin: 12px 0 0 0;
         padding: 0;
-        float: right;
+        float: left;
         display: inline-block;
-        width: 100%;
+        width: 573px;
 
     }
+
+    .enlaces-postulante {
+
+    &.portada {
+        padding-left: 0;
+        right: 30px;
+        display: inline-block;
+    }
+}
 
     // Footer
 
@@ -2296,13 +2388,13 @@ hr {
     .enlace-noticia {
 
         p {
-            font-size: 12.5px;
-            //line-height: 20px;
+            font-size: 11px;
+            line-height: 18px;
         }
 
         h6{
-            font-size: 20px;
-            line-height: 26px;
+            font-size: 17px;
+            line-height: 20px;
             color: @rojo-claro;
         }
     }

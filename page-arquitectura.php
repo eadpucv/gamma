@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
-          	        	<div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+          	    <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
                 <div class="carousel-inner">
                     <div class="item active">
                         <div class='noticia grande'>
@@ -83,7 +83,7 @@
                     <?php the_post_thumbnail( 'medium', array( 'class' => "centrada-vertical") ); ?>
                   </div>
                 <?php } ?>
-                <div class="e-content p-summary p-name enunciado">
+                <div class="e-content p-summary p-name carrera">
                   <div class='bloque' id="bloque_texto">
                   	<h2>Estudiar arquitectura en la e[ad]</h2>
                   	<p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>

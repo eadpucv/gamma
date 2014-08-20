@@ -25,7 +25,7 @@
 <body data-spy="scroll" data-target="#menu-fixed">
   <div class='fondo-header'>
     <div class='wrap header'>
-        <a href=' <?php echo home_url(); ?> '>
+        <a class='inicio' href=' <?php echo home_url(); ?> '>
           <div class='logo'>
             <p class='logo-ead marca'>e[ad]</p>
           </div>
@@ -61,11 +61,16 @@
            <li class="dropdown">
              <a href="#" data-toggle="dropdown" role="button" id="drop2" class="dropdown-toggle">Carreras y Posgrados<b class="caret"></b></a>
              <ul aria-labelledby="drop2" role="menu" class="dropdown-menu" id="menuCarreras">
-               <li role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Arquitectura</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(12); ?>" tabindex="-1" role="menuitem">Carreras</a></li>
                <li class="divider" role="presentation"></li>
-               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
+               <li class='indentado' role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Arquitectura</a></li>
+               <li class='indentado' role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
+               <li class='indentado' role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
+               <li class="divider" role="presentation"></li>
+               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Estudios avanzados</a></li>
+               <li class="divider" role="presentation"></li>
+               <li class='indentado' role="presentation"><a href="<?php echo get_permalink(16); ?>" tabindex="-1" role="menuitem">Magíster Náutico y Marítimo</a></li>
+               <li class='indentado' role="presentation"><a href="<?php echo get_permalink(4759); ?>" tabindex="-1" role="menuitem">Magíster de Ciudad y Territorio</a></li>
              </ul>
            </li>
          </ul>
@@ -100,6 +105,7 @@
              <ul aria-labelledby="drop5" role="menu" class="dropdown-menu" id="menuExtension">
                <li role="presentation"><a href="<?php echo get_permalink(11); ?>" tabindex="-1" role="menuitem">Archivo Histórico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(305); ?>" tabindex="-1" role="menuitem">Ediciones e[ad]</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25941); ?>" tabindex="-1" role="menuitem">Concursos</a></li>
               <li role="presentation"><a href="<?php echo get_permalink(90); ?>" tabindex="-1" role="menuitem">Investigación</a></li>
              </ul>
            </li>
@@ -158,10 +164,13 @@
             <div id="collapseTwo" class="panel-collapse collapse">
               <div class="panel-body">
                 <ul>
+               <li role="presentation"><a href="<?php echo get_permalink(12); ?>" tabindex="-1" role="menuitem">Carreras</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(13); ?>" tabindex="-1" role="menuitem">Arquitectura</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(14); ?>" tabindex="-1" role="menuitem">Diseño Gráfico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(15); ?>" tabindex="-1" role="menuitem">Diseño Industrial</a></li>
-               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Magíster de Arquitectura y Diseño</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(92); ?>" tabindex="-1" role="menuitem">Estudios avanzados</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(16); ?>" tabindex="-1" role="menuitem">Magíster Náutico y Marítimo</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(4759); ?>" tabindex="-1" role="menuitem">Magíster de Ciudad y Territorio</a></li>
               </ul>
               </div>
             </div>
@@ -219,6 +228,7 @@
                 <ul>
                <li role="presentation"><a href="<?php echo get_permalink(11); ?>" tabindex="-1" role="menuitem">Archivo Histórico</a></li>
                <li role="presentation"><a href="<?php echo get_permalink(305); ?>" tabindex="-1" role="menuitem">Ediciones e[ad]</a></li>
+               <li role="presentation"><a href="<?php echo get_permalink(25941); ?>" tabindex="-1" role="menuitem">Concursos</a></li>
               <li role="presentation"><a href="<?php echo get_permalink(90); ?>" tabindex="-1" role="menuitem">Investigación</a></li>
               </ul>
               </div>
