@@ -4,7 +4,7 @@
 </div>
 <div class='fila'>
   <?php foreach ( $EM_Events as $EM_Event ) { ?>
-    <div class='col-lg-3 col-md-6 col-sm-6 col-xs-12 alto-sm'>
+    <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12 alto-sm'>
       <a href='<?php echo $EM_Event->guid; ?>' class='enlace-evento'>
         <div class='pagina sm evento'>
           <div class='franja-seguir'>

@@ -30,7 +30,7 @@
                 <div class="e-content p-summary p-name enunciado">
                   <div class='bloque' id="bloque_texto"><?php the_content(); ?></div>
 
-                  <?php if ($post->post_name === "bolsa-de-trabajo" || $post->post_name === "taller-de-amereida" || $post->post_name === "investigacion" || $post->post_name === "archivo" || $post->post_name === "magister-nautico-y-maritimo" || $post->post_name === "magister-en-diseno-nautico-y-maritimo" || $post->post_name === "magister-ciudad-y-territorio") { 
+                  <?php if ($post->post_name === "bolsa-de-trabajo" || $post->post_name === "taller-de-amereida" || $post->post_name === "investigacion" || $post->post_name === "archivo" || $post->post_name === "magister-nautico-y-maritimo" || $post->post_name === "magister-en-diseno-nautico-y-maritimo" || $post->post_name === "magister-ciudad-y-territorio" || $post->post_name === "concursos" ) { 
                     
                     switch ($post->post_name) {
                       case "bolsa-de-trabajo":
@@ -53,6 +53,9 @@
                         break;                      
                       case "magister-ciudad-y-territorio":
                         $cat_name = "ciudad-y-territorio";                      
+                        break;
+                      case "concursos":
+                        $cat_name = "concursos";                        
                         break;                      
                     }
                     $args = array( 'numberposts' => 10, 'category_name' => $cat_name, 'no_found_rows' => true, 'cache_results' => false );

@@ -131,7 +131,7 @@
     </div>
 </div>
 
-<div id="compartir" class="modal fade" style="display: none;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!--<div id="compartir" class="modal fade" style="display: none;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -168,7 +168,7 @@
       </div>
     </div>
   </div>
-</div> <!-- modal compartir social media -->
+</div> --><!-- modal compartir social media -->
 
 <script type="text/javascript">
   // Imagenes por WikiAppend
