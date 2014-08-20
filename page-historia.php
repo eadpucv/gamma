@@ -5,6 +5,7 @@
     <div id='intro'>
         <div class='wrap'>
             <h1 class="entry-title introductora blanco">Fundación</h1> <!-- título del post -->
+            <h6 class='blanco centrado blanco altas interletraje-xs fuente-md'>Escuela de arquitectura y diseño, 1952</h6>
         </div>
     </div>
     <div class='fondo-gris'>
@@ -14,8 +15,6 @@
                     <div class='wrap'>
                         <div class='bloque'>
                             <article class="h-entry">
-                                <h1 class='rojo-claro h-sin-margen'>Reseña histórica</h1>
-                                <h2 class='subtitulo gris'>Escuela de arquitectura y diseño</h2>
                                 <div class="e-content p-summary p-name">
                                     <div class='bloque'>
                                         <p>En 1952, un grupo de arquitectos y artistas -Alberto Cruz, Godofredo Iommi, Fabio Cruz P, Miguel Eyquem, José Vial, Arturo Baeza, Francisco Méndez, Jaime Bellalta y Claudio Girola, quien llegó al poco tiempo- se incorporan a la Escuela de Arquitectura de la Universidad Católica de Valparaíso, fundando, simultáneamente, el Instituto de Arquitectura que sirve y alimenta a la Escuela.</p>
@@ -42,6 +41,7 @@
                 <div id='fundadores'>
                     <div class='wrap'>
                         <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
+                        <h6 class='blanco centrado altas interletraje-xs fuente-md'>Reseña biográfica</h6>
                     </div>
                 </div>
                 <div class='wrap'>
@@ -181,12 +181,12 @@
                     <div id='vision'>
                         <div class='wrap'>
                             <h1 class="entry-title introductora blanco">Visión</h1> <!-- título del post -->
+                            <h6 class='blanco centrado altas interletraje-xs fuente-md'>Escuela de Arquitectura y Diseño e[ad]</h6>
                         </div>
                     </div>
                     <div class='wrap'>
                         <div class='bloque'>
                             <article class="h-entry">
-                                <h1 class='rojo-claro'>Escuela de Arquitectura y Diseño e[ad]</h1>
                                     <div class="e-content p-summary p-name">
                                         <p>Desde su constitución, la e[ad] se ha consolidado como una de las escuelas referentes en Chile y el mundo, que se funda en el encuentro y co-generación de los tres oficios que imparte: Arquitectura, y los Diseños Gráfico e Industrial, en permanente relación con la poesía. Así, afirmamos que tanto la Arquitectura como el Diseño son, en su sentido más profundo, un arte.</p>
                                         <p>Concebimos la Escuela como comunidad real de vida, trabajo y estudio, fundada en la libertad y la verdadera autogestión. Pensamos que el estudiar y hacer se integran día a día, exigiendo de alumnos y profesores un real compromiso de vida que se transforma con alegría en una disponibilidad que va más allá de las ordinarias tareas académicas; factor que le confiere a la escuela una gran unidad y espíritu de cuerpo. El ámbito de trabajo y estudio de la Escuela da cabida a la permanente participación creativa de todos sus integrantes.</p>
@@ -222,12 +222,12 @@
                         <div id='oficio'>
                             <div class='wrap'>
                                 <h1 class="entry-title introductora blanco">Oficio</h1> <!-- título del post -->
+                                <h6 class='blanco centrado altas interletraje-xs fuente-md'>trabajo y obra</h6>
                             </div>
                         </div>
                         <div class='wrap'>
                             <div class='bloque'>
                                 <article class="h-entry">
-                                    <h1 class='rojo-claro'>Metodología</h1>
                                         <div class="e-content p-summary p-name">
                                             <div class='bloque'>
                                                 <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la Arquitectura, del Diseño Gráfico y del Diseño Industrial por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.
