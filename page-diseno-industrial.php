@@ -362,125 +362,146 @@
 							</tbody>
 						</table>-->
                   	<h2>Profesores de diseño industrial</h2>
-                  	<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://farm9.staticflickr.com/8141/7153859063_0706f25fce_q.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Marcelo Araya</h4>
-							<h6>Diseñador Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseño industrial; P.U. Católica de Valparaíso, Chile. <br>Doctor©; Universidad Rey Juan Carlos de Madrid, España.</p>
-						</div>
-					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://farm9.staticflickr.com/8136/8704747547_4c5ae4e2f8_q.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Arturo Chicano</h4>
-							<h6>Diseñador Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.<br>Vicerector de Desarrollo PUCV</p>
+                  	<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+	                  	<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://farm9.staticflickr.com/8141/7153859063_0706f25fce_q.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Marcelo Araya</h4>
+								<h6>Diseñador Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseño industrial; P.U. Católica de Valparaíso, Chile. <br>Doctor©; Universidad Rey Juan Carlos de Madrid, España.</p>
+							</div>
 						</div>
 					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://farm6.staticflickr.com/5175/5569615760_311242b1c7_q.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Juan Carlos Jeldes</h4>
-							<h6>Diseñador Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
-						</div>
-					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7079/7157862848_cd442a52bb_q.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Ricardo Lang</h4>
-							<h6>Diseñador Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile.</p>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://farm9.staticflickr.com/8136/8704747547_4c5ae4e2f8_q.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Arturo Chicano</h4>
+								<h6>Diseñador Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.<br>Vicerector de Desarrollo PUCV</p>
+							</div>
 						</div>
 					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://farm6.staticflickr.com/5104/5568079426_0a05617777_q.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Jaime Reyes</h4>
-							<h6>Diseñador Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile. <br>Magíster en Historia; P.U. Católica de Valparaíso, Chile. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
-						</div>
-					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://farm4.staticflickr.com/3068/3046034763_4fc32e1289_q.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Alfred Thiers</h4>
-							<h6>Diseñador Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile.<br>MDes Interaction Design; Carnegie Mellon University, EE.UU. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://farm6.staticflickr.com/5175/5569615760_311242b1c7_q.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Juan Carlos Jeldes</h4>
+								<h6>Diseñador Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
+							</div>
 						</div>
 					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://farm8.staticflickr.com/7101/7348794040_fbe9e72893_q.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Vanessa Siviero</h4>
-							<h6>Diseñadora Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseñador Industrial; P.U. Católica de Valparaíso, Chile. Doctor ©; PUC-Río; Río de Janeiro, Brasil.</p>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://farm8.staticflickr.com/7079/7157862848_cd442a52bb_q.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Ricardo Lang</h4>
+								<h6>Diseñador Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile.</p>
+							</div>
 						</div>
 					</div>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://farm6.staticflickr.com/5104/5568079426_0a05617777_q.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Jaime Reyes</h4>
+								<h6>Diseñador Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseñador industrial; P.U. Católica de Valparaíso, Chile. <br>Magíster en indice; P.U. Católica de Valparaíso, Chile. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
+							</div>
+						</div>
+					</div>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://farm4.staticflickr.com/3068/3046034763_4fc32e1289_q.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Alfred Thiers</h4>
+								<h6>Diseñador Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseñador gráfico; P.U. Católica de Valparaíso, Chile.<br>MDes Interaction Design; Carnegie Mellon University, EE.UU. <br>Doctor ©; PUC-Río, Río de Janeiro, Brasil.</p>
+							</div>
+						</div>
+					</div>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://farm8.staticflickr.com/7101/7348794040_fbe9e72893_q.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Vanessa Siviero</h4>
+								<h6>Diseñadora Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseñador Industrial; P.U. Católica de Valparaíso, Chile. Doctor ©; PUC-Río; Río de Janeiro, Brasil.</p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- fin de fila -->
                   	<h4>Profesores ayudantes</h4>
-                  	<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/uploads/2013/05/IMG_5615.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Danisa Peric</h4>
-							<h6>Diseñadora Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>MADLAB, Ayudante de Diseño industrial</p>
-						</div>
-					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/9/95/Perfilsalgado.jpg/160px-Perfilsalgado.jpg'>
-						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Daniela Salgado</h4>
-							<h6>Diseñadora industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Diseñador Industrial; P.U. Católica de Valparaíso, Chile.</p>
+                  	<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+	                  	<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/uploads/2013/05/IMG_5615.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Danisa Peric</h4>
+								<h6>Diseñadora Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>MADLAB, Ayudante de Diseño industrial</p>
+							</div>
 						</div>
 					</div>
-					<div class='pagina docente historia'>
-						<div class='imagen-docente historia'>
-							<img class='ancho-maximo' src='https://scontent-a.xx.fbcdn.net/hphotos-xpa1/t31.0-8/10497173_10152585840479074_8085829394821380997_o.jpg'>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/9/95/Perfilsalgado.jpg/160px-Perfilsalgado.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Daniela Salgado</h4>
+								<h6>Diseñadora industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Diseñador Industrial; P.U. Católica de Valparaíso, Chile.</p>
+							</div>
 						</div>
-						<div class='datos-docente historia'>
-							<h4 class='rojo-claro'>Manuel Toledo</h4>
-							<h6>Diseñador Industrial</h6>
-						</div>
-						<div class='resena-docente historia'>
-							<p>Ayudante de Diseño Gráfico</p>
+					</div>
+					<div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+						<div class='pagina docente indice'>
+							<div class='imagen-docente indice'>
+								<img class='ancho-maximo' src='https://scontent-a.xx.fbcdn.net/hphotos-xpa1/t31.0-8/10497173_10152585840479074_8085829394821380997_o.jpg'>
+							</div>
+							<div class='datos-docente indice'>
+								<h4 class='rojo-claro'>Manuel Toledo</h4>
+								<h6>Diseñador Industrial</h6>
+							</div>
+							<div class='resena-docente indice'>
+								<p>Ayudante de Diseño Gráfico</p>
+							</div>
 						</div>
 					</div>
                   </div>

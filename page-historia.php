@@ -5,7 +5,7 @@
     <div id='intro'>
         <div class='wrap'>
             <h1 class="entry-title introductora blanco">Fundación</h1> <!-- título del post -->
-            <h6 class='blanco centrado blanco altas interletraje-xs fuente-md'>Escuela de arquitectura y diseño, 1952</h6>
+            <h6 class='introductora subtitulo'>Escuela de arquitectura y diseño, 1952</h6>
         </div>
     </div>
     <div class='fondo-gris'>
@@ -41,7 +41,7 @@
                 <div id='fundadores'>
                     <div class='wrap'>
                         <h1 class="entry-title introductora blanco">Fundadores</h1> <!-- título del post -->
-                        <h6 class='blanco centrado altas interletraje-xs fuente-md'>Reseña biográfica</h6>
+                        <h6 class='introductora subtitulo'>Reseña biográfica</h6>
                     </div>
                 </div>
                 <div class='wrap'>
@@ -181,7 +181,7 @@
                     <div id='vision'>
                         <div class='wrap'>
                             <h1 class="entry-title introductora blanco">Visión</h1> <!-- título del post -->
-                            <h6 class='blanco centrado altas interletraje-xs fuente-md'>Escuela de Arquitectura y Diseño e[ad]</h6>
+                            <h6 class='introductora subtitulo'>Escuela de Arquitectura y Diseño e[ad]</h6>
                         </div>
                     </div>
                     <div class='wrap'>
@@ -222,7 +222,7 @@
                         <div id='oficio'>
                             <div class='wrap'>
                                 <h1 class="entry-title introductora blanco">Oficio</h1> <!-- título del post -->
-                                <h6 class='blanco centrado altas interletraje-xs fuente-md'>trabajo y obra</h6>
+                                <h6 class='introductora subtitulo'>trabajo y obra</h6>
                             </div>
                         </div>
                         <div class='wrap'>

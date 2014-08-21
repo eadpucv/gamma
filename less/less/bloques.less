@@ -407,7 +407,7 @@
         }
 
         .seguir-leyendo {
-            top: -33px;
+            top: -31px;
         }
 
             &.info-docencia {
@@ -422,6 +422,7 @@
 
                 h6 {
                     font-weight: 200;
+                    color: @gris-oscuro !important;
                 }
 
                 p {
@@ -578,7 +579,7 @@
         }
 
     h6 {
-        color: fade(@negro, 85);
+        color: @rojo-claro;
     }
         
     p {
@@ -732,8 +733,8 @@
     &.portada {
         display: block;
         text-align: right;
-        right: 15px !important;
-        top: 18px;
+        right: 24px !important;
+        top: 13px;
         //padding-left: 100px;
     }
 }
@@ -2312,6 +2313,8 @@ hr {
 
         &.portada {
 
+            height: 400px;
+
             h6 {
                 font-size: 18px;
                 line-height: 20px;
@@ -2321,6 +2324,30 @@ hr {
             p {
                 font-size: 11px;
                 line-height: 18px;
+            }
+
+
+            &.info-docencia {
+
+                    h5 {
+                        font-weight: 200;
+                        margin-bottom: 25px;
+                    }
+
+                    h6 {
+                        font-weight: 200;
+                        color: @gris-oscuro !important;
+                    }
+
+                    p {
+                        font-size: 10.5px !important;
+                    }
+            }
+
+            .franja-seguir{
+                i{
+                    visibility: visible;
+                }
             }
         }
     }
@@ -2375,6 +2402,15 @@ hr {
             }
         }
     }
+
+    .pie-de-foto {
+
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+}
       
 
     // Franja postulante
