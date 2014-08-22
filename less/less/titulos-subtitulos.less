@@ -35,11 +35,28 @@ margin-bottom: 30px;
 }
 
 .introductora {
-    font-size: 82px;
-    letter-spacing: -4px;
+    font-size: 80px;
+    font-style: italic;
+    font-family: @serif;
+    letter-spacing: -3px;
     font-weight: 300;
-    padding-top: 520px;;
+    padding-top: 500px;
     text-align: center;
+
+    &.subtitulo {
+        color: @blanco;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-family: @sans;
+        font-style: inherit;
+        font-size: 15px;
+    }
+
+    &.campus{
+        font-size: 3.3vw !important;
+        padding-top: 185px;
+    }
 }
 
 // contenedor texto en noticia-grande de Portada-noticias
@@ -121,7 +138,8 @@ float: left;
     &.especifico {
         font-weight: 200;
         font-size: 50px;
-        letter-spacing: 0;
+        letter-spacing: -1px;
+        line-height: 55px;
     }
 
     &.sobre-imagen{
@@ -172,7 +190,7 @@ float: left;
     h5 {
         color: fade(@gris-oscuro, 75);
         letter-spacing: 3px;
-        font-size: 18px;
+        font-size: 16px;
         text-transform: uppercase;
         position: relative;
         padding: 0 45px;
@@ -254,6 +272,7 @@ h5{
         &.especifico {
             font-size: 34px;
             font-weight: 200;
+            line-height: 38px;
         }
 
          &.generico {
@@ -266,11 +285,28 @@ h5{
     }
 
 .introductora {
-    font-size: 45px;
-    letter-spacing: -2px;
+    font-size: 7.3w;
+    font-style: italic;
+    font-family: @serif;
+    letter-spacing: 0px;
     font-weight: 200;
-    padding-top: 140px;
-    text-align: left;
+    padding-top: 100px;
+    text-align: center;
+
+        &.campus{
+            font-size: 6vw !important;
+            padding-top: 110px;
+            letter-spacing: 1px;
+    }
+
+        &.subtitulo {
+            font-size: 12px;
+            color: @blanco;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 200;
+            text-align: center;
+    }
 }
 
 .texto-noticia {
@@ -334,6 +370,8 @@ h5{
         &.especifico {
         font-weight: 200;
         font-size: 34px;
+        line-height: auto;
+        line-height: 38px;
         }
 
          &.generico {
@@ -348,8 +386,18 @@ h5{
     font-size: 55px;
     letter-spacing: -1px;
     font-weight: 300;
-    padding-top: 220px;;
+    padding-top: 200px;;
     text-align: left;
+
+    &.campus{
+        font-size: 4vw !important;
+        letter-spacing: 1px;
+        padding-top: 230px;
+    }
+
+    &.subtitulo{
+        font-size: 15px;
+    }
 }
 
 .categoria-titulo {
@@ -384,7 +432,7 @@ margin-bottom: 30px;
 
 
 .introductora {
-    font-size: 4.5vw;
+    font-size: 4.2vw;
     font-family: @serif;
     font-style: italic;
     letter-spacing: 0px;
@@ -393,9 +441,8 @@ margin-bottom: 30px;
     text-align: center;
 
     &.campus{
-
         font-size: 3.3vw !important;
-        padding-top: 185px;
+        padding-top: 340px;
     }
 }
 
@@ -416,7 +463,7 @@ margin-bottom: 30px;
         &.especifico {
             font-weight: 200;
             font-size: 50px;
-            letter-spacing: 0;
+            letter-spacing: -1px;
         }
 
         &.sobre-imagen{
@@ -445,9 +492,9 @@ margin-bottom: 30px;
      } 
     }
     .categoria-publicacion {
-        font-size: 12px;
+        font-size: 10.5px;
         font-weight: 300;
-        letter-spacing: 1.5px;
+        letter-spacing: 1px;
         padding-left: 5px;
     }
 }

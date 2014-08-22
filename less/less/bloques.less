@@ -63,7 +63,7 @@
 
         h6 {
             height: 70px;
-            max-height: 75px;
+            max-height: 80px;
             overflow: hidden;
         }
 
@@ -407,7 +407,7 @@
         }
 
         .seguir-leyendo {
-            top: -33px;
+            top: -31px;
         }
 
             &.info-docencia {
@@ -422,6 +422,7 @@
 
                 h6 {
                     font-weight: 200;
+                    color: @gris-oscuro !important;
                 }
 
                 p {
@@ -566,6 +567,11 @@
                 -o-transition: height .3s linear, opacity 0.2s linear;
             }
 
+            i{
+                visibility: visible;
+                bottom: -3px;
+            }
+
             h6 {
             color: @rojo-claro;
             .transition(.4s ease all);
@@ -573,7 +579,7 @@
         }
 
     h6 {
-        color: fade(@negro, 85);
+        color: @rojo-claro;
     }
         
     p {
@@ -727,8 +733,8 @@
     &.portada {
         display: block;
         text-align: right;
-        right: 15px !important;
-        top: 18px;
+        right: 24px !important;
+        top: 13px;
         //padding-left: 100px;
     }
 }
@@ -2123,11 +2129,11 @@ hr {
     }
 
     .alto-xs {
-        min-height: 100px;
+        min-height: 70px;
     }
 
     .alto-sm {
-        height: 190px;
+        height: 210px;
         display: inline-block;
         margin: 0 0 40px 0;
     }
@@ -2156,13 +2162,15 @@ hr {
             font-size: 26px;
         }
         p {
-            font-size: 16px;
-            line-height: 24px;
-            max-height: 122px;
+            font-size: 14px;
+            line-height: 22px;
+            max-height: 130px;
         }
 
         span {
-            bottom: 25px;
+            bottom: 30px;
+            font-size: 13px;
+            letter-spacing: .5px;
         }
     }
     // Ajuste de página
@@ -2181,16 +2189,25 @@ hr {
             height: 395px;
         }
 
+        &.xs {
+            min-height: 70px;
+    }
+
+
         // Clases extendidas
 
         &.info-docencia {
             padding: 0 15px;
+
+            h6{
+                padding-left: 70px !important;
+            }
         }
 
         &.evento {
 
             h6 {
-                font-size: 17px;
+                font-size: 15.5px;
                 line-height: 20px;
                 height: 80px;
             }
@@ -2260,15 +2277,27 @@ hr {
                 max-height: 510px;
                 min-height: 40px;
                 overflow: hidden;
-                font-size: 12.5px;
+                font-size: 11.5px;
                 line-height: 22.5px;
             }
 
             h3{
-                font-size: 24px;
+                font-size: 22px;
             }
         }
 
+    }
+
+    .seccion-postulante {
+
+            h2 {
+                font-size: 22.5px;
+                font-weight: 100;
+            }
+
+            p {
+                font-size: 14px;
+            }
     }
 
     .bloque-enlace {
@@ -2277,12 +2306,14 @@ hr {
             height: 200px;
 
             h5{
-                font-size: 18px;
-                line-height: 21px;
+                font-size: 15.5px;
+                line-height: 22px;
             }
         }
 
         &.portada {
+
+            height: 400px;
 
             h6 {
                 font-size: 18px;
@@ -2293,6 +2324,30 @@ hr {
             p {
                 font-size: 11px;
                 line-height: 18px;
+            }
+
+
+            &.info-docencia {
+
+                    h5 {
+                        font-weight: 200;
+                        margin-bottom: 25px;
+                    }
+
+                    h6 {
+                        font-weight: 200;
+                        color: @gris-oscuro !important;
+                    }
+
+                    p {
+                        font-size: 10.5px !important;
+                    }
+            }
+
+            .franja-seguir{
+                i{
+                    visibility: visible;
+                }
             }
         }
     }
@@ -2325,6 +2380,21 @@ hr {
     }
 
         &.oficio {
+
+            a {
+
+            h6 {
+                font-size: 12px !important;
+            }
+
+            .franja-seguir{
+                 i{
+                    visibility: visible !important;
+                    bottom: -3px;
+                 }
+            }
+        }
+
             .prev-imagen{
             img {
                 height: 150%;
@@ -2332,6 +2402,15 @@ hr {
             }
         }
     }
+
+    .pie-de-foto {
+
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+}
       
 
     // Franja postulante
@@ -2393,7 +2472,7 @@ hr {
         }
 
         h6{
-            font-size: 17px;
+            font-size: 15.5px;
             line-height: 20px;
             color: @rojo-claro;
         }

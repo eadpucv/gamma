@@ -15,7 +15,7 @@
                 <i class="izquierda gris icn icn-anuncio-lig icn-lg"></i>
               </div>
               <h6><?php the_title(); ?></h6>
-              <aside class='entry-details negro'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
+              <aside class='entry-details info-de-docencia negro'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
             </div>
             <p class='cita'><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>

@@ -9,17 +9,16 @@
 <div class='fondo-gris'>
     <div class='wrap'>
         <div class='fila'>
-            <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
-                
+            <div class='col-lg-9 col-md-12 col-sm-12 col-xs-12'>
                 <div class='contenedor-trio-noticias'>
                     <div class='fila pbd-alp-load-posts' id="first_container" >
                         <?php if ( have_posts() ) : ?>
                             <?php while ( have_posts() ) : the_post(); ?>
-                                <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'>                            
+                                <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12 noticia-portada'>                            
                                     <div class='noticia-chica'>
                                         <a href='<?php the_permalink() ?>' class='bloque-enlace portada'>
                                             <div class='franja-seguir fija'>
-                                                <p>seguir leyendo <i class='icn icn-lentes icn-md'></i></p>
+                                                <p>seguir leyendo <i class='icn icn-mas-lig icn-md'></i></p>
                                             </div>
                                             <div class='seguir-leyendo-cuadro'>
                                             <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
@@ -45,7 +44,9 @@
                 </div>
                 <div class='centrado extendido' id="loadmore"></div>                    
             </div>
+           <div class='oculto-md'>
             <?php get_sidebar(); ?>
+            </div>
         </div>
     </div>
 </div>

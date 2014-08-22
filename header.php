@@ -24,7 +24,7 @@
 
 <body data-spy="scroll" data-target="#menu-fixed">
   <div class='fondo-header'>
-    <div class='wrap header'>
+    <div class='wrap header cf'>
         <a class='inicio' href=' <?php echo home_url(); ?> '>
           <div class='logo'>
             <p class='logo-ead marca'>e[ad]</p>

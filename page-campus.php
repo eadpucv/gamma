@@ -9,7 +9,7 @@
                 <div id='casa-ead'>
                     <div class='wrap'>
                         <h1 class='entry-title introductora campus blanco'>Casa de estudios en Recreo</h1>
-                        <h6 class='blanco centrado blanco altas interletraje-md fuente-xs'>Avenida Matta 12, Recreo, Viña del Mar</h6>
+                        <h6 class='introductora subtitulo'>Avenida Matta 12, Recreo, Viña del Mar</h6>
                     </div>
                 </div> 
         <div class='wrap'>
@@ -31,7 +31,7 @@
          <div id='ciudad-abierta'>
             <div class='wrap'>
                 <h1 class='entry-title introductora campus blanco'>Ciudad Abierta</h1>
-                <h6 class='blanco centrado blanco altas interletraje-xs fuente-xs'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h6>
+                <h6 class='introductora subtitulo'>Km.4 Camino a Concón - Quintero, Sector Punta Piedra</h6>
             </div>
          </div>
         <div class='wrap'>
@@ -53,7 +53,7 @@
         <div id='casa-central'>
             <div class='wrap'>
                 <h1 class='entry-title introductora campus blanco'>Casa Central PUCV</h1>
-                <h6 class='blanco centrado blanco altas interletraje-xs fuente-xs'>Av Brasil 2950, Región V</h6>
+                <h6 class='introductora subtitulo'>Av Brasil 2950, Región V</h6>
             </div>
         </div>
         <div class='wrap'>
