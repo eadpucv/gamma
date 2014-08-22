@@ -500,7 +500,7 @@
 								<h6>Diseñador Industrial</h6>
 							</div>
 							<div class='resena-docente indice'>
-								<p>Ayudante de Diseño Gráfico</p>
+								<p>Ayudante de Diseño Industrial</p>
 							</div>
 						</div>
 					</div>

@@ -141,7 +141,6 @@
                   	</ol>
                   	<h2>Malla Curricular</h2>
                   	<a href='http://web.archive.org/web/20130507102015/http://www.ead.pucv.cl/wp-content/archivos/2009/08/malla-arq1.pdf'>Descargar malla curricular Arquitectura (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
-						<p>Quisque luctus, metus quis volutpat varius, velit lorem egestas erat, vel lobortis libero nulla vitae est. Nam varius lectus ut molestie pharetra. Proin quis justo lectus. Nulla risus tellus, vehicula eget nulla vitae, rhoncus tristique neque. Duis vulputate metus a tellus sagittis facilisis. Maecenas non congue mauris. Suspendisse commodo quam id iaculis consequat. Proin quis lacus sodales, pellentesque sem sed, consequat nulla. Donec sed massa et lorem laoreet tristique. Proin viverra quam auctor urna dapibus, sit amet posuere arcu porta. </p>
 						<!-- Se piensa que esto no debería ser una tabla, pero es un diseño que tendremos que volver a redefinirlo, por ahora queremos dejarlo así y luego pensarlo de una manera más coherente con la gráfica nueva -->
 						<!--<table class='w100 malla-curricular'>
 							<tbody>

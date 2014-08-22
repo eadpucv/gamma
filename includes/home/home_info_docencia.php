@@ -17,7 +17,7 @@
               <h6><?php the_title(); ?></h6>
               <aside class='entry-details info-de-docencia negro'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
             </div>
-            <p class='cita'><?php echo the_excerpt_max_charlength(250); ?></p>
+            <p class='cita-info-docencia'><?php echo the_excerpt_max_charlength(250); ?></p>
           </a>
           <a href='<?php echo get_category_link(123); ?>' class='btn btn-md derecha ver-todo gris-oscuro'>Ver información de docencia<i class="icn icn-flecha-der icn-sm input"></i></a>
         </div>
