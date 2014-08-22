@@ -28,7 +28,7 @@
 <div class='fondo-gris'>
 	<div class='wrap'>
 		<div class='fila'>
-			<div class='col-lg-9 col-md-9 col-sm-12'>
+			<div class='col-lg-12 col-md-12 col-sm-12'>
 			   <div class='bloque'>
     				<article class="h-entry">
         				<div class="e-content p-summary p-name">
@@ -45,8 +45,63 @@
 					<?php echo $EM_Event->output('#_MAP'); ?>
 				</div>
       	</div>
-      	<?php get_sidebar(); ?>
 		</div>
 	</div>
+	<!--<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+  <div class='wrap'>
+    <div class='fila'>
+      <div class="e-content p-summary p-name">
+        <div class='bloque'>
+            <?php
+
+      if (is_single()) {
+        $tags = wp_get_post_tags($post->ID);
+        $args=array('tag__in' => array($tags[0]->term_id,$tags[1]->term_id,$tags[2]->term_id ),'post__not_in' => array($post->ID),'posts_per_page'=>7,'caller_get_posts'=>1);
+        $related_posts = new WP_Query($args);
+      } else if (is_page( 'diseno-grafico' ) ) {
+        $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(8)));
+      } else if (is_page( 'arquitectura' ) ) {
+        $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(7)));
+      } else if (is_page( 'diseno-industrial' ) ) {
+        $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(9)));
+      } else if (is_category()) {
+        $category = get_category(get_query_var('cat'));
+        $cat_id = $category->cat_ID;
+        if (is_category( 'docencia' ) ) {
+          $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array(123)));
+        } else {
+          $related_posts = new WP_Query( array('posts_per_page' => 7, 'category__in' => array($cat_id)));
+        }
+
+      }
+
+      // Noticias
+      $latest_cat_post = new WP_Query( array('posts_per_page' => 7, 'post__not_in' => array($post->ID), 'category__in' => array(1)));
+    ?>
+
+        <?php if ($related_posts && $related_posts->have_posts()) { ?>
+          <div class='bloque-aside noticia'>
+            <h6 class='gris'><i class="icn icn-enlace-hor icn-md"></i> Articulos relacionados </h6>
+            <ul class='publicaciones-enlazadas'>
+              <?php while ($related_posts->have_posts()) : $related_posts->the_post(); ?>
+                <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
+              <?php endwhile; wp_reset_query(); ?>
+            </ul>
+          </div>
+        <?php } ?>
+        <div class='bloque-aside noticia'>
+          <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Más noticias</h6>
+          <ul class='publicaciones-enlazadas'>
+            <?php if ( $latest_cat_post->have_posts() ) { ?>
+              <?php while ($latest_cat_post->have_posts()) : $latest_cat_post->the_post(); ?>
+                <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
+              <?php endwhile; } wp_reset_query(); ?>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+    </div>-->
 </div>
 <?php get_footer(); ?>

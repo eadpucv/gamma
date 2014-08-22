@@ -1,7 +1,3 @@
-<?php get_header();
-  if (have_posts()) : while (have_posts()) : the_post();
-?>
-
 <div class='fondo-blanco'>
                            
                 <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">

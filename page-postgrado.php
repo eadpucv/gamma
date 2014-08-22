@@ -1,7 +1,3 @@
-<?php get_header();
-  if (have_posts()) : while (have_posts()) : the_post();
-?>
-
 <div class='fondo-blanco'>
                            
                 <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
@@ -160,7 +156,7 @@
 
     <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12'>
     <div class='aside'>
-      <div class='bloque-aside sm'>
+      <div class='bloque-aside'>
         <h6 class='gris'><i class="icn icn-marcador-lig icn-md"></i> Menciones </h6>
         <ul class='publicaciones-enlazadas'>
             <li><a href="<?php echo get_permalink(16); ?>">Magister Náutico & Marítimo</a></li>
@@ -168,7 +164,7 @@
         </ul>
         <hr>
       </div>
-    <div class='bloque-aside sm'>
+    <div class='bloque-aside'>
       <?php 
         $latest_carreras = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(1951,1950)));
         $latest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));      
@@ -183,7 +179,7 @@
 
       <hr>
     </div>
-    <div class='bloque-aside sm'>
+    <div class='bloque-aside'>
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
       <ul class='publicaciones-enlazadas'>      
           <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
