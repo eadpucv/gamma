@@ -6,6 +6,7 @@
 <div class='wrap'>
   <div class='fila'>
     <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 alto-xs'>
+      <a href='<?php echo get_category_link(123); ?>' class='btn btn-md derecha ver-todo gris-oscuro'>Ver información de docencia<i class="icn icn-flecha-der icn-sm input"></i></a>
       <?php if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post(); ?>        
       <?php $content = apply_filters('the_content', $post->post_content);  ?>
         <div class='pagina info-docencia xs'>
@@ -14,12 +15,11 @@
               <div class='icono-info'>
                 <i class="izquierda gris icn icn-anuncio-lig icn-lg"></i>
               </div>
-              <h6><?php the_title(); ?></h6>
+              <h6>Título para prueba de títulos en movil en información de docencia shiwanson</h6>
               <aside class='entry-details info-de-docencia negro'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
             </div>
             <p class='cita-info-docencia'><?php echo the_excerpt_max_charlength(250); ?></p>
-          </a>
-          <a href='<?php echo get_category_link(123); ?>' class='btn btn-md derecha ver-todo gris-oscuro'>Ver información de docencia<i class="icn icn-flecha-der icn-sm input"></i></a>
+          </a> 
         </div>
       <?php endwhile; endif; ?>      
     </div>
