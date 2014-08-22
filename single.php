@@ -23,9 +23,10 @@
       <div class='derecha botones-auxiliares'>
         <?php echo edit_post_link("<span>Editar</span><i class='icn icn-lapiz icn-md'></i>","",""); ?>
       </div>
+      <!--
       <div class='derecha botones-auxiliares'>
         <a class='btn btn-md ver-todo botones-post' data-toggle="modal" data-target="#compartir"><span>Compartir</span> <i class="icn icn-vinculo icn-md"></i></a> 
-      </div>
+      </div>-->
     </aside>
   </div>
 </div>

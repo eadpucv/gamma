@@ -50,10 +50,9 @@ p {
 
 // -----------------------
 
-.cita {
+.cita-info-docencia {
     margin: 0;
-    line-height: 25px;
-    font-weight: 200;
+    line-height: 16px;
     color: fade(@pizarra-oscuro, 50);
     font-size: @cuerpo * 0.9;
     display: inline-block;
@@ -61,8 +60,14 @@ p {
     border-left: 2px solid fade(@gris, 60);
     border-right: 2px solid fade(@gris, 60);
     padding: 0 @cuadratin * 2;
-    font-style: italic;
-    font-weight: 100;
+    //font-style: italic;
+    font-family: @sans;
+    font-size: 12px !important;
+    font-weight: 300;
+
+    &:hover {
+        color: fade(@pizarra-oscuro, 60);
+    }
 }
 
 ul li {
@@ -588,7 +593,7 @@ padding: 0;
 // Extra small screen / phone
 @media(max-width: @screen-xs-max){
 
-.cita {
+.cita-info-docencia {
 border-right: 0px;
 border-left: 0px;
 font-size: 11px;
@@ -705,7 +710,7 @@ display: none;
 // Small screen / tablet
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max){
 
-    .cita {
+    .cita-info-docencia {
         font-size: @cuerpo * 0.78;
         padding: 20px 0;
         width: 100%;
@@ -848,7 +853,7 @@ font-size: 20px;
 
 @media (min-width: @screen-md) and (max-width: @screen-md-max){
 
-    .cita {
+    .cita-info-docencia {
     font-size: @cuerpo * 0.75;
     padding: 0 20px;
     line-height: 21px;
