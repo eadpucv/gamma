@@ -122,8 +122,8 @@
                   </div>
                 <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
-                  <div class='bloque' id="bloque_texto"><!--<?php the_content(); ?>-->
-                      <h2 class='portada'>Presentación</h2>
+                  <div class='bloque' id="bloque_texto"><?php the_content(); ?>
+                      <!--<h2 class='portada'>Presentación</h2>
                       <p>Los postgrados nacen en nuestra Escuela como la respuesta natural a las nuevas fronteras que el conocimiento, las ciencias, el arte y el estudio le plantean a nuestra propia visión. Es por ello que ya no sólo ofrecemos el pre grado, sino además el siguiente y necesario paso en la formación de la excelencia en nuestros profesionales.</p>
                       <h2>Programa de Magíster en Arquitectura y Diseño</h2>
 
@@ -147,7 +147,7 @@
                         <li>Adquirir experiencia de navegante a bordo de la Embarcación Amereida y deportivas: Kayak, catamarán, veleros, yates. Se trata de verificar los conceptos de hidrostática y de hidrodinámica, experimentando física y corpóreamente la navegación.</li>
                         <li>Visitas a puertos, marinas, bordes marítimos, lacustres y fluviales ligados a los proyectos náuticos y marítimos que se estudian y proyectan.</li>
                         <li>Visitas a canal de pruebas de la UA, a los laboratorios del Instituto de Hidráulica Nacional, al simulador de Puente de Mando del Cimar.</li>
-                      </ul>
+                      </ul>-->
                   </div>
                 </div>
               </article> 
