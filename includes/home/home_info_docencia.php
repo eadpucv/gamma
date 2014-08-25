@@ -15,7 +15,7 @@
               <div class='icono-info'>
                 <i class="izquierda gris icn icn-anuncio-lig icn-lg"></i>
               </div>
-              <h6>Título para prueba de títulos en movil en información de docencia shiwanson</h6>
+              <h6><?php the_title(); ?></h6>
               <aside class='entry-details info-de-docencia negro'>Publicado el  <?php the_time("d")?> de <?php the_time("F, Y") ?></aside>
             </div>
             <p class='cita-info-docencia'><?php echo the_excerpt_max_charlength(250); ?></p>
