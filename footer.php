@@ -93,7 +93,7 @@
     </div>
     <div class='contenedor-lg'>
         <div class='mapa'>
-            <iframe width="100%" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=calle%20matta%2012%2C%20recreo&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> 
+            <iframe width="100%" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=avenida%20matta%2012%2C%20recreo%2C%20chile&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> 
         </div>
     </div>
 </footer>

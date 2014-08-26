@@ -11,7 +11,7 @@
             <p class='blanco'>Requisitos de postulación, becas y más información para los futuros alumnos de pregrado y posgrado.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='https://farm9.staticflickr.com/8153/7171358580_f03e70f9a9_h.jpg'/ >
+            <img class='altura-maxima sm' src='<?php bloginfo('template_directory') ?>/img/admision.jpg'/ >
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(3); ?>'>Vías de ingreso</a>
@@ -29,7 +29,7 @@
             <p>La e[ad] ofrece tres carreras: Arquitectura, Diseño Gráfico y Diseño Industrial. Además, imparte el Magíster en Arquitectura y Diseño, en sus menciones Ciudad y Territorio, y Náutico y Marítimo.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='https://farm4.staticflickr.com/3790/13447907954_9c71652e0a_h.jpg' />
+            <img class='altura-maxima sm' src='<?php bloginfo('template_directory') ?>/img/carreras-posgrados.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(13); ?>'>Arquitectura</a>
@@ -48,7 +48,7 @@
             <p>La Escuela desarrolla sus actividades académicas en dos lugares, principalmente: en Sede  Recreo, en Viña del Mar y en la Ciudad Abierta.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='https://farm8.staticflickr.com/7119/6961283684_15244979f4_h.jpg' />
+            <img class='altura-maxima sm' src='<?php bloginfo('template_directory') ?>/img/campus.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(6); ?>'>Casa de estudio</a>
@@ -65,7 +65,7 @@
             <p>El cuerpo académico de la e[ad] está compuesto por arquitectos y diseñadores de dedicación exclusiva al quehacer académico, en constante perfeccionamiento y ejercicio del oficio, trabajando en conjunto con un destacado equipo de profesores de dedicación parcial que, desde su disciplina, fortalecen nuestra docencia.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='http://www.ead.pucv.cl/wp-content/uploads/2011/12/DSC04269.jpg' />
+            <img class='altura-maxima sm' src='<?php bloginfo('template_directory') ?>/img/cuerpo-docente.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(5); ?>'>Profesores</a>
@@ -81,7 +81,7 @@
             <p>La e[ad] se ha consolidado como una de las escuelas referentes en Chile y el mundo, que se funda en el encuentro y co-generación de los tres oficios que imparte: Arquitectura, y los Diseños Gráfico e Industrial, en permanente relación con la poesía. Así, afirmamos que tanto la Arquitectura como el Diseño son, en su sentido más profundo, un arte.</p>
           </div>
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 imagen-carousel-sm'>
-            <img class='altura-maxima sm' src='https://farm4.staticflickr.com/3750/13877449393_4450fa758e_b.jpg' />
+            <img class='altura-maxima sm' src='<?php bloginfo('template_directory') ?>/img/escuela-oficio.jpg' />
           <div class='col-lg-9 col-md-9 col-sm-7 col-xs-12 enlaces-postulante'>
             <div class='medio-postulante'>
             <a class='btn btn-md transparente-blanco' href='<?php echo get_permalink(5038); ?>'>Historia</a>
