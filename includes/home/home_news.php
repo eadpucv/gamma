@@ -18,7 +18,7 @@
           <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
         </div>
           <div class='prev-imagen sm'>
-            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' ); 
             if ($image) : ?>
             <img src="<?php echo $image[0]; ?>" alt="" class="ancho-maximo" />
             <?php endif; ?> 
