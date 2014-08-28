@@ -20,7 +20,7 @@ $i = 0;
       <?php $i=0; ?>
       <?php foreach( $posts as $post ): setup_postdata($post);  ?>
         <div class="item <?php if ($i == 0){ echo ' active '; $i=1; }?> imagen-carousel">
-          <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); 
+          <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' ); 
           if ($image) : ?>
               <img src="<?php echo $image[0]; ?>" alt="" class="altura-maxima img_carrusel" />
           <?php endif; ?> 
