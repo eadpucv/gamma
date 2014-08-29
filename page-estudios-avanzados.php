@@ -16,7 +16,7 @@
                       <div class="item active">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8167/7351688608_963bd41ec5_h.jpg'>
+                                  <img alt="First slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/estudios-avanzados-1.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
@@ -44,7 +44,7 @@
                       <div class="item">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8014/7166496749_794607c47f_h.jpg'>
+                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/estudios-avanzados-2.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
@@ -72,7 +72,7 @@
                       <div class="item">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img alt="First slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7096/7351612024_94af406f40_h.jpg'>
+                                  <img alt="First slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/estudios-avanzados-3.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>

@@ -125,8 +125,8 @@
                   </div>
                 <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
-                  <div class='bloque' id="bloque_texto"><!--<?php the_content(); ?>-->
-                      <h2 class='portada'>Pregrado</h2>
+                  <div class='bloque' id="bloque_texto"><?php the_content(); ?>
+                      <!--<h2 class='portada'>Pregrado</h2>
                       <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la <a title="página de la carrera de arquitectura" href="http://www.ead.pucv.cl/programas/arquitectura">Arquitectura</a>, del <a title="página de la carrera de diseño gráfico" href="http://www.ead.pucv.cl/programas/diseno/diseno-grafico/">Diseño Gráfico</a> y del <a title="página de la carrera de diseño industrial" href="http://www.ead.pucv.cl/programas/diseno/diseno-industrial/">Diseño Industrial</a> por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
                       <p>La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte. Esto diferencia profundamente de otras orientaciones, disciplinas y saberes, e implica una manera peculiar de estudiar y de hacer.</p>
                       <h2>La Observación como Fundamento</h2>
@@ -134,7 +134,7 @@
                       <h2>Compromiso de Vida y Ámbito</h2>
                       <p>Esta modalidad de estudiar y hacer exige de alumnos y profesores un real compromiso de vida. Este que le confiere a la Escuela una gran unidad y, a su vez establece un ámbito, y un ritmo de estudio que da cabida a actividades ordinarias y extraordinarias, en que participan creativamente todos los alumnos y profesores.</p>
                       <h2>El Taller Columna Vertebral</h2>
-                      <p>El taller es la columna vertebral de los estudios de cada disciplina impartida en nuestra Escuela. En él tiene lugar el proceso creativo de cada estudiante, y es donde se decantan los conocimientos humanísticos, matemáticos, científicos y tecnológicos que se imparten en las demás asignaturas de nuestro Plan de Estudios.</p>
+                      <p>El taller es la columna vertebral de los estudios de cada disciplina impartida en nuestra Escuela. En él tiene lugar el proceso creativo de cada estudiante, y es donde se decantan los conocimientos humanísticos, matemáticos, científicos y tecnológicos que se imparten en las demás asignaturas de nuestro Plan de Estudios.</p>-->
                   </div>
                 </div>
               </article> 
