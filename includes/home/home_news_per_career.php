@@ -21,7 +21,7 @@
               <div class='franja-seguir fija'>
                 <p>seguir leyendo <i class='icn icn-mas-lig icn-md'></i></p>
               </div>
-              <div class='prev-imagen md'><?php the_post_thumbnail( 'large', $attr ); ?></div>
+              <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
@@ -43,7 +43,7 @@
               <div class='franja-seguir fija'>
                 <p>seguir leyendo <i class='icn icn-mas-lig icn-md'></i></p>
               </div>
-              <div class='prev-imagen md'><?php the_post_thumbnail( 'large', $attr ); ?></div>
+              <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
@@ -65,7 +65,7 @@
               <div class='franja-seguir fija'>
                 <p>seguir leyendo <i class='icn icn-mas-lig icn-md'></i></p>
               </div>
-              <div class='prev-imagen md'><?php the_post_thumbnail( 'large', $attr ); ?></div>
+              <div class='prev-imagen md'><?php the_post_thumbnail( 'medium', $attr ); ?></div>
               <div class='seguir-leyendo-cuadro'>
                 <p class='seguir-leyendo'>Seguir leyendo</p><p class='seguir-leyendo ver-mas'>+</p>
               </div>
