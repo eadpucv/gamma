@@ -32,21 +32,21 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-1.jpg'>
+                                <img alt="First slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-3.jpg'>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <!--<div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
                                 <img alt="Second slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-2.jpg'>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-3.jpg'>
+                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-6.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
@@ -67,14 +67,7 @@
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-6.jpg'>
-                            </div>
-                        </div>
-                    </div>  <!-- fin de item -->
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-3.jpg'>
+                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-1.jpg '>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->

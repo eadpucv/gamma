@@ -32,49 +32,42 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-y-territorio-1.jpg'>
+                                <img alt="First slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-territorio-1.jpeg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-y-territorio-2.jpg'>
+                                <img alt="Second slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-territorio-2.jpeg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-y-territorio-1.jpg'>
+                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-territorio-3.jpeg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-y-territorio-1.jpg'>
+                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-territorio-4.jpeg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-y-territorio-1.jpg'>
+                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-territorio-5.jpeg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-y-territorio-1.jpg'>
-                            </div>
-                        </div>
-                    </div>  <!-- fin de item -->
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-y-territorio-1.jpg'>
+                                <img alt="third slide" title="posgrado ciudad y territorio" src='<?php bloginfo('template_directory') ?>/img/ciudad-territorio-6.jpeg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
