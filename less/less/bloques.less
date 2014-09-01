@@ -746,9 +746,18 @@
 .bloque {
     margin: 0;
     width: 100%;
+}
 
-    &.mapa {
-        width: 100%;
+.mapa {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -40%;
+        width: 120%;
     }
 }
 
@@ -1041,6 +1050,17 @@ hr {
         max-width: 700px;
         float: left;
         position: relative;
+    }
+    
+    .mapa {
+
+        img {
+            height: 170%;
+            left: -120%;
+            position: absolute;
+            top: -88px;
+            width: auto;
+        }
     }
 
     .referencia-cita {
@@ -2095,6 +2115,17 @@ hr {
         h6 {
             color: auto;
             }  
+        }
+    }
+
+    .mapa {
+
+        img {
+            position: absolute;
+            top: -70%;
+            left: -50% !important; 
+            width: 200%;
+            height: auto;
         }
     }
 

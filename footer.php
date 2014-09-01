@@ -93,7 +93,8 @@
     </div>
     <div class='contenedor-lg'>
         <div class='mapa'>
-            <iframe width="100%" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=avenida%20matta%2012%2C%20recreo%2C%20chile&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> 
+            <!--<iframe width="100%" height="250px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=avenida%20matta%2012%2C%20recreo%2C%20chile&key=AIzaSyCZiilPUQ_vIqpLmZk_H_2sCcihjCBdwwE"></iframe> -->
+          <a href="https://www.google.cl/maps/place/e%5Bad%5D+Escuela+de+Arquitectura+y+Dise%C3%B1o,+Pontificia+Universidad+Cat%C3%B3lica+de+Valpara%C3%ADso/@-33.026795,-71.582344,17z/data=!3m1!4b1!4m2!3m1!1s0x9689e752f2654cc9:0x3339a1db01203779"><img src="<?php bloginfo('template_directory') ?>/img/imagenfooter-google.png" alt="ubicación de la e[ad]"></a>
         </div>
     </div>
 </footer>
