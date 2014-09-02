@@ -32,42 +32,35 @@
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="carrera arquitectura" src='https://farm6.staticflickr.com/5573/14444955434_5a5041f025_b.jpg'>
+                                <img alt="Second slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/car-arq.jpg'>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera arquitectura" src='https://farm3.staticflickr.com/2896/14466255463_1b9760e8ca_b.jpg'>
+                                <img alt="third slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/car-arq3.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/arq3.jpg'>
+                                <img alt="third slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/car-arq4.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera arquitectura" src='https://farm4.staticflickr.com/3573/5703840667_8ba437e873_b.jpg'>
+                                <img alt="third slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/car-arq5.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7460/13904220867_20b18e4650_b.jpg'>
-                            </div>
-                        </div>
-                    </div>  <!-- fin de item -->
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img alt="third slide" title="carrera arquitectura" src='https://farm4.staticflickr.com/3803/9509631443_56c1257eec_b.jpg'>
+                                <img alt="third slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/car-arq6.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
