@@ -163,15 +163,21 @@
 
     li {
         text-transform: lowercase;
+        display: block;
+    }
+
+    ul{
+        margin-top: 120px;
     }
     
     .ancla-fixed {
+
         margin: 0 0 15px 0;
         color: @gris-oscuro;
         font-size: 15px;
         padding: 0px 5px 0px 0;
         border-right: 2px solid #f9f9f9;
-        text-align: right;
+        text-align: right; 
 
         &.sin-aside{
         width: 320px;
@@ -182,6 +188,10 @@
         color: @rojo-claro;
         border-right:2px solid @rojo-claro;
         .transition(.3s ease all);
+
+        .nav {
+            margin-top: 150px !important;
+        }
 
         &.sin-aside{
         width: 320px;
@@ -700,6 +710,8 @@
         }
 
     }
+
+
 
     // Hover de cajas
     .franja-seguir {
