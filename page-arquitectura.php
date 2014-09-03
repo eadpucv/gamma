@@ -7,9 +7,9 @@
       <div data-spy="affix" data-offset-top="110" data-offset-bottom='500'>
       <div class='div-affix-carrera'>
       <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-      <h5><a class='categoria-titulo noticias'>Noticias</a></h5>
-      <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo noticias'>Categoría</a></h5>
-      <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo noticias'>Ver todas</a></h5>
+      <h5><a class='categoria-titulo boton-carrera'>Noticias</a></h5>
+      <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Categoría</a></h5>
+      <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Ver todas</a></h5>
       </div>
       </div>
     </div>
