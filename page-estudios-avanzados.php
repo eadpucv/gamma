@@ -108,7 +108,7 @@
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix portada' id='menu-fixed'>
-              <div data-spy="affix" data-offset-top="780" data-offset-bottom='500'>
+              <div id='nav-page'>
                 <ul class="nav" id="title_list"></ul>
               </div>
             </div>

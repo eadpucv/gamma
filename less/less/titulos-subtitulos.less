@@ -19,8 +19,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px;
 
     &.boton-carrera{
-        background-color: @gris !important;
+        background-color: inherit !important;
         color: @blanco;
+
+        &:hover{
+            background-color: @rojo-claro !important;
+            .transition(.3s ease all);
+        }
     }
 
     &:hover{

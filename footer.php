@@ -99,6 +99,7 @@
     </div>
 </footer>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
+  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.sticky.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/carousel.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/transition.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/dropdown.js"></script>
@@ -198,6 +199,13 @@
     $(window).scroll(function() {
         disableScrollingWithMouseWheel();
     });
+    </script>
+
+    <script type='text/javascript'>
+      $(document).ready(function(){
+      $("#nav-carrera").sticky({topSpacing:0});
+      $("#nav-page").sticky({topSpacing:100});
+      });
     </script>
 	</body>
 </html>

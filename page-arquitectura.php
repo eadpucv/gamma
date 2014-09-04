@@ -2,18 +2,17 @@
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
 <div class='fondo-gris'>
-  <div class='wrap'>
-    <div class='menu-affix titulo-carrera' id='menu-fixed'>
-      <div data-spy="affix" data-offset-top="110" data-offset-bottom='500'>
-      <div class='div-affix-carrera'>
-      <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-      <h5><a class='categoria-titulo boton-carrera'>Noticias</a></h5>
-      <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Categoría</a></h5>
-      <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Ver todas</a></h5>
+      <div id='nav-carrera'>
+      <div class='fondo-absoluto-botones'>
+          <div class='wrap'>
+            <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
+            <h5><a class='categoria-titulo boton-carrera'>Noticias</a></h5>
+            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Categoría</a></h5>
+            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Ver todas</a></h5>
+            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Subir<i class="icn icn-mano-arriba"></i></a></h5>
+          </div>
       </div>
       </div>
-    </div>
-  </div>
 </div>
 
 <div class='fondo-gris'>
@@ -23,7 +22,7 @@
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix' id='menu-fixed'>
-              <div data-spy="affix" data-offset-top="110" data-offset-bottom='500'>
+              <div id='nav-page'>
                 <ul class="nav" id="title_list"></ul>
               </div>
             </div>
