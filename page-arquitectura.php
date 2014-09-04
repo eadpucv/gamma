@@ -1,15 +1,19 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
+
+
 <div class='fondo-gris'>
       <div id='nav-carrera'>
-      <div class='fondo-absoluto-botones'>
+      <div class='fondo-ancho-completo'>
           <div class='wrap'>
             <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-            <h5><a class='categoria-titulo boton-carrera'>Noticias</a></h5>
+            <h5><a href='<?php echo get_category_link(7); ?>' class='categoria-titulo boton-carrera'>Noticias</a></h5>
             <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Categoría</a></h5>
             <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Ver todas</a></h5>
-            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Subir<i class="icn icn-mano-arriba"></i></a></h5>
+            <div class='fondo-botones'>
+            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera scrollup'><i class="icn icn-mano-arriba icn-lg"></i></a></h5>
+            </div>
           </div>
       </div>
       </div>
@@ -74,8 +78,8 @@
                     </div>  <!-- fin de item -->
                 </div>
                 <!-- Controles -->
-                <a data-slide="prev" href="#carousel-example-generic" class="left carrera carousel-control"><i class="icn icn-nav-izq"></i></a>
-                <a data-slide="next" href="#carousel-example-generic" class="right carrera carousel-control"><i class="icn icn-nav-der"></i></a>
+                <a data-slide="prev" href="#carousel-example-generic" class="left carrera carousel-control carrera"><i class="icn icn-nav-izq"></i></a>
+                <a data-slide="next" href="#carousel-example-generic" class="right carrera carousel-control carrera"><i class="icn icn-nav-der"></i></a>
             </div>
             <div class='bloque'>
               <article class="h-entry enunciado">
