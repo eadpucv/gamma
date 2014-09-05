@@ -1194,6 +1194,12 @@ hr {
             padding: 0px 15px;
         }
 
+        &.categoria {
+            &:hover {
+                padding-left: 5px;
+            }
+        }
+
         &.docente {
             padding: 10px;
             margin-bottom: 15px;
@@ -1539,7 +1545,7 @@ hr {
         margin: 0;
         position: absolute;
         display: table;
-        height: auto;
+        height: 250px;
         right: 0;
         text-align: center;
         width: 100%;
@@ -1552,6 +1558,7 @@ hr {
 
         &.portada{
             right: 0px !important;
+            height: auto !important;
         }
     }
 
@@ -1713,12 +1720,12 @@ hr {
         &.evento {
 
             h6{
-                font-size: 21px;
-                height: 80px;
+                font-size: 18px;
+                height: 70px;
             }
 
             p {
-                font-size: 12.5px;
+                font-size: 12px;
             }
 
             &.portada {
@@ -1760,7 +1767,7 @@ hr {
 
             p{
                 max-height: 240px;
-                font-size: 13.5px;
+                font-size: 12px;
                 line-height: 21px;
                 font-family: @serif;
                 padding: 0px;
@@ -1768,6 +1775,7 @@ hr {
             }
 
             h3 {
+                font-size: 22px;
                 margin-top: 40px;
             }
 
@@ -1789,6 +1797,12 @@ hr {
 
             p {
                 padding: 0px;
+            }
+        }
+
+        &.categoria {
+            &:hover {
+                padding-left: 5px;
             }
         }
 
@@ -1866,9 +1880,13 @@ hr {
             }
 
             h5 {
-                font-size: 23px;
+                font-size: 18px;
                 line-height: @cuerpo * 1.65;
                 font-weight: 200;
+            }
+
+            p{
+                font-size: 12px;
             }
 
             .seguir-leyendo-cuadro {
@@ -2103,12 +2121,12 @@ hr {
     .enlace-noticia {
 
         h6{
-            font-size: 21px;
+            font-size: 18px;
             color: @rojo-claro;
         }
 
         p {
-            font-size: 12.5px;
+            font-size: 12px;
         }
 
         &:hover {
