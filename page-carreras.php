@@ -30,9 +30,9 @@
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
+                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md portadas transparente-blanco'>Arquitectura</a>
+                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md portadas transparente-blanco'>Diseño Gráfico</a>
+                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md portadas transparente-blanco'>Diseño de objetos</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -59,7 +59,7 @@
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md transparente-blanco'>Ver noticias</a>
+                                                    <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md portadas transparente-blanco'>Ver noticias</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -86,10 +86,10 @@
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
-                                                    <a class='btn btn-md transparente-blanco'>Ver todas</a>
+                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md portadas transparente-blanco'>Arquitectura</a>
+                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md portadas transparente-blanco'>Diseño Gráfico</a>
+                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md portadas transparente-blanco'>Diseño de objetos</a>
+                                                    <a class='btn btn-md portadas transparente-blanco'>Ver todas</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->

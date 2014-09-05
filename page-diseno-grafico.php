@@ -159,7 +159,7 @@
                   	<h2>Objetivos educacionales</h2>
                   	<p>El ejercicio profesional se desarrolla en instituciones y empresas relacionadas con la comunicación, campo publicitario, editorial, la industria gráfica y multimedial. Ejercicio independiente de la profesión. Docencia universitaria y continuidad en estudios de post-grado.</p>
                   	<h2>Malla Curricular</h2>
-                  	<a href='http://www.ead.pucv.cl/wp-content/archivos/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
+                  	<a href='http://www.ead.pucv.cl/wp-content/uploads/2008/05/malla-Dis_G.pdf'>Descargar malla curricular Diseño Gráfico (pdf, 149kb) <i class="icn icn-mano-abajo icn-lg"></i></a>
 						<!-- Se piensa que esto no debería ser una tabla, pero es un diseño que tendremos que volver a redefinirlo, por ahora queremos dejarlo así y luego pensarlo de una manera más coherente con la gráfica nueva -->
 						<!--<table class='w100 malla-curricular'>
 							<tbody>
@@ -378,7 +378,7 @@
 								</tr>
 							</tbody>
 						</table>-->
-                  	<h2>Profesores de diseño gráfico</h2>
+            <h2>Profesores de diseño gráfico</h2>
             <div class='fila'>
             <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
                 <div class='pagina docente indice'>

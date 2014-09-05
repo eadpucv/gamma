@@ -20,18 +20,18 @@
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Menciones</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                  <a href="<?php echo get_permalink(16); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                                  <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                                  <a href="<?php echo get_permalink(16); ?>" class='btn btn-md portadas transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md portadas transparente-blanco'>Mención Ciudad & Territorio</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -48,18 +48,18 @@
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Tesis</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
-                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                  <a href="<?php echo get_permalink(35); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                                  <a href="<?php echo get_permalink(714); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 cf">
+                                                  <a href="<?php echo get_permalink(35); ?>" class='btn btn-md portadas transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(714); ?>" class='btn btn-md portadas transparente-blanco'>Mención Ciudad & Territorio</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -76,17 +76,17 @@
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Publicaciones</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                  <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md transparente-blanco'>Ver todas</a>
+                                                  <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md portadas transparente-blanco'>Ver todas</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->

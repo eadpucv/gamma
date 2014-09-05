@@ -737,7 +737,7 @@
     &.portada {
         display: block;
         text-align: right;
-        right: 24px !important;
+        right: 24px;
         top: 13px;
         //padding-left: 100px;
     }
@@ -1169,19 +1169,24 @@ hr {
             bottom: 0px;
             padding: 15px;
             overflow: hidden;
-            max-height: 420px;
+            max-height: 388px;
             background: @blanco;
             opacity: 0.9;
-            height: 420px;
+            height: 388px;
 
             p {
-                max-height: 145px;
+                max-height: 155px;
                 overflow: hidden;
             }
 
             h3 {
                 margin-top: 60px;
                 font-size: 24px;
+            }
+
+            &:hover{
+                max-height: 388px;
+                height: 388px;
             }
         }
 
@@ -1297,8 +1302,8 @@ hr {
             }
 
             h5 {
-                font-size: 20px;
-                line-height: @cuerpo * 1.5;
+                font-size: 18px;
+                line-height: 25px;
                 font-weight: 200;
             }
 
@@ -1534,7 +1539,7 @@ hr {
         margin: 0;
         position: absolute;
         display: table;
-        height: 250px;
+        height: auto;
         right: 0;
         text-align: center;
         width: 100%;
@@ -1543,6 +1548,10 @@ hr {
             &:hover {
                 background-color: fade(@blanco, 40) !important; 
             }
+        }
+
+        &.portada{
+            right: 0px !important;
         }
     }
 
