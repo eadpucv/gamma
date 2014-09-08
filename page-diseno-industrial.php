@@ -3,19 +3,9 @@
 ?>
 
 <div class='fondo-gris'>
-      <div id='nav-carrera'>
-      <div class='fondo-ancho-completo'>
           <div class='wrap'>
             <h1 class="entry-title especifico"><?php the_title(); ?></h1> <!-- título del post -->
-            <h5><a href='<?php echo get_category_link(9); ?>' class='categoria-titulo boton-carrera'>Noticias</a></h5>
-            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Categoría</a></h5>
-            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera'>Ver todas</a></h5>
-            <div class='fondo-botones'>
-            <h5><a href='<?php echo get_category_link(1945); ?>' class='categoria-titulo boton-carrera scrollup'><i class="icn icn-mano-arriba icn-lg"></i></a></h5>
-            </div>
           </div>
-      </div>
-      </div>
 </div>
 
 <div class='fondo-gris'>

@@ -332,8 +332,9 @@
                 -webkit-transition: opacity .3s linear, opacity 0.2s linear;
                 -moz-transition: opacity .3s linear, opacity 0.2s linear;
                 -o-transition: opacity .3s linear, opacity 0.2s linear;
+                .transition(.3s ease all);
             }
-            .transition(.3s ease all);
+            
 
             .ver-todo{
                 &.noticias-por-carrera {
@@ -406,14 +407,19 @@
         &:hover {
             .franja-seguir {
                 visibility: visible;
-                background-color: inherit;
+                background-color: @rojo-claro;
                 opacity: 1;
                 -webkit-transition: opacity .3s linear, opacity 0.2s linear;
                 -moz-transition: opacity .3s linear, opacity 0.2s linear;
                 -o-transition: opacity .3s linear, opacity 0.2s linear;
 
                 p{
-                    color: @rojo-claro;
+                    color: @blanco;
+                }
+
+                i{
+                    content: @blanco;
+                    visibility: visible;
                 }
             }
         }
@@ -1334,6 +1340,10 @@ hr {
             margin-top: 10px;
             height: auto;
             width: 100%;
+
+            h6{
+                margin-top: 5px;
+            }
 
             p {
                 max-height: 125px;

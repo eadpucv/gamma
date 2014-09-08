@@ -223,7 +223,7 @@
     <script type='text/javascript'>
       $(document).ready(function(){
       $("#nav-carrera").sticky({topSpacing:0});
-      $("#nav-page").sticky({topSpacing:100});
+      $("#nav-page").sticky({topSpacing:30});
       });
     </script>
 	</body>
