@@ -172,7 +172,7 @@
         $lastest_carreras = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(1951,1950)));
         $lastest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));       
       ?>
-      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesisasdas</h6>
+      <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesis</h6>
 
       <ul class='publicaciones-enlazadas'>
           <?php foreach( $lastest_carreras as $post ): setup_postdata($post);  ?>
