@@ -157,8 +157,8 @@
       </div>
 
       <?php 
-        $lastest_estudiantes = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(63)));
-        $lastest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));   
+        $lastest_estudiantes = new WP_Query('cat=63');
+        $latest_publicaciones = new WP_Query('cat=7,8,9');   
       ?>
       <div class='bloque-aside'>
         <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
