@@ -177,7 +177,7 @@
       <ul class='publicaciones-enlazadas'>
           <?php while ($lastest_carreras->have_posts()) : $lastest_carreras->the_post(); ?>
             <li><a href="<?php echo the_permalink() ?>"><?php the_title(); ?></a></li>
-          <?php endforeach; ?>
+          <?php endwhile; ?>
       </ul>
 
       <hr>
@@ -187,7 +187,7 @@
       <ul class='publicaciones-enlazadas'>      
           <?php while ($lastest_carreras->have_posts()) : $lastest_carreras->the_post(); ?>
             <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-          <?php endforeach; ?>
+          <?php endwhile; ?>
       </ul>
       <hr>
     </div>
