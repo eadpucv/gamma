@@ -157,24 +157,24 @@
       </div>
 
       <?php 
-        $lastest_estudiantes = new WP_Query('cat=63');
-        $latest_publicaciones = new WP_Query('cat=7,8,9');   
+        $lastest_estudiantes = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(63), 'orderby' => 'date', 'order'=>'DESC'));
+        $lastest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9),  'orderby' => 'date', 'order'=>'DESC'));   
       ?>
       <div class='bloque-aside'>
         <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
         <ul class='publicaciones-enlazadas'>      
-            <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
+            <?php while ($lastest_publicaciones->have_posts()) : $lastest_publicaciones->the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-            <?php endforeach; ?>
+            <?php endwhile; ?>
         </ul>
         <hr>
       </div>
       <div class='bloque-aside'>
         <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Estudiantes</h6>
         <ul class='publicaciones-enlazadas'>
-            <?php foreach( $lastest_estudiantes as $post ): setup_postdata($post);  ?>
+            <?php while ($lastest_estudiantes->have_posts()) : $lastest_estudiantes->the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-            <?php endforeach; ?>
+            <?php endwhile; ?>
         </ul>
         <hr>
       </div>      

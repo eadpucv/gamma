@@ -175,7 +175,7 @@
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesis</h6>
 
       <ul class='publicaciones-enlazadas'>
-          <?php foreach( $lastest_carreras as $post ): setup_postdata($post);  ?>
+          <?php while ($lastest_carreras->have_posts()) : $lastest_carreras->the_post(); ?>
             <li><a href="<?php echo the_permalink() ?>"><?php the_title(); ?></a></li>
           <?php endforeach; ?>
       </ul>
@@ -185,7 +185,7 @@
     <div class='bloque-aside sm'>
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
       <ul class='publicaciones-enlazadas'>      
-          <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
+          <?php while ($lastest_carreras->have_posts()) : $lastest_carreras->the_post(); ?>
             <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
           <?php endforeach; ?>
       </ul>
