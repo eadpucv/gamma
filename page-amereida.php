@@ -1,7 +1,6 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
-    <!-- contenido -->
     <div class='fondo-gris'>
         <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
             <div class='fila'>
