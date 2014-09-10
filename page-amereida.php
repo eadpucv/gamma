@@ -25,6 +25,7 @@
                                 <p>El texto se abre siempre al verso siguiente y equivoca la esperanza, lo aguarda; bordea el sujeto –como Mallarmé– sin retenerle, y reposa nítidamente en una poética del blanco para recoger el silencio del habla, como el lapso que se da entre los actos de lo extraordinario. La Travesía de Amereida se constituyó como un tiempo extendido en el <i>acto</i> que atravieza América y le canta su aparecer.</p>
                             </div>
                         </div>
+                        <small>--</small>
                     </article> 
                 </div>
             </div>
