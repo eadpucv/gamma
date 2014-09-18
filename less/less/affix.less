@@ -6,7 +6,62 @@
 	top: 15px;
 //padding-top: @cuadratin /2;
   height: 0 auto;
-  width: 230px;
+  width: 60px;
+  .transition(.3s ease all);
+
+  .div-affix-carrera{
+    background-color: @blanco;
+    height: 75px;
+    width: 1500px;
+    z-index: 140;
+    position: absolute;
+    top: -15px;
+    left: -130px;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.28);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.28);
+    box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.28);
+
+    h1{
+      position: absolute;
+      left: 120px;
+      top: 10px;
+    }
+
+    h5{
+      z-index: 150;
+      left: 400px;
+      position: relative;
+      display: inline-block;
+      top: 25px;
+    }
+
+
+  }
+
+/*
+  h1{
+    background-color: @blanco;
+    padding: 30px 0px 15px 0;
+    width: 2000px;
+    z-index: 100 !important;
+    position: absolute;
+    top: 0;
+    margin-top: -40px;
+    display: block;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.28);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.28);
+    box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.28);
+  }
+*/
+
+}
+
+.affix-top{
+  background-color: inherit;
+
+  h5{
+    display: none !important;
+  }
 }
 
 // Visibilidad
@@ -35,7 +90,8 @@ padding-top: @cuadratin * 3;
 }
 
 .menu-affix{
-padding: 0px 0 30px 0;
+  padding: 0 0 30px 0;
+  //margin-top: 120px;
 
   &.portada{
     padding: 8px 0 30px 0;
@@ -45,6 +101,10 @@ padding: 0px 0 30px 0;
     display: block;
     width: 100%;
     background-color: fade(@pizarra, 60);
+  }
+
+  &.titulo-carrera {
+    margin: 0 !important;
   }
 }
 

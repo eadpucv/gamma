@@ -20,19 +20,19 @@
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Menciones</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
+                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md portadas transparente-blanco'>Arquitectura</a>
+                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md portadas transparente-blanco'>Diseño Gráfico</a>
+                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md portadas transparente-blanco'>Diseño de objetos</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -49,17 +49,17 @@
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Estudiantes</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md transparente-blanco'>Ver noticias</a>
+                                                    <a href="<?php echo get_tag_link(63); ?>" class='btn btn-md portadas transparente-blanco'>Ver noticias</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -76,20 +76,20 @@
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Publicaciones</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md transparente-blanco'>Arquitectura</a>
-                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md transparente-blanco'>Diseño Gráfico</a>
-                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md transparente-blanco'>Diseño de objetos</a>
-                                                    <a class='btn btn-md transparente-blanco'>Ver todas</a>
+                                                    <a href="<?php echo get_tag_link(7); ?>" class='btn btn-md portadas transparente-blanco'>Arquitectura</a>
+                                                    <a href="<?php echo get_tag_link(8); ?>" class='btn btn-md portadas transparente-blanco'>Diseño Gráfico</a>
+                                                    <a href="<?php echo get_tag_link(1803); ?>" class='btn btn-md portadas transparente-blanco'>Diseño de objetos</a>
+                                                    <a class='btn btn-md portadas transparente-blanco'>Ver todas</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -111,7 +111,7 @@
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix portada' id='menu-fixed'>
-              <div data-spy="affix" data-offset-top="650" data-offset-bottom='500'>
+              <div id='nav-page'>
                 <ul class="nav" id="title_list"></ul>
               </div>
             </div>
@@ -125,8 +125,8 @@
                   </div>
                 <?php } ?>
                 <div class="e-content p-summary p-name enunciado">
-                  <div class='bloque' id="bloque_texto"><!--<?php the_content(); ?>-->
-                      <h2 class='portada'>Pregrado</h2>
+                  <div class='bloque' id="bloque_texto"><?php the_content(); ?>
+                      <!--<h2 class='portada'>Pregrado</h2>
                       <p>La misión de la Escuela de Arquitectura y Diseño es cultivar, el arte de la <a title="página de la carrera de arquitectura" href="http://www.ead.pucv.cl/programas/arquitectura">Arquitectura</a>, del <a title="página de la carrera de diseño gráfico" href="http://www.ead.pucv.cl/programas/diseno/diseno-grafico/">Diseño Gráfico</a> y del <a title="página de la carrera de diseño industrial" href="http://www.ead.pucv.cl/programas/diseno/diseno-industrial/">Diseño Industrial</a> por medio de la creación y transmisión del conocimiento del oficio de estas artes, formar Arquitectos y Diseñadores con la vocación de concebir obras que den cabida y expresión al habitar humano.</p>
                       <p>La Escuela afirma que tanto la Arquitectura como el Diseño son un Arte. Esto diferencia profundamente de otras orientaciones, disciplinas y saberes, e implica una manera peculiar de estudiar y de hacer.</p>
                       <h2>La Observación como Fundamento</h2>
@@ -134,7 +134,7 @@
                       <h2>Compromiso de Vida y Ámbito</h2>
                       <p>Esta modalidad de estudiar y hacer exige de alumnos y profesores un real compromiso de vida. Este que le confiere a la Escuela una gran unidad y, a su vez establece un ámbito, y un ritmo de estudio que da cabida a actividades ordinarias y extraordinarias, en que participan creativamente todos los alumnos y profesores.</p>
                       <h2>El Taller Columna Vertebral</h2>
-                      <p>El taller es la columna vertebral de los estudios de cada disciplina impartida en nuestra Escuela. En él tiene lugar el proceso creativo de cada estudiante, y es donde se decantan los conocimientos humanísticos, matemáticos, científicos y tecnológicos que se imparten en las demás asignaturas de nuestro Plan de Estudios.</p>
+                      <p>El taller es la columna vertebral de los estudios de cada disciplina impartida en nuestra Escuela. En él tiene lugar el proceso creativo de cada estudiante, y es donde se decantan los conocimientos humanísticos, matemáticos, científicos y tecnológicos que se imparten en las demás asignaturas de nuestro Plan de Estudios.</p>-->
                   </div>
                 </div>
               </article> 
@@ -157,24 +157,24 @@
       </div>
 
       <?php 
-        $latest_estudiantes = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(63)));
-        $latest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));   
+        $lastest_estudiantes = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(63), 'orderby' => 'date', 'order'=>'DESC'));
+        $lastest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9),  'orderby' => 'date', 'order'=>'DESC'));   
       ?>
       <div class='bloque-aside'>
         <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
         <ul class='publicaciones-enlazadas'>      
-            <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
+            <?php while ($lastest_publicaciones->have_posts()) : $lastest_publicaciones->the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-            <?php endforeach; ?>
+            <?php endwhile; ?>
         </ul>
         <hr>
       </div>
       <div class='bloque-aside'>
         <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Estudiantes</h6>
         <ul class='publicaciones-enlazadas'>
-            <?php foreach( $lastest_estudiantes as $post ): setup_postdata($post);  ?>
+            <?php while ($lastest_estudiantes->have_posts()) : $lastest_estudiantes->the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-            <?php endforeach; ?>
+            <?php endwhile; ?>
         </ul>
         <hr>
       </div>      

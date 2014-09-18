@@ -25,7 +25,7 @@ a.btn {
     // Extensiones de tamaño
 
     &.btn-md{
-        font-size: @cuerpo * 1.2;
+        font-size: 17px;
         letter-spacing: .05ex;
         font-weight: 200;
         margin: 10px 5px;
@@ -78,9 +78,10 @@ a.btn {
                 color: @blanco;
                 background-color: fade(@blanco, 40);
                 border-image: none;
-                border-radius: 5px;
+                border-radius: 9px;
                 border-style: solid;
                 border-width: 0px;
+                padding: 7px 20px 6px;
 
         &:hover {
             background: none repeat scroll 0 0 @rojo-claro;
@@ -120,14 +121,14 @@ a.btn {
         margin: 30px 30px;
         border-width: 0px;
         background-color: fade(@blanco, 60);
-        font-size: 12.5px;
+        font-size: 11px;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-weight: 200;
-        padding: 5px 10px 10px 15px;
+        padding: 5px 10px 3px 15px;
 
         i {
-            bottom: -3px;
+            bottom: 0px;
             position: relative;
         }
 
@@ -619,6 +620,20 @@ form{
             color: @blanco;
             background-color: fade(@blanco, 45);
 
+            &.portadas {
+                width: 70%;
+                text-align: center;
+                padding: 11px 15px 10px !important;
+                border-radius: 15px !important;
+                //margin: 0px 20px 5px 20px;
+                display: block;
+                margin: 0 auto 5px;
+
+                &:first-child{
+                    margin-top: 70px;
+                }
+            }
+
                 &:hover {
                     background-color: fade(@blanco, 45);
                 }
@@ -722,6 +737,13 @@ form{
             color: @blanco;
             background-color: fade(@blanco, 45);
 
+            &.portadas {
+                width: auto !important;
+                padding: 11px 20px 10px !important;
+                border-radius: 15px !important;
+                margin-right: 5px;
+            }
+
                 &:hover {
                     background-color: fade(@blanco, 45);
                 }
@@ -818,7 +840,7 @@ a.btn {
         padding: 12px 10px 8px 13px;
 
         i {
-            bottom: -3px;
+            bottom: -1px;
             position: relative;
         }
 
@@ -829,7 +851,7 @@ a.btn {
             bottom: 15px;
             right: 0px;
             width: 150px;
-            padding-top: 5px;
+            padding-top: 8px;
 
             &:hover {
                 background-color: @blanco;

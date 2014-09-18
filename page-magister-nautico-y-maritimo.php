@@ -21,7 +21,7 @@
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix' id='menu-fixed'>
-              <div data-spy="affix" data-offset-top="270" data-offset-bottom='500'>
+              <div id='nav-page'>
                 <ul class="nav" id="title_list"></ul>
               </div>
             </div>
@@ -32,49 +32,42 @@
                     <div class="item active">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="First slide" title="posgrado nautico y maritimo" src='https://farm9.staticflickr.com/8026/7154049704_63055eed9e_h.jpg'>
+                                <img alt="First slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-3.jpg'>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <!--<div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="Second slide" title="posgrado nautico y maritimo" src='https://farm8.staticflickr.com/7066/7007655004_f7f8c03a12_h.jpg'>
+                                <img alt="Second slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-2.jpg'>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='https://farm8.staticflickr.com/7083/7166450097_b74d4d44bb_h.jpg'>
-                            </div>
-                        </div>
-                    </div>  <!-- fin de item -->
-                    <div class="item">
-                        <div class='noticia grande'>
-                            <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='https://farm3.staticflickr.com/2669/4036242043_1d58412896_b.jpg'>
+                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-6.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='https://farm3.staticflickr.com/2074/3531787540_49043c79a7_b.jpg'>
+                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-4.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='https://farm3.staticflickr.com/2279/3530977491_95ba1db080_b.jpg'>
+                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-5.jpg'>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->
                     <div class="item">
                         <div class='noticia grande'>
                             <div class='noticia-imagen'>
-                                <img alt="third slide" title="posgrado nautico y maritimo" src='https://farm8.staticflickr.com/7218/7154112999_d19546823f_h.jpg'>
+                                <img alt="third slide" title="posgrado nautico y maritimo" src='<?php bloginfo('template_directory') ?>/img/nautico-maritimo-1.jpg '>
                             </div>
                         </div>
                     </div>  <!-- fin de item -->

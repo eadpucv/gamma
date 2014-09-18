@@ -65,6 +65,7 @@
             height: 70px;
             max-height: 80px;
             overflow: hidden;
+            font-size: 17px;
         }
 
         h3 {
@@ -124,8 +125,8 @@
 
             p {
                 max-height: 340px;
-                font-size: 14.5px;
-                line-height: 24.5px;
+                font-size: 12.5px;
+                line-height: 22.5px;
                 color: darken(@gris-oscuro, 15);
                 font-family: @serif;
                 padding: 0px;
@@ -284,7 +285,7 @@
             display: block;
 
             h6 {
-                font-size: 15px;
+                font-size: 13.5px;
                 margin-bottom: 2.5px;
                 text-transform: uppercase;
                 letter-spacing: 2.5px;
@@ -331,8 +332,9 @@
                 -webkit-transition: opacity .3s linear, opacity 0.2s linear;
                 -moz-transition: opacity .3s linear, opacity 0.2s linear;
                 -o-transition: opacity .3s linear, opacity 0.2s linear;
+                .transition(.3s ease all);
             }
-            .transition(.3s ease all);
+            
 
             .ver-todo{
                 &.noticias-por-carrera {
@@ -353,14 +355,14 @@
         border: none;
         margin-top: 0;
         height: 250px;
-        margin: 5px 0 45px 0;
+        margin: 5px 0 25px 0;
 
         h6 {
             font-size: 14px;
         }
 
         h5 {
-            font-size: 21px;
+            font-size: 17px;
             line-height: @cuerpo * 1.6;
             font-weight: 200;
         }
@@ -387,22 +389,38 @@
 
     &.portada {
         margin-top: 10px;
-        border:none;
+        border: none;
         height: 415px;
         width: 100%;
 
         p {
-            max-height: 91px;
+            max-height: 100px;
             overflow: hidden;
+            font-size: 11.5px;
+        }
+
+        h6{
+            color: @rojo-claro;
+            font-size: 18px;
         }
 
         &:hover {
             .franja-seguir {
                 visibility: visible;
+                background-color: @rojo-claro;
                 opacity: 1;
                 -webkit-transition: opacity .3s linear, opacity 0.2s linear;
                 -moz-transition: opacity .3s linear, opacity 0.2s linear;
                 -o-transition: opacity .3s linear, opacity 0.2s linear;
+
+                p{
+                    color: @blanco;
+                }
+
+                i{
+                    content: @blanco;
+                    visibility: visible;
+                }
             }
         }
 
@@ -580,11 +598,12 @@
 
     h6 {
         color: @rojo-claro;
+        font-size: 17px;
     }
         
     p {
         max-height: 85px;
-        font-size: 13.5px;
+        font-size: 12.5px;
         overflow: hidden;
         margin: 0;
     }
@@ -639,7 +658,7 @@
 }
 
 .cita-carousel {
-    height: 616px;
+    height: 620px;
     background-color: fade(@blanco, 90%);
     float: right;
     padding: @cuadratin;
@@ -676,15 +695,6 @@
 }
 
 // Enlaces del postulante
-
-.wrap-postulante {
-    position: relative;
-    margin: 0 auto;
-    padding: 0px 0;
-    height: 370px;
-    width: 1366px;
-    .cf;
-}
 
 #carousel-postulante {
     height: 370px;
@@ -733,7 +743,7 @@
     &.portada {
         display: block;
         text-align: right;
-        right: 24px !important;
+        right: 24px;
         top: 13px;
         //padding-left: 100px;
     }
@@ -746,9 +756,18 @@
 .bloque {
     margin: 0;
     width: 100%;
+}
 
-    &.mapa {
-        width: 100%;
+.mapa {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -40%;
+        width: 120%;
     }
 }
 
@@ -891,7 +910,7 @@ footer {
     }
 
     .fondo-facebook, .fondo-twitter, .fondo-flickr, .fondo-vimeo, .fondo-soundcloud, .fondo-rss {
-        color: @gris-oscuro;
+        color: @gris;
     }
 
     &:hover {
@@ -1042,6 +1061,17 @@ hr {
         float: left;
         position: relative;
     }
+    
+    .mapa {
+
+        img {
+            height: 170%;
+            left: -120%;
+            position: absolute;
+            top: -88px;
+            width: auto;
+        }
+    }
 
     .referencia-cita {
         width: 350px;
@@ -1108,8 +1138,8 @@ hr {
 
             h6 {
                 height: auto;
-                font-size: 19px;
-                line-height: @cuerpo * 1.9;
+                font-size: 18px;
+                line-height: 27.5px;
                 max-height: 88px;
                 overflow: hidden;
             }
@@ -1127,7 +1157,8 @@ hr {
                 
                 h4 {
                     display: inline-block;
-                    line-height: 28px;
+                    line-height: 25px;
+                    font-size: 18px;
                     width: 64%;
                 }
 
@@ -1145,13 +1176,13 @@ hr {
             bottom: 0px;
             padding: 15px;
             overflow: hidden;
-            max-height: 420px;
+            max-height: 388px;
             background: @blanco;
             opacity: 0.9;
-            height: 420px;
+            height: 388px;
 
             p {
-                max-height: 145px;
+                max-height: 155px;
                 overflow: hidden;
             }
 
@@ -1159,10 +1190,21 @@ hr {
                 margin-top: 60px;
                 font-size: 24px;
             }
+
+            &:hover{
+                max-height: 388px;
+                height: 388px;
+            }
         }
 
         &.info-docencia {
             padding: 0px 15px;
+        }
+
+        &.categoria {
+            &:hover {
+                padding-left: 5px;
+            }
         }
 
         &.docente {
@@ -1273,8 +1315,8 @@ hr {
             }
 
             h5 {
-                font-size: 20px;
-                line-height: @cuerpo * 1.5;
+                font-size: 18px;
+                line-height: 25px;
                 font-weight: 200;
             }
 
@@ -1300,6 +1342,10 @@ hr {
             height: auto;
             width: 100%;
 
+            h6{
+                margin-top: 5px;
+            }
+
             p {
                 max-height: 125px;
                 overflow: hidden;
@@ -1313,7 +1359,13 @@ hr {
             }
 
             .seguir-leyendo {
-                top: 25px;
+                top: 15px;
+                font-size: 10px;
+                color: @rojo-claro;
+            }
+
+            .seguir-leyendo-cuadro {
+                background-color: fade(@blanco, 90);
             }
 
             &.info-docencia {
@@ -1481,11 +1533,6 @@ hr {
 
     // Franja postulante
 
-    .wrap-postulante {
-        width: 80%;
-        height: auto;
-    }
-
     .franja-postulante {
         height: auto;
     }
@@ -1518,6 +1565,11 @@ hr {
             &:hover {
                 background-color: fade(@blanco, 40) !important; 
             }
+        }
+
+        &.portada{
+            right: 0px !important;
+            height: auto !important;
         }
     }
 
@@ -1553,6 +1605,7 @@ hr {
         h6 {
             color: @rojo-claro;
             line-height: 25px;
+            padding-top: 5px;
         }
 
         p {
@@ -1679,12 +1732,12 @@ hr {
         &.evento {
 
             h6{
-                font-size: 21px;
-                height: 80px;
+                font-size: 18px;
+                height: 70px;
             }
 
             p {
-                font-size: 12.5px;
+                font-size: 12px;
             }
 
             &.portada {
@@ -1692,7 +1745,8 @@ hr {
 
                 h4 {
                     display: inline-block;
-                    line-height: 28px;
+                    line-height: 25px;
+                    font-size: 18px;
                     width: 70%;
                 }
 
@@ -1726,7 +1780,7 @@ hr {
 
             p{
                 max-height: 240px;
-                font-size: 13.5px;
+                font-size: 12px;
                 line-height: 21px;
                 font-family: @serif;
                 padding: 0px;
@@ -1734,6 +1788,7 @@ hr {
             }
 
             h3 {
+                font-size: 22px;
                 margin-top: 40px;
             }
 
@@ -1755,6 +1810,12 @@ hr {
 
             p {
                 padding: 0px;
+            }
+        }
+
+        &.categoria {
+            &:hover {
+                padding-left: 5px;
             }
         }
 
@@ -1832,9 +1893,13 @@ hr {
             }
 
             h5 {
-                font-size: 23px;
+                font-size: 18px;
                 line-height: @cuerpo * 1.65;
                 font-weight: 200;
+            }
+
+            p{
+                font-size: 12px;
             }
 
             .seguir-leyendo-cuadro {
@@ -1862,7 +1927,7 @@ hr {
             margin-bottom: 30px;
 
             p {
-                max-height: 91px;
+                max-height: 100px;
                 overflow: hidden;
             }
 
@@ -1875,6 +1940,11 @@ hr {
 
             .seguir-leyendo {
                 top: -32px;
+                color: @rojo-claro;
+            }
+
+            .seguir-leyendo-cuadro {
+                background-color: fade(@blanco, 80);
             }
 
             &.info-docencia {
@@ -2020,10 +2090,6 @@ hr {
 
     // Franja postulante
 
-    .wrap-postulante {
-        width: 85%;
-    }
-
     .medio-postulante {
         display: table-cell;
         vertical-align: middle;
@@ -2068,12 +2134,12 @@ hr {
     .enlace-noticia {
 
         h6{
-            font-size: 21px;
+            font-size: 18px;
             color: @rojo-claro;
         }
 
         p {
-            font-size: 12.5px;
+            font-size: 12px;
         }
 
         &:hover {
@@ -2095,6 +2161,17 @@ hr {
         h6 {
             color: auto;
             }  
+        }
+    }
+
+    .mapa {
+
+        img {
+            position: absolute;
+            top: -70%;
+            left: -50% !important; 
+            width: 200%;
+            height: auto;
         }
     }
 
@@ -2232,7 +2309,8 @@ hr {
 
                 h4 {
                     display: inline-block;
-                    line-height: 28px;
+                    line-height: 25px;
+                    font-size: 18px;
                     width: 55%;
                 }
 
@@ -2307,6 +2385,7 @@ hr {
 
         &.categoria {
             height: 200px;
+            margin: 5px 0 45px 0;
 
             h5{
                 font-size: 15.5px;
@@ -2319,13 +2398,14 @@ hr {
             height: 400px;
 
             h6 {
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 20px;
                 color: @rojo-claro;
             }
 
             p {
                 font-size: 11px;
+                max-height: 91px;
                 line-height: 18px;
             }
 
@@ -2414,13 +2494,6 @@ hr {
         font-size: 12px;
     }
 }
-      
-
-    // Franja postulante
-
-    .wrap-postulante {
-        width: 80%;
-    }
 
     // Header
 

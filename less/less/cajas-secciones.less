@@ -17,12 +17,12 @@
 .franja-seguir {
     height: 0px;
     width: 100%;
-    background-color: @rojo-claro;
+    background-color: fade(@rojo-claro, 90) !important;
     margin-bottom: 2px;
 
     p {
         text-align: right;
-        padding-top: 2px;
+        padding-top: 3px;
         padding-right: 10px;
         font-size: 12px;
         color: @blanco;
@@ -35,7 +35,7 @@
         font-size: 14px;
         visibility: hidden;
         position: relative;
-        bottom: -2px;
+        bottom: -1px;
     }
 
 
@@ -163,15 +163,21 @@
 
     li {
         text-transform: lowercase;
+        display: block;
+    }
+
+    ul{
+        //margin-top: 120px;
     }
     
     .ancla-fixed {
+
         margin: 0 0 15px 0;
-        color: @gris-oscuro;
+        color: darken(@gris-oscuro, 10);
         font-size: 15px;
         padding: 0px 5px 0px 0;
         border-right: 2px solid #f9f9f9;
-        text-align: right;
+        text-align: right; 
 
         &.sin-aside{
         width: 320px;
@@ -183,8 +189,12 @@
         border-right:2px solid @rojo-claro;
         .transition(.3s ease all);
 
+        .nav {
+            margin-top: 150px !important;
+        }
+
         &.sin-aside{
-        width: 320px;
+            width: 320px;
         }
 
         &:hover {
@@ -306,7 +316,7 @@
         padding: 4px;
         float: center;
         color:@pizarra-claro;
-        font-size: 27.8px;
+        font-size: 22px;
         line-height: 25px;
         letter-spacing: 2px;
     }
@@ -581,7 +591,7 @@
             float: center;
             height: 65px;
             color:@pizarra-claro;
-            font-size: 18px !important;
+            font-size: 16px !important;
             line-height: 32px;
             letter-spacing: 2px;
         }
@@ -685,7 +695,7 @@
 
         .ancla-fixed {
             width: 12vw;
-            font-size: 13.5px;
+            font-size: 12.9px;
 
             &.sin-aside{
                 width: 18vw;
@@ -701,16 +711,23 @@
 
     }
 
+
+
     // Hover de cajas
     .franja-seguir {
+        background-color: fade(@rojo-claro, 90) !important;
 
         p {
             margin: 0;
             text-align: right;
-            padding-top: 2px;
+            padding-top: 3px;
             padding-right: 10px;
             letter-spacing: 2px;
             font-size: 10px !important;
+        }
+
+        i{
+            bottom: -1px;
         }
     }
 
@@ -838,7 +855,7 @@
             height: 65px;
             float: center;
             color:@pizarra-claro;
-            font-size: 17px !important;
+            font-size: 16px !important;
             line-height: 30px;
             letter-spacing: 2px;
         }

@@ -16,22 +16,22 @@
                       <div class="item active">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8167/7351688608_963bd41ec5_h.jpg'>
+                                  <img alt="First slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/estudios-avanzados-1.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Menciones</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                  <a href="<?php echo get_permalink(16); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                                  <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                                  <a href="<?php echo get_permalink(16); ?>" class='btn btn-md portadas transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(4759); ?>" class='btn btn-md portadas transparente-blanco'>Mención Ciudad & Territorio</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -44,22 +44,22 @@
                       <div class="item">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='https://farm9.staticflickr.com/8014/7166496749_794607c47f_h.jpg'>
+                                  <img class='centrado-vertical' alt="First slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/estudios-avanzados-2.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Tesis</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
-                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                  <a href="<?php echo get_permalink(35); ?>" class='btn btn-md transparente-blanco'>Mención Náutico & Marítimo</a>
-                                                  <a href="<?php echo get_permalink(714); ?>" class='btn btn-md transparente-blanco'>Mención Ciudad & Territorio</a>
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 cf">
+                                                  <a href="<?php echo get_permalink(35); ?>" class='btn btn-md portadas transparente-blanco'>Mención Náutico & Marítimo</a>
+                                                  <a href="<?php echo get_permalink(714); ?>" class='btn btn-md portadas transparente-blanco'>Mención Ciudad & Territorio</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -72,21 +72,21 @@
                       <div class="item">
                           <div class='noticia grande'>
                               <div class='noticia-imagen'>
-                                  <img alt="First slide" title="carrera arquitectura" src='https://farm8.staticflickr.com/7096/7351612024_94af406f40_h.jpg'>
+                                  <img alt="First slide" title="carrera arquitectura" src='<?php bloginfo('template_directory') ?>/img/estudios-avanzados-3.jpg'>
                                       <div class='absoluto abajo transparente'>
                                         <div class='wrap'>
                                           <div class='fila'>
-                                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                                               <div class='fila'>
                                               <!--<h1 class="entry-title generico portada blanco">Menciones</h1>-->
-                                                <div class="col-lg-3 col-md-3 oculto-sm oculto-xs">
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 cf">
                                                   <div class='enlaces-postulante portada'> 
                                                     <h1 class="entry-title generico portada blanco">Publicaciones</h1>
                                                   </div>
                                                 </div>
                                             <!-- pages -->
                                                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                  <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md transparente-blanco'>Ver todas</a>
+                                                  <a href="<?php echo get_tag_link(1953); ?>" class='btn btn-md portadas transparente-blanco'>Ver todas</a>
                                                 </div>
                                               </div> <!--fila-->
                                             </div> <!--fin col-->
@@ -108,7 +108,7 @@
         <div class='fila'>
           <div class='col-lg-3 col-md-3 oculto-sm oculto-xs'>
             <div class='menu-affix portada' id='menu-fixed'>
-              <div data-spy="affix" data-offset-top="780" data-offset-bottom='500'>
+              <div id='nav-page'>
                 <ul class="nav" id="title_list"></ul>
               </div>
             </div>
@@ -169,15 +169,15 @@
       </div>
     <div class='bloque-aside sm'>
       <?php 
-        $latest_carreras = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(1951,1950)));
-        $latest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));      
+        $lastest_carreras = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(1951,1950)));
+        $lastest_publicaciones = new WP_Query( array('posts_per_page' => 5, 'category__in' => array(7,8,9)));       
       ?>
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Tesis</h6>
 
       <ul class='publicaciones-enlazadas'>
-          <?php foreach( $lastest_carreras as $post ): setup_postdata($post);  ?>
-            <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-          <?php endforeach; ?>
+          <?php while ($lastest_carreras->have_posts()) : $lastest_carreras->the_post(); ?>
+            <li><a href="<?php echo the_permalink() ?>"><?php the_title(); ?></a></li>
+          <?php endwhile; ?>
       </ul>
 
       <hr>
@@ -185,9 +185,9 @@
     <div class='bloque-aside sm'>
       <h6 class='gris'><i class="icn icn-noticias icn-md"></i> Publicaciones</h6>
       <ul class='publicaciones-enlazadas'>      
-          <?php foreach( $lastest_publicaciones as $post ): setup_postdata($post);  ?>
+          <?php while ($lastest_carreras->have_posts()) : $lastest_carreras->the_post(); ?>
             <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-          <?php endforeach; ?>
+          <?php endwhile; ?>
       </ul>
       <hr>
     </div>
