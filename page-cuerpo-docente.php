@@ -15,7 +15,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm9.staticflickr.com/8141/7153859063_0706f25fce_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/marcelo-araya.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Marcelo Araya</h4>
@@ -29,7 +29,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/silvia-arriagada.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/silvia-arriagada.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Sylvia Arriagada</h4>
@@ -43,7 +43,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/jose-balcells.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/jose-balcells.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>José Balcells</h4>
@@ -57,7 +57,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm1.staticflickr.com/40/113495505_cfcbe72ac6_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/patricio-caraves.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Patricio Cáraves</h4>
@@ -71,7 +71,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm9.staticflickr.com/8136/8704747547_4c5ae4e2f8_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/arturo-chicano.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Arturo Chicano</h4>
@@ -85,7 +85,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm5.staticflickr.com/4048/4644954865_22878b5781_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/carlos-covarrubias.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Carlos Covarrubias</h4>
@@ -99,7 +99,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/5/59/Katherine_exss_wiki.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/katherine-exss.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Katherine Exss</h4>
@@ -113,7 +113,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/miguel-eyquem.jpg?w=710'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/miguel-eyquem.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Miguel Eyquem</h4>
@@ -127,7 +127,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://ipark2012ephemeraltravesia.files.wordpress.com/2012/09/jorge-ferrada.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/jorge-ferrada.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Jorge Ferrada</h4>
@@ -141,7 +141,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3180/3076032024_36528d141a_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/andres-garces.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Andrés Garcés</h4>
@@ -155,7 +155,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3262/3483598559_d1c644fb76_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/alejandro-garreton.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Alejandro Garretón</h4>
@@ -169,7 +169,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm9.staticflickr.com/8133/8704714863_7244403fe2_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/boris-ivelic.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Boris Ivelic</h4>
@@ -183,7 +183,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm2.staticflickr.com/1208/547980377_33e5c40e28_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/ivan-ivelic.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Iván Ivelic</h4>
@@ -197,7 +197,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm6.staticflickr.com/5175/5569615760_311242b1c7_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/juan-carlos-jeldes.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Juan Carlos Jeldes</h4>
@@ -211,7 +211,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3551/3530547063_23a62dc53f_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/david-jolly.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>David Jolly</h4>
@@ -225,7 +225,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7079/7157862848_cd442a52bb_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/ricardo-lang.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Ricardo Lang</h4>
@@ -239,7 +239,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm1.staticflickr.com/63/181241286_74a22951ed_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/david-luza.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>David Luza</h4>
@@ -253,7 +253,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7223/7176564182_b19fd32326_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/mauricio-puentes.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Mauricio Puentes</h4>
@@ -267,7 +267,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3582/3483598091_668e5cac6a_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/juan-purcell.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Juan Purcell</h4>
@@ -281,7 +281,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm6.staticflickr.com/5104/5568079426_0a05617777_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/jaime-reyes.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Jaime Reyes</h4>
@@ -295,7 +295,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3060/3066658572_a3e561695c_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/isabel-margarita.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Isabel Margarita Reyes</h4>
@@ -309,7 +309,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7220/7171615052_2a29d54806_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/rodrigo-saavedra.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Rodrigo Saavedra</h4>
@@ -323,7 +323,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3157/3082752662_1d39dde79b_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/floro.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Manuel Sanfuentes</h4>
@@ -337,7 +337,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm6.staticflickr.com/5194/7176578488_3c88076e53_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/herbert-spencer.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Herbert Spencer</h4>
@@ -351,7 +351,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm5.staticflickr.com/4004/4481267383_02353ef1ba_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/michele-wilkomirsky.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Michèle Wilkomirsky</h4>
@@ -365,7 +365,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7083/7166400025_09461911ce_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/salvador-zahr.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Salvador Zahr</h4>
@@ -396,7 +396,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://prensa.ucv.cl/wp-content/uploads/2012/11/Luis-Alvarez.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/luis-alvarez.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Luis Álvarez</h4>
@@ -410,7 +410,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm6.staticflickr.com/5253/5568999569_4ee04e8744_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/jorge-barahona.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Jorge Barahona</h4>
@@ -469,7 +469,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/no-image.png'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Álvaro Mercado</h4>
@@ -483,7 +483,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://oi59.tinypic.com/34ioivo.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/erick-caro.png'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Erick Caro</h4>
@@ -497,7 +497,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://oi59.tinypic.com/jsy51i.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/oscar-andrade.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Óscar Andrade</h4>
@@ -511,7 +511,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/9/95/Perfilsalgado.jpg/160px-Perfilsalgado.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/daniela-salgado.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Daniela Salgado</h4>
@@ -525,7 +525,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm3.staticflickr.com/2493/4172133723_ffbc7e6c4d_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/ursula-exss.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Ursula Exss</h4>
@@ -539,7 +539,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm8.staticflickr.com/7101/7348794040_fbe9e72893_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/vanessa-siviero.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Vanessa Siviero</h4>
@@ -556,7 +556,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm4.staticflickr.com/3068/3046034763_4fc32e1289_q.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/alfred-thiers.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Alfred Thiers</h4>
@@ -640,7 +640,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/no-image.png'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Catalina Bodelón</h4>
@@ -668,7 +668,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://wiki.ead.pucv.cl/images/thumb/2/2e/Pedro.jpg/230px-Pedro.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/pedro-garreton.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Pedro Garretón</h4>
@@ -713,7 +713,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://www.ead.pucv.cl/wp-content/uploads/2013/05/IMG_5615.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/danisa-peric.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Danisa Peric</h4>
@@ -727,7 +727,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/catalina-porzio.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Catalina Porzio</h4>
@@ -741,7 +741,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/no-image.png'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Antonia Casali</h4>
@@ -755,7 +755,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://lh3.googleusercontent.com/-_9vJvyPbVPQ/UiDxrDsiMRI/AAAAAAAAAWI/D-3bAEXKIxA/w842-h840-no/DSC_1103.JPG'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/francesca-cambiaso.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Francesca Cambiaso</h4>
@@ -783,7 +783,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://oi60.tinypic.com/2zz0wlx.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/rodrigo-moya.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Rodrigo Moya</h4>
@@ -797,7 +797,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://lh5.googleusercontent.com/-4euDb0JNj0o/UoJUXJ7G-3I/AAAAAAAAAiY/LQHBLkeDRY8/w362-h363-no/dos+en+unos.jpg'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/helga-ponce.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Helga Ponce</h4>
@@ -811,7 +811,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/sigris-cartagena.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Sigris Cartagena</h4>
@@ -825,7 +825,7 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='http://www.elturcofood.com/static/images/ItemMenu/small/no_image.png'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/no-image.png'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Sonia Rodriguez</h4>
