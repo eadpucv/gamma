@@ -8,7 +8,7 @@
 input[type='submit'],
 a.btn {
     display: inline-block;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' !important;
     font-weight: 500;
     margin: 0;
     cursor: pointer;
@@ -51,51 +51,53 @@ a.btn {
             color: @blanco;
             .transition(.3s ease all);
         }
+    }
 
-        &.cargar-mas {
-            margin-top: 30px;
-            height: 50px;
-            margin-bottom: 30px;
-            width: 180px;
-            color: @blanco;
-
-            &:hover {
-                color: @rojo-claro;
-                background-color: @blanco;
-                border: @rojo-claro;
-                border: 2px solid;
-                border-image: none;
-                border-style: solid;
-                border-width: 1px 1px 3px;
-            }
-        }
-
-            &.transparente-blanco {
-                -moz-border-bottom-colors: none;
-                -moz-border-left-colors: none;
-                -moz-border-right-colors: none;
-                -moz-border-top-colors: none;
-                color: @blanco;
-                background-color: fade(@blanco, 40);
-                border-image: none;
-                border-radius: 9px;
-                border-style: solid;
-                border-width: 0px;
-                padding: 7px 20px 6px;
+    &.cargar-mas {
+        margin-top: 30px;
+        height: 50px;
+        margin-bottom: 30px;
+        width: 180px;
+        color: @blanco;
 
         &:hover {
-            background: none repeat scroll 0 0 @rojo-claro;
-            border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) @rojo-oscuro;
-            color: @blanco;
-            .transition(.3s ease all);
-        }
-
-        &:active{
-            .box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
+            color: @rojo-claro;
+            background-color: @blanco;
+            border: @rojo-claro;
+            border: 2px solid;
+            border-image: none;
+            border-style: solid;
+            border-width: 1px 1px 3px;
         }
     }
 
-    &.gris {
+    &.btn-lg{
+        font-size: @cuerpo * 2 !important;
+        letter-spacing: .05px;
+        font-weight: 200;
+        margin: 10px 5px;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border: 2px solid;
+        border-image: none;
+        border-style: solid;
+        border-width: 1px 1px 3px;
+        display: inline-block;
+        padding: 10px;
+
+        &:hover {
+            background: none repeat scroll 0 0 @rojo-claro;
+            border-color: @rojo-oscuro;
+            color: @blanco;
+            .transition(.3s ease all);
+        }
+    }
+
+    // Extensiones de colores
+
+     &.gris {
         -moz-border-bottom-colors: none;
         -moz-border-left-colors: none;
         -moz-border-right-colors: none;
@@ -107,15 +109,31 @@ a.btn {
         border-style: solid;
         border-width: 1px 1px 3px;
     }
-    }
 
-    &.btn-lg{
-        font-size: @cuerpo * 2.5;
-        letter-spacing: .05px;
-        font-weight: 200;
-    }
+    &.transparente-blanco {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        color: @blanco;
+        background-color: fade(@blanco, 40);
+        border-image: none;
+        border-radius: 9px;
+        border-style: solid;
+        border-width: 0px;
+        padding: 7px 20px 6px;
 
-    // Extensiones de colores
+        &:hover {
+            background: none repeat scroll 0 0 @rojo-claro;
+            border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) @rojo-oscuro;
+            color: @blanco;
+            .transition(.3s ease all);
+        }
+
+        &:active{
+            .box-shadow(inset fade(@negro, 30%) 1px 1px 10px);
+            }
+    }
 
     &.ver-todo {
         margin: 30px 30px;

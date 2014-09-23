@@ -1,6 +1,7 @@
 <?php get_header();
   if (have_posts()) : while (have_posts()) : the_post();
 ?>
+
     <!-- contenido -->
     <div id='intro'>
         <div class='wrap'>
@@ -50,7 +51,7 @@
                                 <div class="e-content p-summary p-name">
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador1.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador1.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(25694); ?>'>Alberto Cruz</a></h3>
@@ -63,7 +64,7 @@
                                     </div>
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador2.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador2.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(143); ?>'>Godofredo Iommi</a></h3>
@@ -76,7 +77,7 @@
                                     </div>
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador3.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador3.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(149); ?>'>Arturo Baeza</a></h3>
@@ -89,7 +90,7 @@
                                     </div>
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador4.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador4.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(529); ?>'>Fabio Cruz</a></h3>
@@ -116,7 +117,7 @@
                                     </div> -->
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='http://eadpucv.github.io/giornata/img/fundador5.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador5.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(146); ?>'>José Viál Amstrong</a></h3>
@@ -129,7 +130,7 @@
                                     </div>
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='https://farm3.staticflickr.com/2443/3641798926_a55dde55ab_q.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador6.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='#'>Francisco Méndez</a></h3>
@@ -142,7 +143,7 @@
                                     </div>
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='http://news.nd.edu/assets/65330/bellalta_200.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador7.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='#'>Jaime Bellalta</a></h3>
@@ -155,11 +156,11 @@
                                     </div>
                                     <div class='pagina docente historia'>
                                         <div class='imagen-docente historia'>
-                                            <img class='ancho-maximo' src='http://oi61.tinypic.com/241pded.jpg'>
+                                            <img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/fundador8.jpg'>
                                         </div>
                                         <div class='datos-docente historia'>
                                             <h3 class='h-sin-margen'><a href='<?php echo get_permalink(150); ?>'>Claudio Girola</a></h3>
-                                            <h5 class='h-sin-margen'>Escultor y artista visual</h5>
+                                            <h6 class='h-sin-margen'>Escultor y artista visual</h6>
                                             <h6>n. 1923 - † 1994</h6>
                                         </div>
                                         <div class='resena-docente historia'>
