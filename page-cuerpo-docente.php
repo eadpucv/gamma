@@ -377,20 +377,6 @@
 								</div>
 							</div>
 						</div>
-													<!--<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
-								<div class='pagina docente'>
-									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='https://farm6.staticflickr.com/5253/5568999569_4ee04e8744_q.jpg'>
-									</div>
-									<div class='datos-docente listado'>
-										<h4 class='rojo-claro'>Jorge Barahona</h4>
-										<h6>Diseñador Gráfico</h6>
-									</div>
-									<div class='resena-docente listado'>
-										<p>Diseñador de Experiencia de Usuarios y Servicios<br>Arquitecto de Información</p>
-									</div>
-								</div>
-							</div>-->
 						<div class="fila">
 							<h5 class='rojo-claro cuerpo-docente margen-inferior'>Junto a un destacado equipo de profesores de dedicación parcial</h5>
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
@@ -403,7 +389,21 @@
 										<h6>Geógrafo</h6>
 									</div>
 									<div class='resena-docente listado'>
-										<p>Profesor de Geografía del gran Valparaíso</p>
+										<p>Licenciado en Historia, PUCV<br>Magíster en Urbanismo, Universidad de Chile<br>Profesor de Posgrado y Geografía del Gran Valparaíso</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/maurice-alvarado.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Maurice Alvarado</h4>
+										<h6>Sacerdote, Diócesis de Valparaíso</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Profesor de Cultura Religiosa PUCV<br>Bachiller en Ciencias Religiosas, Magíster en Teología PUCV<br>Doctor (C) en Teología Práctica, Universidad Pontificia de Salamanca</p>
 									</div>
 								</div>
 							</div>
@@ -417,7 +417,21 @@
 										<h6>Diseñador Gráfico</h6>
 									</div>
 									<div class='resena-docente listado'>
-										<p>Diseñador de Experiencia de Usuarios y Servicios<br>Arquitecto de Información</p>
+										<p>Diseñador de Experiencia de Usuarios y Servicios<br>Arquitecto de Información<br>Profesor de Lenguaje Computacional</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/carlos-ceruti.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Carlos Ceruti</h4>
+										<h6>Licenciado en Arte, PUCV</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Magíster en Ciudad y Territorio, Pontificia Universidad Católica de Valparaíso</p>
 									</div>
 								</div>
 							</div>
@@ -456,10 +470,25 @@
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Baldomero Estrada</h4>
-										<h6>Profesor de Historia</h6>
+										<h6>Licenciado en Historia, PUCV</h6>
 									</div>
 									<div class='resena-docente listado'>
-										<p>Profesor de Historia de Valparaíso</p>
+										<p>Master of Arts, University of Pittsburgh<br>Doctor en Historia, Universidad Complutense de Madrid<br>
+										Profesor de Historia, Geografía y Ciencias Sociales, PUCV</p>
+									</div>
+								</div>
+							</div>
+							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+								<div class='pagina docente'>
+									<div class='imagen-docente listado'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/raul-gonzalez.jpg'>
+									</div>
+									<div class='datos-docente listado'>
+										<h4 class='rojo-claro'>Raúl González</h4>
+										<h6>Diseñador Industrial</h6>
+									</div>
+									<div class='resena-docente listado'>
+										<p>Pontificia Universidad Católica de Valparaíso<br>Profesor de Visualización y Modelado 3D, MADLAB</p>
 									</div>
 								</div>
 							</div>
@@ -640,14 +669,14 @@
 							<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
 								<div class='pagina docente'>
 									<div class='imagen-docente listado'>
-										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/no-image.png'>
+										<img class='ancho-maximo' src='<?php bloginfo('template_directory') ?>/img/catalina-bodelon.jpg'>
 									</div>
 									<div class='datos-docente listado'>
 										<h4 class='rojo-claro'>Catalina Bodelón</h4>
-										<h6>-</h6>
+										<h6>Arquitecto</h6>
 									</div>
 									<div class='resena-docente listado'>
-										<p>-</p>
+										<p>Pontificia Universidad Católica de Valparaíso<br>Master of Design Science (Sustainable Design), University of Sydney, Australia</p>
 									</div>
 								</div>
 							</div>
