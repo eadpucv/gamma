@@ -143,5 +143,12 @@ function custom_edit_post_link($output) {
     return $output;
 }
 
+add_action( 'init', 'register_header_menu' );
+  function register_header_menu() {
+  register_nav_menus(
+  array(
+    'header' => __( 'Header' )
+  ));
+}
 
 ?>
