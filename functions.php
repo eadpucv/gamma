@@ -1,5 +1,5 @@
  <?php
-
+require_once('wp_bootstrap_navwalker.php');
 add_theme_support( 'post-thumbnails' );  
 add_filter('show_admin_bar', '__return_false');
 add_action('wp_logout', 'clean_session');
