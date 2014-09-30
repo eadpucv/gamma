@@ -28,7 +28,6 @@
 
 <body data-spy="scroll" data-target="#menu-fixed">
   <div class='fondo-header'>
-
     <div class='wrap header cf'>
       <a class='inicio' href=' <?php echo home_url(); ?> '>
         <div class='logo'>
@@ -39,20 +38,18 @@
             <span class='bajas'>Pontificia Universidad Católica de Valparaíso</span>
             </p>
         </div>
-      </a>
-      
-        <?php
-          wp_nav_menu( array(
-              'menu'              => '',
-              'theme_location'    => 'header',
-              'depth'             => 3,
-              'menu_class'      => 'dropdown',
-              'container_class'      => 'navegacion cf oculto-sm oculto-xs',
-              'menu_class'        => 'nav nav-pills',
-              'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-              'walker'            => new wp_bootstrap_navwalker())
-          );
-        ?>
-      
+      </a>      
+      <?php
+        wp_nav_menu( array(
+            'menu'              => '',
+            'theme_location'    => 'header',
+            'depth'             => 3,
+            'menu_class'      => 'dropdown',
+            'container_class'      => 'navegacion cf oculto-sm oculto-xs',
+            'menu_class'        => 'nav nav-pills',
+            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+            'walker'            => new wp_bootstrap_navwalker())
+        );
+      ?>
     </div> <!-- fin wrap -->
   </div>  
