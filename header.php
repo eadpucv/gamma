@@ -183,6 +183,7 @@
               </ul>
               </div>
             </div>
-          </div>      
+          </div>
+        </div>      
     </div> <!-- fin wrap -->
   </div>  
