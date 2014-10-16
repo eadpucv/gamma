@@ -108,7 +108,6 @@
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/affix.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/collapse.js"></script>  
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/nav.js"></script> 
-  <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ead-bar/ead-bar.min.js"></script> 
   <!-- prueba de parallax -->
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.parallax-1.1.3.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.localscroll-1.2.7-min.js"></script>
