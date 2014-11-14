@@ -98,6 +98,7 @@
                       </div><!-- fin reciente nautico y maritimo -->
                       <?php endwhile; endif; ?>
                     </div>
+                    <a href='http://www.ead.pucv.cl/category/carreras/postgrado/nautico-maritimo/tesis_nautico_maritimo/'>&rarr; ver todas las tesis</a>
                       
                     <h2>Publicaciones recientes</h2>
                     <div class='fila'>
