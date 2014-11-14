@@ -75,6 +75,7 @@
                   <div class='bloque' id="bloque_texto">
                     <?php the_content(); ?>
                     <h2>Proyecto de tésis recientes</h2>
+                      <a class='btn btn-sm' href='http://www.ead.pucv.cl/category/carreras/postgrado/nautico-maritimo/tesis_nautico_maritimo/'>o ver todas las tesis &rarr;</a>
                     <div class='fila'>
                         <?php if( $latest_tesis_nautico_maritimo->have_posts() ) : while( $latest_tesis_nautico_maritimo->have_posts() ) : $latest_tesis_nautico_maritimo->the_post(); ?>
                       <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 noticia-portada'><!-- noticia 5 --> <!-- <h5><a href='<?php echo get_category_link(35); ?>' class='categoria-titulo noticias'>Magister Náutico y Marítimo</a></h5>-->
@@ -98,7 +99,6 @@
                       </div><!-- fin reciente nautico y maritimo -->
                       <?php endwhile; endif; ?>
                     </div>
-                    <a href='http://www.ead.pucv.cl/category/carreras/postgrado/nautico-maritimo/tesis_nautico_maritimo/'>&rarr; ver todas las tesis</a>
                       
                     <h2>Publicaciones recientes</h2>
                     <div class='fila'>
