@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class='fondo-gris'>
   <div class='wrap'>
-    <h1 class="entry-title especifico"><?php single_cat_title( '', true ); ?></h1> <!-- título del post -->
+    <h1 class="entry-title especifico"><?php single_cat_title( '', true ); ?></h1> <!-- título de la categoría -->
   </div>
 </div>
 
